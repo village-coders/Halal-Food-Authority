@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "certification": "Certification",
+    "policies": "Policies",
+    "events": "Our Events",
+    "faqs": "FAQs",
+    "contact": "Contact",
+    "signin": "Sign in / Sign up"
+  },
+  "certification": {
+    "food": "Food Certification",
+    "abattoir": "Abattoir Certification",
+    "pharma": "Pharma & Cosmetics"
+  },
+  "policies": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "standards": "Halal Standards"
+  },
+  "events": {
+    "planning2025": "HFA Planning 2025",
+    "webinar2020": "HFA Webinar 2020",
+    "ulemah2019": "Ulemah Meeting JAH 2019"
+  }
+}

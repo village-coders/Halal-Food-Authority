@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "certification": "Certification",
+    "policies": "Politiques",
+    "events": "Nos événements",
+    "faqs": "FAQ",
+    "contact": "Contact",
+    "signin": "Connexion / Inscription"
+  },
+  "certification": {
+    "food": "Certification alimentaire",
+    "abattoir": "Certification d'abattoir",
+    "pharma": "Pharmacie & Cosmétiques"
+  },
+  "policies": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "standards": "Normes halal"
+  },
+  "events": {
+    "planning2025": "Planification HFA 2025",
+    "webinar2020": "Webinaire HFA 2020",
+    "ulemah2019": "Réunion des Oulémas JAH 2019"
+  }
+}
