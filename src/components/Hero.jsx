@@ -1,37 +1,36 @@
+import { useTranslation } from "react-i18next";
+
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <div className="container">
         <div className="hero-text">
-          <h1>Get Halal Certified</h1>
-          <p>
-            Discover untapped markets and expand across borders, ensuring that your
-            products comply with halal standards. Attract a larger customer base, 
-            build trust in your brand, and boost your revenue. Partner with HFA 
-            to secure a reliable & authentic halal certification.
-          </p>
+          <h1>{t("hero.title")}</h1>
+          <p>{t("hero.description")}</p>
 
           <div className="hero-buttons">
-            <button className="btn-white">Apply Now</button>
-            <button className="btn-outline">Find More</button>
+            <button className="btn-white">{t("hero.apply")}</button>
+            <button className="btn-outline">{t("hero.findMore")}</button>
           </div>
 
           <div className="stats">
             <div className="stat-item">
-              <strong>1000+</strong>
-              <span>Clients across the globe trust our halal certification services.</span>
+              <strong>{t("hero.stats.clients.number")}</strong>
+              <span>{t("hero.stats.clients.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>40000+</strong>
-              <span>products certified to ensure comprehensive halal compliance.</span>
+              <strong>{t("hero.stats.products.number")}</strong>
+              <span>{t("hero.stats.products.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>70000+</strong>
-              <span>Certificates issued worldwide for halal compliance.</span>
+              <strong>{t("hero.stats.certificates.number")}</strong>
+              <span>{t("hero.stats.certificates.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>250+</strong>
-              <span>Globally recognized for excellence in halal certification.</span>
+              <strong>{t("hero.stats.recognition.number")}</strong>
+              <span>{t("hero.stats.recognition.text")}</span>
             </div>
           </div>
         </div>

@@ -37,6 +37,10 @@ const partners = [
   // Add more to fill the loop
 ];
 
+const isMobile = window.innerWidth <= 768;
+
+
+
 export default function LogoSlider() {
   return (
     <section className="logo-slider-section">
@@ -44,7 +48,7 @@ export default function LogoSlider() {
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={50}
-          slidesPerView={5}
+          slidesPerView={isMobile ? 1 : 5}
           loop={true}
           autoplay={{
             delay: 3000,

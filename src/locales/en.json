@@ -23,5 +23,29 @@
     "planning2025": "HFA Planning 2025",
     "webinar2020": "HFA Webinar 2020",
     "ulemah2019": "Ulemah Meeting JAH 2019"
+  },
+  "hero": {
+    "title": "Get Halal Certified",
+    "description": "Discover untapped markets and expand across borders, ensuring that your products comply with halal standards. Attract a larger customer base, build trust in your brand, and boost your revenue. Partner with HFA to secure a reliable & authentic halal certification.",
+    "apply": "Apply Now",
+    "findMore": "Find More",
+    "stats": {
+      "clients": {
+        "number": "1000+",
+        "text": "Clients across the globe trust our halal certification services."
+      },
+      "products": {
+        "number": "40000+",
+        "text": "Products certified to ensure comprehensive halal compliance."
+      },
+      "certificates": {
+        "number": "70000+",
+        "text": "Certificates issued worldwide for halal compliance."
+      },
+      "recognition": {
+        "number": "250+",
+        "text": "Globally recognized for excellence in halal certification."
+      }
+    }
   }
 }

@@ -834,7 +834,7 @@ footer {
 /* Responsiveness */
 @media (max-width: 768px) {
   .logo-wrapper {
-    height: 80px;
+    height: 180px;
   }
 }
 

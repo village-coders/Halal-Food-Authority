@@ -23,5 +23,29 @@
     "planning2025": "Planificación HFA 2025",
     "webinar2020": "Seminario HFA 2020",
     "ulemah2019": "Reunión de Ulema JAH 2019"
+  },
+  "hero": {
+    "title": "Obtenga la certificación Halal",
+    "description": "Descubra mercados inexplorados y expanda sus fronteras, asegurando que sus productos cumplan con los estándares halal. Atraiga a una mayor base de clientes, genere confianza en su marca y aumente sus ingresos. Asociarse con HFA para obtener una certificación halal confiable y auténtica.",
+    "apply": "Aplicar ahora",
+    "findMore": "Más información",
+    "stats": {
+      "clients": {
+        "number": "1000+",
+        "text": "Clientes de todo el mundo confían en nuestros servicios de certificación halal."
+      },
+      "products": {
+        "number": "40000+",
+        "text": "Productos certificados para garantizar el cumplimiento completo de Halal."
+      },
+      "certificates": {
+        "number": "70000+",
+        "text": "Certificados emitidos en todo el mundo para la conformidad Halal."
+      },
+      "recognition": {
+        "number": "250+",
+        "text": "Reconocido mundialmente por la excelencia en la certificación Halal."
+      }
+    }
   }
 }

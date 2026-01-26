@@ -23,5 +23,29 @@
     "planning2025": "HFA Planung 2025",
     "webinar2020": "HFA Webinar 2020",
     "ulemah2019": "Ulemah Treffen JAH 2019"
+  },
+  "hero": {
+    "title": "Halal zertifizieren lassen",
+    "description": "Entdecken Sie unerschlossene Märkte und expandieren Sie über Grenzen hinweg, während Sie sicherstellen, dass Ihre Produkte den Halal-Standards entsprechen. Gewinnen Sie eine größere Kundenbasis, stärken Sie das Vertrauen in Ihre Marke und steigern Sie Ihren Umsatz. Arbeiten Sie mit HFA zusammen, um eine zuverlässige und authentische Halal-Zertifizierung zu erhalten.",
+    "apply": "Jetzt bewerben",
+    "findMore": "Mehr erfahren",
+    "stats": {
+      "clients": {
+        "number": "1000+",
+        "text": "Kunden weltweit vertrauen unseren Halal-Zertifizierungsdiensten."
+      },
+      "products": {
+        "number": "40000+",
+        "text": "Zertifizierte Produkte zur Gewährleistung vollständiger Halal-Konformität."
+      },
+      "certificates": {
+        "number": "70000+",
+        "text": "Weltweit ausgestellte Zertifikate für Halal-Konformität."
+      },
+      "recognition": {
+        "number": "250+",
+        "text": "Weltweit anerkannt für Exzellenz in der Halal-Zertifizierung."
+      }
+    }
   }
 }

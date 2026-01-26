@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "À propos",
+    "about": "À propos de nous",
     "certification": "Certification",
     "policies": "Politiques",
     "events": "Nos événements",
@@ -23,5 +23,29 @@
     "planning2025": "Planification HFA 2025",
     "webinar2020": "Webinaire HFA 2020",
     "ulemah2019": "Réunion des Oulémas JAH 2019"
+  },
+  "hero": {
+    "title": "Obtenez la certification Halal",
+    "description": "Découvrez de nouveaux marchés et étendez-vous au-delà des frontières, en veillant à ce que vos produits respectent les normes halal. Attirez une clientèle plus large, gagnez la confiance de votre marque et augmentez vos revenus. Partenaire avec HFA pour obtenir une certification halal fiable et authentique.",
+    "apply": "Postuler maintenant",
+    "findMore": "En savoir plus",
+    "stats": {
+      "clients": {
+        "number": "1000+",
+        "text": "Des clients du monde entier font confiance à nos services de certification halal."
+      },
+      "products": {
+        "number": "40000+",
+        "text": "Produits certifiés pour garantir la conformité halal complète."
+      },
+      "certificates": {
+        "number": "70000+",
+        "text": "Certificats délivrés dans le monde entier pour la conformité halal."
+      },
+      "recognition": {
+        "number": "250+",
+        "text": "Reconnu mondialement pour l'excellence en certification halal."
+      }
+    }
   }
 }
