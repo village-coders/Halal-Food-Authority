@@ -29,7 +29,7 @@ const Reference = () => {
             <div key={index} className="reference-item">
               <IoCheckmarkCircleOutline className="ref-icon" />
               <span className="ref-text">{text}</span>
-            </div>
+            </div>  
           ))}
           {/* Specific complex item with a button */}
           <div className="reference-item">

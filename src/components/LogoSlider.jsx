@@ -28,7 +28,7 @@ const partners = [
   { id: 4, name: 'IFST', logo: IFST },
   { id: 5, name: 'HAK Turkey', logo: Hak },
   { id: 6, name: 'World Halal Food Council', logo: WHalal },
-  { id: 5, name: 'Ministry of Climate Change', logo: MCC },
+  { id: 12, name: 'Ministry of Climate Change', logo: MCC },
   { id: 7, name: 'Korea Ministry of Food and Drugs Safety', logo: KMFDS },
   { id: 8, name: 'Halal', logo: HALAL },
   { id: 9, name: 'Halal Gimdes', logo: HALALGim },

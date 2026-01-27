@@ -19,8 +19,8 @@
 
 .container {
   width: 100%;
-  /* max-width: 1300px; */
-  padding: 0px 50px;
+  max-width: 1300px;
+  padding: 0px 40px;
   margin: auto;
 }
 
@@ -30,7 +30,8 @@
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   color: #333;
-
+  /* width: 100%; */
+  /* overflow-y: hidden; */
 }
 
 .nav-content {
@@ -129,7 +130,7 @@ nav button:hover {
   display: none; /* Hidden by default */
   flex-direction: column;
   padding: 10px 20px;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .dropdown-menu a {
@@ -203,7 +204,7 @@ nav button:hover {
   font-weight: bold;
   border-radius: 8px; /* Rounded corners */
   cursor: pointer;
-  text-wrap: nowrap;
+  text-wrap: wrap;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: scale 0.3s ease-in-out;
