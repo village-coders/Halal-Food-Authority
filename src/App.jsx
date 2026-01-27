@@ -59,11 +59,14 @@ function MainContent() {
   }, [i18n.language]);
 
   return (
-    <Routes>
-      <NavBar />
-      <Route path="/" element={<Home />} />
-      {/* Add other pages like FAQ here */}
-    </Routes>
+    <>
+      <NavBar />    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* Add other pages like FAQ here */}
+      </Routes>
+    </>
+
   );
 }
 
