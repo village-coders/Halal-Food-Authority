@@ -81,5 +81,38 @@
     "title": "Manuale Halal",
     "description": "Per assistervi nell’ottenimento della certificazione halal in conformità agli standard internazionali, abbiamo sviluppato manuali halal che definiscono i requisiti per ottenere la certificazione halal. Questi manuali forniscono informazioni fondamentali sul processo e sui criteri di certificazione. Sono disponibili esclusivamente per i nostri clienti e possono essere ottenuti presentando una richiesta.",
     "cta": "RICHIEDI ORA"
+  },
+    "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Risposte alle Tue Domande sulla Certificazione Halal.",
+    "categories": {
+      "general": "Domande Generali:",
+      "corporate": "Domande Aziendali:"
+    },
+    "questions": {
+      "whatIsHalal": "Cos'è l'Halal?",
+      "mechanicalSlaughtering": "Cos'è la macellazione meccanica e l'HFA la accetta?",
+      "stunningAllowed": "L'Autorità Halal permette lo stordimento di uccelli e animali?",
+      "eNumbers": "Cosa sono i Numeri E?",
+      "eNumbersImportance": "Qual è l'importanza dei Numeri E?",
+      "whyCertificationRequired": "Perché è richiesta la certificazione halal?",
+      "certificationCost": "Quanto costa la certificazione halal?",
+      "timeFrame": "Qual è il tempo necessario per completare il processo di certificazione?",
+      "qualifiedTeam": "Abbiamo un team qualificato per svolgere il lavoro?",
+      "middleEastAcceptance": "Il nostro certificato è accettato in Medio Oriente?"
+    },
+    "answers": {
+      "whatIsHalal": "«Halal» si riferisce a ciò che è permesso secondo la legge islamica, comprese le leggi dietetiche, considerazioni etiche e pratiche commerciali. Ciò comprende la preparazione legale degli alimenti, metodi umani di macellazione degli animali e l'aderenza ai principi islamici durante l'intero processo.",
+      "mechanicalSlaughtering": "La macellazione meccanica utilizza macchinari automatizzati per maggiore efficienza ma non è accettata da HFA. Richiediamo la macellazione manuale da parte di macellai musulmani qualificati per garantire la conformità.",
+      "stunningAllowed": "Sì, ma con condizioni rigorose. HFA vieta lo stordimento con pistola a proiettile captivo e lo stordimento a percussione. Permettiamo lo stordimento elettrico controllato con amperaggio minimo, verificato da un veterinario, per pollame e carne ovina.",
+      "eNumbers": "I Numeri E sono codici per additivi alimentari utilizzati in Europa. Assicurano che gli additivi soddisfino gli standard e le normative rigorose dell'UE, coprendo coloranti (E100-E199), conservanti (E200-E299), antiossidanti (E300-E399) e altro.",
+      "eNumbersImportance": "I Numeri E sono cruciali per la certificazione halal in quanto identificano la fonte e la composizione degli additivi alimentari, che possono essere di origine animale, sintetica o vegetale. Garantire che questi additivi soddisfino le leggi dietetiche islamiche è essenziale per la certificazione halal. I fattori chiave includono la fonte degli additivi, potenziali ausiliari di lavorazione, rischi di contaminazione e contenuto alcolico. Gli organismi di certificazione affidabili valutano questi fattori per confermare la conformità agli standard halal.",
+      "whyCertificationRequired": "La certificazione halal garantisce che i prodotti soddisfino le leggi dietetiche islamiche e aumenta la fiducia dei consumatori confermando l'aderenza alle linee guida halal. Aiuta le imprese ad accedere al mercato in crescita dei consumatori musulmani e promuove trasparenza e tracciabilità.",
+      "certificationCost": "Il costo della certificazione halal varia in base a fattori come il numero di prodotti, la posizione del sito di produzione e il mercato di destinazione. Per una stima precisa, invia una domanda e ti forniremo un preventivo personalizzato. Come organizzazione non profit, il nostro obiettivo è supportare le imprese nel mercato halal.",
+      "timeFrame": "Il processo di certificazione richiede tipicamente dalle 4 alle 6 settimane, a seconda della prontezza nella presentazione dei documenti. Per casi urgenti, offriamo opzioni di elaborazione accelerate.",
+      "qualifiedTeam": "Sì, abbiamo un team qualificato di tecnologi alimentari, auditor, studiosi islamici, ispettori e macellai. Siamo accreditati dalle principali organizzazioni halal e offriamo un manuale completo per guidare le imprese nell'assicurazione halal.",
+      "middleEastAcceptance": "Sì, il nostro certificato è accettato in Medio Oriente. Siamo accreditati da EIAC (EAU), HAK (Turchia), BPJPH (Indonesia), Jakim (Malaysia) e riconosciuti da SFDA (Arabia Saudita) e SASO. Abbiamo anche riconoscimento reciproco con altri organismi internazionali."
+    },
+    "readMore": "Leggi di Più"
   }
 }

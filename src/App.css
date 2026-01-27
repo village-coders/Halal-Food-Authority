@@ -131,6 +131,7 @@ nav button:hover {
   flex-direction: column;
   padding: 10px 20px;
   z-index: 10000;
+  /* transition: all 0.3s ease-in-out 1s; */
 }
 
 .dropdown-menu a {
@@ -1168,6 +1169,39 @@ footer {
   }
   .ref-text {
     font-size: 0.95rem;
+  }
+}
+
+
+/* About Page */
+
+.about-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.779)), 
+  url("/about-sect1.jpeg") center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.about-sec1{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.about-sec1 h1{
+  font-size: 4rem; /* Large serif-style heading */
+  font-family: 'Georgia', serif; 
+  margin-bottom: 20px;
+  text-wrap: wrap;
+  max-width: 700px;
+}
+
+
+@media (max-width: 768px) {
+  .about-sec1 h1{
+    font-size: 3rem;
+    text-align: center;
   }
 }
 

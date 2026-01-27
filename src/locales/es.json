@@ -81,5 +81,38 @@
     "title": "Manual Halal",
     "description": "Para ayudarle a obtener la certificación halal de acuerdo con los estándares internacionales, hemos desarrollado manuales halal que definen los requisitos para obtener la certificación halal. Estos manuales proporcionan información esencial sobre el proceso y los criterios de certificación. Están disponibles exclusivamente para nuestros clientes y pueden obtenerse mediante la presentación de una solicitud.",
     "cta": "SOLICITAR AHORA"
+  },
+    "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas a Sus Preguntas sobre Certificación Halal.",
+    "categories": {
+      "general": "Consultas Generales:",
+      "corporate": "Consultas Corporativas:"
+    },
+    "questions": {
+      "whatIsHalal": "¿Qué es Halal?",
+      "mechanicalSlaughtering": "¿Qué es el sacrificio mecánico y lo acepta HFA?",
+      "stunningAllowed": "¿Permite la Autoridad Halal el aturdimiento de aves y animales?",
+      "eNumbers": "¿Qué son los Números E?",
+      "eNumbersImportance": "¿Cuál es la importancia de los Números E?",
+      "whyCertificationRequired": "¿Por qué se requiere la certificación halal?",
+      "certificationCost": "¿Cuánto cuesta la certificación halal?",
+      "timeFrame": "¿Cuál es el plazo para completar el proceso de certificación?",
+      "qualifiedTeam": "¿Tenemos un equipo calificado para realizar el trabajo?",
+      "middleEastAcceptance": "¿Es aceptado nuestro certificado en Medio Oriente?"
+    },
+    "answers": {
+      "whatIsHalal": "«Halal» se refiere a lo que es permisible según la ley islámica, incluidas las leyes dietéticas, consideraciones éticas y prácticas comerciales. Esto abarca la preparación lícita de alimentos, métodos humanitarios de sacrificio de animales y la adherencia a los principios islámicos durante todo el proceso.",
+      "mechanicalSlaughtering": "El sacrificio mecánico utiliza maquinaria automatizada para mayor eficiencia, pero no es aceptado por HFA. Requerimos sacrificio manual por parte de matarifes musulmanes calificados para garantizar el cumplimiento.",
+      "stunningAllowed": "Sí, pero con condiciones estrictas. HFA prohíbe el aturdimiento por pistola de perno cautivo y el aturdimiento por percusión. Permitimos el aturdimiento eléctrico controlado con amperaje mínimo, verificado por un cirujano veterinario, para carne avícola y ovina.",
+      "eNumbers": "Los Números E son códigos para aditivos alimentarios utilizados en Europa. Garantizan que los aditivos cumplan con los rigurosos estándares y regulaciones de la UE, cubriendo colores (E100-E199), conservantes (E200-E299), antioxidantes (E300-E399) y más.",
+      "eNumbersImportance": "Los Números E son cruciales para la certificación halal ya que identifican la fuente y composición de los aditivos alimentarios, que pueden ser de origen animal, sintéticos o vegetales. Asegurar que estos aditivos cumplan con las leyes dietéticas islámicas es esencial para la certificación halal. Los factores clave incluyen la fuente de los aditivos, posibles auxiliares de procesamiento, riesgos de contaminación y contenido de alcohol. Los organismos de certificación confiables evalúan estos factores para confirmar el cumplimiento de los estándares halal.",
+      "whyCertificationRequired": "La certificación halal asegura que los productos cumplan con las leyes dietéticas islámicas y aumenta la confianza del consumidor al confirmar la adherencia a las pautas halal. Ayuda a las empresas a acceder al mercado en crecimiento de consumidores musulmanes y promueve la transparencia y la trazabilidad.",
+      "certificationCost": "El costo de la certificación halal varía según factores como el número de productos, la ubicación del sitio de producción y el mercado objetivo. Para una estimación precisa, presente una solicitud y le proporcionaremos un presupuesto personalizado. Como organización sin fines de lucro, nuestro objetivo es apoyar a las empresas en el mercado halal.",
+      "timeFrame": "El proceso de certificación generalmente toma de 4 a 6 semanas, dependiendo de la prontitud en la presentación de documentos. Para casos urgentes, ofrecemos opciones de procesamiento acelerado.",
+      "qualifiedTeam": "Sí, contamos con un equipo calificado de tecnólogos de alimentos, auditores, eruditos islámicos, inspectores y matarifes. Tenemos acreditaciones de las principales organizaciones halal y ofrecemos un manual completo para guiar a las empresas en la garantía halal.",
+      "middleEastAcceptance": "Sí, nuestro certificado es aceptado en Medio Oriente. Estamos acreditados por EIAC (EAU), HAK (Turquía), BPJPH (Indonesia), Jakim (Malasia) y reconocidos por SFDA (Arabia Saudita) y SASO. También tenemos reconocimiento mutuo con otros organismos internacionales."
+    },
+    "readMore": "Leer Más"
   }
 }

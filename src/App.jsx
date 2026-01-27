@@ -11,6 +11,8 @@ import { useTranslation } from "react-i18next";
 import Home from "./pages/Home";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import AboutPage from "./pages/AboutPage";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -63,8 +65,9 @@ function MainContent() {
       <NavBar /> 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Add other pages like FAQ here */}
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
+      <Footer />
     </>
 
   );

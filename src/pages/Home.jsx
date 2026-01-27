@@ -5,7 +5,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import Manual from '../components/Manual'
 import FAQ from '../components/FAQ'
-import Footer from '../components/Footer'
+// import Footer from '../components/Footer'
 import LogoSlider from '../components/LogoSlider'
 import RecentNews from '../components/RecentNews'
 import Reference from '../components/Reference'
@@ -14,7 +14,6 @@ import Reference from '../components/Reference'
 const Home = () => {
   return (
     <div>
-        {/* <NavBar /> */}
         <Hero />
         <About />
         <Services />
@@ -23,7 +22,6 @@ const Home = () => {
         <FAQ />
         <RecentNews />
         <Reference />
-        <Footer />
     </div>
   )
 }

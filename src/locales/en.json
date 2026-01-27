@@ -81,5 +81,38 @@
     "title": "Halal Manual",
     "description": "To assist you in obtaining halal certification in accordance with international standards, We          have developed Halal manuals that define the requirements for obtaining halal certification.          These manuals provide vital information about the certification process and criteria. They are          exclusively available for our clients and can be obtained by submitting a request.",
     "cta": "REQUEST NOW"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to Your Halal Certification Questions.",
+    "categories": {
+      "general": "General Queries:",
+      "corporate": "Corporate Queries:"
+    },
+    "questions": {
+      "whatIsHalal": "What is Halal?",
+      "mechanicalSlaughtering": "What is mechanical slaughtering and does HFA accept it?",
+      "stunningAllowed": "Does Halal Food Authority allow stunning of birds and animals?",
+      "eNumbers": "What are E Numbers?",
+      "eNumbersImportance": "What are Importance of E Numbers?",
+      "whyCertificationRequired": "Why halal certification is required?",
+      "certificationCost": "How much does Halal certification cost?",
+      "timeFrame": "What is the time frame for completing the certification process?",
+      "qualifiedTeam": "Do we have a qualified team to carry out the job?",
+      "middleEastAcceptance": "Is our certificate acceptable in the Middle East?"
+    },
+    "answers": {
+      "whatIsHalal": "“Halal” refers to what is permissible under Islamic law, including dietary laws, ethical considerations, and business practices. This encompasses lawful food preparation, humane methods of slaughtering animals, and adherence to Islamic principles throughout the entire process.",
+      "mechanicalSlaughtering": "Mechanical slaughtering uses automated machinery for efficiency but is not accepted by HFA. We require hand-slaughtering by qualified Muslim slaughtermen to ensure compliance.",
+      "stunningAllowed": "Yes, but with strict conditions. HFA prohibits captive bolt and percussion stunning. We allow controlled electric stunning with minimal amperage, verified by a veterinary surgeon, for poultry and ovine meat.",
+      "eNumbers": "E Numbers are codes for food additives used in Europe. They ensure additives meet rigorous EU standards and regulations, covering colors (E100-E199), preservatives (E200-E299), antioxidants (E300-E399), and more.",
+      "eNumbersImportance": "E Numbers are crucial for halal certification as they identify the source and composition of food additives, which can be animal-derived, synthetic, or plant-based. Ensuring these additives meet Islamic dietary laws is essential for halal certification. Key factors include the source of additives, potential processing aids, contamination risks, and alcohol content. Reliable certification bodies assess these factors to confirm compliance with halal standards.",
+      "whyCertificationRequired": "Halal certification ensures that products meet Islamic dietary laws and boosts consumer trust by confirming adherence to halal guidelines. It helps businesses access the growing market of Muslim consumers and promotes transparency and traceability.",
+      "certificationCost": "The cost of halal certification varies based on factors such as the number of products, production site location, and intended market. For a precise estimate, submit an application, and we will provide a customized quote. As a non-profit, our goal is to support businesses in the halal market.",
+      "timeFrame": "The certification process typically takes 4 to 6 weeks, depending on the promptness of document submission. For urgent cases, we offer expedited processing options.",
+      "qualifiedTeam": "Yes, we have a qualified team of food technologists, auditors, Islamic scholars, inspectors, and slaughtermen. We hold accreditations from leading halal organizations and offer a comprehensive manual to guide businesses in halal assurance.",
+      "middleEastAcceptance": "Yes, our certificate is accepted in the Middle East. We are accredited by EIAC (UAE), HAK (Turkiye), BPJPH (Indonesia), Jakim (Malaysia), and recognized by SFDA (Saudi Arabia) and SASO. We also have mutual recognition with other international bodies."
+    },
+    "readMore": "Read More"
   }
 }
