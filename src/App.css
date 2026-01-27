@@ -179,13 +179,13 @@ nav button:hover {
   nav button {
     padding: 12px 0;
   }
-    .language-switcher {
+  .language-switcher {
     margin-top: 20px;
     width: 100%;
   }
 
   .language-switcher select {
-    width: 100%;
+    width: 100px;
   }
 }
 
@@ -698,7 +698,10 @@ footer {
   }
   .language-switcher {
     width: 100%;
+    display: flex;
     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
   }
 
   .language-switcher select {
@@ -776,10 +779,16 @@ footer {
 
 
 @media (max-width: 480px) {
+  .container{
+    padding: 0px 5px;
+  }
   .nav-content{
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+  }
+  .language-switcher select {
+    width: 70px;
   }
 }
 

@@ -143,17 +143,17 @@ export default function NavBar() {
           </button>
 
 
-           <div className="language-switcher">
-                <select value={currentLang} onChange={handleLanguageChange}>
-                    {LANGUAGES.map((lang) => (
-                    <option key={lang.code} value={lang.code}>
-                        {lang.label}
-                    </option>
-                    ))}
-                </select>
-            </div>
         </nav>
 
+        <div className="language-switcher">
+          <select value={currentLang} onChange={handleLanguageChange}>
+              {LANGUAGES.map((lang) => (
+              <option key={lang.code} value={lang.code}>
+                  {lang.label}
+              </option>
+              ))}
+          </select>
+        </div>
         {/* LANGUAGE SWITCHER */}
        
 
