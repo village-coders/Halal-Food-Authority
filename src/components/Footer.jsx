@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Branding & Logo Column */}
         <div className="footer-col branding">
           <div className="footer-logo">
-            <img src={logo} alt="HFA Approved Logo" />
+            <img loading='lazy' src={logo} alt="HFA Approved Logo" />
           </div>
           <p className="footer-tagline">
             Accredited Halal Certification Ensuring Worldwide Trust And Compliance

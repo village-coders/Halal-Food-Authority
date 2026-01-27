@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@452&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap');
 
 :root{
-  --primary-color: #709d42
-  --secondary-color: #73B62C
-  --third-color: #0c3b2e
+  --primary-color: #709d42;
+  --secondary-color: #73B62C;
+  --dark-bg: #0c3b2e;
+  --light-grey: #f5f5f5;
+  --white: #ffffff;
+  --transition: all 0.3s ease-in-out;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: mulish, sans-serif;
+  font-family: "Mulish", sans-serif;
 }
+
 
 .container {
   width: 100%;
   /* max-width: 1300px; */
-  padding: 0px 25px;
+  padding: 0px 50px;
   margin: auto;
 }
 
@@ -219,18 +223,21 @@ nav button:hover {
       rgba(12, 59, 46, 0.7) 50%, 
       rgba(12, 59, 46, 0.4) 100%
     ),
-    url("/hero-bg.jpg") center/cover no-repeat;
+    url("/hero-bg.jpg") top/cover no-repeat;
   color: #fff;
-  padding: 120px 0;
-  min-height: 85vh;
+  padding: 100px 0;
+  min-height: 93vh;
   display: flex;
   align-items: center;
+  mix-blend-mode: initial;
 }
 
 .hero-text h1 {
   font-size: 4rem; /* Large serif-style heading */
   font-family: 'Georgia', serif; 
   margin-bottom: 20px;
+  text-wrap: wrap;
+  max-width: 700px;
 }
 
 .hero-text p {
@@ -561,7 +568,7 @@ nav button:hover {
   line-height: 1.8;
   color: #555;
   font-size: 1rem;
-  transition: all 2s ease-in-out;
+  transition: display 2s ease-in-out;
 }
 
 .faq .container .read-more{
@@ -583,7 +590,7 @@ nav button:hover {
 }
 
 .icon {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .icon.rotate {
@@ -701,7 +708,7 @@ footer {
     display: flex;
     margin-top: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
   }
 
   .language-switcher select {
@@ -773,17 +780,17 @@ footer {
   }
 
   .nav-content{
-    gap: 40px;
+    gap: 80px;
   }
 }
 
 
 @media (max-width: 480px) {
   .container{
-    padding: 0px 5px;
+    padding: 0px 20px;
   }
   .nav-content{
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
   }
@@ -1056,6 +1063,7 @@ footer {
   .news-grid {
     grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -1067,7 +1075,100 @@ footer {
   }
 }
 
+/* --- REFERENCE SECTION --- */
+.reference-section {
+  background: var(--light-grey);
+  padding: 60px 0;
+}
 
+.reference-main-title {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.reference-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.reference-item {
+  display: flex;
+  align-items: flex-start; /* Better for multiline text */
+  gap: 12px;
+}
+
+.ref-icon {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  flex-shrink: 0; /* Prevents icon from squishing */
+  margin-top: 3px;
+}
+
+.ref-text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+}
+
+.ref-inline-btn {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 700;
+  cursor: pointer;
+  padding-left: 5px;
+  text-decoration: underline;
+}
+
+.reference-section .read-more{
+  border: 1px solid black;
+  background: transparent;
+  display: flex;
+  justify-self: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 60px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+.reference-section .read-more:hover{
+  transform: translateY(10px);
+  border: 1px solid black;
+}
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+
+/* Desktop (Above 1024px) */
+@media (min-width: 1024px) {
+  .reference-section {
+    padding: 100px 0;
+  }
+  .reference-main-title {
+    font-size: 2.5rem;
+  }
+  .ref-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+  .reference-main-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .ref-text {
+    font-size: 0.95rem;
+  }
+}
 
 /* Hamburger Animation */
 .bar.open:nth-child(1) { transform: translateY(8px) rotate(45deg); }

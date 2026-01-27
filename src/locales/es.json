@@ -47,5 +47,39 @@
         "text": "Reconocido mundialmente por la excelencia en la certificación Halal."
       }
     }
+  },
+  "about": {
+    "title": "¿Qué es la certificación halal?",
+    "p1": "El cumplimiento religioso es un factor clave para los consumidores musulmanes. El consumo de productos halal es una obligación religiosa para los musulmanes, y la certificación halal garantiza que estos productos cumplan con las leyes dietéticas establecidas en el Corán y los Hadices.",
+    "p2": "La certificación halal es un procedimiento exhaustivo que verifica si un producto, instalación o servicio cumple con las leyes y prácticas dietéticas islámicas. Esta certificación suele ser emitida por un organismo de certificación halal reconocido tras evaluaciones rigurosas. El objetivo principal de la certificación halal es brindar a los consumidores musulmanes confianza y seguridad de que los productos que compran y consumen cumplen con los estrictos requisitos halal, garantizando su autenticidad y pureza."
+  },
+    "services": {
+    "title": "Nuestros servicios",
+    "intro": "Nuestros servicios incluyen la verificación del cumplimiento, la realización de auditorías de productos, la revisión de documentación y el apoyo continuo para garantizar que los productos cumplan con las regulaciones dietéticas islámicas y los estándares de la industria.",
+    "audit": {
+      "title": "Auditorías y evaluación",
+      "text": "Nuestro equipo de auditores técnicos y de sharía cualificados realiza auditorías en los sitios de producción para garantizar el cumplimiento de las regulaciones dietéticas islámicas establecidas en nuestros estándares halal."
+    },
+    "products": {
+      "title": "Evaluación de productos",
+      "text": "Nuestro equipo de expertos en tecnología alimentaria revisa cuidadosamente los ingredientes de los productos para garantizar que cumplan con los estándares de consumo halal."
+    },
+    "export": {
+      "title": "Certificación de exportación",
+      "text": "El certificado halal de exportación sirve como prueba de que los productos enviados internacionalmente cumplen con los requisitos halal establecidos según nuestros estándares halal."
+    },
+    "group": {
+      "title": "Certificación de grupo",
+      "text": "Ofrecemos certificaciones de grupo para empresas con múltiples instalaciones, ideales para aquellas dentro de una cadena de suministro específica, un clúster industrial o un área geográfica."
+    },
+    "inspection": {
+      "title": "Inspecciones",
+      "text": "Se realizan inspecciones periódicas para verificar que la producción cumpla con el estándar halal y con los requisitos establecidos en el proceso de certificación halal."
+    }
+  },
+  "manual": {
+    "title": "Manual Halal",
+    "description": "Para ayudarle a obtener la certificación halal de acuerdo con los estándares internacionales, hemos desarrollado manuales halal que definen los requisitos para obtener la certificación halal. Estos manuales proporcionan información esencial sobre el proceso y los criterios de certificación. Están disponibles exclusivamente para nuestros clientes y pueden obtenerse mediante la presentación de una solicitud.",
+    "cta": "SOLICITAR AHORA"
   }
 }

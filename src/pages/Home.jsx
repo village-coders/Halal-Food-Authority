@@ -8,6 +8,7 @@ import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 import LogoSlider from '../components/LogoSlider'
 import RecentNews from '../components/RecentNews'
+import Reference from '../components/Reference'
 // import NavBar from '../components/NavBar'
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <LogoSlider />
         <FAQ />
         <RecentNews />
+        <Reference />
         <Footer />
     </div>
   )

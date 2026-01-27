@@ -33,7 +33,7 @@ export default function RecentNews() {
           {newsData.map((item) => (
             <div key={item.id} className="news-card">
               <div className="news-image-wrapper">
-                <img src={item.image} alt={item.title} />
+                <img loading='lazy' src={item.image} alt={item.title} />
               </div>
               <div className="news-content">
                 <h3 className="news-card-title">{item.title}</h3>

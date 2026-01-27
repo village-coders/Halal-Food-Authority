@@ -60,7 +60,7 @@ function MainContent() {
 
   return (
     <>
-      <NavBar />    
+      <NavBar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         {/* Add other pages like FAQ here */}

@@ -47,5 +47,39 @@
         "text": "Globally recognized for excellence in halal certification."
       }
     }
+  },
+  "about": {
+    "title": "What is Halal Certification ?",
+    "p1": "Religious compliance is a key factor for Muslim consumers. The consumption of halal products is a religious obligation for Muslims, and Halal certification ensures that these products conform to the dietary laws outlined in the Quran and Hadith.",
+    "p2": "Halal certification is a thorough procedure that verifies whether a product, facility, or service complies with Islamic dietary laws and practices. This certification is usually issued by a recognized halal certification body after rigorous assessments. The primary aim of halal certification is to provide Muslim consumers with confidence and assurance that the products they choose to buy and consume meet the strict requirements of halal guidelines ensuring their trust in the authenticity and purity of the products they use."
+  },
+  "services": {
+    "title": "Our Services",
+    "intro": "Our services include verifying compliance, conducting product audits, reviewing documentation, and providing continuous support to ensure products meet Islamic dietary regulations and industry standards.",
+    "audit": {
+      "title": "Audits & Evaluation",
+      "text": "Our team of skilled technical and sharia auditors conduct audits at production sites to ensure adherence to Islamic dietary regulations set out in our Halal Standards."
+    },
+    "products": {
+      "title": "Products Evaluation",
+      "text": "Our team of expert food technologists carefully reviews product      ingredients to guarantee they comply with halal consumption standards."
+    },
+    "export": {
+      "title": "Export Certification",
+      "text": "The halal export certificate serves as a proof that items being sent internationally meet the halal requirements set out according to our Halal standards."
+    },
+    "group": {
+      "title": "Group Certification",
+      "text": "We offer group certifications for businesses with multiple sites,               ideal for those within a specific supply chain, industry cluster,               or geographical area."
+    },
+    "inspection": {
+      "title": "Inspections",
+      "text": "Regular inspections are carried out to verify that production adheres               to the Halal standard and meets the requirements outlined in the               halal certification process."
+    }
+  },
+  "manual": {
+    "title": "Halal Manual",
+    "description": "To assist you in obtaining halal certification in accordance with international standards, We          have developed Halal manuals that define the requirements for obtaining halal certification.          These manuals provide vital information about the certification process and criteria. They are          exclusively available for our clients and can be obtained by submitting a request.",
+    "cta": "REQUEST NOW"
   }
 }

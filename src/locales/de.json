@@ -47,5 +47,39 @@
         "text": "Weltweit anerkannt für Exzellenz in der Halal-Zertifizierung."
       }
     }
+  },
+  "about": {
+    "title": "Was ist eine Halal-Zertifizierung?",
+    "p1": "Die religiöse Konformität ist ein entscheidender Faktor für muslimische Verbraucher. Der Verzehr von Halal-Produkten ist für Muslime eine religiöse Pflicht, und die Halal-Zertifizierung stellt sicher, dass diese Produkte den im Koran und in den Hadithen festgelegten Ernährungsvorschriften entsprechen.",
+    "p2": "Die Halal-Zertifizierung ist ein gründlicher Prozess, der überprüft, ob ein Produkt, eine Einrichtung oder eine Dienstleistung den islamischen Ernährungsgesetzen und -praktiken entspricht. Diese Zertifizierung wird in der Regel von einer anerkannten Halal-Zertifizierungsstelle nach strengen Prüfungen ausgestellt. Ziel der Halal-Zertifizierung ist es, muslimischen Verbrauchern Vertrauen und Sicherheit zu geben, dass die von ihnen gewählten Produkte den strengen Halal-Richtlinien entsprechen und authentisch sowie rein sind."
+  },
+    "services": {
+    "title": "Unsere Dienstleistungen",
+    "intro": "Unsere Dienstleistungen umfassen die Überprüfung der Konformität, die Durchführung von Produktaudits, die Prüfung der Dokumentation sowie eine kontinuierliche Unterstützung, um sicherzustellen, dass Produkte den islamischen Ernährungsvorschriften und Industriestandards entsprechen.",
+    "audit": {
+      "title": "Audits und Bewertung",
+      "text": "Unser Team aus qualifizierten technischen und Scharia-Auditoren führt Audits an Produktionsstandorten durch, um die Einhaltung der in unseren Halal-Standards festgelegten islamischen Ernährungsvorschriften sicherzustellen."
+    },
+    "products": {
+      "title": "Produktevaluierung",
+      "text": "Unser Team erfahrener Lebensmitteltechnologen überprüft sorgfältig die Produktzutaten, um sicherzustellen, dass sie den Halal-Verbrauchsstandards entsprechen."
+    },
+    "export": {
+      "title": "Exportzertifizierung",
+      "text": "Das Halal-Exportzertifikat dient als Nachweis dafür, dass international versandte Produkte die Halal-Anforderungen gemäß unseren Halal-Standards erfüllen."
+    },
+    "group": {
+      "title": "Gruppenzertifizierung",
+      "text": "Wir bieten Gruppenzertifizierungen für Unternehmen mit mehreren Standorten an, ideal für Betriebe innerhalb einer bestimmten Lieferkette, eines Branchenclusters oder eines geografischen Gebiets."
+    },
+    "inspection": {
+      "title": "Inspektionen",
+      "text": "Regelmäßige Inspektionen werden durchgeführt, um zu überprüfen, dass die Produktion den Halal-Standards entspricht und die Anforderungen des Halal-Zertifizierungsprozesses erfüllt."
+    }
+  },
+  "manual": {
+    "title": "Halal-Handbuch",
+    "description": "Um Sie bei der Erlangung der Halal-Zertifizierung gemäß internationalen Standards zu unterstützen, haben wir Halal-Handbücher entwickelt, die die Anforderungen für den Erhalt der Halal-Zertifizierung definieren. Diese Handbücher enthalten wichtige Informationen über den Zertifizierungsprozess und die Kriterien. Sie sind ausschließlich für unsere Kunden verfügbar und können durch eine Anfrage angefordert werden.",
+    "cta": "JETZT ANFRAGEN"
   }
 }

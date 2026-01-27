@@ -67,7 +67,7 @@ export default function LogoSlider() {
           {partners.map((partner) => (
             <SwiperSlide key={partner.id}>
               <div className="logo-wrapper">
-                <img src={partner.logo} alt={partner.name} />
+                <img loading='lazy' src={partner.logo} alt={partner.name} />
               </div>
             </SwiperSlide>
           ))}

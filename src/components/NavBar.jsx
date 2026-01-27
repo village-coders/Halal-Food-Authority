@@ -40,7 +40,7 @@ export default function NavBar() {
         {/* LOGO */}
         <div className="logo">
           <Link to={`/${currentLang}`}>
-            <img src={logo} alt="Logo" />
+            <img loading="lazy" src={logo} alt="Logo" />
           </Link>
         </div>
 
@@ -146,7 +146,7 @@ export default function NavBar() {
         </nav>
 
         <div className="language-switcher">
-          <select value={currentLang} onChange={handleLanguageChange}>
+          <select name="lang" value={currentLang} onChange={handleLanguageChange}>
               {LANGUAGES.map((lang) => (
               <option key={lang.code} value={lang.code}>
                   {lang.label}
