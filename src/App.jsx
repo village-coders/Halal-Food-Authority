@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 
 import Home from "./pages/Home";
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -59,6 +60,7 @@ function MainContent() {
 
   return (
     <Routes>
+      <NavBar />
       <Route path="/" element={<Home />} />
       {/* Add other pages like FAQ here */}
     </Routes>
