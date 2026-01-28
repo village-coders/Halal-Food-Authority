@@ -31,12 +31,12 @@ export default function FAQ() {
                   className="faq-question"
                   onClick={() => setOpen(open === 1 ? null : 1)}
                 >
-                  {t("questions.whatIsHalal")}
+                  {t("faq.questions.whatIsHalal")}
                   <ChevronDown className={`icon ${open === 1 ? "rotate" : ""}`} size={18} />
                 </button>
                 {open === 1 && (
                   <div className="faq-answer">
-                    {t("answers.whatIsHalal")}
+                    {t("faq.answers.whatIsHalal")}
                   </div>
                 )}
               </div>
@@ -50,7 +50,7 @@ export default function FAQ() {
                 </button>
                 {open === 7 && (
                   <div className="faq-answer">
-                    {t("answers.mechanicalSlaughtering")}
+                    {t("faq.answers.mechanicalSlaughtering")}
                   </div>
                 )}
               </div>
@@ -59,7 +59,7 @@ export default function FAQ() {
                   className="faq-question"
                   onClick={() => setOpen(open === 8 ? null : 8)}
                 >
-                  {t("questions.stunningAllowed")}
+                  {t("faq.questions.stunningAllowed")}
                   <ChevronDown className={`icon ${open === 8 ? "rotate" : ""}`} size={18} />
                 </button>
                 {open === 8 && (

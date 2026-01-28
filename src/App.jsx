@@ -42,6 +42,8 @@ function MainContent() {
   const { lng } = useParams();
   const { i18n } = useTranslation();
 
+
+
   // Sync i18n with URL language
   useEffect(() => {
     if (!lng || !SUPPORTED_LANGUAGES.includes(lng)) {

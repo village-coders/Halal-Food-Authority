@@ -14,6 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
 }
 
 
@@ -65,7 +66,8 @@ nav a, nav button {
   border: none;
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.3s ease-in-out;
-
+  transition-delay: .1s;
+  padding: 10px 10px;
   /* button */
   background: none;
 }
@@ -74,6 +76,7 @@ nav a, nav button {
 nav a.active {
   color: #709d42;
   border-bottom: 3px solid #709d42; /* Green underline */
+  border-spacing: 20px;
 }
 
 nav a:hover {
@@ -135,13 +138,13 @@ nav button:hover {
 }
 
 .dropdown-menu a {
-  padding: 10px 20px;
+  padding: 10px 5px;
   margin: 0;
   border: none;
   width: 100%;
   text-transform: none;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
   text-wrap: nowrap;
   text-transform: uppercase; /* Uppercase labels */
 }
@@ -858,9 +861,9 @@ footer {
 
 
 .footer-section {
-  background-color: #0d3b2e; /* Dark green brand color */
+  background-color: #154f35; /* Dark green brand color */
   color: #ffffff;
-  padding: 80px 0 0 0;
+  padding: 40px 0 0 0;
   font-family: 'Mulish', sans-serif;
   text-align: left;
 }
@@ -869,12 +872,12 @@ footer {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
   gap: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .footer-logo img {
-  max-height: 120px;
-  margin-bottom: 20px;
+  max-height: 160px;
+  margin-bottom: 10px;
 }
 
 .footer-tagline {
@@ -885,12 +888,12 @@ footer {
 }
 
 .footer-heading {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 30px;
   text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-thickness: 2px;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
 }
 
 .footer-links {
@@ -900,7 +903,7 @@ footer {
 
 .footer-links li {
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-links a {
@@ -911,13 +914,13 @@ footer {
 }
 
 .footer-links a:hover {
-  opacity: 1;
+  color: #84ff00;
 }
 
 .contact-info p {
   line-height: 1.6;
   opacity: 0.9;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact-item {
@@ -1176,7 +1179,7 @@ footer {
 /* About Page */
 
 .about-bg{
-  background: linear-gradient(rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.779)), 
+  background: linear-gradient(rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.584)), 
   url("/about-sect1.jpeg") center/cover no-repeat;
   background-attachment: fixed;
 }
@@ -1191,6 +1194,14 @@ footer {
 
 .about-sec1 h1{
   font-size: 4rem; /* Large serif-style heading */
+  font-family: 'Georgia', serif; 
+  margin-bottom: 20px;
+  text-wrap: wrap;
+  max-width: 700px;
+}
+
+.about-page-title{
+  font-size: 2rem; /* Large serif-style heading */
   font-family: 'Georgia', serif; 
   margin-bottom: 20px;
   text-wrap: wrap;

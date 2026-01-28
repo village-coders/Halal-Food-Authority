@@ -4,7 +4,7 @@ import mosque from "../assets/imgi_2_London-Skyscrapers-10-1.jpg";
 
 const AboutPage = () => {
   return (
-    <section className='about-bg  '>
+    <main className='about-bg  '>
         <div className="container about-sec1">
           <h1>About Us</h1>
         </div>
@@ -23,7 +23,7 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
-    </section>
+    </main>
   )
 }
 

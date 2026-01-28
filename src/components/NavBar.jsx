@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link, useNavigate, useParams, useLocation } from "react-router-dom";
+// 1. Change Link to NavLink
+import { NavLink, Link, useNavigate, useParams, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
 import logo from "../assets/Halal-food-authourity-logo-1.png";
 import { LANGUAGES } from "../utils/languages";
 
@@ -16,151 +16,89 @@ export default function NavBar() {
 
   const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
+  // Helper to check if a parent dropdown should be highlighted
+  const isParentActive = (pathSegment) => location.pathname.includes(pathSegment);
+
   const toggleDropdown = (name) => {
     setActiveDropdown(activeDropdown === name ? null : name);
   };
 
   const handleLanguageChange = (e) => {
     const newLang = e.target.value;
-
-    const langRegex = new RegExp(
-      `^\\/(${LANGUAGES.map((l) => l.code).join("|")})`
-    );
-
+    const langRegex = new RegExp(`^\\/(${LANGUAGES.map((l) => l.code).join("|")})`);
     const pathWithoutLang = location.pathname.replace(langRegex, "");
     navigate(`/${newLang}${pathWithoutLang || ""}`);
-
     setIsOpen(false);
-    setActiveDropdown(null);
   };
 
   return (
     <header className="navbar">
       <div className="container nav-content">
-        {/* LOGO */}
         <div className="logo">
           <Link to={`/${currentLang}`}>
             <img loading="lazy" src={logo} alt="Logo" />
           </Link>
         </div>
 
-        {/* MOBILE MENU ICON */}
         <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
           <span className={isOpen ? "bar open" : "bar"} />
           <span className={isOpen ? "bar open" : "bar"} />
           <span className={isOpen ? "bar open" : "bar"} />
         </div>
 
-        {/* NAV LINKS */}
         <nav className={isOpen ? "nav-links open" : "nav-links"}>
-          <Link to={`/${currentLang}`} className="active">
+          {/* 2. Use end prop for Home so it doesn't match everything */}
+          <NavLink to={`/${currentLang}`} end className={({ isActive }) => isActive ? "active" : ""}>
             {t("nav.home")}
-          </Link>
+          </NavLink>
 
-          <Link to={`/${currentLang}/about`}>
+          <NavLink to={`/${currentLang}/about`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("nav.about")}
-          </Link>
+          </NavLink>
 
-          {/* CERTIFICATION */}
-          <div className={`dropdown ${activeDropdown === "cert" ? "active" : ""}`}>
-            <button
-              className="nav-link"
-              type="button"
-              onClick={() => toggleDropdown("cert")}
-            >
+          {/* 3. Dropdowns: Apply 'active' class if a sub-route matches */}
+          <div className={`dropdown ${activeDropdown === "cert" ? "active" : ""} ${isParentActive('certification') ? "active-parent" : ""}`}>
+            <button className="nav-link" type="button" onClick={() => toggleDropdown("cert")}>
               {t("nav.certification")} <span className="caret">▼</span>
             </button>
-
             <div className="dropdown-menu">
-              <Link to={`/${currentLang}/certification/food`}>
-                {t("certification.food")}
-              </Link>
-              <Link to={`/${currentLang}/certification/abattoir`}>
-                {t("certification.abattoir")}
-              </Link>
-              <Link to={`/${currentLang}/certification/pharma`}>
-                {t("certification.pharma")}
-              </Link>
+              <NavLink to={`/${currentLang}/certification/procedure`}>{t("certification.procedure")}</NavLink>
+              <NavLink to={`/${currentLang}/certification/apply`}>{t("certification.apply")}</NavLink>
+              <NavLink to={`/${currentLang}/certification/termination`}>{t("certification.termination")}</NavLink>
             </div>
           </div>
 
-          {/* POLICIES */}
-          <div className={`dropdown ${activeDropdown === "policy" ? "active" : ""}`}>
-            <button
-              className="nav-link"
-              type="button"
-              onClick={() => toggleDropdown("policy")}
-            >
+          <div className={`dropdown ${activeDropdown === "policy" ? "active" : ""} ${isParentActive('privacy-policy') || isParentActive('terms') ? "active-parent" : ""}`}>
+            <button className="nav-link" type="button" onClick={() => toggleDropdown("policy")}>
               {t("nav.policies")} <span className="caret">▼</span>
             </button>
-
             <div className="dropdown-menu">
-              <Link to={`/${currentLang}/privacy-policy`}>
-                {t("policies.privacy")}
-              </Link>
-              <Link to={`/${currentLang}/terms`}>
-                {t("policies.terms")}
-              </Link>
-              <Link to={`/${currentLang}/standards`}>
-                {t("policies.standards")}
-              </Link>
+              <NavLink to={`/${currentLang}/privacy-policy`}>{t("policies.privacy")}</NavLink>
+              <NavLink to={`/${currentLang}/terms`}>{t("policies.terms")}</NavLink>
+              <NavLink to={`/${currentLang}/standards`}>{t("policies.standards")}</NavLink>
             </div>
           </div>
 
-          {/* EVENTS */}
-          <div className={`dropdown ${activeDropdown === "event" ? "active" : ""}`}>
-            <button
-              className="nav-link"
-              type="button"
-              onClick={() => toggleDropdown("event")}
-            >
-              {t("nav.events")} <span className="caret">▼</span>
-            </button>
-
-            <div className="dropdown-menu">
-              <Link to={`/${currentLang}/events/2025`}>
-                {t("events.planning2025")}
-              </Link>
-              <Link to={`/${currentLang}/events/2020`}>
-                {t("events.webinar2020")}
-              </Link>
-              <Link to={`/${currentLang}/events/2019`}>
-                {t("events.ulemah2019")}
-              </Link>
-            </div>
-          </div>
-
-          <Link to={`/${currentLang}/faq`}>
+          <NavLink to={`/${currentLang}/faq`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("nav.faqs")}
-          </Link>
+          </NavLink>
 
-          <Link to={`/${currentLang}/contact`}>
+          <NavLink to={`/${currentLang}/contact`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("nav.contact")}
-          </Link>
+          </NavLink>
 
-          <button className="btn-primary mobile-only">
-            {t("nav.signin")}
-          </button>
-
-
+          <button className="btn-primary mobile-only">{t("nav.signin")}</button>
         </nav>
 
         <div className="language-switcher">
-          <select name="lang" value={currentLang} onChange={handleLanguageChange}>
-              {LANGUAGES.map((lang) => (
-              <option key={lang.code} value={lang.code}>
-                  {lang.label}
-              </option>
-              ))}
+          <select value={currentLang} onChange={handleLanguageChange}>
+            {LANGUAGES.map((lang) => (
+              <option key={lang.code} value={lang.code}>{lang.label}</option>
+            ))}
           </select>
         </div>
-        {/* LANGUAGE SWITCHER */}
-       
 
-        {/* DESKTOP CTA */}
-        <button className="btn-primary desktop-only">
-          {t("nav.signin")}
-        </button>
+        <button className="btn-primary desktop-only">{t("nav.signin")}</button>
       </div>
     </header>
   );

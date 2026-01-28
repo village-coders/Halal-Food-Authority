@@ -10,9 +10,9 @@
     "signin": "Sign in / Sign up"
   },
   "certification": {
-    "food": "Food Certification",
-    "abattoir": "Abattoir Certification",
-    "pharma": "Pharma & Cosmetics"
+    "procedure": "Hfa Certification Procedure",
+    "apply": "Apply for Halal Certification/Renewal",
+    "termination": "Procedure for Termination and Suspension"
   },
   "policies": {
     "privacy": "Privacy Policy",
@@ -114,5 +114,81 @@
       "middleEastAcceptance": "Yes, our certificate is accepted in the Middle East. We are accredited by EIAC (UAE), HAK (Turkiye), BPJPH (Indonesia), Jakim (Malaysia), and recognized by SFDA (Saudi Arabia) and SASO. We also have mutual recognition with other international bodies."
     },
     "readMore": "Read More"
+  },
+  "reference": {
+    "title": "HFA Standard's Reference",
+    "standards": [
+      "OIC/SMIIC 1 General Requirements for Halal Food",
+      "OIC/SMIIC 24 General Requirements for Food Additives and Other Added Chemicals to Halal Food",
+      "MS 1500 Malaysian Standard on Halal Food",
+      "Malaysian Protocol for Halal Meat Production",
+      "MS 2565 Halal Packaging- General Guidelines",
+      "GSO 2055-1 Halal products - Part one: General Requirements for Halal Food",
+      "UAE.S 993 Animal Slaughtering Requirements According to Islamic Rules",
+      "GSO 2538 The maximum limits for residues of ethyl alcohol (ethanol) in food",
+      "UAE.S 192 Additives Permitted for Use in Food Stuffs",
+      "SNI 99004:2021 General Requirements of Halal Food",
+      "SNI 99001:2016 Halal Assurance System",
+      "SNI ISO/IEC 17065:2012 Requirements for bodies certifying products, processes and services",
+      "Decree of Minister of Religious Affairs of Republic of Indonesia Number 748 of 2021 concerning Products Type Must Be Halal Certified",
+      "Regulation of Government of the Republic of Indonesia Number 39 of 2021 concerning Implementation Law of the Republic of Indonesia Number 33 of 2014 concerning Halal Product Assurance."
+    ],
+    "complexStandard": "Decree of Head of Halal Product Assurance Organizing Agency Number 20 of 2023 concerning Amendments...",
+    "findOutMore": "Find out more!",
+    "readMore": "Read More"
+  },
+  "news": {
+    "title": "Recent News",
+    "newsItems": [
+      {
+        "id": 1,
+        "title": "Unlock Opportunities For Growth And Innovation",
+        "excerpt": "Explore the halal industry and unlock exciting opportunities! Whether it's food production, cosmetics, pharmaceuticals, or logistics, the halal sector offers diverse avenues for business expansion and innovation."
+      },
+      {
+        "id": 2,
+        "title": "UK Parliament Debate On Banning Non-Stun Slaughter On 9th May – HFA Perspective",
+        "excerpt": "A recent Early Day Motion (EDM 1394) was tabled in the UK Parliament calling for a ban on non-stun slaughter. HFA provides insights on this important debate affecting the halal meat industry."
+      },
+      {
+        "id": 3,
+        "title": "Exporting Your Products To Indonesia",
+        "excerpt": "Halal certification will be mandatory for nearly all food and beverage products entering Indonesia starting 2024. Learn how to prepare your products for this important market requirement."
+      }
+    ],
+    "readMore": "READ MORE"
+  },
+  "footer": {
+    "branding": {
+      "tagline": "Accredited Halal Certification Ensuring Worldwide Trust And Compliance"
+    },
+    "quickLinks": "Quick Links",
+    "importantLinks": "Important Links",
+    "contactUs": "Contact Us",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "apply": "Apply For Certification",
+      "events": "Our Events",
+      "feePolicy": "Fee Policy",
+      "qualityPolicy": "HFA Quality Policy",
+      "procedure": "Certification Procedure",
+      "terms": "Terms And Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "contact": {
+      "address": "Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ United Kingdom",
+      "phone": "Phone: +44(0)2084467127",
+      "email": "Email: Info@Halalfoodauthority.Com"
+    },
+    "copyright": "© {{year}} Copyright Halal Food Authority. All Rights Reserved",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
   }
 }

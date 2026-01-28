@@ -10,9 +10,9 @@
     "signin": "Iniciar sesión / Registrarse"
   },
   "certification": {
-    "food": "Certificación alimentaria",
-    "abattoir": "Certificación de matadero",
-    "pharma": "Farmacia y Cosméticos"
+    "procedure": "Procedimiento de Certificación HFA",
+    "apply": "Solicitar Certificación/Renovación Halal",
+    "termination": "Procedimiento para Terminación y Suspensión"
   },
   "policies": {
     "privacy": "Política de privacidad",
@@ -114,5 +114,81 @@
       "middleEastAcceptance": "Sí, nuestro certificado es aceptado en Medio Oriente. Estamos acreditados por EIAC (EAU), HAK (Turquía), BPJPH (Indonesia), Jakim (Malasia) y reconocidos por SFDA (Arabia Saudita) y SASO. También tenemos reconocimiento mutuo con otros organismos internacionales."
     },
     "readMore": "Leer Más"
+  },
+  "reference": {
+    "title": "Referencia de Normas HFA",
+    "standards": [
+      "OIC/SMIIC 1 Requisitos generales para alimentos halal",
+      "OIC/SMIIC 24 Requisitos generales para aditivos alimentarios y otros productos químicos añadidos a alimentos halal",
+      "MS 1500 Estándar malasio sobre alimentos halal",
+      "Protocolo malasio para producción de carne halal",
+      "MS 2565 Envasado halal - Directrices generales",
+      "GSO 2055-1 Productos halal - Parte uno: Requisitos generales para alimentos halal",
+      "UAE.S 993 Requisitos de sacrificio animal según reglas islámicas",
+      "GSO 2538 Los límites máximos para residuos de alcohol etílico (etanol) en alimentos",
+      "UAE.S 192 Aditivos permitidos para uso en alimentos",
+      "SNI 99004:2021 Requisitos generales de alimentos halal",
+      "SNI 99001:2016 Sistema de garantía halal",
+      "SNI ISO/IEC 17065:2012 Requisitos para organismos que certifican productos, procesos y servicios",
+      "Decreto del Ministro de Asuntos Religiosos de la República de Indonesia Número 748 de 2021 sobre tipos de productos que deben estar certificados halal",
+      "Reglamento del Gobierno de la República de Indonesia Número 39 de 2021 sobre la Ley de Implementación de la República de Indonesia Número 33 de 2014 sobre Garantía de Productos Halal."
+    ],
+    "complexStandard": "Decreto del Jefe de la Agencia Organizadora de Garantía de Productos Halal Número 20 de 2023 sobre Enmiendas...",
+    "findOutMore": "¡Descubre más!",
+    "readMore": "Leer Más"
+  },
+  "news": {
+    "title": "Noticias Recientes",
+    "newsItems": [
+      {
+        "id": 1,
+        "title": "Desbloquee Oportunidades para el Crecimiento y la Innovación",
+        "excerpt": "¡Explore la industria halal y desbloquee oportunidades emocionantes! Ya sea producción de alimentos, cosméticos, productos farmacéuticos o logística, el sector halal ofrece diversas vías para la expansión e innovación empresarial."
+      },
+      {
+        "id": 2,
+        "title": "Debate en el Parlamento del Reino Unido sobre la Prohibición del Sacrificio Sin Aturdimiento el 9 de Mayo – Perspectiva HFA",
+        "excerpt": "Una moción reciente (EDM 1394) fue presentada en el Parlamento del Reino Unido pidiendo la prohibición del sacrificio sin aturdimiento. HFA proporciona información sobre este importante debate que afecta a la industria cárnica halal."
+      },
+      {
+        "id": 3,
+        "title": "Exportando Sus Productos a Indonesia",
+        "excerpt": "La certificación halal será obligatoria para casi todos los productos alimenticios y de bebidas que entren en Indonesia a partir de 2024. Aprenda cómo preparar sus productos para este importante requisito de mercado."
+      }
+    ],
+    "readMore": "LEER MÁS"
+  },
+  "footer": {
+    "branding": {
+      "tagline": "Certificación Halal Acreditada que Garantiza Confianza y Cumplimiento Mundial"
+    },
+    "quickLinks": "Enlaces Rápidos",
+    "importantLinks": "Enlaces Importantes",
+    "contactUs": "Contáctenos",
+    "links": {
+      "home": "Inicio",
+      "about": "Sobre Nosotros",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contacto",
+      "apply": "Solicitar Certificación",
+      "events": "Nuestros Eventos",
+      "feePolicy": "Política de Tarifas",
+      "qualityPolicy": "Política de Calidad HFA",
+      "procedure": "Procedimiento de Certificación",
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad"
+    },
+    "contact": {
+      "address": "Unidad 15, Linen House, 253 Kilburn Lane, Queen's Park Londres, W10 4BQ Reino Unido",
+      "phone": "Teléfono: +44(0)2084467127",
+      "email": "Correo: Info@Halalfoodauthority.Com"
+    },
+    "copyright": "© {{year}} Copyright Halal Food Authority. Todos los derechos reservados",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
   }
 }
