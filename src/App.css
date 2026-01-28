@@ -1216,6 +1216,165 @@ footer {
   }
 }
 
+
+.stats-container {
+  background-color: #0b0b0b; /* Dark background from image */
+  color: white;
+  padding: 80px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.stats-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.stats-title-box {
+  flex: 1;
+}
+
+.stats-heading {
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif;  /* Match the serif style of the heading */
+  max-width: 300px;
+  line-height: 1.2;
+}
+
+.stats-grid {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  font-weight: 400;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .stats-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .stats-title-box {
+    margin-bottom: 40px;
+  }
+  .stats-heading {
+    max-width: 100%;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+/* Container styling */
+.dept-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Descendant selector for the main header */
+.dept-section .dept-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-family: 'Georgia', serif; 
+}
+
+/* Descendant selector for the sub-header text */
+.dept-section .dept-header p {
+  color: #777;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+/* Grid Layout */
+.dept-section .dept-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Base Card Styling */
+.dept-section .dept-card {
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 4px 5px  rgba(56, 56, 56, 0.05);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 120px;
+}
+
+/* Descendant selectors for text inside cards */
+.dept-section .dept-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+    font-family: 'Georgia', serif; 
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.dept-section .dept-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Themed variants using descendant relationships */
+.dept-section .dept-card.primary {
+  background-color: #ffecd2; /* Light orange/peach */
+  border: 1.5px solid #eebc8d;
+}
+
+.dept-section .dept-card.secondary {
+  background-color: #def0d8; /* Light green */
+  border: 1.5px solid #b7d8b0;
+}
+
+.dept-section .dept-card.tertiary {
+  background-color: #e1eaff; /* Light green */
+  border: 1.5px solid #4b4f8b;
+}
+
+/* Hover effect */
+.dept-section .dept-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive adjustment */
+@media (max-width: 1024px) {
+  .dept-section .dept-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dept-section .dept-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Hamburger Animation */
 .bar.open:nth-child(1) { transform: translateY(8px) rotate(45deg); }
 .bar.open:nth-child(2) { opacity: 0; }

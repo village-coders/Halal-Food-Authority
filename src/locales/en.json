@@ -17,7 +17,15 @@
   "policies": {
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "standards": "Halal Standards"
+    "standards": "Halal Standards",
+    "feePolicy": "Fee Policy",
+    "complaintsCommittee": "HFA Complaints Committee",
+    "logoUseProvisions": "Provisions for the use of HFA Logo",
+    "impartialityPolicy": "HFA Impartiality Policy",
+    "qualityPolicy": "HFA Quality Policy",
+    "corporateGovernance": "HFA Corporate and Financial Governance",
+    "complaintsAppealsProcedure": "HFA Complaints & Appeals Procedure",
+    "samplingAnalysisPolicy": "Halal Food Sampling & Analysis Policy"
   },
   "events": {
     "planning2025": "HFA Planning 2025",

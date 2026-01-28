@@ -15,9 +15,17 @@
     "termination": "Procedimiento para Terminación y Suspensión"
   },
   "policies": {
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "standards": "Normas halal"
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "standards": "Estándares Halal",
+    "feePolicy": "Política de Tarifas",
+    "complaintsCommittee": "Comité de Quejas HFA",
+    "logoUseProvisions": "Disposiciones para el uso del Logo HFA",
+    "impartialityPolicy": "Política de Imparcialidad HFA",
+    "qualityPolicy": "Política de Calidad HFA",
+    "corporateGovernance": "Gobernanza Corporativa y Financiera HFA",
+    "complaintsAppealsProcedure": "Procedimiento de Quejas y Apelaciones HFA",
+    "samplingAnalysisPolicy": "Política de Muestreo y Análisis de Alimentos Halal"
   },
   "events": {
     "planning2025": "Planificación HFA 2025",

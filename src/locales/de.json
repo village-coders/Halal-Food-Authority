@@ -17,7 +17,15 @@
   "policies": {
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
-    "standards": "Halal-Standards"
+    "standards": "Halal-Standards",
+    "feePolicy": "Gebührenrichtlinie",
+    "complaintsCommittee": "HFA-Beschwerdeausschuss",
+    "logoUseProvisions": "Bestimmungen für die Verwendung des HFA-Logos",
+    "impartialityPolicy": "HFA-Unparteilichkeitsrichtlinie",
+    "qualityPolicy": "HFA-Qualitätsrichtlinie",
+    "corporateGovernance": "HFA Unternehmens- und Finanzgovernance",
+    "complaintsAppealsProcedure": "HFA Beschwerde- und Beschwerdeverfahren",
+    "samplingAnalysisPolicy": "Richtlinie zur Probenahme und Analyse von Halal-Lebensmitteln"
   },
   "events": {
     "planning2025": "HFA Planung 2025",

@@ -73,9 +73,14 @@ export default function NavBar() {
               {t("nav.policies")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/privacy-policy`}>{t("policies.privacy")}</NavLink>
-              <NavLink to={`/${currentLang}/terms`}>{t("policies.terms")}</NavLink>
-              <NavLink to={`/${currentLang}/standards`}>{t("policies.standards")}</NavLink>
+              <NavLink to={`/${currentLang}/fee-policy`}>{t("policies.feePolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/complaints-committee`}>{t("policies.complaintsCommittee")}</NavLink>
+              <NavLink to={`/${currentLang}/provision`}>{t("policies.logoUseProvisions")}</NavLink>
+              <NavLink to={`/${currentLang}/impartiality-policy`}>{t("policies.impartialityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/quality-policy`}>{t("policies.qualityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/corporate-governance`}>{t("policies.corporateGovernance")}</NavLink>
+              <NavLink to={`/${currentLang}/complaints-appeals-procedure`}>{t("policies.complaintsAppealsProcedure")}</NavLink>
+              <NavLink to={`/${currentLang}/sampling-analysis-policy`}>{t("policies.samplingAnalysisPolicy")}</NavLink>
             </div>
           </div>
 
