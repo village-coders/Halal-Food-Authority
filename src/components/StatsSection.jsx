@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 // Individual Counter Logic
 const Counter = ({ target, label }) => {
@@ -24,17 +25,14 @@ const Counter = ({ target, label }) => {
 };
 
 export default function StatsSection() {
-  const stats = [
-    { target: 1000, label: "Clients Worldwide" },
-    { target: 70000, label: "Certified Products" },
-    { target: 10000, label: "Certificates issued" },
-  ];
+  const { t } = useTranslation();
+  const stats = t('about.stats.statistics', { returnObjects: true });
 
   return (
     <section className="stats-container">
       <div className="stats-content container">
         <div className="stats-title-box">
-          <h2 className="stats-heading">Numbers Speak For Themselves!</h2>
+          <h2 className="stats-heading">{t('about.stats.title')}</h2>
         </div>
         <div className="stats-grid">
           {stats.map((stat, index) => (

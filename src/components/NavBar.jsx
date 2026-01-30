@@ -49,50 +49,50 @@ export default function NavBar() {
         <nav className={isOpen ? "nav-links open" : "nav-links"}>
           {/* 2. Use end prop for Home so it doesn't match everything */}
           <NavLink to={`/${currentLang}`} end className={({ isActive }) => isActive ? "active" : ""}>
-            {t("nav.home")}
+            {t("home.nav.home")}
           </NavLink>
 
           <NavLink to={`/${currentLang}/about`} className={({ isActive }) => isActive ? "active" : ""}>
-            {t("nav.about")}
+            {t("home.nav.about")}
           </NavLink>
 
           {/* 3. Dropdowns: Apply 'active' class if a sub-route matches */}
           <div className={`dropdown ${activeDropdown === "cert" ? "active" : ""} ${isParentActive('certification') ? "active-parent" : ""}`}>
             <button className="nav-link" type="button" onClick={() => toggleDropdown("cert")}>
-              {t("nav.certification")} <span className="caret">▼</span>
+              {t("home.nav.certification")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/certification/procedure`}>{t("certification.procedure")}</NavLink>
-              <NavLink to={`/${currentLang}/certification/apply`}>{t("certification.apply")}</NavLink>
-              <NavLink to={`/${currentLang}/certification/termination`}>{t("certification.termination")}</NavLink>
+              <NavLink to={`/${currentLang}/certification/procedure`}>{t("home.certification.procedure")}</NavLink>
+              <NavLink to={`/${currentLang}/certification/apply`}>{t("home.certification.apply")}</NavLink>
+              <NavLink to={`/${currentLang}/certification/termination`}>{t("home.certification.termination")}</NavLink>
             </div>
           </div>
 
           <div className={`dropdown ${activeDropdown === "policy" ? "active" : ""} ${isParentActive('privacy-policy') || isParentActive('terms') ? "active-parent" : ""}`}>
             <button className="nav-link" type="button" onClick={() => toggleDropdown("policy")}>
-              {t("nav.policies")} <span className="caret">▼</span>
+              {t("home.nav.policies")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/fee-policy`}>{t("policies.feePolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/complaints-committee`}>{t("policies.complaintsCommittee")}</NavLink>
-              <NavLink to={`/${currentLang}/provision`}>{t("policies.logoUseProvisions")}</NavLink>
-              <NavLink to={`/${currentLang}/impartiality-policy`}>{t("policies.impartialityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/quality-policy`}>{t("policies.qualityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/corporate-governance`}>{t("policies.corporateGovernance")}</NavLink>
-              <NavLink to={`/${currentLang}/complaints-appeals-procedure`}>{t("policies.complaintsAppealsProcedure")}</NavLink>
-              <NavLink to={`/${currentLang}/sampling-analysis-policy`}>{t("policies.samplingAnalysisPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/fee-policy`}>{t("home.policies.feePolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/complaints-committee`}>{t("home.policies.complaintsCommittee")}</NavLink>
+              <NavLink to={`/${currentLang}/provision`}>{t("home.policies.logoUseProvisions")}</NavLink>
+              <NavLink to={`/${currentLang}/impartiality-policy`}>{t("home.policies.impartialityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/quality-policy`}>{t("home.policies.qualityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/corporate-governance`}>{t("home.policies.corporateGovernance")}</NavLink>
+              <NavLink to={`/${currentLang}/complaints-appeals-procedure`}>{t("home.policies.complaintsAppealsProcedure")}</NavLink>
+              <NavLink to={`/${currentLang}/sampling-analysis-policy`}>{t("home.policies.samplingAnalysisPolicy")}</NavLink>
             </div>
           </div>
 
           <NavLink to={`/${currentLang}/faq`} className={({ isActive }) => isActive ? "active" : ""}>
-            {t("nav.faqs")}
+            {t("home.nav.faqs")}
           </NavLink>
 
           <NavLink to={`/${currentLang}/contact`} className={({ isActive }) => isActive ? "active" : ""}>
-            {t("nav.contact")}
+            {t("home.nav.contact")}
           </NavLink>
 
-          <button className="btn-primary mobile-only">{t("nav.signin")}</button>
+          <button className="btn-primary mobile-only">{t("home.nav.signin")}</button>
         </nav>
 
         <div className="language-switcher">
@@ -103,7 +103,7 @@ export default function NavBar() {
           </select>
         </div>
 
-        <button className="btn-primary desktop-only">{t("nav.signin")}</button>
+        <button className="btn-primary desktop-only">{t("home.nav.signin")}</button>
       </div>
     </header>
   );

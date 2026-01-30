@@ -8,7 +8,7 @@ export default function RecentNews() {
   const { t } = useTranslation();
 
   // Get news items array from translations
-  const newsItems = t('news.newsItems', { returnObjects: true });
+  const newsItems = t('home.news.newsItems', { returnObjects: true });
 
   // Image array - keep these as imports since they're static assets
   const images = [image, image2, image3];
@@ -16,7 +16,7 @@ export default function RecentNews() {
   return (
     <section className="news-section">
       <div className="container">
-        <h2 className="news-main-title">{t('news.title')}</h2>
+        <h2 className="news-main-title">{t('home.news.title')}</h2>
         <div className="news-grid">
           {newsItems.map((item, index) => (
             <div key={item.id} className="news-card">
@@ -26,7 +26,7 @@ export default function RecentNews() {
               <div className="news-content">
                 <h3 className="news-card-title">{item.title}</h3>
                 <p className="news-excerpt">{item.excerpt}</p>
-                <a href="#" className="read-more">{t('news.readMore')}</a>
+                <a href="#" className="read-more">{t('home.news.readMore')}</a>
               </div>
             </div>
           ))}

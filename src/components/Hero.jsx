@@ -7,30 +7,30 @@ export default function Hero() {
     <section className="hero">
       <div className="container">
         <div className="hero-text">
-          <h1>{t("hero.title")}</h1>
-          <p>{t("hero.description")}</p>
+          <h1>{t("home.hero.title")}</h1>
+          <p>{t("home.hero.description")}</p>
 
           <div className="hero-buttons">
-            <button className="btn-white">{t("hero.apply")}</button>
-            <button className="btn-outline">{t("hero.findMore")}</button>
+            <button className="btn-white">{t("home.hero.apply")}</button>
+            <button className="btn-outline">{t("home.hero.findMore")}</button>
           </div>
 
           <div className="stats">
             <div className="stat-item">
-              <strong>{t("hero.stats.clients.number")}</strong>
-              <span>{t("hero.stats.clients.text")}</span>
+              <strong>{t("home.hero.stats.clients.number")}</strong>
+              <span>{t("home.hero.stats.clients.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>{t("hero.stats.products.number")}</strong>
-              <span>{t("hero.stats.products.text")}</span>
+              <strong>{t("home.hero.stats.products.number")}</strong>
+              <span>{t("home.hero.stats.products.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>{t("hero.stats.certificates.number")}</strong>
-              <span>{t("hero.stats.certificates.text")}</span>
+              <strong>{t("home.hero.stats.certificates.number")}</strong>
+              <span>{t("home.hero.stats.certificates.text")}</span>
             </div>
             <div className="stat-item">
-              <strong>{t("hero.stats.recognition.number")}</strong>
-              <span>{t("hero.stats.recognition.text")}</span>
+              <strong>{t("home.hero.stats.recognition.number")}</strong>
+              <span>{t("home.hero.stats.recognition.text")}</span>
             </div>
           </div>
         </div>

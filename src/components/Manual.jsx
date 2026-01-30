@@ -7,14 +7,14 @@ export default function Manual() {
     <section className="manual">
       <div className="background-overlay"></div>
       <div className="container manual-content">
-        <h2 className="manual-title">{t("manual.title")}</h2>
+        <h2 className="manual-title">{t("home.manual.title")}</h2>
 
         <p className="manual-description">
-          {t("manual.description")}
+          {t("home.manual.description")}
         </p>
 
         <button className="btn-secondary-rect">
-          {t("manual.cta")}
+          {t("home.manual.cta")}
         </button>
       </div>
     </section>

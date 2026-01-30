@@ -48,13 +48,12 @@
 
 nav {
   display: flex;
-  align-items: center;
-  gap: 1px !important;
+  /* align-items: center; */
 }
 
 nav a, nav button {
   color: #1a1a1a;
-  margin: 0 15px;
+  /* margin: 0 15px; */
   text-decoration: none;
   font-weight: 700;
   font-size: 13px;
@@ -67,7 +66,7 @@ nav a, nav button {
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.3s ease-in-out;
   transition-delay: .1s;
-  padding: 10px 10px;
+  padding: 10px 20px;
   /* button */
   background: none;
 }
@@ -1330,7 +1329,7 @@ footer {
 .dept-section .dept-card h3 {
   font-size: 1.25rem;
   font-weight: 600;
-    font-family: 'Georgia', serif; 
+  font-family: 'Georgia', serif;
   margin-bottom: 8px;
   color: #1a1a1a;
 }
@@ -1373,6 +1372,161 @@ footer {
   .dept-section .dept-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Container and Header */
+.team-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.team-section h2 {
+  font-size: 3rem;
+  margin-bottom: 80px;
+  font-weight: 500;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Grid Layout */
+.team-section .team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Member Card */
+.team-section .member-card {
+  width: 350px;
+  cursor: pointer;
+}
+
+/* Image Wrapper with Relative Positioning for Overlay */
+.team-section .member-card .image-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-section .member-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Descendant Selector for Hover Detail Overlay */
+.team-section .member-card .member-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.4s ease;
+}
+
+.team-section .member-card .member-details p {
+  font-size: 0.6rem;
+  font-weight: bold;
+  line-height: 2;
+  color: #333;
+  text-align: left;
+  padding: 15px;
+}
+
+/* THE HOVER EFFECT: Reveal details using descendant selection */
+.team-section .member-card:hover .member-details {
+  opacity: 1;
+}
+
+.team-section .member-card:hover img {
+  transform: scale(1.05); /* Subtle zoom on hover */
+}
+
+/* Name and Role styling */
+.team-section .member-card h3 {
+  font-size: 1.5rem;
+  color: #1a1a5e; /* Navy blue from image */
+  margin: 10px 0 5px 0;
+}
+
+.team-section .member-card span {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.about-appointment-sec{
+  background: url('/about-sec-3.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.about-app-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 2, 0);
+  opacity: 0.75;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    inset: 0px;
+}
+
+.about-appointment-sec .about-appointment{
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.about-appointment-sec h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Georgia', serif; 
+}
+
+.about-appointment-sec p{
+  font-size: 1.5rem;
+  max-width: 800px;
+  /* font-weight: 700; */
+  margin-bottom: 50px;
+  color: #fff;
+}
+.about-appointment-sec button{
+  font-size: 1rem;
+  max-width: 800px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 18px;
+  background: none;
+  padding: 14px 28px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-appointment-sec button:hover{
+  background: white;
+  color: black;
 }
 
 /* Hamburger Animation */

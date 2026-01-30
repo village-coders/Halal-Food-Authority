@@ -7,12 +7,12 @@ const Reference = () => {
   const { t } = useTranslation();
 
   // Get standards array from translations
-  const standards = t('reference.standards', { returnObjects: true });
+  const standards = t('home.reference.standards', { returnObjects: true });
 
   return (
     <section className="reference-section">
       <div className="container">
-        <h2 className="reference-main-title">{t('reference.title')}</h2>
+        <h2 className="reference-main-title">{t('home.reference.title')}</h2>
         <div className="reference-content">
           {standards.map((text, index) => (
             <div key={index} className="reference-item">
@@ -24,16 +24,16 @@ const Reference = () => {
           <div className="reference-item">
             <IoCheckmarkCircleOutline className="ref-icon" />
             <span className="ref-text">
-              {t('reference.complexStandard')}
+              {t('home.reference.complexStandard')}
               <button className="ref-inline-btn">
-                {t('reference.findOutMore')}
+                {t('home.reference.findOutMore')}
               </button>
             </span>
           </div>
         </div>
 
         <button className="read-more">
-          {t('reference.readMore')} <ArrowRight />
+          {t('home.reference.readMore')} <ArrowRight />
         </button>
       </div>
     </section>

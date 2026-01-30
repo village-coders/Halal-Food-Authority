@@ -7,14 +7,14 @@ export default function About() {
   return (
     <section className="about">
       <div className="container">
-        <h2 className="about-title">{t("about.title")}</h2>
+        <h2 className="about-title">{t("home.about.title")}</h2>
         <div className="about-content">
           <div className="about-text">
             <p>
-              {t("about.p1")}
+              {t("home.about.p1")}
             </p>
             <p>
-              {t("about.p2")}
+              {t("home.about.p2")}
             </p>
           </div>
           <div className="about-image">
