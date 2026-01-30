@@ -13,6 +13,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import AboutPage from "./pages/AboutPage";
+import CertificationProcedure from "./pages/CertificationProcedure";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -68,6 +69,7 @@ function MainContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/certification/procedure" element={<CertificationProcedure/>} />
       </Routes>
       <Footer />
     </>
