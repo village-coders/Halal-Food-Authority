@@ -1,0 +1,413 @@
+{
+  "home": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre nosotros",
+      "certification": "Certificación",
+      "policies": "Políticas",
+      "events": "Nuestros Eventos",
+      "faqs": "Preguntas Frecuentes",
+      "contact": "Contacto",
+      "signin": "Iniciar sesión / Registrarse"
+    },
+    "certification": {
+      "procedure": "Procedimiento de Certificación HFA",
+      "apply": "Solicitar Certificación/Renovación Halal",
+      "termination": "Procedimiento para Terminación y Suspensión"
+    },
+    "policies": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "standards": "Estándares Halal",
+      "feePolicy": "Política de Tarifas",
+      "complaintsCommittee": "Comité de Quejas HFA",
+      "logoUseProvisions": "Disposiciones para el uso del Logo HFA",
+      "impartialityPolicy": "Política de Imparcialidad HFA",
+      "qualityPolicy": "Política de Calidad HFA",
+      "corporateGovernance": "Gobernanza Corporativa y Financiera HFA",
+      "complaintsAppealsProcedure": "Procedimiento de Quejas y Apelaciones HFA",
+      "samplingAnalysisPolicy": "Política de Muestreo y Análisis de Alimentos Halal"
+    },
+    "events": {
+      "planning2025": "Planificación HFA 2025",
+      "webinar2020": "Webinar HFA 2020",
+      "ulemah2019": "Reunión de Ulemah JAH 2019"
+    },
+    "hero": {
+      "title": "Obtenga la Certificación Halal",
+      "description": "Descubra mercados inexplorados y expanda fronteras, asegurando que sus productos cumplan con los estándares halal. Atraiga una base de clientes más amplia, construya confianza en su marca y aumente sus ingresos. Asóciese con HFA para obtener una certificación halal confiable y auténtica.",
+      "apply": "Aplicar Ahora",
+      "findMore": "Descubrir Más",
+      "stats": {
+        "clients": {
+          "number": "1000+",
+          "text": "Clientes en todo el mundo confían en nuestros servicios de certificación halal."
+        },
+        "products": {
+          "number": "40000+",
+          "text": "Productos certificados para garantizar el cumplimiento halal integral."
+        },
+        "certificates": {
+          "number": "70000+",
+          "text": "Certificados emitidos mundialmente para el cumplimiento halal."
+        },
+        "recognition": {
+          "number": "250+",
+          "text": "Reconocido globalmente por la excelencia en la certificación halal."
+        }
+      }
+    },
+    "about": {
+      "title": "¿Qué es la Certificación Halal?",
+      "p1": "El cumplimiento religioso es un factor clave para los consumidores musulmanes. El consumo de productos halal es una obligación religiosa para los musulmanes, y la certificación halal garantiza que estos productos se ajusten a las leyes dietéticas establecidas en el Corán y el Hadiz.",
+      "p2": "La certificación halal es un procedimiento exhaustivo que verifica si un producto, instalación o servicio cumple con las leyes y prácticas dietéticas islámicas. Esta certificación generalmente es emitida por un organismo de certificación halal reconocido después de rigurosas evaluaciones. El objetivo principal de la certificación halal es proporcionar a los consumidores musulmanes confianza y seguridad de que los productos que eligen comprar y consumir cumplen con los estrictos requisitos de las pautas halal, asegurando su confianza en la autenticidad y pureza de los productos que utilizan."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "intro": "Nuestros servicios incluyen verificación de cumplimiento, realización de auditorías de productos, revisión de documentación y provisión de apoyo continuo para garantizar que los productos cumplan con las regulaciones dietéticas islámicas y los estándares de la industria.",
+      "audit": {
+        "title": "Auditorías y Evaluaciones",
+        "text": "Nuestro equipo de auditores técnicos y de sharia calificados realiza auditorías en los sitios de producción para garantizar el cumplimiento de las regulaciones dietéticas islámicas establecidas en nuestros Estándares Halal."
+      },
+      "products": {
+        "title": "Evaluación de Productos",
+        "text": "Nuestro equipo de expertos tecnólogos de alimentos revisa cuidadosamente los ingredientes de los productos para garantizar que cumplan con los estándares de consumo halal."
+      },
+      "export": {
+        "title": "Certificación de Exportación",
+        "text": "El certificado de exportación halal sirve como prueba de que los artículos enviados internacionalmente cumplen con los requisitos halal establecidos según nuestros Estándares Halal."
+      },
+      "group": {
+        "title": "Certificación Grupal",
+        "text": "Ofrecemos certificaciones grupales para empresas con múltiples sitios, ideales para aquellas dentro de una cadena de suministro específica, clúster industrial o área geográfica."
+      },
+      "inspection": {
+        "title": "Inspecciones",
+        "text": "Se realizan inspecciones regulares para verificar que la producción cumpla con el estándar Halal y cumpla con los requisitos establecidos en el proceso de certificación halal."
+      }
+    },
+    "manual": {
+      "title": "Manual Halal",
+      "description": "Para ayudarlo a obtener la certificación halal de acuerdo con los estándares internacionales, hemos desarrollado manuales Halal que definen los requisitos para obtener la certificación halal. Estos manuales proporcionan información vital sobre el proceso de certificación y los criterios. Están disponibles exclusivamente para nuestros clientes y se pueden obtener enviando una solicitud.",
+      "cta": "SOLICITAR AHORA"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Respuestas a Sus Preguntas sobre Certificación Halal.",
+      "categories": {
+        "general": "Consultas Generales:",
+        "corporate": "Consultas Corporativas:"
+      },
+      "questions": {
+        "whatIsHalal": "¿Qué es Halal?",
+        "mechanicalSlaughtering": "¿Qué es el sacrificio mecánico y lo acepta HFA?",
+        "stunningAllowed": "¿Permite la Autoridad Halal el aturdimiento de aves y animales?",
+        "eNumbers": "¿Qué son los Números E?",
+        "eNumbersImportance": "¿Cuál es la importancia de los Números E?",
+        "whyCertificationRequired": "¿Por qué se requiere la certificación halal?",
+        "certificationCost": "¿Cuánto cuesta la certificación halal?",
+        "timeFrame": "¿Cuál es el plazo para completar el proceso de certificación?",
+        "qualifiedTeam": "¿Tenemos un equipo calificado para realizar el trabajo?",
+        "middleEastAcceptance": "¿Es aceptado nuestro certificado en Medio Oriente?"
+      },
+      "answers": {
+        "whatIsHalal": "«Halal» se refiere a lo que es permisible según la ley islámica, incluidas las leyes dietéticas, consideraciones éticas y prácticas comerciales. Esto abarca la preparación lícita de alimentos, métodos humanitarios de sacrificio de animales y la adherencia a los principios islámicos durante todo el proceso.",
+        "mechanicalSlaughtering": "El sacrificio mecánico utiliza maquinaria automatizada para mayor eficiencia, pero no es aceptado por HFA. Requerimos sacrificio manual por parte de matarifes musulmanes calificados para garantizar el cumplimiento.",
+        "stunningAllowed": "Sí, pero con condiciones estrictas. HFA prohíbe el aturdimiento por pistola de perno cautivo y el aturdimiento por percusión. Permitimos el aturdimiento eléctrico controlado con amperaje mínimo, verificado por un cirujano veterinario, para carne avícola y ovina.",
+        "eNumbers": "Los Números E son códigos para aditivos alimentarios utilizados en Europa. Garantizan que los aditivos cumplan con los rigurosos estándares y regulaciones de la UE, cubriendo colores (E100-E199), conservantes (E200-E299), antioxidantes (E300-E399) y más.",
+        "eNumbersImportance": "Los Números E son cruciales para la certificación halal ya que identifican la fuente y composición de los aditivos alimentarios, que pueden ser de origen animal, sintéticos o vegetales. Asegurar que estos aditivos cumplan con las leyes dietéticas islámicas es esencial para la certificación halal. Los factores clave incluyen la fuente de los aditivos, posibles auxiliares de procesamiento, riesgos de contaminación y contenido de alcohol. Los organismos de certificación confiables evalúan estos factores para confirmar el cumplimiento de los estándares halal.",
+        "whyCertificationRequired": "La certificación halal asegura que los productos cumplan con las leyes dietéticas islámicas y aumenta la confianza del consumidor al confirmar la adherencia a las pautas halal. Ayuda a las empresas a acceder al mercado en crecimiento de consumidores musulmanes y promueve la transparencia y la trazabilidad.",
+        "certificationCost": "El costo de la certificación halal varía según factores como el número de productos, la ubicación del sitio de producción y el mercado objetivo. Para una estimación precisa, presente una solicitud y le proporcionaremos un presupuesto personalizado. Como organización sin fines de lucro, nuestro objetivo es apoyar a las empresas en el mercado halal.",
+        "timeFrame": "El proceso de certificación generalmente toma de 4 a 6 semanas, dependiendo de la prontitud en la presentación de documentos. Para casos urgentes, ofrecemos opciones de procesamiento acelerado.",
+        "qualifiedTeam": "Sí, contamos con un equipo calificado de tecnólogos de alimentos, auditores, eruditos islámicos, inspectores y matarifes. Tenemos acreditaciones de las principales organizaciones halal y ofrecemos un manual completo para guiar a las empresas en la garantía halal.",
+        "middleEastAcceptance": "Sí, nuestro certificado es aceptado en Medio Oriente. Estamos acreditados por EIAC (EAU), HAK (Turquía), BPJPH (Indonesia), Jakim (Malaysia) y reconocidos por SFDA (Arabia Saudita) y SASO. También tenemos reconocimiento mutuo con otros organismos internacionales."
+      },
+      "readMore": "Leer Más"
+    },
+    "reference": {
+      "title": "Referencia de Normas HFA",
+      "standards": [
+        "OIC/SMIIC 1 Requisitos generales para alimentos halal",
+        "OIC/SMIIC 24 Requisitos generales para aditivos alimentarios y otros productos químicos añadidos a alimentos halal",
+        "MS 1500 Estándar malasio sobre alimentos halal",
+        "Protocolo malasio para producción de carne halal",
+        "MS 2565 Envasado halal - Directrices generales",
+        "GSO 2055-1 Productos halal - Parte uno: Requisitos generales para alimentos halal",
+        "UAE.S 993 Requisitos de sacrificio animal según reglas islámicas",
+        "GSO 2538 Los límites máximos para residuos de alcohol etílico (etanol) en alimentos",
+        "UAE.S 192 Aditivos permitidos para uso en alimentos",
+        "SNI 99004:2021 Requisitos generales de alimentos halal",
+        "SNI 99001:2016 Sistema de garantía halal",
+        "SNI ISO/IEC 17065:2012 Requisitos para organismos que certifican productos, procesos y servicios",
+        "Decreto del Ministro de Asuntos Religiosos de la República de Indonesia Número 748 de 2021 sobre tipos de productos que deben estar certificados halal",
+        "Reglamento del Gobierno de la República de Indonesia Número 39 de 2021 sobre la Ley de Implementación de la República de Indonesia Número 33 de 2014 sobre Garantía de Productos Halal."
+      ],
+      "complexStandard": "Decreto del Jefe de la Agencia Organizadora de Garantía de Productos Halal Número 20 de 2023 sobre Enmiendas...",
+      "findOutMore": "¡Descubre más!",
+      "readMore": "Leer Más"
+    },
+    "news": {
+      "title": "Noticias Recientes",
+      "newsItems": [
+        {
+          "id": 1,
+          "title": "Desbloquee Oportunidades para el Crecimiento y la Innovación",
+          "excerpt": "¡Explore la industria halal y desbloquee oportunidades emocionantes! Ya sea producción de alimentos, cosméticos, productos farmacéuticos o logística, el sector halal ofrece diversas vías para la expansión e innovación empresarial."
+        },
+        {
+          "id": 2,
+          "title": "Debate en el Parlamento del Reino Unido sobre la Prohibición del Sacrificio Sin Aturdimiento el 9 de Mayo – Perspectiva HFA",
+          "excerpt": "Una moción reciente (EDM 1394) fue presentada en el Parlamento del Reino Unido pidiendo la prohibición del sacrificio sin aturdimiento. HFA proporciona información sobre este importante debate que afecta a la industria cárnica halal."
+        },
+        {
+          "id": 3,
+          "title": "Exportando Sus Productos a Indonesia",
+          "excerpt": "La certificación halal será obligatoria para casi todos los productos alimenticios y de bebidas que entren en Indonesia a partir de 2024. Aprenda cómo preparar sus productos para este importante requisito de mercado."
+        }
+      ],
+      "readMore": "LEER MÁS"
+    },
+    "footer": {
+      "branding": {
+        "tagline": "Certificación Halal Acreditada que Garantiza Confianza y Cumplimiento Mundial"
+      },
+      "quickLinks": "Enlaces Rápidos",
+      "importantLinks": "Enlaces Importantes",
+      "contactUs": "Contáctenos",
+      "links": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "faq": "Preguntas Frecuentes",
+        "contact": "Contacto",
+        "apply": "Solicitar Certificación",
+        "events": "Nuestros Eventos",
+        "feePolicy": "Política de Tarifas",
+        "qualityPolicy": "Política de Calidad HFA",
+        "procedure": "Procedimiento de Certificación",
+        "terms": "Términos y Condiciones",
+        "privacy": "Política de Privacidad"
+      },
+      "contact": {
+        "address": "Unidad 15, Linen House, 253 Kilburn Lane, Queen's Park Londres, W10 4BQ Reino Unido",
+        "phone": "Teléfono: +44(0)2084467127",
+        "email": "Correo: Info@Halalfoodauthority.Com"
+      },
+      "copyright": "© {{year}} Copyright Halal Food Authority. Todos los derechos reservados",
+      "social": {
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Sobre Nosotros",
+    "sections": {
+      "whoWeAre": {
+        "title": "Quiénes somos",
+        "content": "Desde 1994, la Autoridad Halal (HFA) ha sido un proveedor líder de servicios integrales de certificación y auditoría halal para productores de alimentos y no alimentos. Comprometidos a mantener los más altos estándares halal, realizamos un monitoreo riguroso de procesos, evaluaciones exhaustivas de ingredientes y etiquetado halal preciso. Acreditados por prominentes organizaciones halal internacionales, garantizamos que sus productos cumplan con los estándares de reconocimiento y cumplimiento global."
+      },
+      "ourMission": {
+        "title": "Nuestra Misión",
+        "content": "En HFA, nuestra misión es garantizar los más altos estándares de cumplimiento halal en todo el mundo. Desde 1994, nos hemos dedicado a certificar y auditar productos alimenticios y no alimenticios para cumplir con estrictas pautas halal. Nos esforzamos por proporcionar a los consumidores confianza en productos halal auténticos y apoyar a los productores en el mantenimiento de su integridad. Nuestro objetivo es contribuir al crecimiento global de los mercados halal, haciendo que los productos halal sean accesibles, confiables y respetados en todas partes."
+      },
+      "appointment": {
+        "title": "¡Haga una cita hoy!",
+        "content": "Ya sea que esté buscando producir productos halal para el mercado local o planee exportar globalmente, nuestro equipo de expertos está listo para ofrecer el mejor consejo adaptado a sus necesidades y requisitos únicos. ¡Póngase en contacto con nosotros, y estaremos encantados de ayudarlo!",
+        "button": "CONTACTAR AHORA"
+      }
+    },
+    "images": {
+      "mosque": "Mezquita al atardecer",
+      "halal": "Imagen de certificación halal"
+    },
+    "stats": {
+      "title": "¡Los Números Hablan por Sí Mismos!",
+      "statistics": [
+        {
+          "target": 1000,
+          "label": "Clientes en Todo el Mundo"
+        },
+        {
+          "target": 70000,
+          "label": "Productos Certificados"
+        },
+        {
+          "target": 10000,
+          "label": "Certificados Emitidos"
+        }
+      ]
+    },
+    "departments": {
+      "title": "Nuestra Estructura Departamental",
+      "subtitle": "Conozca al Equipo de HFA",
+      "items": [
+        { "title": "Garantía de Calidad", "desc": "Evaluación de la Solicitud Inicial", "type": "primary" },
+        { "title": "Comité Sharia", "desc": "Revisión y Aprobación de la Certificación", "type": "primary" },
+        { "title": "Auditoría", "desc": "Gestión de las Auditorías en Sitio", "type": "primary" },
+        { "title": "Tecnología de Alimentos", "desc": "Aprobación de ingredientes/Productos", "type": "primary" },
+        { "title": "Capacitación", "desc": "Realizar Capacitación Halal", "type": "secondary" },
+        { "title": "Supervisión", "desc": "Supervisiones en Sitio", "type": "secondary" },
+        { "title": "Administración", "desc": "Operaciones de Oficina", "type": "secondary" },
+        { "title": "Finanzas", "desc": "Gestión Financiera de la empresa y clientes", "type": "secondary" },
+        { "title": "TI", "desc": "Gestiona las operaciones de TI de HFA", "type": "tertiary" },
+        { "title": "Servicio al Cliente", "desc": "Excelencia en la Satisfacción del Cliente", "type": "tertiary" },
+        { "title": "Junta de Fideicomisarios", "desc": "Gobernanza y Supervisión", "type": "tertiary" },
+        { "title": "Comité de Imparcialidad", "desc": "Garantiza la equidad y decisiones imparciales", "type": "tertiary" }
+      ]
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "boardOfUlemah": "Junta de Ulema",
+      "teamMembers": [
+        {
+          "name": "Dr Abdul Matin",
+          "role": "Presidente",
+          "bio": "Habiendo adquirido las calificaciones profesionales más altas en Finanzas, Contabilidad y Administración en el Reino Unido como Contador de Gestión Colegiado y Secretario y Administrador de Empresa Colegiado. El Dr. Khan también formó instituciones de educación y capacitación en el Reino Unido y ha sido Director y Principal de cuatro colegios especializados en Educación Superior durante más de 15 años. El Dr. Khan ha estado involucrado con HFA desde su inicio como uno de los miembros fundadores de la Junta de Fideicomisarios y actualmente trabaja muy de cerca con el Director Ejecutivo en el proceso de toma de decisiones de HFA."
+        },
+        {
+          "name": "Dr Ghayasuddin Siddiqui",
+          "role": "Fideicomisario",
+          "bio": "El Dr. Ghayasuddin Siddiqui, PhD en Química, es un conocido activista, organizador de campañas, escritor y experto en pensamiento político musulmán. El Dr. Siddiqui ha promovido el diálogo y la participación a través de todas las barreras: religiosas, sociales, culturales y políticas; y fue el presidente fundador de la Autoridad Halal."
+        },
+        {
+          "name": "Sr. Ahmed Latif",
+          "role": "Fideicomisario",
+          "bio": "El Sr. Ahmed Latif es actualmente CEO de A & M International Limited, que es una empresa de comercio de metales y parte del Grupo AMIDT de Dubai. El Sr. Latif se graduó en Comercio en 1963 de la Universidad de Karachi y obtuvo el Primer Puesto de Primera Clase y también recibió la Medalla de Oro por sus logros académicos. El Sr. Latif también es miembro del Lions Club y dedica gran parte de su tiempo al trabajo caritativo."
+        },
+        {
+          "name": "Dr Amir Masoom",
+          "role": "CEO",
+          "bio": "El Dr. Amir Masoom ha estado trabajando en la Autoridad Halal desde 2013 y ha servido como Auditor Técnico Principal dentro de HFA a lo largo de los años. En marzo de 2019, asumió el cargo de CEO Interino y luego fue confirmado como Director Ejecutivo en septiembre de 2019, liderando la visión de la empresa desde entonces. Amir tiene calificación veterinaria y una maestría en Seguridad y Control de Alimentos de la London South Bank University. Amir también ha completado las calificaciones de Auditor Principal BRC, ISO 22000 y 9001. Desde la llegada de Amir, HFA ha lanzado con éxito el portal HFA y el portal KFC."
+        },
+        {
+          "name": "Dr Imtiaz Hussain",
+          "role": "Gerente de Tecnología de Alimentos",
+          "bio": "El Dr. Hussain es un profesional técnico experimentado y científico de alimentos con una historia demostrada de trabajo en la industria de procesamiento de alimentos. Es experto en Desarrollo de Capacitación, Auditoría, BRCGS, IFS, SALSA, Sistemas de Gestión de Calidad y HACCP. TACCP y VACCP. Además de sus sólidas habilidades profesionales, tiene un doctorado en Estudios de Ciencia y Tecnología de Alimentos junto con otros cursos especializados. Además, tiene 20 años de experiencia en los sectores de procesamiento de alimentos como lácteos, panadería, jugos, bebidas, carne y suplementos como gerente técnico y de calidad. Durante su doctorado, publicó trabajos de investigación en revistas de renombre como Food Chemistry y Food Bioprocess Technology."
+        },
+        {
+          "name": "Akbar Hussain",
+          "role": "Gerente Administrativo",
+          "bio": "Detalles próximamente..."
+        },
+        {
+          "name": "Hifza Ibrahim",
+          "role": "Gerente de Calidad",
+          "bio": "Hifza comenzó a trabajar en HFA en 2016. Antes de unirse a HFA, Hifza ha estado involucrada en la industria halal desde 2010. Ha publicado artículos en revistas internacionales durante su mandato en el Instituto de Investigación de Productos Halal. Como auditora principal certificada, Hifza también ha estado involucrada en auditorías halal en países asiáticos. La experiencia y el conocimiento de Hifza se han utilizado bien en la gestión de los clientes de HFA. Mientras estuvo en HFA, Hifza ha realizado capacitación en GSO 2055-2, HACCP y Seguridad Alimentaria, lo que le ha permitido desempeñar un papel clave en la gestión de la certificación del esquema GSO/EAU en particular."
+        },
+        {
+          "name": "Enas al Qatarneh",
+          "role": "Gerente de Auditoría",
+          "bio": "Enas se graduó de la Universidad de Jordania en nutrición y tecnología de alimentos (Bsc) en el año 2002. Comenzó su carrera como ingeniera de calidad en el mismo año y continuó trabajando en el campo desde entonces. Se unió a la organización jordana de normas y metrología en 2009 y trabajó en el departamento de certificación como auditor principal de ISO9001, ISO17065 e ISO 22000. Luego, en 2015, se unió a la unidad de acreditación y comenzó a trabajar como evaluadora principal en varios estándares, incluidos ISO17025, 17065, 17021 y como evaluadora principal halal realizando auditorías dentro y fuera de Jordania. Enas se unió recientemente a HFA en 2019 como Auditora Técnica y Tecnóloga de Alimentos, y espera beneficiar a HFA y al Islam."
+        },
+        {
+          "name": "Rashid Abbasi",
+          "role": "Gerente de Servicio al Cliente",
+          "bio": "Rashid Abbasi se unió al equipo de HFA en agosto de 2019 como oficial de enlace. Ha estado asociado con la industria minorista de alimentos durante más de una década y ha trabajado desde trabajador de primera línea hasta un rol de alta gerencia. Obtuvo su maestría en marketing de la London Metropolitan University y completó muchas otras calificaciones relacionadas con la industria, como seguridad alimentaria, salud y seguridad, derecho minorista y CIPD. Actualmente trabaja como Gerente de Servicio al Cliente."
+        }
+      ],
+      "ulemah": [
+        {
+          "name": "Mufti Abdul Kadir Barkatullah",
+          "role": "Ulema",
+          "bio": "Mufti es un experto prominente en derecho Sharia islámico con antecedentes en trabajo social, comunitario musulmán, economía y finanzas. Fue entrenado extensivamente en sistemas educativos islámicos y modernos en India y el Reino Unido. Mufti ha contribuido a la comunidad musulmana británica como Imam, Conferencista, Juez Sharia, Desarrollador de bases de datos de información sobre derecho islámico, presentador de televisiones comunitarias, comentarista de medios, asesor Sharia de bancos y fondos islámicos en Europa y Asia. Otras membresías incluyen paneles de supervisión Sharia y consejos de acreditación halal."
+        },
+        {
+          "name": "Dr Abdul Wahab",
+          "role": "Ulema",
+          "bio": "El Dr. Abdul Wahhab tiene un doctorado en árabe de la Universidad de Londres. Anteriormente fue Jefe de Educación Religiosa en una escuela estatal y profesor de estudios árabes e islámicos. El Dr. Abdul Wahab realiza mensualmente un círculo de Tafsir ul Qur'an. Hasta la fecha, ha traducido numerosos escritos, incluyendo 'Al-insaf fi bayan sabab al-ikhtilaf' de Shah Wali Allah al-Dihlawi y 'Abqariyya Muhammad salla Allah alaihey wa sallam' de Abbas Mahmud al-Aqqad. El Dr. Abdul Wahhab recientemente ha escrito un libro llamado 'Amthal ul Hadith'."
+        },
+        {
+          "name": "Shaykh Abu Sayed Ansarey",
+          "role": "Ulema",
+          "bio": "Abu Sayed Ansarey es presentador de televisión en Channel S (con sede en el Reino Unido) y es conocido por presentar programas islámicos y de caridad. Su programa de TV EN VIVO - Islam Essentials e Hidayah - son programas de preguntas y respuestas enormemente populares en todo el mundo. También es miembro de la Junta de Ulema de la Autoridad Halal (HFA). Se graduó en diferentes materias, Literatura Inglesa, Estudios Islámicos y Derecho. Luego completó un título de posgrado en Da'wah de Makkah Al Mukarramah, Reino de Arabia Saudita."
+        },
+        {
+          "name": "Sardar Ahmed Qadri",
+          "role": "Ulema",
+          "bio": "Mufti es un experto prominente en derecho Sharia islámico con antecedentes en trabajo social, comunitario musulmán, economía y finanzas. Fue entrenado extensivamente en sistemas educativos islámicos y modernos en India y el Reino Unido. Mufti ha contribuido a la comunidad musulmana británica como Imam, Conferencista, Juez Sharia, Desarrollador de bases de datos de información sobre derecho islámico, presentador de televisiones comunitarias, comentarista de medios, asesor Sharia de bancos y fondos islámicos en Europa y Asia. Otras membresías incluyen paneles de supervisión Sharia y consejos de acreditación halal."
+        },
+        {
+          "name": "Abu Yusha",
+          "role": "Ulema",
+          "bio": "Mufti Abu Yusha es un farmacéutico calificado que completó sus estudios de pregrado y posgrado en King's College University of London. Ha estudiado ciencias islámicas con varios eruditos y ha estado bajo la dirección de expertos reconocidos en derecho islámico. Es el Imam Principal en Stockport Muslim Foundation, donde también es Jefe de Asuntos y Educación Islámica. Combinando tanto el conocimiento técnico como religioso, la contribución de Mufti a HFA es instrumental para abordar muchos problemas modernos que enfrenta la Industria Halal."
+        }
+      ]
+    }
+  },
+  "certificationProcedure": {
+    "pageTitle": "Procedimiento de Certificación HFA",
+    "sections": {
+      "flowchart": {
+        "title": "Diagrama de Flujo de Certificación",
+        "description": "Una guía visual integral que describe cada paso del proceso de certificación halal, brindando claridad y comprensión de todo el recorrido para garantizar el cumplimiento de los estándares halal."
+      },
+      "uaeScheme": {
+        "title": "Procedimiento de Certificación para el Esquema Halal de EAU en cumplimiento con UAE2055-2"
+      }
+    },
+    "flowchart": {
+      "flowchart2": {
+        "steps": {
+          "receiptApplication": "Recepción de un formulario de solicitud",
+          "certificationProposal": "Propuesta de certificación presentada por HFA",
+          "acceptanceProposal": "Aceptación de la propuesta de certificación por el solicitante",
+          "issuanceInvoice": "Emisión de una factura para depósito y liquidación",
+          "submissionProduct": "Presentación de formularios de aprobación de productos y documentos relacionados",
+          "approvalProducts": "Aprobación de productos terminados en el alcance",
+          "removalUnapproved": "Eliminación de producto(s) no aprobado(s) del alcance",
+          "auditScheduled": "Auditoría programada",
+          "auditConducted": "Auditoría realizada",
+          "issuanceAuditInvoice": "Emisión de factura de auditoría",
+          "receiptDocumentation": "Recepción de toda la documentación requerida",
+          "implementationCorrective": "Implementación de acciones correctivas (si las hay)",
+          "conclusionAudit": "Conclusión de auditoría exitosa",
+          "certificationCommittee": "Decisión del Comité de Certificación",
+          "certificationAgreement": "Acuerdo de certificación firmado e intercambiado",
+          "certificationInvoice": "Factura de certificación emitida",
+          "halalCertificate": "Certificado halal emitido",
+          "refundIssued": "Reembolso emitido si corresponde"
+        },
+        "decisions": {
+          "no": "NO",
+          "applicationRefused": "Solicitud rechazada",
+          "reAuditRefused": "Re-auditoría / Solicitud rechazada"
+        }
+      },
+      "flowchart1": {
+        "steps": {
+          "receiptApplication": "Recepción de un formulario de solicitud",
+          "certificationProposal": "Propuesta de certificación presentada por HFA",
+          "acceptanceProposal": "Aceptación de la propuesta de certificación por el solicitante",
+          "issuanceInvoice": "Emisión de una factura para depósito y liquidación",
+          "documentationReview": "Revisión de documentación",
+          "stage1Audit": "Auditoría de etapa 1",
+          "stage2Audit": "Auditoría de etapa 2",
+          "halalCertificationCommittee": "Decisión del comité de certificación halal",
+          "certificationAgreement": "Acuerdo de certificación firmado e intercambiado",
+          "finalCertificationInvoice": "Factura de certificación final emitida",
+          "halalCertificate": "Certificado halal emitido (validez 3 años)",
+          "surveillanceAuditYear1": "Auditoría de vigilancia (Año 1)",
+          "nonConformancesClosed": "No conformidades resueltas (si las hay)",
+          "surveillanceAuditYear2": "Auditoría de vigilancia (Año 2)",
+          "submitRenewal": "Presentar una solicitud de recertificación o renovación seis (6) meses antes del vencimiento",
+          "renewalAudit": "Auditoría de renovación (Año 3)"
+        },
+        "decisions": {
+          "unsuccessful": "No exitoso",
+          "critical": "Crítico",
+          "nonCritical": "No Crítico",
+          "refused": "Rechazado",
+          "removalUnapproved": "Eliminación de producto(s) no aprobado(s) del alcance / referirse a causas de no conformidades"
+        },
+        "notice": "El certificado será suspendido o cancelado en cualquier momento cuando se descubra que la organización certificada contraviene el estándar halal aprobado y los requisitos relacionados."
+      }
+    },
+    "certificationCTA": {
+      "title": "Iniciemos Su Proceso de Certificación HFA Hoy",
+      "description": "Si está interesado en obtener la certificación HFA, complete nuestro formulario de solicitud en línea no obligatorio para obtener más detalles y nuestra propuesta de certificación. La presentación de un formulario de solicitud y la evaluación inicial por parte de HFA son gratuitas.",
+      "applyButton": "SOLICITAR NUEVA CERTIFICACIÓN"
+    }
+  }
+}
