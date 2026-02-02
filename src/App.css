@@ -1617,7 +1617,19 @@ footer {
 }
 
 /* Descendant selector for the hollow button */
+.cta-section .cta-content h2,
+.cta-section .cta-content p {
+  /* Ensure visibility is handled by Framer Motion */
+  will-change: transform, opacity;
+}
+
+/* Fix for the button wrapper to keep it centered */
+.cta-section .cta-content div {
+  display: inline-block;
+}
+
 .cta-section .cta-content a {
+  display: inline-block; /* Essential for transforms to work correctly */
   background: transparent;
   border: 1px solid #333;
   padding: 13px 40px;
@@ -1625,14 +1637,13 @@ footer {
   letter-spacing: 1px;
   color: #1a1a1a;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease; /* Don't transition 'all' to avoid conflict with motion */
   text-transform: uppercase;
   text-decoration: inherit;
 }
 
-/* Hover state using descendant logic */
 .cta-section .cta-content a:hover {
-  animation: button 3s ease-in-out infinite;
+  animation: button 2.5s ease-in-out infinite alternate;
 }
 
 @keyframes button {
