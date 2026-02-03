@@ -409,5 +409,157 @@
       "description": "Se sei interessato a ottenere la certificazione HFA, compila il nostro modulo di domanda online non vincolante per ottenere ulteriori dettagli e la nostra proposta di certificazione. L'invio di un modulo di domanda e lo screening iniziale da parte di HFA sono gratuiti.",
       "applyButton": "RICHIEDI NUOVA CERTIFICAZIONE"
     }
+  },
+  "terminationProcedure": {
+    "pageTitle": "Procedura per Terminazione, Riduzione, Sospensione o Ritiro della Certificazione",
+    "sections": {
+      "mainTitle" : "Procedura di Terminazione e Adeguamento della Certificazione:",
+      "introduction": "HFA stabilisce le seguenti procedure quando si decide che la certificazione di un'azienda deve cessare.",
+      "suspension": {
+        "title": "Sospensione",
+        "content": "HFA si riserva il diritto contrattuale di sospendere la certificazione di un'azienda a seguito di una non conformità critica/principale identificata nel sistema dell'azienda durante l'audit, dove non è possibile e/o fattibile un'azione correttiva immediata. Il Comitato di Certificazione HFA di solito conclude la decisione di sospensione immediatamente o entro due o tre giorni lavorativi dalla data di identificazione della violazione o non conformità. Tale conclusione viene comunicata all'azienda interessata per iscritto, esponendo le ragioni della sospensione. La certificazione rimane sospesa fino a quando l'azienda interessata non implementa azioni correttive o rimuove le cause della sospensione. È necessario un ri-audit per verificare le azioni correttive che portano alla conformità con i Requisiti e le Procedure di Certificazione Halal. L'azienda non è autorizzata a effettuare alcuna produzione Halal durante il periodo di sospensione, e il marchio di certificazione HFA non deve essere raffigurato su alcun prodotto che è stato approvato da HFA prima della sospensione."
+      },
+      "termination": {
+        "title": "Terminazione",
+        "intro": "HFA si riserva il diritto contrattuale di terminare l'accordo di certificazione dell'azienda se la direzione ritiene che",
+        "reasons": [
+          "La carne di maiale venga maneggiata o introdotta in loco senza previo consenso e segregazione approvata. L'azienda violi i termini materiali dell'accordo.",
+          "La gravità di una non conformità sia sufficiente a giustificare la terminazione immediata, ecc.;",
+          "È improbabile che l'azienda si conformi ai requisiti di certificazione, e le azioni correttive proposte siano inaccettabili o non valide.",
+          "La sospensione sia ritenuta un rimedio inadeguato per mitigare i rischi di non conformità. La terminazione viene notificata all'azienda interessata dalla direzione HFA per iscritto, esponendo le ragioni. Le aziende soggette a terminazione sono tenute a restituire il proprio certificato Halal originale a HFA insieme a qualsiasi materiale di marketing e imballaggio, a meno che non vengano smaltiti."
+        ],
+        "additional": "HFA rimuove anche il nome e i dettagli dell'azienda dall'elenco dei produttori/fornitori Halal approvati da tutti i media. Il comitato di certificazione deve concludere le decisioni di terminazione nella riunione programmata. Le informazioni sulla terminazione della certificazione devono anche essere inviate tramite i social media, ad esempio Facebook, Twitter e il sito web di HFA."
+      },
+      "notice": {
+        "title": "Preavviso e tempistica",
+        "content": "L'accordo di certificazione generalmente stabilisce che il preavviso scritto venga dato a una delle parti per eseguire la terminazione tre mesi prima che abbia effetto. Quando la causa della terminazione è giustificabile come tale, HFA si riserva anche il diritto contrattuale di revocare l'accordo e ritirare il certificato Halal senza preavviso, non accettando alcuna responsabilità, finanziaria o di altro tipo, da parte sua."
+      },
+      "appeals": {
+        "title": "Appelli",
+        "content": "Le aziende hanno il diritto di fare appello contro la decisione di HFA di terminare l'accordo di certificazione e ritirare il certificato Halal. Tali reclami o appelli devono essere elaborati in conformità con la procedura di reclami di HFA. Tale procedura deve anche essere resa disponibile da HFA su richiesta e può anche essere visualizzata e scaricata dal sito web di HFA."
+      },
+      "acceptance": {
+        "title": "Accettazione e Riconoscimento Reciproco di HFA nel Mondo da Parte di Diversi Organismi di Certificazione e Accreditamento. Chiarimento su IHAF e SMIIC",
+        "membershipTitle": "Appartenenza:",
+        "membershipContent1": "HFA come organismo di certificazione non può essere membro del Forum Internazionale di Accreditamento Halal (IHAF) o dello Standards and Metrology Institute for the Islamic Countries (SMIIC), poiché entrambe queste organizzazioni sono stabilite come una rete indipendente e non governativa di organismi di accreditamento, quindi l'appartenenza a IHAF e/o SMIIC non è rilevante per HFA come organismo di certificazione halal.",
+        "membershipContent2": "Tuttavia, l'organismo di accreditamento di HFA, Emirates International Accreditation Centre (EIAC), è membro di IHAF. SMIIC è un organismo indipendente che sviluppa standard per l'Organizzazione per la Cooperazione Islamica (OCI). L'attuale accreditamento di HFA con EIAC consente a HFA di certificare aziende secondo lo standard SMIIC.",
+        "organizationsTitle": "Anche le seguenti organizzazioni accettano HFA:",
+        "organizationsList1": [
+          "Dipartimento dello Sviluppo Islamico della Malesia (JAKIM)",
+          "The Emirates Standardization & Metrology Authority (ESMA), accreditata da Emirates",
+          "International Accreditation Centre (EIAC)",
+          "Ministero del Cambiamento Climatico e dell'Ambiente (MOCCAE)",
+          "Amministrazione per Alimenti e Farmaci della Corea (KFDA) – Corea del Sud"
+        ],
+        "recognitionTitle": "HFA è riconosciuto e accettato dai seguenti organismi di certificazione nel mondo:",
+        "recognitionNote": "L'elenco sopra non è esaustivo, e gli emblemi di HFA sono riconosciuti e accettati globalmente.",
+        "recognitionList": [
+          "Dipartimento dello Sviluppo Islamico della Malesia (JAKIM)",
+          "The Emirates Standardization & Metrology Authority (ESMA), accreditata da Emirates",
+          "International Accreditation Centre (EIAC)",
+          "Ministero del Cambiamento Climatico e dell'Ambiente (MOCCAE)",
+          "Amministrazione per Alimenti e Farmaci della Corea (KFDA) – Corea del Sud",
+          "Majelis Ulama Indonesia (MUI) – Indonesia",
+          "Majlis – Ugama Islamia Singapura (MUIS) – Singapore",
+          "GIMDES Helal Serti_ası Alan Firmalar – Turchia",
+          "Jamiat Ulama-e-Maharashtra (JUM) – India",
+          "Consiglio di Accreditamento Halal (HAC) – Sri Lanka",
+          "Comitato Islamico Centrale della Thailandia (CICOT) – Thailandia",
+          "National Independent Halal Trust (NIHT) – Sud Africa",
+          "Consiglio Islamico per l'Alimentazione e la Nutrizione d'America (IFANCA) – USA",
+          "Consiglio Halal per gli Alimenti in Europa (HFCE) – Belgio",
+          "Controllo Qualità Halal (HQC) – Paesi Bassi",
+          "Halal Control GmbH – Germania",
+          "Halal Australia – Australia"
+        ]
+      }
+    }
+  },
+  "feePolicy": {
+    "pageTitle": "Politica Tariffaria",
+    "sections": {
+      "mainTitle": "Comprendere i Costi della Certificazione Halal e i Fattori da Considerare",
+      "intro": "Il costo totale della certificazione halal è composto da una tariffa di audit e una tariffa di certificazione annuale.",
+      "schemes": {
+        "title": "HFA fornisce due schemi di certificazione:",
+        "items": [
+          "Schema Annuale HFA – Certificazione di 1 anno, contratto continuativo",
+          "Schema GSO/SMIIC – Certificazione di 3 anni, contratto continuativo"
+        ]
+      },
+      "factors": {
+        "title": "Il costo totale della certificazione halal dipende dai seguenti fattori:",
+        "items": [
+          "Il vostro settore industriale",
+          "Quanti siti di produzione",
+          "Quante varietà di prodotti avete",
+          "Quanti dipendenti a tempo pieno avete"
+        ]
+      },
+      "details": {
+        "size": "La dimensione e la complessità della vostra azienda sono il fattore principale. Ad esempio, le grandi organizzazioni possono avere più siti che richiedono una visita di audit, aumentando così il costo della certificazione rispetto alle piccole imprese che operano solo da una sede.",
+        "requirements": "Tenete presente che esiste un requisito specifico che può aggiungere costi aggiuntivi quando si cerca la certificazione halal, come la necessità di un certificato di esportazione per il mercato del GCC e la categoria della carne che richiederà supervisione per garantire la conformità continua."
+      },
+      "contact": {
+        "button": "Contattateci"
+      }
+    }
+  },
+  "complaintsCommittee": {
+    "pageTitle": "Comitato Reclami HFA",
+    "sections": {
+      "mainTitle": "Procedura per la Gestione dei Reclami presso HFA",
+      "intro": "HFA ha costituito con successo il suo Comitato Reclami indipendente. I membri del comitato sono stati investiti delle seguenti autorità e compiti:",
+      "responsibilities": [
+        "Lavorare in conformità con la Procedura Reclami HFA;",
+        "Eseguire uno screening iniziale dei reclami che la direzione HFA passa al Comitato per il trattamento;",
+        "Consigliare la direzione HFA se il/i reclamo/i in questione può/possono essere trattato/i a distanza tramite la revisione della documentazione e delle prove disponibili attraverso mezzi elettronici (inclusi ma non limitati a) discussioni telefoniche, conference call o scambi di email;",
+        "Consigliare la direzione HFA se è necessaria un'udienza formale per il/i reclamo/i in questione; in questo caso, un'udienza formale sarà organizzata e programmata dai membri del Comitato alla presenza di un rappresentante della direzione HFA presso l'ufficio HFA o qualsiasi altro luogo concordato e accettato dalla direzione HFA e dai membri del Comitato;",
+        "Deliberare sull'oggetto e sui fatti dei reclami ricevuti ed eseguire l'udienza formale considerando tutte le informazioni che la direzione HFA aveva preso in considerazione nel prendere la decisione o nell'intraprendere l'azione contro la quale è stato presentato il reclamo;",
+        "Condurre una revisione, almeno annualmente, della Procedura e della politica dei Reclami HFA e presentare una relazione di conformità per la direzione HFA per i suoi archivi;",
+        "Partecipare alla riunione del comitato se richiesto per le finalità della clausola 4 sopra presso gli uffici HFA. La data di tale riunione sarà proposta dal CEO almeno quattro settimane in anticipo e la disponibilità/non disponibilità a partecipare sarà confermata dai membri per iscritto entro cinque giorni lavorativi dalla data della proposta;",
+        "Rivedere, elaborare e concludere il reclamo sia tramite deliberazioni interne che tramite udienza formale non oltre 28 giorni dalla ricezione del reclamo;",
+        "Redigere una conclusione sotto forma di un breve rapporto che fornisca dettagli dei reclami, fatti brevi e conclusione e/o determinazione che consenta alla direzione HFA di completare la sua procedura di reclamo entro il termine stabilito di sessanta giorni. Tale rapporto sarà prodotto congiuntamente dal comitato e firmato dal Presidente del Comitato;",
+        "Condurre o assegnare qualsiasi altra attività o dovere rilevante per migliorare il livello di conformità procedurale nella gestione dei reclami o delle lamentele presso HFA."
+      ],
+      "conclusion": "Una governance efficace richiede meccanismi robusti per gestire i reclami. La costituzione del Comitato Reclami indipendente di HFA segna un passo fondamentale verso la garanzia di trasparenza e integrità procedurale."
+    }
+  },
+  "provisionForUseOfHfaLogo": {
+    "pageTitle": "Usi Autorizzati del Logo HFA",
+    "sections": {
+      "mainTitle": "Disposizioni per l'uso del Logo HFA",
+      "intro1": "Il Logo HFA è una proprietà cognitiva e un Marchio Registrato i cui diritti sono di proprietà di Halal Food Authority Limited (HFA).",
+      "intro2": "Il Logo HFA può essere utilizzato solo tramite accordi contrattuali precedenti da:",
+      "provisions": [
+        "Organizzazioni che hanno ricevuto contrattualmente la Certificazione Halal per un prodotto, un sito o entrambi; il logo HFA può essere utilizzato su tutti gli strumenti di comunicazione di un'organizzazione come intestazioni, biglietti da visita, materiali di marketing, video, siti web, pubblicità, grafiche per mostre, media elettronici e veicoli aziendali solo se l'intera gamma di prodotti fabbricati in tutti i siti dell'organizzazione è stata contrattualmente autenticata e convalidata per lo status halal da HFA. Il logo HFA può essere raffigurato solo sulla confezione dei prodotti halal approvati da HFA se l'intera gamma di prodotti non è stata certificata.",
+        "Organismi di Certificazione di Terze Parti e agenzie approvate nel Regno Unito o all'estero.",
+        "Media e canali pubblicitari con permesso espresso per tale utilizzo."
+      ]
+    }
+  },
+  "hfaImpartialityPolicy": {
+    "pageTitle": "Politica di Imparzialità HFA",
+    "content": {
+      "paragraph1": "L'Autorità Halal (HFA) si impegna a osservare e mantenere la nostra politica di imparzialità in tutte le nostre verifiche.",
+      "paragraph2": "Agli auditor HFA viene sempre chiesto di rivelare e divulgare qualsiasi potenziale compromesso di imparzialità e potenziali conflitti di interesse riguardanti qualsiasi nostro cliente/azienda con cui trattiamo.",
+      "paragraph3": "I fiduciari e i membri del personale di HFA non hanno connessioni personali con le aziende che certificiamo, né hanno interessi commerciali o finanziari nelle nostre entità certificate.",
+      "paragraph4": "Tutte le registrazioni delle nostre transazioni finanziarie e aziendali con i nostri clienti sono chiare e precise, e tali registrazioni sono disponibili anche per l'ispezione da parte del nostro comitato di imparzialità."
+    },
+    "contact": {
+      "button": "CONTATTACI PER I DETTAGLI"
+    }
+  },
+  "hfaQualityPolicy": {
+    "pageTitle": "Politica Qualità HFA",
+    "content": {
+      "paragraph1": "HFA garantisce coerenza, accuratezza e un alto livello di servizio clienti senza compromessi sulla due diligence e sui parametri di qualità. A causa dei continui sviluppi nell'industria alimentare, della complessa catena di approvvigionamento, delle dinamiche normative halal globali e delle aspettative in evoluzione dei consumatori, HFA si impegna a raggiungere una maggiore competenza del suo personale coinvolto nelle verifiche halal, valutazione, comunicazione e decisioni efficaci.",
+      "paragraph2": "La direzione di HFA mira a fornire le risorse e le competenze necessarie per soddisfare le aspettative dei suoi stakeholder, inclusi, ma non limitati a, entità che riconoscono la certificazione e le attività di HFA, organismi di accreditamento e autorità di regolamentazione. Nonostante le dimensioni delle operazioni di HFA, le sue sedi, la presenza globale, il riconoscimento e l'accreditamento, il Sistema di Gestione della Qualità di HFA rimane applicato e implementato ed è costantemente monitorato dall'alta dirigenza di HFA.",
+      "paragraph3": "Investire nelle sue persone, nelle loro qualifiche e sviluppo è un impegno aggiuntivo del nostro consiglio di amministrazione. Il processo di reclutamento di HFA esegue i controlli necessari per mantenere l'integrità e la qualità della forza lavoro.",
+      "paragraph4": "HFA crede nel guidare un cambiamento positivo e costruttivo, ed è sempre aperto all'innovazione che potrebbe aggiungere ai suoi standard di qualità, sviluppo del personale e servizio clienti. HFA intende diventare un leader mondiale del mercato nel fornire la certificazione halal più affidabile, robusta e altamente conforme a livello mondiale mentre sviluppa e produce i migliori auditor halal e tecnologi/scienziati halal ed educa la generazione non solo sul consumo halal ma sull'halal come stile di vita!"
+    },
+    "contact": {
+      "button": "CONTATTACI PER I DETTAGLI"
+    }
   }
 }

@@ -14,6 +14,13 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import AboutPage from "./pages/AboutPage";
 import CertificationProcedure from "./pages/CertificationProcedure";
+import TerminationProcedure from "./pages/TerminationProcedure";
+import FeePolicy from "./pages/FeePolicy";
+import ComplaintsCommittee from "./pages/ComplaintsCommittee";
+import ProvisionForUseOfHfaLogo from "./pages/ProvisionForUseOfHfaLogo";
+import HfaImpartialityPolicy from "./pages/HfaImpartialityPolicy";
+import HfaQualityPolicy from "./pages/HfaQualityPolicy";
+import CoperateAndFinanceGovernment from "./pages/CoperateAndFinanceGovernment";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -69,7 +76,14 @@ function MainContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/certification/procedure" element={<CertificationProcedure/>} />
+        <Route path="/certification/procedure" element={<CertificationProcedure />} />
+        <Route path="/certification/termination" element={<TerminationProcedure />} />
+        <Route path="/fee-policy" element={<FeePolicy />} />
+        <Route path="/complaints-committee" element={<ComplaintsCommittee />} />
+        <Route path="/provisions-for-the-use-of-hfa-logo" element={<ProvisionForUseOfHfaLogo />} />
+        <Route path="/hfa-impartiality-policy" element={<HfaImpartialityPolicy />} />
+        <Route path="/hfa-quality-policy" element={<HfaQualityPolicy />} />
+        <Route path="/hfa-corporate-and-financial-governance" element={<CoperateAndFinanceGovernment />} />
       </Routes>
       <Footer />
     </>

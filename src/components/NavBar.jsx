@@ -63,7 +63,7 @@ export default function NavBar() {
             </button>
             <div className="dropdown-menu">
               <NavLink to={`/${currentLang}/certification/procedure`}>{t("home.certification.procedure")}</NavLink>
-              <NavLink to={`/${currentLang}/certification/apply`}>{t("home.certification.apply")}</NavLink>
+              <NavLink target="blank" to={`https://hfa-portals.com`}>{t("home.certification.apply")}</NavLink>
               <NavLink to={`/${currentLang}/certification/termination`}>{t("home.certification.termination")}</NavLink>
             </div>
           </div>
@@ -75,12 +75,12 @@ export default function NavBar() {
             <div className="dropdown-menu">
               <NavLink to={`/${currentLang}/fee-policy`}>{t("home.policies.feePolicy")}</NavLink>
               <NavLink to={`/${currentLang}/complaints-committee`}>{t("home.policies.complaintsCommittee")}</NavLink>
-              <NavLink to={`/${currentLang}/provision`}>{t("home.policies.logoUseProvisions")}</NavLink>
-              <NavLink to={`/${currentLang}/impartiality-policy`}>{t("home.policies.impartialityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/quality-policy`}>{t("home.policies.qualityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/corporate-governance`}>{t("home.policies.corporateGovernance")}</NavLink>
-              <NavLink to={`/${currentLang}/complaints-appeals-procedure`}>{t("home.policies.complaintsAppealsProcedure")}</NavLink>
-              <NavLink to={`/${currentLang}/sampling-analysis-policy`}>{t("home.policies.samplingAnalysisPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/provisions-for-the-use-of-hfa-logo`}>{t("home.policies.logoUseProvisions")}</NavLink>
+              <NavLink to={`/${currentLang}/hfa-impartiality-policy`}>{t("home.policies.impartialityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/hfa-quality-policy`}>{t("home.policies.qualityPolicy")}</NavLink>
+              <NavLink to={`/${currentLang}/hfa-corporate-and-financial-governance`}>{t("home.policies.corporateGovernance")}</NavLink>
+              <NavLink to={`/${currentLang}/hfa-complaints-appeals-procedure`}>{t("home.policies.complaintsAppealsProcedure")}</NavLink>
+              <NavLink to={`/${currentLang}/halal-food-sampling-analysis-policy`}>{t("home.policies.samplingAnalysisPolicy")}</NavLink>
             </div>
           </div>
 

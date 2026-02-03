@@ -131,8 +131,9 @@ nav button:hover {
   border-radius: 0px 0px 8px 8px;
   display: none; /* Hidden by default */
   flex-direction: column;
-  padding: 10px 20px;
+  padding: 4px 20px;
   z-index: 10000;
+  gap: 5px;
   /* transition: all 0.3s ease-in-out 1s; */
 }
 
@@ -146,9 +147,15 @@ nav button:hover {
   font-size: 13px;
   text-wrap: nowrap;
   text-transform: uppercase; /* Uppercase labels */
+  border-bottom: none;
 }
 
 .dropdown-menu a:hover {
+  color: #73B62C;
+  border: none;
+}
+
+.dropdown-menu a.active {
   color: #73B62C;
   border: none;
 }
@@ -1538,6 +1545,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px 25px;
 }
 
 .cert-procedure .cert-hero h1{
@@ -1545,7 +1553,7 @@ footer {
   font-family: 'Georgia', serif; 
   margin-bottom: 20px;
   text-wrap: wrap;
-  max-width: 700px;
+  /* max-width: 700px; */
 }
 
 .cert-procedure .sec-1{
@@ -1920,6 +1928,97 @@ footer {
   }
 }
 
+.termination-sec {
+  padding: 60px;
+}
+
+.termination-sec h2{
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  font-family: 'Georgia', serif; 
+}
+
+.termination-sec  span{
+  background: #709d42;
+  width: 80px;
+  height: 4px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.termination-sec  p{
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 450;
+  font-family: "Arial", sans-serif;
+}
+
+.termination-sec  h3{
+  font-size: 1.4rem;
+  font-family: 'Georgia', serif;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.termination-sec ul, ol{
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+
+
+.termination-sec ul li, ol li{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Arial", sans-serif;
+}
+
+.termination-sec button{
+  border: none;
+  outline: none;
+  background: #6a9739;
+  border-radius: 6px;
+  color: white;
+  padding: 13px 33px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.termination-sec button:hover{
+  background:  #8bc34a;
+}
+
+.termination-sec .complaints-committee-bottom{
+  border-left: 4.5px solid #E5E5E5;
+  padding-left: 20px;
+  font-size: 1rem;
+  font-weight: 550;
+  font-style: italic;
+}
+
+.provision-sec p, ol li{
+  font-size: 1.17rem;
+  font-weight: 500;
+  font-family: "Arial", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .termination-sec ul, ol{
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .termination-sec{
+    padding: 55px 20px;
+  }
+}
 
 /* Hamburger Animation */
 .bar.open:nth-child(1) { transform: translateY(8px) rotate(45deg); }
