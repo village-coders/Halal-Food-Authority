@@ -84,7 +84,18 @@ export default function NavBar() {
             </div>
           </div>
 
-          <NavLink to={`/${currentLang}/faq`} className={({ isActive }) => isActive ? "active" : ""}>
+          <div className={`dropdown ${activeDropdown === "events" ? "active" : ""} ${isParentActive('privacy-policy') || isParentActive('terms') ? "active-parent" : ""}`}>
+            <button className="nav-link" type="button" onClick={() => toggleDropdown("events")}>
+              {t("home.nav.events")} <span className="caret">▼</span>
+            </button>
+            <div className="dropdown-menu">
+              <NavLink to={`/${currentLang}/hfa-planning-2025`}>{t("home.events.planning2025")}</NavLink>
+              <NavLink to={`/${currentLang}/hfa-webinar-2020`}>{t("home.events.webinar2020")}</NavLink>
+              <NavLink to={`/${currentLang}/ulemah-meeting-jah-2019`}>{t("home.events.ulemah2019")}</NavLink>
+            </div>
+          </div>
+
+          <NavLink to={`/${currentLang}/faqs`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("home.nav.faqs")}
           </NavLink>
 

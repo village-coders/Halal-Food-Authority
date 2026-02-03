@@ -39,7 +39,7 @@ const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="member-card">
               <div className="image-wrapper">
-                <img src={teamImages[index]} alt={member.name} />
+                <img loading='lazy' src={teamImages[index]} alt={member.name} />
                 <div className="member-details">
                   <p>{member.bio}</p>
                 </div>
@@ -54,7 +54,7 @@ const TeamSection = () => {
           {ulemah.map((member, index) => (
             <div key={index} className="member-card">
               <div className="image-wrapper">
-                <img src={ulemahImages[index]} alt={member.name} />
+                <img loading='lazy' src={ulemahImages[index]} alt={member.name} />
                 <div className="member-details">
                   <p>{member.bio}</p>
                 </div>

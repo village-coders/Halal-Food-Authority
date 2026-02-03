@@ -24,6 +24,7 @@ import CoperateAndFinanceGovernment from "./pages/CoperateAndFinanceGovernment";
 import ComplaintsAndAppealsProcedure from "./pages/ComplaintsAndAppealsProcedure";
 import FoodSamplingAndAnalysisPolicy from "./pages/FoodSamplingAndAnalysisPolicy";
 import FAQPage from "./pages/FAQPage";
+import Contact from "./pages/Contact";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -90,6 +91,7 @@ function MainContent() {
         <Route path="/hfa-complaints-appeals-procedure" element={<ComplaintsAndAppealsProcedure />} />
         <Route path="/halal-food-sampling-analysis-policy" element={<FoodSamplingAndAnalysisPolicy />} />
         <Route path="/faqs" element={<FAQPage />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
