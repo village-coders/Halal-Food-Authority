@@ -664,5 +664,111 @@
     "contact": {
       "button": "KONTAKT FÜR DETAILS"
     }
+  },
+  "faqPage": {
+    "pageTitle": "FAQs",
+    "description": "Finden Sie detaillierte Antworten auf Ihre Fragen zur Halal-Lebensmittelzertifizierung und -standards auf der Website der Halal Food Authority. Unsere umfassenden FAQs decken alles ab, von Zertifizierungsprozessen bis hin zu Compliance-Richtlinien, und machen uns zu Ihrer Anlaufstelle für genaue und zuverlässige Informationen zu Halal-Praktiken.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Was ist Halal?",
+        "answer": "„Halal“ bedeutet im Islam erlaubt und umfasst Ernährungsgesetze, Ethik und Geschäfte. Es beinhaltet die gesetzliche Zubereitung von Lebensmitteln, humane Schlachtung und die Einhaltung islamischer Grundsätze."
+      },
+      {
+        "id": 2,
+        "question": "Was ist mechanisches Schlachten und akzeptiert die HFA es?",
+        "answer": "Beim mechanischen Schlachten werden automatisierte Maschinen für mehr Effizienz eingesetzt, aber es wird von der HFA nicht akzeptiert. Wir verlangen Handschlachtung durch qualifizierte muslimische Schlachter, um die Einhaltung der Vorschriften zu gewährleisten."
+      },
+      {
+        "id": 3,
+        "question": "Erlaubt die Halal Food Authority die Betäubung von Vögeln und Tieren?",
+        "answer": "Ja, aber unter strengen Bedingungen. Die HFA verbietet Bolzenschuss- und Perkussionsbetäubung. Wir erlauben kontrollierte elektrische Betäubung mit minimaler Stromstärke, die von einem Tierarzt überprüft wird, für Geflügel und Schaffleisch."
+      },
+      {
+        "id": 4,
+        "question": "Was sind E-Nummern?",
+        "answer": "E-Nummern sind Codes für Lebensmittelzusatzstoffe, die in Europa verwendet werden. Sie stellen sicher, dass Zusatzstoffe den strengen EU-Standards und -Vorschriften entsprechen und decken Farbstoffe (E100-E199), Konservierungsmittel (E200-E299), Antioxidantien (E300-E399) und mehr ab."
+      },
+      {
+        "id": 5,
+        "question": "Was ist die Bedeutung von E-Nummern?",
+        "answer": "E-Nummern sind für die Halal-Zertifizierung entscheidend, da sie die Quelle und Zusammensetzung von Lebensmittelzusatzstoffen identifizieren, die tierischen, synthetischen oder pflanzlichen Ursprungs sein können. Die Sicherstellung, dass diese Zusatzstoffe den islamischen Ernährungsgesetzen entsprechen, ist für die Halal-Zertifizierung unerlässlich. Zu den Schlüsselfaktoren gehören die Quelle der Zusatzstoffe, mögliche Verarbeitungshilfsstoffe, Kontaminationsrisiken und Alkoholgehalt. Zuverlässige Zertifizierungsstellen bewerten diese Faktoren, um die Einhaltung der Halal-Standards zu bestätigen."
+      },
+      {
+        "id": 6,
+        "question": "Wie ist unser technisches Team aufgebaut?",
+        "answer": "Unser Team aus technischen Experten, Scharia-Gelehrten, Lebensmitteltechnologen und Auditoren ist von führenden internationalen Halal-Organisationen akkreditiert. Wir bieten ein umfassendes Handbuch an, um Unternehmen bei der Einrichtung effektiver Halal-Sicherungssysteme zu helfen."
+      },
+      {
+        "id": 7,
+        "question": "Wer sind unsere Regulierungsbehörden?",
+        "answer": "Wir sind von renommierten internationalen Halal-Gremien akkreditiert, darunter EIAC (VAE), HAK (Türkei), BPJPH (Indonesien), Jakim (Malaysia) und werden von SFDA (Saudi-Arabien) und SASO anerkannt. Unsere Dienstleistungen werden auch von MOPH (Katar), MUIS (Singapur), CICOT (Thailand) und GIMDES (Türkei) anerkannt, und wir sind nach der SMIIC-Norm akkreditiert und Mitglied der WHFC für gegenseitige Anerkennung."
+      },
+      {
+        "id": 8,
+        "question": "Was sind Halal-Kosmetika?",
+        "answer": "Halal-Kosmetika sind Schönheits- und Körperpflegeprodukte, die dem islamischen Recht entsprechen. Sie schließen Alkohol, Schweinefleisch und verbotene Derivate aus, und alle tierischen Inhaltsstoffe müssen von nach Halal geschlachteten Tieren stammen. Unter strengen Hygienestandards hergestellt, stellen halal-zertifizierte Marken die Einhaltung religiöser und ethischer Kriterien sicher."
+      },
+      {
+        "id": 9,
+        "question": "Was ist der Unterschied zwischen authentischer Halal-Zertifizierung und Selbstzertifizierung?",
+        "answer": "Zertifizierte Produkte werden von unabhängigen Organisationen validiert, um Standards wie Halal, Bio oder Qualitätsmanagement zu erfüllen. Sie unterziehen sich einer Überprüfung durch Dritte und regelmäßigen Audits, um die Einhaltung sicherzustellen. Selbstzertifizierte Produkten fehlt eine solche Validierung und Rückverfolgbarkeit."
+      },
+      {
+        "id": 10,
+        "question": "Zertifiziert die HFA Nandos?",
+        "answer": "Nein, die HFA zertifiziert Nandos nicht, jedoch beziehen bestimmte Nandos-Restaurants ihr Hähnchen möglicherweise aus Halal-geprüften Quellen."
+      },
+      {
+        "id": 11,
+        "question": "Hören Tier/Vogel die Shahada oder Tasmiya, die vom Schlachter/Schlachtern an der Schlachtstation rezitiert wird?",
+        "answer": "Die Bücher der Fatawas machen es nicht verpflichtend. Man sollte bedenken, dass die Dezibel in modernen Anlagen manchmal so hoch sind, dass sogar der Schlachter Gehörschutz tragen muss."
+      },
+      {
+        "id": 12,
+        "question": "Hat die HFA muslimische Schlachter, die die Schlachtung durchführen?",
+        "answer": "Ja, alle Schlachtungen werden manuell von muslimischen Schlachtern durchgeführt, während Bismillahi-Allahu Akbar rezitiert wird."
+      },
+      {
+        "id": 13,
+        "question": "Akzeptiert die HFA mechanische Schlachtung (feststehende Klinge)?",
+        "answer": "Nein, alle Schlachtungen werden von Hand durchgeführt, um den HFA-Richtlinien zu entsprechen."
+      },
+      {
+        "id": 14,
+        "question": "Erlaubt die Halal Food Authority die Betäubung von Vögeln und Tieren?",
+        "answer": "Ja, jedoch muss man daran erinnert werden, dass die HFA immer an „keine Betäubung zum Töten“ festgehalten hat.\nBolzenschussbetäubung – untersagt – verboten\nPerkussionsbetäubung – untersagt – verboten (obwohl die oben genannten Verfahren für Rinder von einigen Gelehrten in Afrika und Deutschland erlaubt sind)\nDie Halal Food Authority erlaubt kontrollierte elektrische Betäubung mit winzigem Ampere, wobei ein offizieller Tierarzt bestätigt, dass das Tier oder die Vögel vor der Schlachtung nicht sterben. Es gibt zwei Arten von elektrischer Betäubung, die die Halal Food Authority genehmigt:\nWasserbadbetäubung – für Geflügel\nElektrozungenbetäubung – für Schaffleisch"
+      },
+      {
+        "id": 15,
+        "question": "Billigt/erlaubt die HFA Schlachtung, während die Shahada im Hintergrund auf einem Tonbandgerät abgespielt wird?",
+        "answer": "Die Antwort ist eindeutig 'Nein'. Alle Schlachter müssen Bismillahi-Allahu Akbar bei jedem einzelnen Tier/Vogel rezitieren."
+      },
+      {
+        "id": 16,
+        "question": "Warum ist Halal-Zertifizierung erforderlich?",
+        "answer": "Halal-Zertifizierung stellt sicher, dass Produkte den islamischen Ernährungsgesetzen entsprechen, und stärkt das Verbrauchervertrauen, indem sie die Einhaltung der Halal-Richtlinien bestätigt. Sie hilft Unternehmen, Zugang zum wachsenden Markt muslimischer Verbraucher zu erhalten, und fördert Transparenz und Rückverfolgbarkeit."
+      },
+      {
+        "id": 17,
+        "question": "Wie viel kostet die Halal-Zertifizierung?",
+        "answer": "Die Kosten für die Halal-Zertifizierung variieren je nach Faktoren wie der Anzahl der Produkte, dem Standort des Produktionsstandorts und dem Zielmarkt. Für eine genaue Schätzung reichen Sie einen Antrag ein und wir erstellen ein maßgeschneidertes Angebot. Als gemeinnützige Organisation ist es unser Ziel, Unternehmen im Halal-Markt zu unterstützen."
+      },
+      {
+        "id": 18,
+        "question": "Wie lange dauert der Zertifizierungsprozess?",
+        "answer": "Der Zertifizierungsprozess dauert in der Regel 4 bis 6 Wochen, abhängig von der Schnelligkeit der Dokumenteneinreichung. Für dringende Fälle bieten wir beschleunigte Bearbeitungsoptionen an."
+      },
+      {
+        "id": 19,
+        "question": "Haben wir ein qualifiziertes Team, um die Arbeit durchzuführen?",
+        "answer": "Ja, wir haben ein qualifiziertes Team aus Lebensmitteltechnologen, Auditoren, islamischen Gelehrten, Inspektoren und Schlachtern. Wir verfügen über Akkreditierungen von führenden Halal-Organisationen und bieten ein umfassendes Handbuch zur Orientierung von Unternehmen in der Halal-Sicherung an."
+      },
+      {
+        "id": 20,
+        "question": "Ist unser Zertifikat im Nahen Osten akzeptabel?",
+        "answer": "Ja, unser Zertifikat wird im Nahen Osten akzeptiert. Wir sind von EIAC (VAE), HAK (Türkei), BPJPH (Indonesien), Jakim (Malaysia) akkreditiert und werden von SFDA (Saudi-Arabien) und SASO anerkannt. Wir haben auch gegenseitige Anerkennung mit anderen internationalen Gremien."
+      }
+    ]
   }
 }

@@ -1,14 +1,16 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const HfaImpartialityPolicy = () => {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+    const {lng} =  useParams()
     const navigate = useNavigate()
+    const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
-    function handleContactButton() {
-        navigate('/contact')
-    }
+    const handleContactButton = () => {
+        navigate(`/${currentLang}/contact`);
+    };
     
   return (
     <div className='cert-procedure '>

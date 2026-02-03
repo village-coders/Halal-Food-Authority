@@ -662,5 +662,111 @@
     "contact": {
       "button": "CONTACTER POUR PLUS DE DÉTAILS"
     }
+  },
+  "faqPage": {
+    "pageTitle": "FAQ",
+    "description": "Trouvez des réponses détaillées à vos questions sur la certification et les normes des aliments halal sur le site web de l'Autorité des Aliments Halal. Nos FAQ complètes couvrent tout, des processus de certification aux directives de conformité, faisant de nous votre source de référence pour des informations précises et fiables sur les pratiques halal.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qu'est-ce que le Halal?",
+        "answer": "« Halal » signifie permis en Islam, couvrant les lois alimentaires, l'éthique et les affaires. Cela inclut la préparation légale des aliments, l'abattage humain et le respect des principes islamiques."
+      },
+      {
+        "id": 2,
+        "question": "Qu'est-ce que l'abattage mécanique et la HFA l'accepte-t-elle?",
+        "answer": "L'abattage mécanique utilise des machines automatisées pour plus d'efficacité mais n'est pas accepté par la HFA. Nous exigeons l'abattage manuel par des sacrificateurs musulmans qualifiés pour assurer la conformité."
+      },
+      {
+        "id": 3,
+        "question": "L'Autorité des Aliments Halal autorise-t-elle l'étourdissement des oiseaux et des animaux?",
+        "answer": "Oui, mais avec des conditions strictes. La HFA interdit l'étourdissement par pistolet d'abattage et par percussion. Nous autorisons l'étourdissement électrique contrôlé avec un ampérage minimal, vérifié par un vétérinaire, pour la volaille et la viande ovine."
+      },
+      {
+        "id": 4,
+        "question": "Que sont les numéros E?",
+        "answer": "Les numéros E sont des codes pour les additifs alimentaires utilisés en Europe. Ils garantissent que les additifs répondent aux normes et réglementations rigoureuses de l'UE, couvrant les colorants (E100-E199), les conservateurs (E200-E299), les antioxydants (E300-E399), et plus encore."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est l'importance des numéros E?",
+        "answer": "Les numéros E sont cruciaux pour la certification halal car ils identifient la source et la composition des additifs alimentaires, qui peuvent être d'origine animale, synthétique ou végétale. Assurer que ces additifs respectent les lois alimentaires islamiques est essentiel pour la certification halal. Les facteurs clés incluent la source des additifs, les auxiliaires technologiques potentiels, les risques de contamination et la teneur en alcool. Les organismes de certification fiables évaluent ces facteurs pour confirmer la conformité aux normes halal."
+      },
+      {
+        "id": 6,
+        "question": "À quoi ressemble notre équipe technique?",
+        "answer": "Notre équipe d'experts techniques, de savants de la Charia, de technologues alimentaires et d'auditeurs est accréditée par les principales organisations halal internationales. Nous offrons un manuel complet pour aider les entreprises à établir des systèmes d'assurance halal efficaces."
+      },
+      {
+        "id": 7,
+        "question": "Qui sont nos régulateurs?",
+        "answer": "Nous sommes accrédités par des organismes halal internationaux renommés, notamment EIAC (Émirats Arabes Unis), HAK (Turquie), BPJPH (Indonésie), Jakim (Malaisie), et reconnus par SFDA (Arabie Saoudite) et SASO. Nos services sont également reconnus par MOPH (Qatar), MUIS (Singapour), CICOT (Thaïlande) et GIMDES (Turquie), et nous sommes accrédités selon la norme SMIIC et membres du WHFC pour la reconnaissance mutuelle."
+      },
+      {
+        "id": 8,
+        "question": "Que sont les cosmétiques halal?",
+        "answer": "Les cosmétiques halal sont des produits de beauté et de soins personnels qui respectent la loi islamique. Ils excluent l'alcool, le porc et les dérivés interdits, et tout ingrédient d'origine animale doit provenir d'animaux abattus selon les règles halal. Produits selon des normes d'hygiène strictes, les marques certifiées halal garantissent le respect des critères religieux et éthiques."
+      },
+      {
+        "id": 9,
+        "question": "Quelle est la différence entre une certification halal authentique et l'autocertification?",
+        "answer": "Les produits certifiés sont validés par des organisations indépendantes pour respecter des normes comme le halal, le bio ou la gestion de la qualité. Ils subissent une vérification tierce et des audits réguliers pour assurer la conformité. Les produits autocertifiés manquent d'une telle validation et de traçabilité."
+      },
+      {
+        "id": 10,
+        "question": "La HFA certifie-t-elle Nandos?",
+        "answer": "Non, la HFA ne certifie pas Nandos, cependant certains restaurants Nandos peuvent s'approvisionner en poulet auprès de sources approuvées Halal."
+      },
+      {
+        "id": 11,
+        "question": "L'animal/l'oiseau entend-il la Shahada ou Tasmiya récitée par le(s) sacrificateur(s) à la station d'abattage?",
+        "answer": "Les livres de Fatwas ne le rendent pas obligatoire. Il faut garder à l'esprit que les décibels dans les usines modernes sont parfois si élevés que même le sacrificateur doit porter des bouchons d'oreilles."
+      },
+      {
+        "id": 12,
+        "question": "La HFA a-t-elle des sacrificateurs musulmans effectuant l'abattage?",
+        "answer": "Oui, tout l'abattage est effectué manuellement par des sacrificateurs musulmans pendant que Bismillahi-Allahu Akbar est récité."
+      },
+      {
+        "id": 13,
+        "question": "La HFA accepte-t-elle l'abattage mécanique (lame fixe)?",
+        "answer": "Non, tout l'abattage est effectué manuellement pour se conformer aux directives de la HFA."
+      },
+      {
+        "id": 14,
+        "question": "L'Autorité des Aliments Halal autorise-t-elle l'étourdissement des oiseaux et des animaux?",
+        "answer": "Oui, cependant, il faut rappeler que la HFA a toujours maintenu « pas d'étourdissement pour tuer ».\nÉtourdissement par pistolet d'abattage – proscrit – interdit\nÉtourdissement par percussion – proscrit – interdit (bien que les procédures ci-dessus pour le bétail soient autorisées par certains oulémas en Afrique et en Allemagne)\nL'Autorité des Aliments Halal autorise l'étourdissement électrique contrôlé avec un ampérage infime, avec validation par un vétérinaire officiel que l'animal ou les oiseaux ne meurent pas avant l'abattage. Il existe deux types d'étourdissement électrique que l'Autorité des Aliments Halal approuve :\nÉtourdissement par bain d'eau – pour la volaille\nÉtourdissement par pince électrique – pour la viande ovine"
+      },
+      {
+        "id": 15,
+        "question": "La HFA approuve/accepte-t-elle l'abattage pendant que la Shahada est jouée sur magnétophone en arrière-plan?",
+        "answer": "La réponse est catégoriquement « Non ». Tous les sacrificateurs doivent réciter Bismillahi-Allahu Akbar sur chaque animal/oiseau."
+      },
+      {
+        "id": 16,
+        "question": "Pourquoi la certification halal est-elle nécessaire?",
+        "answer": "La certification halal garantit que les produits respectent les lois alimentaires islamiques et renforce la confiance des consommateurs en confirmant l'adhésion aux directives halal. Elle aide les entreprises à accéder au marché croissant des consommateurs musulmans et favorise la transparence et la traçabilité."
+      },
+      {
+        "id": 17,
+        "question": "Combien coûte la certification Halal?",
+        "answer": "Le coût de la certification halal varie en fonction de facteurs tels que le nombre de produits, l'emplacement du site de production et le marché cible. Pour une estimation précise, soumettez une demande et nous vous fournirons un devis personnalisé. En tant qu'organisation à but non lucratif, notre objectif est de soutenir les entreprises sur le marché halal."
+      },
+      {
+        "id": 18,
+        "question": "Quel est le délai pour terminer le processus de certification?",
+        "answer": "Le processus de certification prend généralement 4 à 6 semaines, selon la rapidité de soumission des documents. Pour les cas urgents, nous proposons des options de traitement accéléré."
+      },
+      {
+        "id": 19,
+        "question": "Avons-nous une équipe qualifiée pour effectuer le travail?",
+        "answer": "Oui, nous avons une équipe qualifiée de technologues alimentaires, d'auditeurs, de savants islamiques, d'inspecteurs et de sacrificateurs. Nous détenons des accréditations des principales organisations halal et offrons un manuel complet pour guider les entreprises en matière d'assurance halal."
+      },
+      {
+        "id": 20,
+        "question": "Notre certificat est-il accepté au Moyen-Orient?",
+        "answer": "Oui, notre certificat est accepté au Moyen-Orient. Nous sommes accrédités par EIAC (Émirats Arabes Unis), HAK (Turquie), BPJPH (Indonésie), Jakim (Malaisie) et reconnus par SFDA (Arabie Saoudite) et SASO. Nous avons également une reconnaissance mutuelle avec d'autres organismes internationaux."
+      }
+    ]
   }
 }

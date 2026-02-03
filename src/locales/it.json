@@ -664,5 +664,111 @@
     "contact": {
       "button": "CONTATTA PER DETTAGLI"
     }
+  },
+  "faqPage": {
+    "pageTitle": "FAQ",
+    "description": "Trova risposte dettagliate alle tue domande sulla certificazione e gli standard alimentari halal sul sito web dell'Autorità Alimentare Halal. Le nostre FAQ complete coprono tutto, dai processi di certificazione alle linee guida di conformità, rendendoci la tua fonte di riferimento per informazioni accurate e affidabili sulle pratiche halal.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cos'è Halal?",
+        "answer": "«Halal» significa permesso nell'Islam, coprendo leggi alimentari, etica e affari. Include la preparazione legale degli alimenti, la macellazione umana e l'adesione ai principi islamici."
+      },
+      {
+        "id": 2,
+        "question": "Cos'è la macellazione meccanica e la HFA la accetta?",
+        "answer": "La macellazione meccanica utilizza macchinari automatizzati per l'efficienza ma non è accettata dalla HFA. Richiediamo la macellazione manuale da parte di macellatori musulmani qualificati per garantire la conformità."
+      },
+      {
+        "id": 3,
+        "question": "L'Autorità Alimentare Halal permette lo stordimento di uccelli e animali?",
+        "answer": "Sì, ma con condizioni rigorose. La HFA vieta lo stordimento con pistola a proiettile captivo e a percussione. Permettiamo lo stordimento elettrico controllato con amperaggio minimo, verificato da un veterinario, per pollame e carne ovina."
+      },
+      {
+        "id": 4,
+        "question": "Cosa sono i numeri E?",
+        "answer": "I numeri E sono codici per additivi alimentari utilizzati in Europa. Garantiscono che gli additivi rispettino rigorosi standard e normative UE, coprendo coloranti (E100-E199), conservanti (E200-E299), antiossidanti (E300-E399) e altro."
+      },
+      {
+        "id": 5,
+        "question": "Qual è l'importanza dei numeri E?",
+        "answer": "I numeri E sono cruciali per la certificazione halal in quanto identificano la fonte e la composizione degli additivi alimentari, che possono essere di origine animale, sintetica o vegetale. Garantire che questi additivi rispettino le leggi alimentari islamiche è essenziale per la certificazione halal. I fattori chiave includono la fonte degli additivi, potenziali ausiliari di lavorazione, rischi di contaminazione e contenuto alcolico. Organismi di certificazione affidabili valutano questi fattori per confermare la conformità agli standard halal."
+      },
+      {
+        "id": 6,
+        "question": "Com'è il nostro team tecnico?",
+        "answer": "Il nostro team di esperti tecnici, studiosi della Sharia, tecnologi alimentari e auditor è accreditato dalle principali organizzazioni halal internazionali. Offriamo un manuale completo per aiutare le aziende a stabilire sistemi efficaci di garanzia halal."
+      },
+      {
+        "id": 7,
+        "question": "Chi sono i nostri organismi di regolamentazione?",
+        "answer": "Siamo accreditati da rinomati organismi halal internazionali, tra cui EIAC (Emirati Arabi Uniti), HAK (Turchia), BPJPH (Indonesia), Jakim (Malaysia) e riconosciuti da SFDA (Arabia Saudita) e SASO. I nostri servizi sono anche riconosciuti da MOPH (Qatar), MUIS (Singapore), CICOT (Thailandia) e GIMDES (Turchia) e siamo accreditati secondo lo standard SMIIC e membri WHFC per il riconoscimento reciproco."
+      },
+      {
+        "id": 8,
+        "question": "Cosa sono i cosmetici halal?",
+        "answer": "I cosmetici halal sono prodotti di bellezza e cura personale che rispettano la legge islamica. Escludono alcol, maiale e derivati proibiti, e qualsiasi ingrediente di origine animale deve provenire da animali macellati secondo le norme halal. Prodotto secondo rigorosi standard igienici, i marchi certificati halal garantiscono il rispetto di criteri religiosi ed etici."
+      },
+      {
+        "id": 9,
+        "question": "Qual è la differenza tra certificazione halal autentica e autocertificazione?",
+        "answer": "I prodotti certificati sono convalidati da organizzazioni indipendenti per rispettare standard come halal, biologico o gestione della qualità. Sono sottoposti a verifica di terze parti e audit regolari per garantire la conformità. I prodotti autocertificati mancano di tale convalida e tracciabilità."
+      },
+      {
+        "id": 10,
+        "question": "La HFA certifica Nandos?",
+        "answer": "No, la HFA non certifica Nandos, tuttavia alcuni ristoranti Nandos potrebbero rifornirsi di pollo da fonti approvate Halal."
+      },
+      {
+        "id": 11,
+        "question": "L'animale/l'uccello sente la Shahada o Tasmiya recitata dal/i macellatore/i alla stazione di macellazione?",
+        "answer": "I libri delle Fatawa non lo rendono obbligatorio. Si dovrebbe tenere presente che i decibel negli impianti moderni sono a volte così alti che persino il macellatore deve indossare tappi per le orecchie."
+      },
+      {
+        "id": 12,
+        "question": "La HFA ha macellatori musulmani che eseguono la macellazione?",
+        "answer": "Sì, tutta la macellazione viene eseguita manualmente da macellatori musulmani mentre viene recitato Bismillahi-Allahu Akbar."
+      },
+      {
+        "id": 13,
+        "question": "La HFA accetta la macellazione meccanica (lama fissa)?",
+        "answer": "No, tutta la macellazione viene eseguita manualmente per conformarsi alle linee guida della HFA."
+      },
+      {
+        "id": 14,
+        "question": "L'Autorità Alimentare Halal permette lo stordimento di uccelli e animali?",
+        "answer": "Sì, tuttavia, bisogna ricordare che la HFA ha sempre mantenuto \"nessuno stordimento per uccidere\".\nStordimento con pistola a proiettile captivo – proscritto – vietato\nStordimento a percussione – proscritto – vietato (sebbene le procedure di cui sopra per il bestiame siano consentite da alcuni Ulema in Africa e Germania)\nL'Autorità Alimentare Halal consente lo stordimento elettrico controllato con amperaggio minuscolo, con un veterinario ufficiale che convalida che l'animale o gli uccelli non muoiano prima della macellazione. Ci sono due tipi di stordimento elettrico che l'Autorità Alimentare Halal approva:\nStordimento a bagno d'acqua – per il pollame\nStordimento con pinza elettrica – per la carne ovina"
+      },
+      {
+        "id": 15,
+        "question": "La HFA approva/consente la macellazione mentre la Shahada viene riprodotta su un registratore in sottofondo?",
+        "answer": "La risposta è enfaticamente 'No'. Tutti i macellatori devono recitare Bismillahi-Allahu Akbar su ogni singolo animale/uccello."
+      },
+      {
+        "id": 16,
+        "question": "Perché è necessaria la certificazione halal?",
+        "answer": "La certificazione halal garantisce che i prodotti rispettino le leggi alimentari islamiche e aumenta la fiducia dei consumatori confermando l'adesione alle linee guida halal. Aiuta le aziende ad accedere al mercato in crescita dei consumatori musulmani e promuove la trasparenza e la tracciabilità."
+      },
+      {
+        "id": 17,
+        "question": "Quanto costa la certificazione Halal?",
+        "answer": "Il costo della certificazione halal varia in base a fattori come il numero di prodotti, la posizione del sito di produzione e il mercato di destinazione. Per una stima precisa, invia una domanda e ti forniremo un preventivo personalizzato. Come organizzazione non profit, il nostro obiettivo è supportare le aziende nel mercato halal."
+      },
+      {
+        "id": 18,
+        "question": "Qual è il periodo di tempo per completare il processo di certificazione?",
+        "answer": "Il processo di certificazione richiede generalmente dalle 4 alle 6 settimane, a seconda della tempestività della presentazione dei documenti. Per i casi urgenti, offriamo opzioni di elaborazione accelerate."
+      },
+      {
+        "id": 19,
+        "question": "Abbiamo un team qualificato per svolgere il lavoro?",
+        "answer": "Sì, abbiamo un team qualificato di tecnologi alimentari, auditor, studiosi islamici, ispettori e macellatori. Deteniamo accreditamenti dalle principali organizzazioni halal e offriamo un manuale completo per guidare le aziende nella garanzia halal."
+      },
+      {
+        "id": 20,
+        "question": "Il nostro certificato è accettabile in Medio Oriente?",
+        "answer": "Sì, il nostro certificato è accettato in Medio Oriente. Siamo accreditati da EIAC (Emirati Arabi Uniti), HAK (Turchia), BPJPH (Indonesia), Jakim (Malaysia) e riconosciuti da SFDA (Arabia Saudita) e SASO. Abbiamo anche riconoscimento reciproco con altri organismi internazionali."
+      }
+    ]
   }
 }

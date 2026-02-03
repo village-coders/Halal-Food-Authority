@@ -1,13 +1,17 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { MdCall } from "react-icons/md";
+import { useNavigate, useParams } from 'react-router-dom';
 
 const FoodSamplingAndAnalysisPolicy = () => {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+    const {lng} =  useParams()
+    const navigate = useNavigate()
+    const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
-    function handleContactButton(){
-        location.href = '/contact'
-    }
+    const handleContactButton = () => {
+        navigate(`/${currentLang}/contact`);
+    };
     
   return (
     <div className='cert-procedure '>

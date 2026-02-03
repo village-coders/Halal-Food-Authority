@@ -38,11 +38,11 @@ const Contact = () => {
             </form>
         </div>
         <div className="contact-info">
-            <div>
+            <div className="item">
                 
             </div>
-            <div></div>
-            <div></div>
+            <div className="item"></div>
+            <div className="item"></div>
         </div>
       </section>
     </div>

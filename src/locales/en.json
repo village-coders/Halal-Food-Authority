@@ -664,5 +664,111 @@
     "contact": {
       "button": "CONTACT FOR DETAILS"
     }
+  },
+  "faqPage": {
+    "pageTitle": "FAQs",
+    "description": "Find detailed answers to your questions about halal food certification and standards at the Halal Food Authority website. Our comprehensive FAQs cover everything from certification processes to compliance guidelines, making us your go-to source for accurate and reliable information on halal practices.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is Halal?",
+        "answer": "“Halal” means permissible in Islam, covering dietary laws, ethics, and business. It includes lawful food preparation, humane slaughter, and adherence to Islamic principles."
+      },
+      {
+        "id": 2,
+        "question": "What is mechanical slaughtering and does HFA accept it?",
+        "answer": "Mechanical slaughtering uses automated machinery for efficiency but is not accepted by HFA. We require hand-slaughtering by qualified Muslim slaughtermen to ensure compliance."
+      },
+      {
+        "id": 3,
+        "question": "Does Halal Food Authority allow stunning of birds and animals?",
+        "answer": "Yes, but with strict conditions. HFA prohibits captive bolt and percussion stunning. We allow controlled electric stunning with minimal amperage, verified by a veterinary surgeon, for poultry and ovine meat."
+      },
+      {
+        "id": 4,
+        "question": "What are E Numbers?",
+        "answer": "E Numbers are codes for food additives used in Europe. They ensure additives meet rigorous EU standards and regulations, covering colors (E100-E199), preservatives (E200-E299), antioxidants (E300-E399), and more."
+      },
+      {
+        "id": 5,
+        "question": "What are Importance of E Numbers?",
+        "answer": "E Numbers are crucial for halal certification as they identify the source and composition of food additives, which can be animal-derived, synthetic, or plant-based. Ensuring these additives meet Islamic dietary laws is essential for halal certification. Key factors include the source of additives, potential processing aids, contamination risks, and alcohol content. Reliable certification bodies assess these factors to confirm compliance with halal standards."
+      },
+      {
+        "id": 6,
+        "question": "What is our technical team like?",
+        "answer": "Our team of technical experts, Sharia scholars, food technologists, and auditors is accredited by top international halal organizations. We offer a comprehensive manual to help businesses establish effective halal assurance systems."
+      },
+      {
+        "id": 7,
+        "question": "Who is our regulators?",
+        "answer": "We are accredited by renowned international halal bodies, including EIAC (UAE), HAK (Turkey), BPJPH (Indonesia), Jakim (Malaysia), and recognized by SFDA (Saudi Arabia) and SASO. Our services are also acknowledged by MOPH (Qatar), MUIS (Singapore), CICOT (Thailand), and GIMDES (Turkey), and we are accredited under the SMIIC standard and WHFC membership for mutual recognition."
+      },
+      {
+        "id": 8,
+        "question": "What are halal cosmetics?",
+        "answer": "Halal cosmetics are beauty and personal care products that comply with Islamic law. They exclude alcohol, pork, and forbidden derivatives, and any animal-derived ingredients must come from halal-slaughtered animals. Produced under strict hygiene standards, halal-certified brands ensure adherence to religious and ethical criteria."
+      },
+      {
+        "id": 9,
+        "question": "What is the difference between authentic halal certification vs self-certification?",
+        "answer": "Certified products are validated by independent organizations to meet standards like halal, organic, or quality management. They undergo third-party verification and regular audits to ensure compliance. Self-certified products lack such validation and traceability."
+      },
+      {
+        "id": 10,
+        "question": "Does HFA certify Nandos?",
+        "answer": "No, HFA does not certify Nandos, however certain Nandos restaurants may source their chicken from Halal approved sources."
+      },
+      {
+        "id": 11,
+        "question": "Does animal/bird hear the Shahada or Tasmiya recited by the Slaughterman/men at slaughtering station?",
+        "answer": "Books of Fatawas do not make it mandatory. One should be mindful that the decibels in modern plants are so high at time that even the slaughterman has to wear earplugs."
+      },
+      {
+        "id": 12,
+        "question": "Does HFA have Muslim Slaughterman/men performing slaughter?",
+        "answer": "Yes, all slaughter is manually carried out by Muslim slaughterman/men whilst Bismillahi-Allahu Akbar is recited."
+      },
+      {
+        "id": 13,
+        "question": "Does HFA accept mechanical (fixed blade) slaughter?",
+        "answer": "No, all slaughter is done manually by hand to comply with HFA guidelines."
+      },
+      {
+        "id": 14,
+        "question": "Does Halal Food Authority allow stunning of birds and animals?",
+        "answer": "Yes, however, one has to be reminded that HFA has always maintained \"no stunning to kill\".\nCaptive Bolt Stunning – proscribed – prohibited\nPercussion Stunning – proscribed – prohibited (although above procedures for cattle are allowed by some Ulema's in Africa & Germany)\nHalal Food Authority allows controlled electric stun-with-minuscule amperage, with official Veterinary Surgeon validating that the animal or the birds do not die prior to slaughtering. There are two types of electric stunning that Halal Food Authority approves:\nWater-bath Stun – for Poultry\nElectric-Tong Stun – for Ovine meat"
+      },
+      {
+        "id": 15,
+        "question": "Does HFA approve/allow slaughtering whilst Shahada is played on tape recorder in the back ground?",
+        "answer": "The answer is emphatically 'No'. All slaughterman/men must recite Bismillahi-Allahu Akbar on each and every animal/bird."
+      },
+      {
+        "id": 16,
+        "question": "Why halal certification is required?",
+        "answer": "Halal certification ensures products meet Islamic dietary laws and boosts consumer trust by confirming adherence to halal guidelines. It helps businesses access the growing market of Muslim consumers and promotes transparency and traceability."
+      },
+      {
+        "id": 17,
+        "question": "How much does Halal certification cost?",
+        "answer": "The cost of halal certification varies based on factors such as the number of products, production site location, and intended market. For a precise estimate, submit an application, and we will provide a customized quote. As a non-profit, our goal is to support businesses in the halal market."
+      },
+      {
+        "id": 18,
+        "question": "What is the time frame for completing the certification process?",
+        "answer": "The certification process typically takes 4 to 6 weeks, depending on the promptness of document submission. For urgent cases, we offer expedited processing options."
+      },
+      {
+        "id": 19,
+        "question": "Do we have a qualified team to carry out the job?",
+        "answer": "Yes, we have a qualified team of food technologists, auditors, Islamic scholars, inspectors, and slaughtermen. We hold accreditations from leading halal organizations and offer a comprehensive manual to guide businesses in halal assurance."
+      },
+      {
+        "id": 20,
+        "question": "Is our certificate acceptable in the Middle East?",
+        "answer": "Yes, our certificate is accepted in the Middle East. We are accredited by EIAC (UAE), HAK (Turkiye), BPJPH (Indonesia), Jakim (Malaysia), and recognized by SFDA (Saudi Arabia) and SASO. We also have mutual recognition with other international bodies."
+      }
+    ]
   }
 }
