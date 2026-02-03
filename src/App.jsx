@@ -21,6 +21,9 @@ import ProvisionForUseOfHfaLogo from "./pages/ProvisionForUseOfHfaLogo";
 import HfaImpartialityPolicy from "./pages/HfaImpartialityPolicy";
 import HfaQualityPolicy from "./pages/HfaQualityPolicy";
 import CoperateAndFinanceGovernment from "./pages/CoperateAndFinanceGovernment";
+import ComplaintsAndAppealsProcedure from "./pages/ComplaintsAndAppealsProcedure";
+import FoodSamplingAndAnalysisPolicy from "./pages/FoodSamplingAndAnalysisPolicy";
+import FAQPage from "./pages/FAQPage";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -84,6 +87,9 @@ function MainContent() {
         <Route path="/hfa-impartiality-policy" element={<HfaImpartialityPolicy />} />
         <Route path="/hfa-quality-policy" element={<HfaQualityPolicy />} />
         <Route path="/hfa-corporate-and-financial-governance" element={<CoperateAndFinanceGovernment />} />
+        <Route path="/hfa-complaints-appeals-procedure" element={<ComplaintsAndAppealsProcedure />} />
+        <Route path="/halal-food-sampling-analysis-policy" element={<FoodSamplingAndAnalysisPolicy />} />
+        <Route path="/faqs" element={<FAQPage />} />
       </Routes>
       <Footer />
     </>

@@ -561,5 +561,108 @@
     "contact": {
       "button": "KONTAKTIEREN SIE UNS FÜR DETAILS"
     }
+  },
+  "corporateFinanceGovernance": {
+    "pageTitle": "HFA Unternehmens- und Finanzgovernance",
+    "content": {
+      "paragraph1": "Die Halal Food Authority (HFA) möchte mehr Licht auf unsere Unternehmens- und Finanzgovernance werfen, um der Industrie und den Verbrauchern zu versichern, dass wir keine unserer Finanzen für unangemessene Aktivitäten oder Körperschaften verwenden.",
+      "paragraph2": "Als Unternehmen, das der muslimischen Gemeinschaft und der Halal-Industrie seit fünfundzwanzig Jahren dient, sind wir eine Körperschaft, die unermüdlich daran arbeitet, den globalen Halal-Handel, insbesondere für UK/EU-Exporteure, zu erleichtern, zu unterstützen und zu verbessern. Unsere Integrität ist für uns von größter Bedeutung.",
+      "financialIncome": {
+        "title": "Finanzeinnahmen",
+        "paragraph": "Ein Team freiwilliger Treuhänder regiert die HFA, und wir erhalten keine ausländische Hilfe, noch verteilen wir unsere generierten Mittel in irgendeiner Weise (intern ODER extern). HFA hat ein unabhängiges Budget, das aus folgenden Ressourcen finanziert wird:",
+        "items": [
+          "Die Abonnement- und Gebühren, die von HFA für die erbrachten Dienstleistungen erhoben werden, wie z.B. Halal-Audit für bis zu einen vollen Mann-Tag. Ein Zertifizierungsvorschlag, der Zertifizierungsgebühren enthält, wird nach Erhalt des ausgefüllten Online-Antragsformulars bereitgestellt",
+          "Sponsoring und Zahlungen, die für durchgeführte Konferenzen oder Schulungen erhalten wurden, die die Unparteilichkeit von HFA nicht beeinträchtigen.",
+          "Andere Ressourcen, die vom Vorstand bestimmt werden."
+        ]
+      },
+      "charityCommitment": {
+        "title": "Wohltätigkeitsverpflichtung",
+        "paragraph": "Die Verwendung der aus jeglicher Quelle erhaltenen Einnahmen wird ausschließlich zur Erreichung der Visionen und Verantwortlichkeiten der HFA angewendet. Alle HFA-Überschüsse und Erträge gehen direkt an die Halal Food Foundation (HFF), den wohltätigen Arm der HFA. Die HFF ist eine registrierte britische Wohltätigkeitsorganisation, die sich mit Bildung, Öffentlichkeitsarbeit, Bindungen innerhalb der muslimischen Gemeinschaft und Sensibilisierung für einen halal und gesunden Lebensstil beschäftigt. Mittel, die unserem wohltätigen Arm zugeschrieben werden, werden für Bildungszwecke verwendet und natürlich für potenzielle Bildungsprojekte, Veranstaltungen und Workshops reserviert, die in Zukunft von der Wohltätigkeitsorganisation verwaltet werden sollen."
+      },
+      "financialReporting": {
+        "title": "Finanzberichterstattung",
+        "paragraph": "Gesetzliche Abschlüsse, die Aufzeichnungen über das Unternehmen sowie Finanz- und Buchhaltungsunterlagen enthalten, werden aus den Finanzunterlagen von HFA am Ende des Geschäftsjahres erstellt. Gesetzliche Abschlüsse müssen folgende Punkte enthalten:",
+        "items": [
+          "eine 'Bilanz', die den Wert von allem zeigt, was das Unternehmen besitzt, schuldet und am letzten Tag des Geschäftsjahres geschuldet wird;",
+          "eine 'Gewinn- und Verlustrechnung', die den Umsatz, die Betriebskosten und den Gewinn oder Verlust des Unternehmens im Geschäftsjahr zeigt;",
+          "Anmerkungen zu den Abschlüssen; und",
+          "ein Geschäftsbericht des Direktors"
+        ]
+      },
+      "delegatedAuthority": {
+        "title": "Politiken Delegierter Autoritäten",
+        "paragraph": "HFA hat ein Finanzpolitik- und Verfahrenshandbuch, das ihre täglichen Betriebe und Aktivitäten abdeckt. Die Liste der delegierten Autoritäten wird vom Finanzcontroller erstellt und gepflegt, vom Geschäftsführer und Vorsitzenden genehmigt und von allen Mitarbeitern anerkannt."
+      }
+    },
+    "contact": {
+      "button": "KONTAKTIEREN SIE UNS FÜR DETAILS"
+    }
+  },
+  "complaintsAppealsProcedure": {
+    "pageTitle": "HFA Beschwerde- und Beschwerdeverfahren",
+    "sections": {
+      "guideTitle": "Ein Leitfaden zu unserem Beschwerde- und Beschwerdeverfahren",
+      "intro1": "Die Halal Food Authority (HFA) nimmt alle Bedenken und Beschwerden ernst, da sie uns Möglichkeiten zur Verbesserung und Aufrechterhaltung der hohen Standards bieten, die wir anstreben.",
+      "intro2": "HFA erkennt an, dass manchmal etwas schief geht und Maßnahmen oder Entscheidungen nicht den Erwartungen entsprechen. Daher wird uns Feedback helfen, die Probleme oder Bedenken auf prozedurale Weise zu lösen und uns zu ermöglichen, die Situation gemäß unseren Qualitätsstandards, ethischen und moralischen Werten und Geschäftszielen ohne potenzielle Kompromisse wieder gutzumachen.",
+      "complaintDefinition": {
+        "title": "Was ist eine Beschwerde?",
+        "content": "HFA definiert eine Beschwerde als 'einen Ausdruck von Unzufriedenheit durch eine oder mehrere Personen, die eine Dienstleistung (einschließlich einer Entscheidung) von der Organisation erhalten, die nicht sofort am Ort der Erbringung gelöst werden kann und bei der der Beschwerdeführer wünscht, dass eine Folgeaktion ergriffen und eine Antwort gegeben wird.'"
+      },
+      "appealDefinition": {
+        "title": "Was ist ein Einspruch?",
+        "content": "HFA definiert einen Einspruch als 'eine formelle Anfrage an HFA, ihre Zertifizierungsentscheidung nach Abschluss des Zertifizierungsverfahrens zu überdenken.'"
+      },
+      "procedure": {
+        "title": "Beschwerde- und Einspruchsverfahren",
+        "content1": "Beschwerden und Einsprüche sollten schriftlich und an den 'Geschäftsführer von HFA' gerichtet werden, unter Angabe Ihres vollständigen Namens, Details der Organisation (falls zutreffend) einschließlich Telefonnummer und E-Mail-Adresse, Angabe der Art der Beschwerde und Übersendung aller relevanten Dokumente. Beschwerden und Einsprüche müssen per E-Mail oder per Post an Halal Food Authority, Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ gesendet werden.",
+        "content2": "Stufe 1: Ihre Beschwerde oder Ihr Einspruch wird von einem Gremium von mindestens zwei HFA-Beamten unter der Leitung des Geschäftsführers bearbeitet. Nach Untersuchung wird innerhalb von 14 Tagen nach Eingang der Beschwerde/Einspruch eine Antwort für den Beschwerdeführer/Einspruchsführer erstellt.",
+        "content3": "Stufe 2: Wenn die Antwort von HFA nicht zufriedenstellend ist oder den Erwartungen des Beschwerdeführers/Einspruchsführers nicht entspricht, kann die Angelegenheit innerhalb von sieben Tagen nach Erhalt der Antwort vom Beschwerdeführer/Einspruchsführer eingereicht werden. Dann wird die Beschwerde/der Einspruch an einen unabhängigen Beschwerdeausschuss von HFA weitergeleitet, um den Fall weiter zu bearbeiten."
+      },
+      "whoCanComplain": {
+        "title": "Wer kann eine Beschwerde einreichen?",
+        "content1": "Das HFA-Beschwerde- und Einspruchsverfahren steht denjenigen zur Verfügung, die ihre Dienstleistungen nutzen oder nutzen möchten (einschließlich Audit, Inspektion und/oder Halal-Zertifizierung) und denjenigen, die an HFA-Aktivitäten und -Veranstaltungen beteiligt und davon betroffen sind.",
+        "content2": "Es wäre hilfreich, wenn Sie Ihre Bedenken teilen oder eine Beschwerde registrieren, wenn Sie mit irgendeinem Aspekt der Dienste oder Aktivitäten von HFA unzufrieden sind."
+      },
+      "afterComplaint": {
+        "title": "Was passiert nach Einreichung der Beschwerde?",
+        "content1": "HFA wird Ihre Beschwerde innerhalb von fünf Arbeitstagen nach Eingang bestätigen, und wir werden innerhalb von vierzehn Tagen nach Eingangsdatum eine Antwort senden.",
+        "content2": "Wenn ein Einspruch erhoben wird, wird die Anfrage an unseren unabhängigen Beschwerde- und Einspruchsausschuss zur weiteren Bearbeitung weitergeleitet, und wir werden Ihnen schriftlich mitteilen, sobald dies geschehen ist.",
+        "content3": "Soweit möglich wird HFA Ihre Vertraulichkeit respektieren und Ihre Beschwerde/Ihren Einspruch soweit wie möglich vertraulich behandeln, wird jedoch alle Details über die Beschwerde/den Einspruch mit unserem Beschwerde- und Einspruchsausschuss teilen, der beraten wird, ob eine formelle Anhörung erforderlich ist, um eine solche Beschwerde/einen solchen Einspruch zu behandeln. In diesem Fall werden Sie schriftlich benachrichtigt; und alle Fragen können gestellt oder weitere Unterlagen von Ihnen angefordert werden.",
+        "content4": "Die Entscheidung unseres unabhängigen Beschwerde- und Einspruchsausschusses über eine Beschwerde/einen Einspruch wird innerhalb von achtundzwanzig Tagen ab dem Datum des Eingangs beim Ausschuss getroffen, und diese Entscheidung ist endgültig."
+      },
+      "equalityDiversity": {
+        "title": "Halal Food Authority Gleichstellungs- und Diversitätspolitik",
+        "intro": "Der Zweck dieser Richtlinie ist es, Gleichheit und Fairness für alle in unserer Beschäftigung und bei der Erbringung von Dienstleistungen zu gewährleisten und nicht aufgrund von Geschlecht, Familienstand, Rasse, ethnischer Herkunft, Hautfarbe, Nationalität, nationaler Herkunft, Behinderung, Religion oder Alter zu diskriminieren.",
+        "commitment1": "Die Halal Food Authority (HFA) setzt sich dafür ein, Vielfalt zu fördern und Diskriminierung sowohl in ihrer Rolle als Arbeitgeber als auch als Dienstleister zu beseitigen.",
+        "commitment2": "HFA zielt darauf ab, eine Kultur zu schaffen, die die Unterschiede der anderen respektiert und schätzt, Würde, Gleichheit und Vielfalt fördert und Einzelpersonen ermutigt, ihr wahres Potenzial zu entwickeln und zu maximieren. Wir verpflichten uns, wo immer praktikabel, eine Belegschaft zu erreichen und aufrechtzuerhalten, die die lokale Gemeinschaft, in der wir tätig sind, weitgehend widerspiegelt.",
+        "commitment3": "HFA lehnt alle Formen rechtswidriger und unfairer Diskriminierung ab. Alle Mitarbeiter, Treuhänder und Freiwillige, ob Teilzeit, Vollzeit oder vorübergehend, werden fair und mit Respekt behandelt.",
+        "commitmentsTitle": "HFA hat folgende Verpflichtungen zu Gleichstellung und Vielfalt:",
+        "commitments": [
+          "Eine Umgebung zu schaffen, in der individuelle Unterschiede und die Beiträge aller unserer Mitarbeiter, Treuhänder und Freiwilligen anerkannt und geschätzt werden.",
+          "Eine Arbeitsumgebung zu schaffen, die Würde und Respekt für alle fördert. Keine Form von Einschüchterung, Mobbing oder Belästigung wird toleriert.",
+          "Sicherzustellen, dass Schulungs-, Entwicklungs- und Aufstiegsmöglichkeiten für alle verfügbar sind.",
+          "Gleichstellung am Arbeitsplatz zu fördern, was sie für eine gute Managementpraxis und geschäftlich sinnvoll hält.",
+          "Verstöße gegen die Gleichstellungspolitik ernst zu nehmen und bei Bedarf disziplinarische Maßnahmen zu ergreifen.",
+          "Allen Mitarbeitern, Treuhändern und Freiwilligen Informationen und Schulungen zur Verfügung zu stellen, um sich der Probleme im Zusammenhang mit Gleichstellung und Vielfalt und ihrer diesbezüglichen Verantwortlichkeiten voll bewusst zu sein."
+        ],
+        "conclusion": "Jede Form von Diskriminierung durch einen Mitarbeiter, Treuhänder oder Freiwilligen wird sehr ernst genommen und gegebenenfalls mit dem Disziplinarverfahren behandelt."
+      }
+    },
+    "contact": {
+      "button": "KONTAKTIEREN SIE UNS FÜR DETAILS"
+    }
+  },
+  "foodSamplingAnalysisPolicy": {
+    "pageTitle": "Richtlinie zur Probenahme und Analyse von Halal-Lebensmitteln",
+    "content": {
+      "paragraph1": "Als Halal Food Authority (HFA) sind wir uns unserer Verantwortung gegenüber unseren Kunden (B2B & B2C) bewusst. Wir streben danach, sicherzustellen, dass Halal-Produkte sichere, legale und authentische Produkte sind und glauben an die Bereitstellung höchster Qualitäts- und Halal-Standards für Produkte und Dienstleistungen für alle unsere Kunden.",
+      "paragraph2": "Um diese Anforderung zu erfüllen, wird die HFA die Probenahme und Analyse von Halal-zertifizierten Produkten einführen, um das HFA-Logo und die Marke auf dem Markt zu stärken. Diese Richtlinie wird uns helfen, das Vertrauen auf eine bessere Weise im Einzelhandels- und Gewerbemarkt aufzubauen. Unser Hauptziel ist es, unsere Richtlinie im Vereinigten Königreich, in Asien, im Nahen Osten und in Europa einzuführen, umzusetzen, zu betreiben und zu erweitern, was wir durch das Engagement und die Professionalität unseres Managementteams, unserer Mitarbeiter und Kunden erreichen werden. Gemäß der Richtlinie zur Probenahme und Analyse von Halal-Lebensmitteln (HF-SAP) wird die HFA zufällige und wirklich repräsentative Proben (100g/mL) von den Standorten ihrer Kunden entnehmen, und die Probenhäufigkeit wird basierend auf dem Risiko (Haram/Nicht-Halal-Kontamination) bestimmt.",
+      "paragraph3": "Die Probenahme erfolgt durch unabhängige Dritte für B2B-Kunden, während die HFA Proben vom Einzelhandelsmarkt für B2C-Kunden sammelt, falls verfügbar. Verzerrte oder zweifelhafte Proben werden erneut entnommen, obwohl ihre Fehlerwahrscheinlichkeit gering ist. Die gesammelten Proben werden an die von der HFA zugelassenen Labors (ISO 17025) zur Halal-Analyse geschickt. Das Analysezertifikat (COA) wird den Kunden unter der Voraussetzung eines zufriedenstellenden Berichts und der Genehmigung des Managements mitgeteilt. Wenn der Bericht nicht zufriedenstellend ist, wird eine erneute Probenahme durchgeführt.",
+      "paragraph4": "Die Häufigkeit der Probenahme basiert auf dem Risiko, das als niedrig, mittel und hoch eingestuft wird. Die Standorte mit niedrigem, mittlerem und hohem Risiko werden mindestens einmal in neun, sechs bzw. drei Jahren analysiert. Das COA wird den Kunden zugesandt, sobald es fertig ist. Die HFA stellt sicher, dass die Ergebnisse und das COA frei von Verzerrungen und Interessenkonflikten sind. Die von der HFA genehmigten und zertifizierten Labors werden nach ISO-17025 akkreditiert sein. Die HFA wird sicherstellen, dass genehmigte und authentifizierte Standardbetriebsverfahren für die Prüfung von Halal-Produkten verwendet werden."
+    },
+    "contact": {
+      "button": "KONTAKT FÜR DETAILS"
+    }
   }
 }

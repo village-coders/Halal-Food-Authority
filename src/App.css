@@ -1929,7 +1929,7 @@ footer {
 }
 
 .termination-sec {
-  padding: 60px;
+  padding: 60px 40px;
 }
 
 .termination-sec h2{
@@ -1958,6 +1958,7 @@ footer {
 .termination-sec  h3{
   font-size: 1.4rem;
   font-family: 'Georgia', serif;
+  font-weight: 550;
   color: #1a1a1a;
   margin-bottom: 30px;
 }
@@ -1982,12 +1983,12 @@ footer {
   background: #6a9739;
   border-radius: 6px;
   color: white;
-  padding: 13px 33px;
+  padding: 15px 35px;
   display: flex;
   justify-content: center;
   gap: 10px;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: .9rem;
   font-weight: 650;
   cursor: pointer;
 }

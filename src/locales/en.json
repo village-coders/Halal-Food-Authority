@@ -561,5 +561,108 @@
     "contact": {
       "button": "CONTACT FOR DETAILS"
     }
+  },
+  "corporateFinanceGovernance": {
+    "pageTitle": "HFA Corporate and Financial Governance",
+    "content": {
+      "paragraph1": "Halal Food Authority (HFA) would like to shed more light on our corporate and financial governance to ensure the industry and consumers that we do not dispense any of our finances to untoward activities or bodies.",
+      "paragraph2": "As a company serving the Muslim community and the halal industry for twenty-five years, we are a body that works tirelessly to facilitate, support, and enhance halal trade globally, especially to UK/EU exporters. Our integrity is of the utmost importance to us.",
+      "financialIncome": {
+        "title": "Financial Income",
+        "paragraph": "A team of voluntary trustees governs the HFA, and we receive no foreign aid, nor do we distribute our generated funds in any way (internally OR externally). The HFA shall have an independent budget financed from the following resources:",
+        "items": [
+          "The subscription and fees charged by the HFA in return for the services provided, such as Halal audit for up to a full man-day. A certification proposal that contains certification fees will be provided upon receiving the completed application form online",
+          "Sponsorships and payments were received for conference or training conducted, which do not compromise the HFA Impartiality.",
+          "Other resources as determined by the Board of Directors."
+        ]
+      },
+      "charityCommitment": {
+        "title": "Charity Commitment",
+        "paragraph": "The utilization of the income received from any source shall be applied solely towards achieving the visions and responsibilities of the HFA. All HFA surplus and yields directly go back to the Halal Food Foundation (HFF), the charitable arm of the HFA. The HFF is a registered UK charity concerned with education, outreach work, making bonds within the Muslim community, and creating awareness on leading a halal and healthy lifestyle. Funds attributed to our charitable arm are used for educational purposes and, of course, reserved for potential educational projects, events, and workshops that are to be governed by the charity in the future."
+      },
+      "financialReporting": {
+        "title": "Financial Reporting",
+        "paragraph": "Statutory accounts that kept records about the company and financial and accounting records are prepared from the HFA's financial records at the end of the financial year. Statutory accounts must include the following items:",
+        "items": [
+          "a 'balance sheet', which shows the value of everything the company owns, owes and is owed on the last day of the financial year;",
+          "a 'profit and loss account', which shows the company's sales, running costs, and the profit or loss it has made over the financial year;",
+          "notes about the accounts; and",
+          "a director's report"
+        ]
+      },
+      "delegatedAuthority": {
+        "title": "Delegated Authority Policies",
+        "paragraph": "The HFA shall have a Finance Policies and Procedures Manual covering its day-to-day operations and activities. The delegated authorities' list is prepared and maintained by the Financial Controller, approved by the Chief Executive and Chairman, and acknowledged by all employees."
+      }
+    },
+    "contact": {
+      "button": "CONTACT FOR DETAILS"
+    }
+  },
+  "complaintsAppealsProcedure": {
+    "pageTitle": "HFA Complaints & Appeals Procedure",
+    "sections": {
+      "guideTitle": "A guide to our complaints & appeals procedure",
+      "intro1": "Halal Food Authority (HFA) takes all concerns and complaints seriously as they provide us with opportunities to improve and maintain the high standards we strive to achieve.",
+      "intro2": "HFA recognizes that sometimes things go wrong, and actions or decisions do not meet the expectations. Therefore, feedback will help us resolve the issues or concerns in a procedural way, enabling us to redress the situation according to our quality standards, ethical and moral values, and business objectives without any potential compromise.",
+      "complaintDefinition": {
+        "title": "What is a complaint?",
+        "content": "HFA defines a complaint as 'an expression of discontent by a person or persons receiving a service (including any decision) from the organization that cannot be immediately resolved at the point of delivery, and about which the complainant desires a follow-up action is taken and a response provided.'"
+      },
+      "appealDefinition": {
+        "title": "What is an appeal?",
+        "content": "HFA defines an appeal as 'a formal request to the HFA to reconsider its certification decision following a conclusion of the certification procedure.'"
+      },
+      "procedure": {
+        "title": "Complaint & Appeals Procedure",
+        "content1": "Complaints and appeals should be made in writing and addressed to the 'Chief Executive of HFA,' giving your full name, details of the organization (if applicable) including phone number and email address, stating the nature of the complaint, and sending any relevant documents. Complaints and Appeals must be sent by emailing or by post to Halal Food Authority, Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ.",
+        "content2": "Stage 1: Your complaint or appeal shall be dealt with by the panel of at-least two HFA officials headed by the Chief Executive. After investigation, a response will be generated for the complainant/appellant within 14 days of the complaint/appeal receipt.",
+        "content3": "Stage 2: If the response from the HFA is not satisfactory or does not meet the complainant/appellant's expectations, the matter may be lodged by the complainant/appellant within seven days of the response being received. Then the complaint/appeal shall be passed onto an independent Complaint Committee of the HFA to proceed further with the case."
+      },
+      "whoCanComplain": {
+        "title": "Who can raise a complaint?",
+        "content1": "HFA Complaints & Appeals Procedure is available to those who use or wish to use its services (including audit, inspection, and/or halal certification) and those involved and affected by HFA activities and events.",
+        "content2": "It would help if you shared your concerns or register a complaint when you are dissatisfied with any aspect of HFA's services or activities."
+      },
+      "afterComplaint": {
+        "title": "What will happen after the complaint is lodged?",
+        "content1": "HFA will acknowledge your complaint within five working days of receipt, and we will send a response in fourteen days from the date of receipt.",
+        "content2": "If an appeal is raised, the request will be forwarded to our independent Complaint and Appeals Committee for further processing, and we will write to you to inform you once this has happened.",
+        "content3": "Wherever possible, HFA will respect your confidentiality and keep your complaint/appeal confidential as far as possible but will be sharing all the details about the complaint/appeal with our Complaints and Appeals Committee, who shall advise if a formal hearing is necessary to deal with such complaint/appeal. In this instance, you shall be notified in writing; and any queries may be raised, or any further documentation may also be requested from you.",
+        "content4": "The decision of our independent Complaint and Appeals Committee on any complaint/appeal shall be concluded within twenty-eight days from the date it was received by the Committee, and such decision shall be final."
+      },
+      "equalityDiversity": {
+        "title": "Halal Food Authority Equality & Diversity Policy",
+        "intro": "The purpose of this policy is to provide equality and fairness for all in our employment and in the provision of services and not to discriminate on the grounds of gender, marital status, race, ethnic origin, colour, nationality, national origin, disability, religion or age.",
+        "commitment1": "Halal Food Authority (HFA) is committed to encouraging diversity and eliminating discrimination in both its role as an employer and a provider of services.",
+        "commitment2": "HFA aims to create a culture that respects and values each others' differences, promoting dignity, equality, and diversity, encouraging individuals to develop and maximize their true potential. We are committed wherever practicable to achieving and maintaining a workforce that broadly reflects the local community in which we operate.",
+        "commitment3": "HFA opposes all forms of unlawful and unfair discrimination. All employees, trustees, and volunteers, whether part-time, full-time, or temporary, will be treated fairly and with respect.",
+        "commitmentsTitle": "The HFA has commitments to Equality and Diversity as follows:",
+        "commitments": [
+          "To create an environment in which individual differences and all our employees' contributions, trustees, and volunteers are recognized and valued.",
+          "To create a working environment that promotes dignity and respect for all. No form of intimidation, bullying or harassment will be tolerated.",
+          "To ensure training, development, and progression opportunities are available to all.",
+          "To promote equality in the workplace, which it believes is good management practice and makes sound business sense.",
+          "To treat breaches of the equality policy seriously and to take disciplinary action when required.",
+          "To provide information and training to all employees, trustees, and volunteers to be fully aware of the issues relating to Equality and Diversity and their responsibilities relating to it."
+        ],
+        "conclusion": "Any form of discrimination by an employee, trustee, or volunteer is treated very seriously and, where appropriate, will be dealt with using the Disciplinary Procedure."
+      }
+    },
+    "contact": {
+      "button": "CONTACT FOR DETAILS"
+    }
+  },
+  "foodSamplingAnalysisPolicy": {
+    "pageTitle": "Halal Food Sampling & Analysis Policy",
+    "content": {
+      "paragraph1": "As a Halal Food Authority (HFA), we are conscious of our responsibilities to our customers (B2B & B2C). We aim to ensure that halal produce are safe, legal and authentic products and believe in providing the highest quality & halal standards of products and services to all our customers.",
+      "paragraph2": "To fulfil this requirement, the HFA is going to introduce the sampling and analysis of halal certified products to strengthen the HFA logo and brand in the market. This policy will help us to build the confidence in a better way in the retail and commercial market. Our main objective is to introduce, implement, operate and expand our policy across the United Kingdom, Asia, Middle East and the Europe, which we will achieve this through commitment and professionalism of our management team, staff and customers. Under the Halal Food Sampling & Analysis Policy (HF-SAP), the HFA will collect random and true representative samples (100g/mL) from their client's sites and sample frequency is determined and based the risk (Haram/Non-Halal contamination).",
+      "paragraph3": "The sampling will be done through independent third party for the B2B clients while the HFA will collect samples from the retail market for the B2C clients if available. The biased or doubtful samples will be recollected although their chance of error is rare. The collected samples will send to the HFA approved labs (ISO 17025) for the halal analysis. The certificate of analysis (COA) will be shared with clients with subject to the satisfactory report and management approval. If report is not satisfactory, then resampling will be taken place.",
+      "paragraph4": "The frequency of the sampling is based on risk, which is determined as a low, medium and high. The low, medium and high-risk sites will be analyzed at least once in a nine, six and three years, respectively. The COA will be send to the clients once it is ready. The HFA will ensure that the results and the COA will be free from biased and conflict of interest. The HFA approved & certified labs will be ISO-17025 accredited. The HFA will ensure to use approved and authenticated standards operation procedures for the testing of the halal products."
+    },
+    "contact": {
+      "button": "CONTACT FOR DETAILS"
+    }
   }
 }

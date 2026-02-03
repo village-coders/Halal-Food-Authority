@@ -559,5 +559,108 @@
     "contact": {
       "button": "CONTACTER POUR LES DÉTAILS"
     }
+  },
+  "corporateFinanceGovernance": {
+    "pageTitle": "Gouvernance d'Entreprise et Financière HFA",
+    "content": {
+      "paragraph1": "L'Autorité Halal (HFA) souhaite éclairer davantage notre gouvernance d'entreprise et financière pour assurer à l'industrie et aux consommateurs que nous ne distribuons aucune de nos finances à des activités ou organismes répréhensibles.",
+      "paragraph2": "En tant qu'entreprise au service de la communauté musulmane et de l'industrie halal depuis vingt-cinq ans, nous sommes un organisme qui travaille sans relâche pour faciliter, soutenir et améliorer le commerce halal dans le monde, en particulier pour les exportateurs du Royaume-Uni/UE. Notre intégrité est de la plus haute importance pour nous.",
+      "financialIncome": {
+        "title": "Revenus Financiers",
+        "paragraph": "Une équipe d'administrateurs bénévoles gouverne HFA, et nous ne recevons aucune aide étrangère, ni ne distribuons nos fonds générés de quelque manière que ce soit (interne OU externe). HFA aura un budget indépendant financé par les ressources suivantes:",
+        "items": [
+          "Les abonnements et frais facturés par HFA en échange des services fournis, tels que l'audit Halal jusqu'à une journée-homme complète. Une proposition de certification contenant les frais de certification sera fournie après réception du formulaire de demande complété en ligne",
+          "Les parrainages et paiements reçus pour les conférences ou formations organisées, qui ne compromettent pas l'Impartialité de HFA.",
+          "Autres ressources déterminées par le Conseil d'Administration."
+        ]
+      },
+      "charityCommitment": {
+        "title": "Engagement Caritatif",
+        "paragraph": "L'utilisation des revenus reçus de toute source sera appliquée uniquement à la réalisation des visions et responsabilités de HFA. Tous les surplus et revenus de HFA reviennent directement à la Halal Food Foundation (HFF), la branche caritative de HFA. La HFF est une œuvre caritative britannique enregistrée concernée par l'éducation, le travail de sensibilisation, la création de liens au sein de la communauté musulmane et la sensibilisation à un mode de vie halal et sain. Les fonds attribués à notre branche caritative sont utilisés à des fins éducatives et, bien sûr, réservés à des projets éducatifs potentiels, événements et ateliers qui seront gérés par l'œuvre caritative à l'avenir."
+      },
+      "financialReporting": {
+        "title": "Rapports Financiers",
+        "paragraph": "Les comptes statutaires qui conservent les enregistrements sur l'entreprise et les registres financiers et comptables sont préparés à partir des registres financiers de HFA à la fin de l'exercice financier. Les comptes statutaires doivent inclure les éléments suivants:",
+        "items": [
+          "un 'bilan', qui montre la valeur de tout ce que l'entreprise possède, doit et est dû le dernier jour de l'exercice financier;",
+          "un 'compte de profits et pertes', qui montre les ventes de l'entreprise, les coûts d'exploitation et le profit ou la perte qu'elle a réalisé au cours de l'exercice financier;",
+          "des notes sur les comptes; et",
+          "un rapport du directeur"
+        ]
+      },
+      "delegatedAuthority": {
+        "title": "Politiques d'Autorité Déléguée",
+        "paragraph": "HFA aura un Manuel des Politiques et Procédures Financières couvrant ses opérations et activités quotidiennes. La liste des autorités déléguées est préparée et maintenue par le Contrôleur Financier, approuvée par le Directeur Général et le Président, et reconnue par tous les employés."
+      }
+    },
+    "contact": {
+      "button": "CONTACTER POUR LES DÉTAILS"
+    }
+  },
+  "complaintsAppealsProcedure": {
+    "pageTitle": "Procédure des Réclamations et Appels HFA",
+    "sections": {
+      "guideTitle": "Un guide de notre procédure de réclamations et d'appels",
+      "intro1": "L'Autorité Halal (HFA) prend toutes les préoccupations et réclamations au sérieux car elles nous offrent des opportunités d'amélioration et de maintien des normes élevées que nous nous efforçons d'atteindre.",
+      "intro2": "HFA reconnaît que parfois les choses tournent mal, et les actions ou décisions ne répondent pas aux attentes. Par conséquent, les commentaires nous aideront à résoudre les problèmes ou préoccupations de manière procédurale, nous permettant de redresser la situation selon nos normes de qualité, valeurs éthiques et morales, et objectifs commerciaux sans aucun compromis potentiel.",
+      "complaintDefinition": {
+        "title": "Qu'est-ce qu'une réclamation?",
+        "content": "HFA définit une réclamation comme 'une expression de mécontentement par une ou plusieurs personnes recevant un service (y compris toute décision) de l'organisation qui ne peut être immédiatement résolue au point de livraison, et à propos de laquelle le plaignant souhaite qu'une action de suivi soit prise et qu'une réponse soit fournie.'"
+      },
+      "appealDefinition": {
+        "title": "Qu'est-ce qu'un appel?",
+        "content": "HFA définit un appel comme 'une demande formelle à HFA de reconsidérer sa décision de certification suite à une conclusion de la procédure de certification.'"
+      },
+      "procedure": {
+        "title": "Procédure de Réclamation et d'Appel",
+        "content1": "Les réclamations et appels doivent être faits par écrit et adressés au 'Directeur Général de HFA', en donnant votre nom complet, les détails de l'organisation (le cas échéant) y compris le numéro de téléphone et l'adresse e-mail, en indiquant la nature de la réclamation et en envoyant tous les documents pertinents. Les réclamations et appels doivent être envoyés par e-mail ou par courrier à Halal Food Authority, Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ.",
+        "content2": "Étape 1: Votre réclamation ou appel sera traité par un panel d'au moins deux fonctionnaires HFA dirigé par le Directeur Général. Après enquête, une réponse sera générée pour le plaignant/appelant dans les 14 jours suivant la réception de la réclamation/appel.",
+        "content3": "Étape 2: Si la réponse de HFA n'est pas satisfaisante ou ne répond pas aux attentes du plaignant/appelant, l'affaire peut être déposée par le plaignant/appelant dans les sept jours suivant la réception de la réponse. Ensuite, la réclamation/appel sera transmise à un Comité des Réclamations indépendant de HFA pour poursuivre l'affaire."
+      },
+      "whoCanComplain": {
+        "title": "Qui peut déposer une réclamation?",
+        "content1": "La Procédure de Réclamations et d'Appels HFA est disponible pour ceux qui utilisent ou souhaitent utiliser ses services (y compris audit, inspection et/ou certification halal) et ceux impliqués et affectés par les activités et événements de HFA.",
+        "content2": "Il serait utile que vous partagiez vos préoccupations ou enregistriez une réclamation lorsque vous êtes insatisfait de tout aspect des services ou activités de HFA."
+      },
+      "afterComplaint": {
+        "title": "Que se passera-t-il après le dépôt de la réclamation?",
+        "content1": "HFA accusera réception de votre réclamation dans les cinq jours ouvrables suivant sa réception, et nous enverrons une réponse dans les quatorze jours à compter de la date de réception.",
+        "content2": "Si un appel est soulevé, la demande sera transmise à notre Comité des Réclamations et Appels indépendant pour traitement ultérieur, et nous vous écrirons pour vous informer une fois que cela s'est produit.",
+        "content3": "Dans la mesure du possible, HFA respectera votre confidentialité et gardera votre réclamation/appel confidentiel autant que possible mais partagera tous les détails concernant la réclamation/appel avec notre Comité des Réclamations et Appels, qui conseillera si une audience formelle est nécessaire pour traiter une telle réclamation/appel. Dans ce cas, vous en serez informé par écrit; et toute question peut être soulevée, ou toute documentation supplémentaire peut également être demandée.",
+        "content4": "La décision de notre Comité des Réclamations et Appels indépendant sur toute réclamation/appel sera conclue dans les vingt-huit jours à compter de la date où elle a été reçue par le Comité, et cette décision sera définitive."
+      },
+      "equalityDiversity": {
+        "title": "Politique d'Égalité et de Diversité de l'Autorité Halal",
+        "intro": "L'objectif de cette politique est d'assurer l'égalité et l'équité pour tous dans notre emploi et dans la prestation de services et de ne pas discriminer sur la base du genre, de l'état matrimonial, de la race, de l'origine ethnique, de la couleur, de la nationalité, de l'origine nationale, du handicap, de la religion ou de l'âge.",
+        "commitment1": "L'Autorité Halal (HFA) s'engage à encourager la diversité et à éliminer la discrimination dans son rôle d'employeur et de fournisseur de services.",
+        "commitment2": "HFA vise à créer une culture qui respecte et valorise les différences de chacun, promouvant la dignité, l'égalité et la diversité, encourageant les individus à développer et maximiser leur véritable potentiel. Nous nous engageons dans la mesure du possible à atteindre et maintenir une main-d'œuvre qui reflète largement la communauté locale dans laquelle nous opérons.",
+        "commitment3": "HFA s'oppose à toutes les formes de discrimination illégale et injuste. Tous les employés, administrateurs et bénévoles, qu'ils soient à temps partiel, à temps plein ou temporaires, seront traités équitablement et avec respect.",
+        "commitmentsTitle": "HFA a des engagements en matière d'Égalité et de Diversité comme suit:",
+        "commitments": [
+          "Créer un environnement dans lequel les différences individuelles et les contributions de tous nos employés, administrateurs et bénévoles sont reconnues et valorisées.",
+          "Créer un environnement de travail qui promeut la dignité et le respect pour tous. Aucune forme d'intimidation, de harcèlement moral ou de harcèlement ne sera tolérée.",
+          "Assurer que la formation, le développement et les opportunités de progression sont disponibles pour tous.",
+          "Promouvoir l'égalité sur le lieu de travail, ce qu'elle considère comme une bonne pratique de gestion et un bon sens des affaires.",
+          "Traiter les violations de la politique d'égalité au sérieux et prendre des mesures disciplinaires lorsque cela est nécessaire.",
+          "Fournir des informations et une formation à tous les employés, administrateurs et bénévoles pour qu'ils soient pleinement conscients des problèmes liés à l'Égalité et à la Diversité et de leurs responsabilités y afférentes."
+        ],
+        "conclusion": "Toute forme de discrimination par un employé, un administrateur ou un bénévole est traitée très sérieusement et, le cas échéant, sera traitée à l'aide de la Procédure Disciplinaire."
+      }
+    },
+    "contact": {
+      "button": "CONTACTER POUR LES DÉTAILS"
+    }
+  },
+  "foodSamplingAnalysisPolicy": {
+    "pageTitle": "Politique d'Échantillonnage et d'Analyse des Aliments Halal",
+    "content": {
+      "paragraph1": "En tant qu'Autorité des Aliments Halal (HFA), nous sommes conscients de nos responsabilités envers nos clients (B2B & B2C). Nous visons à garantir que les produits halal sont sûrs, légaux et authentiques et croyons en la fourniture des normes de produits et services de la plus haute qualité et conformes au halal à tous nos clients.",
+      "paragraph2": "Pour répondre à cette exigence, la HFA va introduire l'échantillonnage et l'analyse des produits certifiés halal pour renforcer le logo et la marque HFA sur le marché. Cette politique nous aidera à renforcer la confiance de manière plus efficace sur les marchés de détail et commerciaux. Notre objectif principal est d'introduire, mettre en œuvre, exploiter et étendre notre politique à travers le Royaume-Uni, l'Asie, le Moyen-Orient et l'Europe, ce que nous réaliserons grâce à l'engagement et au professionnalisme de notre équipe de direction, de notre personnel et de nos clients. Dans le cadre de la Politique d'Échantillonnage et d'Analyse des Aliments Halal (HF-SAP), la HFA collectera des échantillons aléatoires et véritablement représentatifs (100g/mL) sur les sites de ses clients et la fréquence d'échantillonnage est déterminée en fonction du risque (contamination Haram/Non-Halal).",
+      "paragraph3": "L'échantillonnage sera effectué par un tiers indépendant pour les clients B2B tandis que la HFA collectera des échantillons sur le marché de détail pour les clients B2C si disponibles. Les échantillons biaisés ou douteux seront à nouveau collectés bien que leur marge d'erreur soit rare. Les échantillons collectés seront envoyés aux laboratoires approuvés par la HFA (ISO 17025) pour l'analyse halal. Le certificat d'analyse (COA) sera partagé avec les clients sous réserve d'un rapport satisfaisant et de l'approbation de la direction. Si le rapport n'est pas satisfaisant, un nouvel échantillonnage sera effectué.",
+      "paragraph4": "La fréquence de l'échantillonnage est basée sur le risque, qui est déterminé comme faible, moyen et élevé. Les sites à faible, moyen et haut risque seront analysés au moins une fois tous les neuf, six et trois ans, respectivement. Le COA sera envoyé aux clients une fois prêt. La HFA veillera à ce que les résultats et le COA soient exempts de biais et de conflits d'intérêts. Les laboratoires approuvés et certifiés par la HFA seront accrédités ISO-17025. La HFA veillera à utiliser des procédures opérationnelles standard approuvées et authentifiées pour le test des produits halal."
+    },
+    "contact": {
+      "button": "CONTACTER POUR PLUS DE DÉTAILS"
+    }
   }
 }
