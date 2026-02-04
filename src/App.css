@@ -1952,11 +1952,23 @@ footer {
   color: #1a1a1a;
   font-family: 'Georgia', serif; 
 }
+.termination-sec a{
+  font-size: 1.2rem;
+  font-weight: 750;
+  margin-bottom: 20px;
+  display: block;
+  color: var(--secondary-color);
+  text-decoration: inherit;
+}
+.termination-sec b{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
 
 .termination-sec  span{
   background: #709d42;
-  width: 80px;
-  height: 4px;
+  width: 150px;
+  height: 3px;
   margin-bottom: 30px;
   display: block;
 }
@@ -1969,7 +1981,7 @@ footer {
 }
 
 .termination-sec  h3{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: 'Georgia', serif;
   font-weight: 550;
   color: #1a1a1a;
@@ -2149,6 +2161,15 @@ footer {
   font-size: 1rem;
   text-align: center;
   color: black;
+}
+
+.events p{
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.events b{
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 

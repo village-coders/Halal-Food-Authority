@@ -1,34 +1,43 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { MdCall } from "react-icons/md";
-import { useNavigate, useParams } from 'react-router-dom';
 
 const HFAEventPlanning2025 = () => {
-    const { t, i18n } = useTranslation()
-    const {lng} =  useParams()
-    const navigate = useNavigate()
-    const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
-
-    const handleContactButton = () => {
-        navigate(`/${currentLang}/contact`);
-    };
+    const { t } = useTranslation()
     
+    const events = t('hfaEventPlanning2025.sections.events', { returnObjects: true })
+
   return (
     <div className='cert-procedure '>
         <section className="cert-hero">
-            <h1>HFA Event Planning 2025</h1>
+            <h1>{t('hfaEventPlanning2025.pageTitle')}</h1>
         </section>
-        <section className="container termination-sec">
-            <h2>Our National and International Event Participation </h2>
+        <section className="container termination-sec events">
+            <h3>{t('hfaEventPlanning2025.sections.mainHeading')}</h3>
 
-            <p>We are proud to be actively involved in a variety of prestigious events across the globe. These events offer us an invaluable platform to showcase our services, engage with industry leaders, and stay up-to-date with new developments and industry advancements. Our participation not only reinforces our commitment to excellence but also provides us with the opportunity to foster meaningful connections with our valued customers and partners. Below is a list of key events where we have a presence, both nationally and internationally:  </p>
+            <p>{t('hfaEventPlanning2025.sections.intro')}</p>
             
-            <h3>IFE – International Food & Drink Event </h3>
+            {events.map((event, index) => (
+                <div key={event.id || index} className="event-item">
+                    <a href={event.link} target="_blank" rel="noopener noreferrer">
+                        {event.title}
+                    </a>
+                    
+                    <p>
+                        <b>Dates:</b> {event.dates}: <b>Location:</b> {event.location}
+                    </p>
 
-            <p>
-                 Dates: 17 – 19 March: Location: London (Excel) 
-            </p>
-            
+                    <p>
+                        <b>Overview:</b> {event.overview}
+                    </p>
+
+                    {event.features && (
+                        <>
+                            <br />
+                            <p><b>Featuring:</b> {event.features}</p>
+                        </>
+                    )}
+                </div>
+            ))}
         </section>
     </div>
   )

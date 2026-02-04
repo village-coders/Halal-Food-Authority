@@ -31,7 +31,7 @@
     "events": {
       "planning2025": "HFA Planung 2025",
       "webinar2020": "HFA Webinar 2020",
-      "ulemah2019": "Ulemah-Treffen JAH 2019"
+      "ulemah2019": "Ulemah-Treffen JAN 2019"
     },
     "hero": {
       "title": "Werden Sie Halal-Zertifiziert",
@@ -801,6 +801,129 @@
       "phone": "+44(0)2084467127",
       "email": "info@halalfoodauthority.com",
       "address": "Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ Vereinigtes Königreich"
+    }
+  },
+  "hfaEventPlanning2025": {
+    "pageTitle": "HFA Veranstaltungsplanung 2025",
+    "sections": {
+      "mainHeading": "Unsere nationale und internationale Veranstaltungsteilnahme",
+      "intro": "Wir sind stolz darauf, aktiv an verschiedenen prestigeträchtigen Veranstaltungen weltweit teilzunehmen. Diese Veranstaltungen bieten uns eine unschätzbare Plattform, um unsere Dienstleistungen zu präsentieren, mit Branchenführern in Kontakt zu treten und über neue Entwicklungen und Fortschritte in der Branche auf dem Laufenden zu bleiben. Unsere Teilnahme stärkt nicht nur unser Engagement für Exzellenz, sondern gibt uns auch die Gelegenheit, bedeutungsvolle Verbindungen zu unseren geschätzten Kunden und Partnern aufzubauen. Nachfolgend finden Sie eine Liste der wichtigsten Veranstaltungen, bei denen wir sowohl national als auch international vertreten sind:",
+      "events": [
+        {
+          "id": 1,
+          "title": "IFE – Internationale Lebensmittel- und Getränkemesse",
+          "link": "https://www.ife.co.uk/",
+          "dates": "17. – 19. März",
+          "location": "London (ExCeL)",
+          "overview": "Die IFE (International Food & Drink Event) ist eine bedeutende Business-to-Business-Messe für die Lebensmittel- und Getränkeindustrie. Sie findet vom 17. bis 19. März 2025 im ExCeL London statt. Die Veranstaltung vereint rund 1.500 Lebensmittel- und Getränkelieferanten unter einem Dach und bietet Möglichkeiten, neue Produkte zu entdecken, Geschäftskontakte zu knüpfen und mehr über Branchentrends zu erfahren."
+        },
+        {
+          "id": 2,
+          "title": "London Muslim Shopping Festival",
+          "link": "https://www.muslimshoppingfest.com/about-us/",
+          "dates": "22.-23. Februar",
+          "location": "ExCeL London",
+          "overview": "Die größte Prä-Ramadan-Veranstaltung Europas erwartet über 20.000 Besucher und präsentiert mehr als 200 internationale Stände. Diese umfangreiche Veranstaltung kombiniert drei Hauptattraktionen in einer: Halal Dining, ein Shopping Festival und die Muslim Travel Show."
+        },
+        {
+          "id": 3,
+          "title": "Makkah Halal Forum 2025",
+          "link": "https://ic-halal.com/event/makkah-halal-forum-2025/",
+          "dates": "25.-27. Februar",
+          "location": "Mekka, Saudi-Arabien",
+          "overview": "Das Makkah Halal Forum ist eine internationale Veranstaltung, die Akteure aus über 70 Ländern zusammenbringt, um Entwicklungen und Chancen in der Halal-Industrie zu diskutieren. Das Forum verfügt über Geschäftspavillons, die Fortschritte bei Halal-Produkten und -Dienstleistungen zeigen und die Zusammenarbeit und das Wachstum auf dem globalen Halal-Markt fördern."
+        },
+        {
+          "id": 4,
+          "title": "Halal Expo Manchester",
+          "link": "https://www.halalexpomanchester.com/",
+          "dates": "14. & 15. Juni 2025",
+          "location": "Old Trafford Stadium Manchester M16 0SZ",
+          "overview": "Eine internationale Handels- und Verbraucherveranstaltung, die Unternehmen, Branchenexperten und Verbraucher aus verschiedenen Sektoren zusammenbringt, die sich auf Halal-Produkte und -Dienstleistungen konzentrieren."
+        },
+        {
+          "id": 5,
+          "title": "Malaysia International Halal Showcase (MIHAS)",
+          "link": "https://www.mihas.com.my/",
+          "dates": "17.–20. September 2025",
+          "location": "Kuala Lumpur Convention Centre, Kuala Lumpur, Malaysia",
+          "overview": "Eine internationale Halal-Präsentation, die eine Vielzahl von Halal-Produkten und -Dienstleistungen zeigt, von Lebensmitteln bis zu Nicht-Lebensmittelbereichen, einschließlich Körperpflege, Pharmazeutika, Finanzen, Logistik und Verpackung."
+        },
+        {
+          "id": 6,
+          "title": "Saudi International Halal Expo",
+          "link": "https://www.saudihalalexpo.com/",
+          "dates": "11.-13. November 2025",
+          "location": "Riyadh International Convention & Exhibition Center, Saudi-Arabien",
+          "overview": "Eine internationale Ausstellung, die sich auf Halal-Lebensmittel, -Produkte und -Dienstleistungen konzentriert, einschließlich Lifestyle, Tourismus, Finanzen, Kosmetik und Pharmazeutika, mit dem Ziel, die neuesten Entwicklungen auf dem globalen Halal-Markt zu präsentieren."
+        },
+        {
+          "id": 7,
+          "title": "Halal Expo Istanbul",
+          "link": "https://helalexpo.com.tr/",
+          "dates": "26.-29. November 2025",
+          "location": "Istanbul Expo Center, Istanbul, Türkei",
+          "overview": "Eine umfassende Halal-Messe, die Sektoren wie Lebensmittel und Getränke, Kosmetik, Pharmazeutika, islamische Finanzen, Tourismus und Textilien abdeckt und darauf abzielt, Branchenexperten zu verbinden und Halal-Produkte weltweit zu fördern."
+        },
+        {
+          "id": 8,
+          "title": "Indonesische Internationale Lebensmittel- & Horeca-Messe",
+          "link": "https://allfoodindonesia.com/",
+          "dates": "30. April - 3. Mai 2025",
+          "location": "Tangerang",
+          "overview": "Eine internationale Ausstellung für Lebensmittel- und Getränkeprodukte, Technologie, Zutaten, Zusatzstoffe, Rohstoffe, Dienstleistungen, Ausrüstung und Zubehör.",
+          "features": "Mit: Bäckerei & Konditorei, Lebensmittel & Gastgewerbe, Lebensmittelzutaten, Gesunde Lebensmittel und Kräuter, Einzelhandel & Franchising, Verpackung."
+        },
+        {
+          "id": 9,
+          "title": "Lebensmittel- & Getränkemessen Paris – SIAL",
+          "link": "https://www.sial-network.com/",
+          "dates": "17.-21. Oktober 2026",
+          "location": "PARIS NORD VILLEPINTE",
+          "overview": "SIAL-Messen präsentieren Aussteller aus verschiedenen Sektoren der Lebensmittelindustrie, einschließlich Hersteller, Produzenten, Händler und Lieferanten. Aussteller präsentieren oft ihre neuesten Produkte, Innovationen und Technologien in der Lebensmittelverarbeitung und -verpackung. Sie dienen als wichtige Plattformen für Branchenexperten, um Netzwerke zu knüpfen, neue Produkte zu entdecken und Einblicke in globale Ernährungstrends und Innovationen zu erhalten."
+        },
+        {
+          "id": 10,
+          "title": "ISM Köln 2025",
+          "link": "https://www.ism-cologne.com/",
+          "dates": "2.-5. Februar 2025",
+          "location": "Köln, Deutschland",
+          "overview": "Die ISM Köln ist eine führende Handelsmesse für Süßwaren und Snacks, die einen speziellen Halal-Marktsegment bietet, das Halal-zertifizierte Süßwaren- und Snackprodukte präsentiert. Diese Veranstaltung bietet eine Plattform für Branchenexperten, um Trends und Innovationen im Halal-Segment des Süßwarenmarktes zu erkunden."
+        }
+      ]
+    }
+  },
+  "hfaWebinar2020": {
+    "pageTitle": "HFA Veranstaltungen",
+    "sections": {
+      "mainHeading": "Die HFA hielt ihren ersten erfolgreichen Webinar und ersetzte damit die jährliche HFA Halal Industry Conference (HHIC)",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Dr. Abdul Matin Khan - Begrüßungsworte",
+          "url": "https://www.youtube.com/embed/CppPDLRfzFs"
+        },
+        {
+          "id": 2,
+          "title": "Herr Ahmed Latif - Schlussworte",
+          "url": "https://www.youtube.com/embed/3iRAQJCgtw8"
+        }
+      ],
+      "postBrexitHeading": "Post-Brexit: Britische Lebensmittel und Getränke in die ganze Welt bringen",
+      "content": {
+        "paragraph1": "Die Halal Food Authority (HFA) veranstaltete ihre erste internationale Webinar-Konferenz am 3. November 2020. An dieser Online-Veranstaltung nahmen fast 300 Würdenträger teil, darunter führende Mainstream-Hersteller, Regulierungsbehörden, Halal-Produzenten, Kunden, Forscher, Pädagogen, internationale Zertifizierer, Handelskommissare, islamische Gelehrte und Redner aus der ganzen Welt. Es war eine bemerkenswert erfolgreiche Veranstaltung trotz der durch die Covid-19-Pandemie verursachten Unsicherheiten. Internationale Redner, darunter Prof. Sukoso (BPJPH), Dr. Essam (Regierung von Dubai), Vertreter von DIT UK, KFC UK & Ireland, AHDB, der indonesischen Botschaft und MATRADE, präsentierten während des Webinars. Es wird erwartet, dass der britische Handel im Falle eines No-Deal-Szenarios durch den Brexit erheblich beeinträchtigt würde. Aus diesem Grund diskutierten die Redner verschiedene Themen, die die Chancen hervorhoben und Wege aufzeigten, um alle Herausforderungen zu bewältigen, denen die Halal-Industrien im Zusammenhang mit den Post-Brexit-Umständen gegenüberstehen.",
+        "paragraph2": "Dr. Abdul Matin Khan, der Vorsitzende der HFA, äußerte in seinen Begrüßungsworten seine aufrichtige Dankbarkeit gegenüber den Teilnehmern: „Ich möchte unseren bedeutenden, hochqualifizierten und erfahrenen Rednern aus der ganzen Welt danken, die sich sehr freundlicherweise die Zeit genommen haben, ihre Expertenansichten im Webinar zu äußern. Ich möchte allen anderen globalen Teilnehmern und dem eingeladenen Publikum danken, die Interesse an der Teilnahme an diesem Webinar gezeigt haben.“",
+        "paragraph3": "Dr. Amir Masoom, CEO der HFA, sagte: „Dieser Webinar ist ein bescheidener Versuch, relevante Informationen der Halal-Industrie auf einer Plattform zusammenzuführen, um der britischen Industrie zu helfen, verschiedene Märkte für die Vorbereitung auf den Brexit zu finden.' Er kündigte außerdem an, dass wir unser HFA-Portal fertiggestellt haben, in dem der gesamte Zertifizierungsprozess von der Registrierung der Kunden bis zur Ausstellung des Zertifikats nun online abgewickelt wird.",
+        "paragraph4": "Die herausragenden Redner und Themen dieses bemerkenswerten Webinars umfassen auch Lord Trees, Emeritus-Professor, Universität Liverpool – Demonstration of Life (Halal Assurance Scheme), Dr. Phil Hadley, Internationaler Marktentwicklungsdirektor, AHDB – Marktchancen im Golf, Herr Adil Khan, Handels- und Investitionsberater, DIT – Chancen für Lebensmittel und Getränke in den VAE, Herr Megat Iskandar, Handelskommissar, MATRADE – Lieferkettenalternativen, Frau Debby Tobing, Leiterin Unternehmen, DIT Jakarta – Halal-Chancen in Indonesien, Herr Chris Wren, Operativer Leiter, BritCham – Handelserleichterungen für Exporte nach Indonesien, Herr David Moran, Lieferkettenleiter, KFC – Aufrechterhaltung einer robusten Lieferkette, Dr. Awal Fuseini, Halal-Sektor-Manager, AHDB – Von muslimischen Ländern akzeptierte Tierschutzrichtlinien, Rizvan Khalid, Brexit und Demonstration of Life (Perspektive eines Halal-Exporteurs) und Herr Gama Khan, Shazan Foods, Direktor – Export von Halal-Produkten: Erfahrung aus einer Industrie-Perspektive.",
+        "paragraph5": "Der Webinar wurde von der Qualitätsmanagerin der HFA, Hifza Ibrahim, moderiert und schließlich vom HFA-Trustee Herrn Ahmed Latif abgeschlossen."
+      }
+    }
+  },
+  "hfaUleemahMeeting2019": {
+    "pageTitle": "Zusammenfassung der Sitzung des Ulema-Rates - 23.01.19",
+    "content": {
+      "paragraph1": "Am Mittwoch, den 23. Januar 2019, trat das Scharia-Gremium der Halal Food Authority zu seiner vierteljährlichen Sitzung zusammen. Die Sitzung konzentrierte sich auf mehrere Themen, darunter aktuelle Initiativen der Vorstandsmitglieder im Hinblick auf die Sensibilisierung der Gemeinschaft, Diskussionen über rechtliche (Scharia-) Fragen und zukünftige Strategien.",
+      "paragraph2": "Ein wichtiger Punkt, der während der Sitzung diskutiert wurde, waren die Rollen und Verantwortlichkeiten der Vorstandsmitglieder in Bezug auf Halal-Audits. Die Anwesenheit von Mitgliedern des Scharia-Gremiums als Teil des HFA-Auditteams hat - und wird weiterhin - die Qualität und Glaubwürdigkeit des von der HFA für die Lebensmittel- und Getränkeindustrie erbrachten Dienstes verbessern."
     }
   }
 }

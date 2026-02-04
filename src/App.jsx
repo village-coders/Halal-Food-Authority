@@ -25,6 +25,9 @@ import ComplaintsAndAppealsProcedure from "./pages/ComplaintsAndAppealsProcedure
 import FoodSamplingAndAnalysisPolicy from "./pages/FoodSamplingAndAnalysisPolicy";
 import FAQPage from "./pages/FAQPage";
 import Contact from "./pages/Contact";
+import HFAEventPlanning2025 from './pages/HFAEventPlanning2025'
+import HFAWebinar2020 from "./pages/HFAWebinar2020";
+import HFAUleemahMeeting2019 from "./pages/HFAUleemahMeeting2019";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -92,6 +95,9 @@ function MainContent() {
         <Route path="/halal-food-sampling-analysis-policy" element={<FoodSamplingAndAnalysisPolicy />} />
         <Route path="/faqs" element={<FAQPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/events/hfa-planning-2025" element={<HFAEventPlanning2025 />} />
+        <Route path="/events/hfa-webinar-2020" element={<HFAWebinar2020 />} />
+        <Route path="/events/ulemah-meeting-jan-2019/" element={<HFAUleemahMeeting2019 />} />
       </Routes>
       <Footer />
     </>

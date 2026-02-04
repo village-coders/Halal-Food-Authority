@@ -31,6 +31,10 @@ export default function NavBar() {
     setIsOpen(false);
   };
 
+  const handleSignup = () => {
+    window.location.href = "https://hfa-portals.com";
+  }
+
   return (
     <header className="navbar">
       <div className="container nav-content">
@@ -48,11 +52,11 @@ export default function NavBar() {
 
         <nav className={isOpen ? "nav-links open" : "nav-links"}>
           {/* 2. Use end prop for Home so it doesn't match everything */}
-          <NavLink to={`/${currentLang}`} end className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}`} end className={({ isActive }) => isActive ? "active" : ""}>
             {t("home.nav.home")}
           </NavLink>
 
-          <NavLink to={`/${currentLang}/about`} className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/about`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("home.nav.about")}
           </NavLink>
 
@@ -62,9 +66,9 @@ export default function NavBar() {
               {t("home.nav.certification")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/certification/procedure`}>{t("home.certification.procedure")}</NavLink>
-              <NavLink target="blank" to={`https://hfa-portals.com`}>{t("home.certification.apply")}</NavLink>
-              <NavLink to={`/${currentLang}/certification/termination`}>{t("home.certification.termination")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/certification/procedure`}>{t("home.certification.procedure")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} target="blank" to={`https://hfa-portals.com`}>{t("home.certification.apply")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/certification/termination`}>{t("home.certification.termination")}</NavLink>
             </div>
           </div>
 
@@ -73,14 +77,14 @@ export default function NavBar() {
               {t("home.nav.policies")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/fee-policy`}>{t("home.policies.feePolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/complaints-committee`}>{t("home.policies.complaintsCommittee")}</NavLink>
-              <NavLink to={`/${currentLang}/provisions-for-the-use-of-hfa-logo`}>{t("home.policies.logoUseProvisions")}</NavLink>
-              <NavLink to={`/${currentLang}/hfa-impartiality-policy`}>{t("home.policies.impartialityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/hfa-quality-policy`}>{t("home.policies.qualityPolicy")}</NavLink>
-              <NavLink to={`/${currentLang}/hfa-corporate-and-financial-governance`}>{t("home.policies.corporateGovernance")}</NavLink>
-              <NavLink to={`/${currentLang}/hfa-complaints-appeals-procedure`}>{t("home.policies.complaintsAppealsProcedure")}</NavLink>
-              <NavLink to={`/${currentLang}/halal-food-sampling-analysis-policy`}>{t("home.policies.samplingAnalysisPolicy")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/fee-policy`}>{t("home.policies.feePolicy")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/complaints-committee`}>{t("home.policies.complaintsCommittee")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/provisions-for-the-use-of-hfa-logo`}>{t("home.policies.logoUseProvisions")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/hfa-impartiality-policy`}>{t("home.policies.impartialityPolicy")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/hfa-quality-policy`}>{t("home.policies.qualityPolicy")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/hfa-corporate-and-financial-governance`}>{t("home.policies.corporateGovernance")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/hfa-complaints-appeals-procedure`}>{t("home.policies.complaintsAppealsProcedure")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/halal-food-sampling-analysis-policy`}>{t("home.policies.samplingAnalysisPolicy")}</NavLink>
             </div>
           </div>
 
@@ -89,21 +93,21 @@ export default function NavBar() {
               {t("home.nav.events")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">
-              <NavLink to={`/${currentLang}/hfa-planning-2025`}>{t("home.events.planning2025")}</NavLink>
-              <NavLink to={`/${currentLang}/hfa-webinar-2020`}>{t("home.events.webinar2020")}</NavLink>
-              <NavLink to={`/${currentLang}/ulemah-meeting-jah-2019`}>{t("home.events.ulemah2019")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/events/hfa-planning-2025`}>{t("home.events.planning2025")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/events/hfa-webinar-2020`}>{t("home.events.webinar2020")}</NavLink>
+              <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/events/ulemah-meeting-jan-2019`}>{t("home.events.ulemah2019")}</NavLink>
             </div>
           </div>
 
-          <NavLink to={`/${currentLang}/faqs`} className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/faqs`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("home.nav.faqs")}
           </NavLink>
 
-          <NavLink to={`/${currentLang}/contact`} className={({ isActive }) => isActive ? "active" : ""}>
+          <NavLink onClick={() => setIsOpen(!isOpen)} to={`/${currentLang}/contact`} className={({ isActive }) => isActive ? "active" : ""}>
             {t("home.nav.contact")}
           </NavLink>
 
-          <button className="btn-primary mobile-only">{t("home.nav.signin")}</button>
+          <button onClick={() => {setIsOpen(!isOpen); handleSignup()}} className="btn-primary mobile-only">{t("home.nav.signin")}</button>
         </nav>
 
         <div className="language-switcher">
@@ -114,7 +118,7 @@ export default function NavBar() {
           </select>
         </div>
 
-        <button className="btn-primary desktop-only">{t("home.nav.signin")}</button>
+        <button onClick={() => {setIsOpen(!isOpen); handleSignup()}} className="btn-primary desktop-only">{t("home.nav.signin")}</button>
       </div>
     </header>
   );

@@ -31,7 +31,7 @@
     "events": {
       "planning2025": "HFA Planning 2025",
       "webinar2020": "HFA Webinar 2020",
-      "ulemah2019": "Ulemah Meeting JAH 2019"
+      "ulemah2019": "Ulemah Meeting JAN 2019"
     },
     "hero": {
       "title": "Get Halal Certified",
@@ -801,6 +801,129 @@
       "phone": "+44(0)2084467127",
       "email": "info@halalfoodauthority.com",
       "address": "Unit 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ United Kingdom"
+    }
+  },
+  "hfaEventPlanning2025": {
+    "pageTitle": "HFA Event Planning 2025",
+    "sections": {
+      "mainHeading": "Our National and International Event Participation",
+      "intro": "We are proud to be actively involved in a variety of prestigious events across the globe. These events offer us an invaluable platform to showcase our services, engage with industry leaders, and stay up-to-date with new developments and industry advancements. Our participation not only reinforces our commitment to excellence but also provides us with the opportunity to foster meaningful connections with our valued customers and partners. Below is a list of key events where we have a presence, both nationally and internationally:",
+      "events": [
+        {
+          "id": 1,
+          "title": "IFE – International Food & Drink Event",
+          "link": "https://www.ife.co.uk/",
+          "dates": "17 – 19 March",
+          "location": "London (Excel)",
+          "overview": "The IFE (International Food & Drink Event) is a major business-to-business exhibition for the food and drink industry. It takes place at ExCeL London from March 17-19, 2025. The event brings together around 1,500 food and drink suppliers under one roof, offering opportunities to discover new products, make business connections, and learn about industry trends."
+        },
+        {
+          "id": 2,
+          "title": "London Muslim Shopping Festival",
+          "link": "https://www.muslimshoppingfest.com/about-us/",
+          "dates": "22-23 February",
+          "location": "Excel London",
+          "overview": "Europe's largest pre-Ramadan event expects to welcome over 20,000 visitors and showcase more than 200 international stalls. This expansive event combines three key attractions in one: Halal Dining, a Shopping Festival, and the Muslim Travel Show."
+        },
+        {
+          "id": 3,
+          "title": "Makkah Halal Forum 2025",
+          "link": "https://ic-halal.com/event/makkah-halal-forum-2025/",
+          "dates": "February 25-27",
+          "location": "Makkah, Saudi Arabia",
+          "overview": "The Makkah Halal Forum is an international event that brings together stakeholders from over 70 countries to discuss developments and opportunities in the halal industry. The forum features business pavilions showcasing advancements in halal products and services, fostering collaboration and growth within the global halal market."
+        },
+        {
+          "id": 4,
+          "title": "Halal Expo Manchester",
+          "link": "https://www.halalexpomanchester.com/",
+          "dates": "14&15 June 2025",
+          "location": "Old Trafford Stadium Manchester M16 0SZ",
+          "overview": "An international trade and consumer event that brings together businesses, industry professionals, and consumers from various sectors focused on halal products and services."
+        },
+        {
+          "id": 5,
+          "title": "Malaysia International Halal Showcase (MIHAS)",
+          "link": "https://www.mihas.com.my/",
+          "dates": "17–20 September 2025",
+          "location": "Kuala Lumpur Convention Centre, Kuala Lumpur, Malaysia",
+          "overview": "An international halal showcase featuring a diverse range of halal products and services, from food to non-food sectors, including personal care, pharmaceuticals, finance, logistics, and packaging."
+        },
+        {
+          "id": 6,
+          "title": "Saudi International Halal Expo",
+          "link": "https://www.saudihalalexpo.com/",
+          "dates": "11- 13 November 2025",
+          "location": "Riyadh International Convention & Exhibition Center, Saudi Arabia",
+          "overview": "An international exhibition focusing on halal food, products, and services, including lifestyle, tourism, finance, cosmetics, and pharmaceuticals, aiming to showcase the latest developments in the global halal market."
+        },
+        {
+          "id": 7,
+          "title": "Halal Expo Istanbul",
+          "link": "https://helalexpo.com.tr/",
+          "dates": "26-29 November 2025",
+          "location": "Istanbul Expo Center, Istanbul, Turkey",
+          "overview": "A comprehensive halal expo covering sectors such as food and beverage, cosmetics, pharmaceuticals, Islamic finance, tourism, and textiles, aiming to connect industry professionals and promote halal products globally."
+        },
+        {
+          "id": 8,
+          "title": "Indonesia International Food & Horeca Expo",
+          "link": "https://allfoodindonesia.com/",
+          "dates": "30 April - 3 May 2025",
+          "location": "Tangerang",
+          "overview": "An International Exhibition of Food and Beverage Products, Technology, Ingredients, Additives, Raw Materials, Services, Equipment, and Supplies.",
+          "features": "Featuring: Bakery & Confectionery, Food & Hospitality, Food Ingredients, Healthy Food and Herbal, Retail & Franchising, Packaging."
+        },
+        {
+          "id": 9,
+          "title": "Food & Drink Exhibitions Paris – SIAL",
+          "link": "https://www.sial-network.com/",
+          "dates": "17-21 October 2026",
+          "location": "PARIS NORD VILLEPINTE",
+          "overview": "SIAL exhibitions feature exhibitors from different sectors of the food industry, including manufacturers, producers, distributors, and suppliers. Exhibitors often showcase their latest products, innovations, and technologies in food processing and packaging. They serve as important platforms for industry professionals to network, discover new products, and gain insights into global food trends and innovations."
+        },
+        {
+          "id": 10,
+          "title": "ISM Cologne 2025",
+          "link": "https://www.ism-cologne.com/",
+          "dates": "February 2-5, 2025",
+          "location": "Cologne, Germany",
+          "overview": "ISM Cologne is a leading trade fair for sweets and snacks, featuring a dedicated Halal Market segment that showcases halal-certified confectionery and snack products. This event provides a platform for industry professionals to explore trends and innovations in the halal segment of the confectionery market."
+        }
+      ]
+    }
+  },
+  "hfaWebinar2020": {
+    "pageTitle": "HFA Events",
+    "sections": {
+      "mainHeading": "HFA held its 1st successful webinar replacing Annual HFA Halal Industry Conference (HHIC)",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Dr Abdul Matin Khan - Welcome Notes",
+          "url": "https://www.youtube.com/embed/CppPDLRfzFs"
+        },
+        {
+          "id": 2,
+          "title": "Mr Ahmed Latif - Closing Remarks",
+          "url": "https://www.youtube.com/embed/3iRAQJCgtw8"
+        }
+      ],
+      "postBrexitHeading": "Post Brexit: Taking British food and drink across the globe",
+      "content": {
+        "paragraph1": "Halal Food Authority (HFA) held its 1st international webinar conference on 3rd November 2020. This online event was attended by almost 300 dignitaries including leading mainstream manufacturers, regulators, halal producers, customers, researchers, educators, international certifiers, trade commissioners, Islamic Scholars and speakers from around the world. It was a remarkably successful event despite the passing of uncertainty due to Covid-19 pandemic. International speakers including Prof. Sukoso (BPJPH), Dr Essam (Gov't of Dubai), representative from DIT UK, KFC UK & Ireland, AHDB, Indonesian Embassy, and MATRADE were presenting during the Webinar. It is anticipated that with no deal scenario the UK trade would be significantly impacted by the Brexit. Due to this fact, the speakers discussed various topics that highlighted the opportunities, finding the way forward to tackle all challenges facing Halal industries pertaining post Brexit circumstances.",
+        "paragraph2": "Dr Abdul Matin Khan, the chairman of HFA has expressed his sincere gratitude to the attendees in his welcome notes, \"I would like to thank our eminent highly qualified and experienced speakers from all round the world who have very kindly spared their valuable time to express their expert views at the webinar. I would like to thank all the other global participants and guest audience who have shown interest to attend this webinar\".",
+        "paragraph3": "Dr Amir Masoom, the CEO of HFA said, \"this webinar is a humble effort to bring relevant Halal industry information at one platform to help the UK industry to find different markets for the preparation of Brexit.\" He also announced that we have managed to complete our HFA portal in which all the certification process from registration of the clients to the issuance of the certificate is now done online.",
+        "paragraph4": "The distinguished speakers and topics of this remarkable webinar also include Lord Trees, Emeritus Professor, University of Liverpool – Demonstration of Life (Halal Assurance Scheme), Dr Phil Hadley, International Market Development Director, AHDB – Market Opportunities in GCC, Mr Adil Khan, Trade & Investment Adviser, DIT – Food and Drink Opportunities in the UAE, Mr Megat Iskandar, Trade Commissioner, MATRADE – Supply Chain Alternatives, Ms Debby Tobing, Head of Corporate, DIT Jakarta – Halal Opportunities in Indonesia, Mr. Chris Wren, Operational Head, BritCham – Trade Facilitation for Exports to Indonesia, Mr. David Moran, Supply Chain Director, KFC – Sustaining Robust Supply Chain, Dr Awal Fuseini, Halal Sector Manager, AHDB – Animal Welfare Guidelines Accepted in Muslim Countries, Rizvan Khalid, Brexit and Demonstration of Life (Halal Exporter's Perspective) and Mr Gama Khan, Shazan Foods, Director – Exporting Halal Products: Experience from an Industry Perspective.",
+        "paragraph5": "The webinar was hosted by the HFA's Quality Manager, Hifza Ibrahim and finally concluded by the HFA's Trustee Mr Ahmed Latif."
+      }
+    }
+  },
+  "hfaUleemahMeeting2019": {
+    "pageTitle": "Board of Ulemah meeting synopsis - 23/01/19",
+    "content": {
+      "paragraph1": "On Wednesday the 23rd of January 2019 the Halal Food Authority's Sharia Board convened its quarterly meeting. The meeting focused on several issues including recent undertakings by Board members with regards to community awareness, discussions regarding Legal (sharia) issues, and future strategies.",
+      "paragraph2": "A key point discussed at the meeting was the roles and responsibilities of the Board members with regards to halal audits. The presence of Sharia Board members as part of the HFA audit team has – and will further, enhance the quality and credibility of the service provided by the HFA to the food and beverage industry."
     }
   }
 }
