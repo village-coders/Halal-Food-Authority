@@ -5,9 +5,17 @@ import HalalImage from '../assets/about_section2.jpg';
 import StatsSection from '../components/StatsSection';
 import DepartmentalStructure from '../components/DepartmentalStructure';
 import TeamSection from '../components/TeamSection';
+import { motion } from 'framer-motion';
 
 const AboutPage = () => {
   const { t } = useTranslation();
+
+    const fadeInUp = {
+      initial: { opacity: 0, y: 20 },
+      whileInView: { opacity: 1, y: 0 },
+      viewport: { once: true, margin: "-100px" },
+      transition: { duration: 1, ease: "easeOut" }
+    };
 
   return (
     <main className='about-bg'>
@@ -46,9 +54,9 @@ const AboutPage = () => {
       <section className='about-appointment-sec'>
         <div className="about-app-overlay"></div>
         <div className="container about-appointment">
-          <h2>{t('about.sections.appointment.title')}</h2>
-          <p>{t('about.sections.appointment.content')}</p>
-          <button>{t('about.sections.appointment.button')}</button>
+          <motion.h2 {...fadeInUp}>{t('about.sections.appointment.title')}</motion.h2>
+          <motion.p>{t('about.sections.appointment.content')}</motion.p>
+          <motion.button {...fadeInUp}>{t('about.sections.appointment.button')}</motion.button>
         </div>
       </section>
     </main>

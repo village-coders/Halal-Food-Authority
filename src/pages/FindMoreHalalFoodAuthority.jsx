@@ -15,9 +15,21 @@ import IndonesiaImg from '../assets/indonesia-flag_20170821100153_reuters.webp'
 import MalaysiaImg from '../assets/UAE-FLAG-ILOE-scheme-1.jpg'
 import OtherImg from '../assets/world-1.png'
 
+import { motion } from 'framer-motion'
+
+
+
+
 
 const FindMoreHalalFoodAuthority = () => {
     const { t } = useTranslation()
+
+      const fadeInUp = {
+        initial: { opacity: 0, y: 20 },
+        whileInView: { opacity: 1, y: 0 },
+        viewport: { once: true, margin: "-100px" },
+        transition: { duration: 1, ease: "easeOut" }
+    };
 
   return (
     <div className='cert-procedure '>
@@ -126,6 +138,16 @@ const FindMoreHalalFoodAuthority = () => {
                 </div>
             </div>
             
+        </section>
+        <section className='about-appointment-sec'>
+
+            <div className="about-app-overlay"></div>
+
+            <div className="container about-appointment">
+                <motion.h2>Let’s Ensure Halal Integrity Together!</motion.h2>
+                <motion.p>Whether you’re looking to produce halal products for the local market or plan to export globally, our expert team is ready to offer the best advice tailored to your unique needs and requirements. Get in touch with us, and we’ll be delighted to assist you!</motion.p>
+                <motion.button {...fadeInUp}>CONTACT NOW</motion.button>
+            </div>
         </section>
     </div>
   )
