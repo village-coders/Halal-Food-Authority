@@ -28,6 +28,7 @@ import Contact from "./pages/Contact";
 import HFAEventPlanning2025 from './pages/HFAEventPlanning2025'
 import HFAWebinar2020 from "./pages/HFAWebinar2020";
 import HFAUleemahMeeting2019 from "./pages/HFAUleemahMeeting2019";
+import FindMoreHalalFoodAuthority from "./pages/FindMoreHalalFoodAuthority";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -98,6 +99,7 @@ function MainContent() {
         <Route path="/events/hfa-planning-2025" element={<HFAEventPlanning2025 />} />
         <Route path="/events/hfa-webinar-2020" element={<HFAWebinar2020 />} />
         <Route path="/events/ulemah-meeting-jan-2019/" element={<HFAUleemahMeeting2019 />} />
+        <Route path="/find-more-halal-food-authourity/" element={<FindMoreHalalFoodAuthority />} />
       </Routes>
       <Footer />
     </>
