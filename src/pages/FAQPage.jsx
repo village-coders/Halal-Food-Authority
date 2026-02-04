@@ -20,7 +20,7 @@ const FAQPage = () => {
             {t('faqPage.description')}
           </p>
           <div className="faq-card">
-            {faqs.map((faq, index) => (
+            {faqs.map((faq) => (
               <div key={faq.id} className="faq-item border-bottom">
                 <button
                   className={`faq-question ${open === faq.id ? "active" : ""}`}

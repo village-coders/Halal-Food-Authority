@@ -39,11 +39,11 @@ export default function Footer() {
         <div className="footer-col">
           <h4 className="footer-heading">{t('home.footer.importantLinks')}</h4>
           <ul className="footer-links">
-            <li><a href="/apply">{t('home.footer.links.apply')}</a></li>
-            <li><a href="/events">{t('home.footer.links.events')}</a></li>
-            <li><a href="/fee-policy">{t('home.footer.links.feePolicy')}</a></li>
-            <li><a href="/quality-policy">{t('home.footer.links.qualityPolicy')}</a></li>
-            <li><a href="/procedure">{t('home.footer.links.procedure')}</a></li>
+            <li><a target='blank' href="https://hfa-portals.com/">{t('home.footer.links.apply')}</a></li>
+            <li><a href={`${currentLang}/events`}>{t('home.footer.links.events')}</a></li>
+            <li><a href={`${currentLang}/fee-policy`}>{t('home.footer.links.feePolicy')}</a></li>
+            <li><a href={`${currentLang}/hfa-quality-policy`}>{t('home.footer.links.qualityPolicy')}</a></li>
+            <li><a href={`${currentLang}/certification/procedure`}>{t('home.footer.links.procedure')}</a></li>
           </ul>
         </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="contact-info">
             <p>{t('home.footer.contact.address')}</p>
             <p className="contact-item">{t('home.footer.contact.phone')}</p>
-            <p className="contact-item">{t('home.footer.contact.email')}</p>
+            <a style={{color: "#d0dcd7", textDecoration: "inherit"}} href={`mailto:info@halalfoodauthority.com`} className="contact-item">{t('home.footer.contact.email')}</a>
           </div>
         </div>
       </div>
@@ -65,14 +65,14 @@ export default function Footer() {
             {t('home.footer.copyright', { year: currentYear })}
           </div>
           <div className="legal-links">
-            <a href="/terms">{t('home.footer.links.terms')}</a>
-            <a href="/privacy">{t('home.footer.links.privacy')}</a>
+            <a href="#">{t('home.footer.links.terms')}</a>
+            <a href="#">{t('home.footer.links.privacy')}</a>
           </div>
           <div className="social-icons">
-            <a href="#" aria-label={t('home.footer.social.facebook')}><Facebook size={20} /></a>
-            <a href="#" aria-label={t('home.footer.social.twitter')}><Twitter size={20} /></a>
-            <a href="#" aria-label={t('home.footer.social.instagram')}><Instagram size={20} /></a>
-            <a href="#" aria-label={t('home.footer.social.linkedin')}><Linkedin size={20} /></a>
+            <a target='blank' href="https://www.facebook.com/HalalFoodAuthorityUK?_rdc=2&_rdr#" aria-label={t('home.footer.social.facebook')}><Facebook size={20} /></a>
+            <a target='blank' href="https://x.com/hfa_uk?lang=en-GB" aria-label={t('home.footer.social.twitter')}><Twitter size={20} /></a>
+            <a target='blank' href="https://www.instagram.com/halalfoodauthority_uk/" aria-label={t('home.footer.social.instagram')}><Instagram size={20} /></a>
+            <a target='blank' href="https://www.linkedin.com/company/halal-food-authority-limited?trk=public_profile_topcard-current-company&originalSubdomain=uk" aria-label={t('home.footer.social.linkedin')}><Linkedin size={20} /></a>
           </div>
         </div>
       </div>

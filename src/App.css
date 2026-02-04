@@ -263,7 +263,7 @@ nav button:hover {
 
 /* BUTTONS */
 .hero-buttons {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .hero-buttons .btn-white {
@@ -277,6 +277,8 @@ nav button:hover {
   cursor: pointer;
   margin-right: 15px;
   transition: all 0.3s ease;
+  text-decoration: inherit;
+  font-size: 14px
 }
 
 .hero-buttons .btn-white:hover {
@@ -289,12 +291,14 @@ nav button:hover {
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
-  padding: 14px 32px;
+  padding: 14px 28px;
   border-radius: 4px;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: inherit;
   transition: all 0.3s ease;
+  font-size: 14px;
 }
 
 
@@ -302,7 +306,6 @@ nav button:hover {
   background: #fff;
   border: 1px solid #fff;
   color: #0c3b2e;
-  padding: 14px 32px;
   border-radius: 4px;
   font-weight: bold;
   text-transform: uppercase;
@@ -824,6 +827,11 @@ footer {
 
 .partner-swiper {
   padding-bottom: 50px !important; /* Space for dots */
+}
+
+.partner-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
 }
 
 .logo-wrapper {
@@ -2084,11 +2092,13 @@ footer {
   border: 1px solid rgb(169, 169, 169);
   height: 40px;
   border-radius: 10px;
+  padding: 12px;
 }
 .contact-sec .contact-form-container form .form-group textarea{
   border: 1px solid rgb(169, 169, 169);
   height: 120px;
   border-radius: 10px;
+  padding: 12px;
 }
 
 
@@ -2108,7 +2118,37 @@ footer {
 
 .contact-sec .contact-info{
   display: flex;
+  gap: 30px;
   flex-basis: auto;
+  margin: 120px 0px;
+}
+
+.contact-sec .contact-info .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgb(100, 100, 100);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contact-sec .contact-info .item svg{
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.contact-sec .contact-info .item a{
+  font-size: 1rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+.contact-sec .contact-info .item p{
+  font-size: 1rem;
+  text-align: center;
+  color: black;
 }
 
 
@@ -2118,6 +2158,9 @@ footer {
   }
   .contact-sec .contact-form-container{
     flex-direction: column;
+  }
+  .contact-sec .contact-info{
+    flex-wrap: wrap;
   }
 
 }

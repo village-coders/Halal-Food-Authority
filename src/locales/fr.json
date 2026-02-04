@@ -768,5 +768,37 @@
         "answer": "Oui, notre certificat est accepté au Moyen-Orient. Nous sommes accrédités par EIAC (Émirats Arabes Unis), HAK (Turquie), BPJPH (Indonésie), Jakim (Malaisie) et reconnus par SFDA (Arabie Saoudite) et SASO. Nous avons également une reconnaissance mutuelle avec d'autres organismes internationaux."
       }
     ]
+  },
+  "contactPage": {
+    "pageTitle": "Contactez-nous",
+    "leftSide": {
+      "heading": "Vous nous dites, Nous écoutons.",
+      "description": "Vous avez des questions sur la certification halal pour votre entreprise ? Contactez l'équipe de l'Autorité des Aliments Halal pour des conseils et un soutien d'experts."
+    },
+    "form": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Entrez votre email"
+      },
+      "companyName": {
+        "label": "Nom de l'entreprise",
+        "placeholder": "Entrez le nom de l'entreprise"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Entrez votre message"
+      },
+      "required": "*",
+      "submit": "SOUMETTRE"
+    },
+    "contactInfo": {
+      "phone": "+44(0)2084467127",
+      "email": "info@halalfoodauthority.com",
+      "address": "Unité 15, Linen House, 253 Kilburn Lane, Queen's Park London, W10 4BQ Royaume-Uni"
+    }
   }
 }

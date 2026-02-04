@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
-
+import { Link, useParams } from "react-router-dom"
 export default function Hero() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lng } = useParams();
+
+  const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
   return (
     <section className="hero">
@@ -11,8 +14,8 @@ export default function Hero() {
           <p>{t("home.hero.description")}</p>
 
           <div className="hero-buttons">
-            <button className="btn-white">{t("home.hero.apply")}</button>
-            <button className="btn-outline">{t("home.hero.findMore")}</button>
+            <a href='https://hfa-portals.com/' className="btn-white">{t("home.hero.apply")}</a>
+            <Link to={``} className="btn-outline">{t("home.hero.findMore")}</Link>
           </div>
 
           <div className="stats">

@@ -37,7 +37,6 @@ const partners = [
   // Add more to fill the loop
 ];
 
-const isMobile = window.innerWidth <= 768;
 
 
 
@@ -48,7 +47,11 @@ export default function LogoSlider() {
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={50}
-          slidesPerView={isMobile ? 1 : 5}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            640: { slidesPerView: 3 },
+            1024: { slidesPerView: 5 },
+          }}
           loop={true}
           autoplay={{
             delay: 3000,
@@ -58,14 +61,10 @@ export default function LogoSlider() {
             clickable: true,
             dynamicBullets: false,
           }}
-          breakpoints={{
-            640: { slidesPerView: 3 },
-            1024: { slidesPerView: 5 },
-          }}
           className="partner-swiper"
         >
           {partners.map((partner) => (
-            <SwiperSlide key={partner.id}>
+            <SwiperSlide className="swiper-slide" key={partner.id}>
               <div className="logo-wrapper">
                 <img loading='lazy' src={partner.logo} alt={partner.name} />
               </div>
