@@ -3,15 +3,20 @@ import { useTranslation } from 'react-i18next';
 import image from '../assets/imgi_16_ezgif.com-animated-gif-maker-2-5 (1).gif';
 import image2 from '../assets/imgi_17_Press-Release.png';
 import image3 from '../assets/imgi_24_UK-and-Indonesia-Promote-New-Economic-Ties-768x432.png';
+import { useParams } from 'react-router-dom';
 
 export default function RecentNews() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const {lng} =  useParams()
+
+  const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
   // Get news items array from translations
   const newsItems = t('home.news.newsItems', { returnObjects: true });
 
   // Image array - keep these as imports since they're static assets
   const images = [image, image2, image3];
+  const newsLinks = [`/${currentLang}/our-clients`, `/${currentLang}/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective`, `/${currentLang}/exporting-your-products-to-indonesia`]
 
   return (
     <section className="news-section">
@@ -26,7 +31,7 @@ export default function RecentNews() {
               <div className="news-content">
                 <h3 className="news-card-title">{item.title}</h3>
                 <p className="news-excerpt">{item.excerpt}</p>
-                <a href="#" className="read-more">{t('home.news.readMore')}</a>
+                <a href={newsLinks[index]} className="read-more">{t('home.news.readMore')}</a>
               </div>
             </div>
           ))}

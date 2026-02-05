@@ -16,9 +16,13 @@ import MalaysiaImg from '../assets/UAE-FLAG-ILOE-scheme-1.jpg'
 import OtherImg from '../assets/world-1.png'
 
 import { motion } from 'framer-motion'
+import { useParams } from 'react-router-dom'
 
 const FindMoreHalalFoodAuthority = () => {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+    const {lng} =  useParams()
+
+    const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
     const categories = t('findMoreHalalFoodAuthority.productCategory.categories', { returnObjects: true })
     const countries = t('findMoreHalalFoodAuthority.halalCertification.countries', { returnObjects: true })
@@ -32,6 +36,8 @@ const FindMoreHalalFoodAuthority = () => {
 
     // Array of imported images for categories
     const categoryImages = [iftar, skinCare, pills, ingredient, perfume, cleaning, packaging]
+
+    const categoryLinks = [`/${currentLang}/food-and-beverages`, `/${currentLang}/cosmetics`, `/${currentLang}/pharmaceuticals`, `/${currentLang}/ingredients`, `/${currentLang}/additives-aromas`, ` ` , `/${currentLang}/packaging-materials`]
 
   return (
     <div className='cert-procedure '>
@@ -49,14 +55,15 @@ const FindMoreHalalFoodAuthority = () => {
             <div className="grid-container">
                 {categories.map((category, index) => (
                     <div className="grid-item" key={category.id || index}>
-                        <img 
+                        <img
                             src={categoryImages[index]} 
+                            loading='lazy'
                             alt={category.title.toLowerCase()} 
                         />
                         <h3>{category.title}</h3>
                         <p>
                             {category.description}
-                            <a href=""> {category.linkText}</a>
+                            <a href={categoryLinks[index]}> {category.linkText}</a>
                         </p>
                     </div>
                 ))}
@@ -76,7 +83,8 @@ const FindMoreHalalFoodAuthority = () => {
                             index === 0 ? UkImg : 
                             index === 1 ? saudiImg : 
                             uaeImg
-                        } alt={country.name} />
+                        } loading='lazy' alt={country.name} />
+
                         <h3>{country.name}</h3>
                     </div>
                 ))}
@@ -89,7 +97,7 @@ const FindMoreHalalFoodAuthority = () => {
                             index === 0 ? IndonesiaImg : 
                             index === 1 ? MalaysiaImg : 
                             OtherImg
-                        } alt={country.name} />
+                        } loading='lazy' alt={country.name} />
                         <h3>{country.name}</h3>
                     </div>
                 ))}

@@ -1011,5 +1011,64 @@
       "description": "Whether you're looking to produce halal products for the local market or plan to export globally, our expert team is ready to offer the best advice tailored to your unique needs and requirements. Get in touch with us, and we'll be delighted to assist you!",
       "buttonText": "CONTACT NOW"
     }
+  },
+  "foodAndBeverages": {
+    "pageTitle": "Food & Beverages",
+    "content": {
+      "heading": "Food & Beverages",
+      "description": "The food and beverage industry is one of the fastest-growing sectors in the Halal market. If you're operating within this sector, you understand the intense competition that defines it. Now, more than ever, it's crucial to distinguish yourself from competitors and reach a broader consumer base. We have an in-depth understanding of this industry. Achieving Halal certification can provide your company with a significant competitive advantage in the global market, enabling you to expand your customer base and boost sales.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "cosmetics": {
+    "pageTitle": "Cosmetics",
+    "content": {
+      "paragraph1": "When evaluating whether cosmetics and personal care products meet halal standards, it is crucial that all ingredients adhere to these guidelines. For instance, lipstick can be ingested while eating or drinking. Therefore, if it contains haram ingredients—such as non-halal animal derivatives or ethanol—accidental ingestion would result in consuming something forbidden.",
+      "paragraph2": "To obtain halal certification, cosmetic products must exclude specific ingredients, especially those derived from non-halal animals, which are strictly prohibited. Additionally, the formulation should avoid using ethyl alcohol or any substances that could be harmful to health.",
+      "paragraph3": "Halal cosmetics are products manufactured, produced, and composed of ingredients that are permissible under Islamic law. The term \"halal\" translates to \"permissible\" in Arabic, extending beyond dietary laws to personal care and beauty products. These cosmetics are free from components prohibited by Muslim law, such as alcohol, certain animal byproducts, and harmful chemicals. Their appeal goes beyond religious compliance, as they align with values like purity, safety, ethical practices, and eco-consciousness.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "pharmaceuticals": {
+    "pageTitle": "Pharmaceuticals",
+    "content": {
+      "description": "The process of halal certification for pharmaceuticals ensures that all elements related to a drug's development, including its ingredients, manufacturing practices, and handling, are in accordance with Islamic law. To qualify for halal certification, pharmaceutical products must not contain any haram (forbidden) substances, such as alcohol and its derivatives, as well as pork and its by-products. This certification involves a comprehensive evaluation of the ingredients, production methods, and packaging to ensure they meet halal requirements.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "ingredients": {
+    "pageTitle": "Ingredients",
+    "content": {
+      "description": "Halal certification verifies that all ingredients in a product comply with Islamic dietary regulations. To qualify as halal, every ingredient must be permissible, which means it should not contain forbidden substances like alcohol, pork, or certain animal by-products. The certification process includes a thorough review of each ingredient, focusing on its origin, production methods, and handling practices. Furthermore, the facility where the product is processed is essential in upholding the halal status.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "additivesAndAromas": {
+    "pageTitle": "Additives & Aromas",
+    "content": {
+      "description": "Halal certification guarantees that the additives and flavors used in food production adhere to Islamic dietary regulations. This process includes a thorough assessment of the origin, production techniques, and handling practices of all additives. It is imperative that these additives do not contain any haram (forbidden) substances, including alcohol or derivatives from pork. Likewise, the presence of haram flavors is significant; any product containing such flavors cannot be classified as halal. Upholding purity and compliance is crucial to satisfy the requirements of Muslim consumers.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "packagingMaterials": {
+    "pageTitle": "Packaging Materials",
+    "content": {
+      "description": "Halal certification is essential for packaging to ensure that all elements of the product, including its outer materials, conform to Islamic principles. This certification process verifies that the materials employed, such as inks, adhesives, and coatings, do not contain any haram (forbidden) substances, such as those derived from animals or alcohol, which could undermine the halal status of the product. Additionally, it ensures that the packaging process is free from contamination by non-halal items and aligns with ethical standards. Such certification is vital for upholding the integrity of halal products from production to the consumer, as it guarantees that every aspect, including packaging, adheres to halal guidelines and provides assurance to consumers who follow Islamic dietary laws.",
+      "buttonText": "CONTACT FOR MORE INFORMATION"
+    }
+  },
+  "ourClients": {
+    "section1": {
+      "heading": "Unlock Opportunities for Growth and Innovation",
+      "description": "Explore the halal industry and unlock exciting opportunities! Whether it's food production, certification, ethical business practices, or global trade, halal opens doors to innovation and growth. With increasing demand worldwide, now is the perfect time to get involved and contribute to a thriving sector built on trust and integrity."
+    },
+    "section2": {
+      "heading": "Find Halal KFC restaurant near you!",
+      "paragraph1": "KFC in the UK offers halal options, but not all of their locations are halal-certified. Some KFC outlets in certain areas serve halal chicken that is certified by a <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Halal Food Authority</a>. These locations follow strict guidelines to ensure the food meets halal requirements, including sourcing meat from certified halal suppliers by <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Halal Food Authority UK</a> and avoiding cross-contamination with non-halal products.",
+      "paragraph2": "To find KFC location in the UK that serves as a halal menu, check their website and look at for the halal logo under the restaurant address <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"https://www.kfc.co.uk/choose-restaurant\">click here</a> . KFC outlets that offer halal options will also have signage indicating that they are halal-certified."
+    },
+    "pagination": {
+      "nextPost": "Next Post"
+    }
   }
 }

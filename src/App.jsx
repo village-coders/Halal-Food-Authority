@@ -30,6 +30,15 @@ import HFAWebinar2020 from "./pages/HFAWebinar2020";
 import HFAUleemahMeeting2019 from "./pages/HFAUleemahMeeting2019";
 import FindMoreHalalFoodAuthority from "./pages/FindMoreHalalFoodAuthority";
 import ScrollToTop from "./components/ScrollToTop";
+import FoodAndBeverages from "./pages/FoodAndBeverages";
+import Cosmetics from "./pages/Cosmetics";
+import Pharmaceuticals from "./pages/Pharmaceuticals";
+import Ingredients from "./pages/Ingredients";
+import AdditivesAndAromas from "./pages/AdditivesAndAromas";
+import PackagingMaterials from "./pages/PackagingMaterials";
+import UKParliamentDebateOnBanning from "./pages/UKParliamentDebateOnBanning";
+import OurClients from "./pages/OurClients";
+import ExportingYourProductsToIndonesia from "./pages/ExportingYourProductsToIndonesia";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -102,7 +111,16 @@ function MainContent() {
         <Route path="/events/hfa-webinar-2020" element={<HFAWebinar2020 />} />
         <Route path="/events/ulemah-meeting-jan-2019/" element={<HFAUleemahMeeting2019 />} />
         <Route path="/find-more-halal-food-authourity/" element={<FindMoreHalalFoodAuthority />} />
-      </Routes>
+        <Route path="/food-and-beverages/" element={<FoodAndBeverages />} />
+        <Route path="/cosmetics/" element={<Cosmetics />} />
+        <Route path="/pharmaceuticals/" element={<Pharmaceuticals />} />
+        <Route path="/ingredients/" element={<Ingredients />} />
+        <Route path="/additives-aromas/" element={<AdditivesAndAromas />} />
+        <Route path="/packaging-materials/" element={<PackagingMaterials />} />
+        <Route path="/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective/" element={<UKParliamentDebateOnBanning />} />
+        <Route path="/our-clients/" element={<OurClients />} />
+        <Route path="/exporting-your-products-to-indonesia/" element={<ExportingYourProductsToIndonesia />} />
+      </Routes> 
       <Footer />
     </>
 

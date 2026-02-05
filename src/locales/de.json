@@ -1011,5 +1011,64 @@
       "description": "Egal, ob Sie Halal-Produkte für den lokalen Markt produzieren oder weltweit exportieren möchten, unser Expertenteam ist bereit, Ihnen die besten Ratschläge zu geben, die auf Ihre einzigartigen Bedürfnisse und Anforderungen zugeschnitten sind. Nehmen Sie Kontakt mit uns auf, und wir helfen Ihnen gerne weiter!",
       "buttonText": "JETZT KONTAKTIEREN"
     }
+  },
+  "foodAndBeverages": {
+    "pageTitle": "Lebensmittel und Getränke",
+    "content": {
+      "heading": "Lebensmittel und Getränke",
+      "description": "Die Lebensmittel- und Getränkeindustrie ist einer der am schnellsten wachsenden Sektoren auf dem Halal-Markt. Wenn Sie in diesem Sektor tätig sind, verstehen Sie den intensiven Wettbewerb, der ihn prägt. Jetzt ist es wichtiger denn je, sich von der Konkurrenz abzuheben und eine breitere Verbraucherbasis zu erreichen. Wir verfügen über ein tiefgreifendes Verständnis dieser Branche. Der Erhalt einer Halal-Zertifizierung kann Ihrem Unternehmen einen bedeutenden Wettbewerbsvorteil auf dem globalen Markt verschaffen und es Ihnen ermöglichen, Ihre Kundenbasis zu erweitern und den Umsatz zu steigern.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "cosmetics": {
+    "pageTitle": "Kosmetik",
+    "content": {
+      "paragraph1": "Bei der Bewertung, ob Kosmetika und Körperpflegeprodukte den Halal-Standards entsprechen, ist es entscheidend, dass alle Inhaltsstoffe diesen Richtlinien entsprechen. Zum Beispiel kann Lippenstift beim Essen oder Trinken versehentlich aufgenommen werden. Enthält er daher haram-Inhaltsstoffe - wie nicht-halal-tierische Derivate oder Ethanol - würde eine versehentliche Aufnahme zum Verzehr von etwas Verbotenem führen.",
+      "paragraph2": "Um eine Halal-Zertifizierung zu erhalten, müssen kosmetische Produkte bestimmte Inhaltsstoffe ausschließen, insbesondere solche, die von nicht-halal Tieren stammen, die strengstens verboten sind. Darüber hinaus sollte die Formulierung die Verwendung von Ethylalkohol oder jeglichen Substanzen vermeiden, die gesundheitsschädlich sein könnten.",
+      "paragraph3": "Halal-Kosmetika sind Produkte, die aus Inhaltsstoffen hergestellt, produziert und zusammengesetzt sind, die nach islamischem Recht erlaubt sind. Der Begriff \"Halal\" bedeutet auf Arabisch \"erlaubt\" und geht über Ernährungsgesetze hinaus auf Körperpflege- und Schönheitsprodukte. Diese Kosmetika sind frei von Komponenten, die nach muslimischem Recht verboten sind, wie Alkohol, bestimmte tierische Nebenprodukte und schädliche Chemikalien. Ihre Attraktivität geht über die religiöse Einhaltung hinaus, da sie mit Werten wie Reinheit, Sicherheit, ethischen Praktiken und Umweltbewusstsein übereinstimmen.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "pharmaceuticals": {
+    "pageTitle": "Pharmazeutika",
+    "content": {
+      "description": "Der Prozess der Halal-Zertifizierung für Pharmazeutika stellt sicher, dass alle Elemente im Zusammenhang mit der Entwicklung eines Medikaments, einschließlich seiner Inhaltsstoffe, Herstellungspraktiken und Handhabung, dem islamischen Recht entsprechen. Um für eine Halal-Zertifizierung in Frage zu kommen, dürfen pharmazeutische Produkte keine haram (verbotenen) Substanzen enthalten, wie Alkohol und seine Derivate sowie Schweinefleisch und seine Nebenprodukte. Diese Zertifizierung umfasst eine umfassende Bewertung der Inhaltsstoffe, Produktionsmethoden und Verpackungen, um sicherzustellen, dass sie den Halal-Anforderungen entsprechen.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "ingredients": {
+    "pageTitle": "Inhaltsstoffe",
+    "content": {
+      "description": "Die Halal-Zertifizierung bestätigt, dass alle Inhaltsstoffe eines Produkts den islamischen Ernährungsvorschriften entsprechen. Um als halal zu gelten, muss jeder Inhaltsstoff erlaubt sein, was bedeutet, dass er keine verbotenen Substanzen wie Alkohol, Schweinefleisch oder bestimmte tierische Nebenprodukte enthalten darf. Der Zertifizierungsprozess umfasst eine gründliche Überprüfung jedes Inhaltsstoffs unter besonderer Berücksichtigung seiner Herkunft, Produktionsmethoden und Handhabungspraktiken. Darüber hinaus ist die Einrichtung, in der das Produkt verarbeitet wird, entscheidend für die Aufrechterhaltung des Halal-Status.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "additivesAndAromas": {
+    "pageTitle": "Zusatzstoffe & Aromen",
+    "content": {
+      "description": "Die Halal-Zertifizierung garantiert, dass die in der Lebensmittelproduktion verwendeten Zusatzstoffe und Aromen den islamischen Ernährungsvorschriften entsprechen. Dieser Prozess umfasst eine gründliche Bewertung der Herkunft, Produktionstechniken und Handhabungspraktiken aller Zusatzstoffe. Es ist unerlässlich, dass diese Zusatzstoffe keine haram (verbotenen) Substanzen enthalten, einschließlich Alkohol oder Derivaten von Schweinefleisch. Ebenso ist das Vorhandensein von haram-Aromen bedeutsam; jedes Produkt, das solche Aromen enthält, kann nicht als halal eingestuft werden. Die Wahrung von Reinheit und Konformität ist entscheidend, um die Anforderungen muslimischer Verbraucher zu erfüllen.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "packagingMaterials": {
+    "pageTitle": "Verpackungsmaterialien",
+    "content": {
+      "description": "Die Halal-Zertifizierung ist für Verpackungen unerlässlich, um sicherzustellen, dass alle Elemente des Produkts, einschließlich seiner äußeren Materialien, den islamischen Grundsätzen entsprechen. Dieser Zertifizierungsprozess überprüft, dass die verwendeten Materialien wie Druckfarben, Klebstoffe und Beschichtungen keine haram (verbotenen) Substanzen enthalten, wie solche, die von Tieren oder Alkohol stammen, die den Halal-Status des Produkts untergraben könnten. Darüber hinaus stellt er sicher, dass der Verpackungsprozess frei von Kontamination durch nicht-halal Artikel ist und ethischen Standards entspricht. Eine solche Zertifizierung ist von entscheidender Bedeutung, um die Integrität von Halal-Produkten von der Produktion bis zum Verbraucher aufrechtzuerhalten, da sie garantiert, dass jeder Aspekt, einschließlich der Verpackung, den Halal-Richtlinien entspricht und Verbrauchern, die islamischen Ernährungsgesetzen folgen, Gewissheit bietet.",
+      "buttonText": "KONTAKT FÜR MEHR INFORMATIONEN"
+    }
+  },
+  "ourClients": {
+    "section1": {
+      "heading": "Erschließen Sie Wachstums- und Innovationschancen",
+      "description": "Erkunden Sie die Halal-Industrie und erschließen Sie spannende Möglichkeiten! Ob Lebensmittelproduktion, Zertifizierung, ethische Geschäftspraktiken oder globaler Handel – Halal öffnet Türen zu Innovation und Wachstum. Mit zunehmender weltweiter Nachfrage ist jetzt der perfekte Zeitpunkt, sich zu engagieren und zu einem florierenden Sektor beizutragen, der auf Vertrauen und Integrität aufbaut."
+    },
+    "section2": {
+      "heading": "Finden Sie ein Halal-KFC-Restaurant in Ihrer Nähe!",
+      "paragraph1": "KFC in Großbritannien bietet Halal-Optionen an, aber nicht alle Standorte sind Halal-zertifiziert. Einige KFC-Filialen in bestimmten Gebieten servieren Halal-Hähnchen, das von der <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Halal Food Authority</a> zertifiziert wird. Diese Standorte befolgen strenge Richtlinien, um sicherzustellen, dass die Lebensmittel den Halal-Anforderungen entsprechen, einschließlich der Beschaffung von Fleisch von zertifizierten Halal-Lieferanten der <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Halal Food Authority UK</a> und der Vermeidung von Kreuzkontamination mit nicht-Halal-Produkten.",
+      "paragraph2": "Um einen KFC-Standort in Großbritannien zu finden, der ein Halal-Menü anbietet, überprüfen Sie deren Website und suchen Sie nach dem Halal-Logo unter der Restaurantadresse <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"https://www.kfc.co.uk/choose-restaurant\">hier klicken</a>. KFC-Filialen, die Halal-Optionen anbieten, haben auch Schilder, die darauf hinweisen, dass sie Halal-zertifiziert sind."
+    },
+    "pagination": {
+      "nextPost": "Nächster Beitrag"
+    }
   }
 }

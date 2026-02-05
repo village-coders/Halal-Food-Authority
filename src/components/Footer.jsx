@@ -40,10 +40,10 @@ export default function Footer() {
           <h4 className="footer-heading">{t('home.footer.importantLinks')}</h4>
           <ul className="footer-links">
             <li><a target='blank' href="https://hfa-portals.com/">{t('home.footer.links.apply')}</a></li>
-            <li><a href={`${currentLang}/events`}>{t('home.footer.links.events')}</a></li>
-            <li><a href={`${currentLang}/fee-policy`}>{t('home.footer.links.feePolicy')}</a></li>
-            <li><a href={`${currentLang}/hfa-quality-policy`}>{t('home.footer.links.qualityPolicy')}</a></li>
-            <li><a href={`${currentLang}/certification/procedure`}>{t('home.footer.links.procedure')}</a></li>
+            <li><a href={`/${currentLang}/events`}>{t('home.footer.links.events')}</a></li>
+            <li><a href={`/${currentLang}/fee-policy`}>{t('home.footer.links.feePolicy')}</a></li>
+            <li><a href={`/${currentLang}/hfa-quality-policy`}>{t('home.footer.links.qualityPolicy')}</a></li>
+            <li><a href={`/${currentLang}/certification/procedure`}>{t('home.footer.links.procedure')}</a></li>
           </ul>
         </div>
 

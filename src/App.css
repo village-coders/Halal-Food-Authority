@@ -16,6 +16,10 @@
   scroll-behavior: smooth;
 }
 
+/* body{
+  background: #F5F5F5;
+
+} */
 
 .container {
   width: 100%;
@@ -42,7 +46,7 @@
 }
 
 .logo img {
-  height: 100px; /* Adjust based on your actual logo file */
+  height: 95px; /* Adjust based on your actual logo file */
 }
 
 nav {
@@ -845,20 +849,20 @@ footer {
   max-width: 100%;
   max-height: 300px;
   object-fit: contain;
-  filter: grayscale(100%); /* Optional: Matches some professional sliders */
-  opacity: 0.7;
+  /* filter: grayscale(100%); Optional: Matches some professional sliders */
+  /* opacity: 0.7; */
   transition: all 0.3s ease;
 }
 
-.logo-wrapper img:hover {
+/* .logo-wrapper img:hover {
   filter: grayscale(0%);
   opacity: 1;
-}
+} */
 
 /* MATCHING THE DOTS FROM IMAGE */
 .swiper-pagination-bullet {
-  width: 8px !important;
-  height: 8px !important;
+  width: 6px !important;
+  height: 6px !important;
   background: #ccc !important;
   opacity: 1 !important;
   margin: 0 5px !important;
@@ -866,8 +870,8 @@ footer {
 
 .swiper-pagination-bullet-active {
   background: #000 !important; /* Black active dot as seen in image */
-  width: 10px !important;
-  height: 10px !important;
+  width: 6px !important;
+  height: 6px !important;
 }
 
 /* Responsiveness */
@@ -2016,6 +2020,7 @@ footer {
   font-size: .9rem;
   font-weight: 650;
   cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
 .termination-sec button:hover{
@@ -2170,6 +2175,41 @@ footer {
 .events b{
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.events.pad{
+  padding: 90px;
+  background: white;
+}
+
+
+@media (max-width: 768px) {
+  .events img{
+    width: 100%;
+  }
+  .events.pad{
+    padding: 20px;
+    background: white;
+  }
+}
+
+ .pagination{
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+}
+
+.pagination a{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 40px 0px;
+  gap: 7px;
+  font-size: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  /* width: 100%; */
 }
 
 .find-more-halal{

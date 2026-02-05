@@ -1009,5 +1009,64 @@
       "description": "Que vous cherchiez à produire des produits halal pour le marché local ou que vous prévoyiez d'exporter à l'échelle mondiale, notre équipe d'experts est prête à vous offrir les meilleurs conseils adaptés à vos besoins et exigences uniques. Contactez-nous, et nous serons ravis de vous aider !",
       "buttonText": "CONTACTEZ-NOUS MAINTENANT"
     }
+  },
+  "foodAndBeverages": {
+    "pageTitle": "Aliments et Boissons",
+    "content": {
+      "heading": "Aliments et Boissons",
+      "description": "L'industrie alimentaire et des boissons est l'un des secteurs à la croissance la plus rapide du marché halal. Si vous opérez dans ce secteur, vous comprenez la concurrence intense qui le caractérise. Aujourd'hui plus que jamais, il est crucial de vous distinguer de vos concurrents et d'atteindre une base de consommateurs plus large. Nous avons une compréhension approfondie de cette industrie. L'obtention de la certification halal peut offrir à votre entreprise un avantage concurrentiel significatif sur le marché mondial, vous permettant d'élargir votre clientèle et d'augmenter vos ventes.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "cosmetics": {
+    "pageTitle": "Cosmétiques",
+    "content": {
+      "paragraph1": "Lors de l'évaluation de la conformité des cosmétiques et des produits de soins personnels aux normes halal, il est crucial que tous les ingrédients adhèrent à ces directives. Par exemple, le rouge à lèvres peut être ingéré en mangeant ou en buvant. Par conséquent, s'il contient des ingrédients haram - tels que des dérivés animaux non halal ou de l'éthanol - une ingestion accidentelle entraînerait la consommation de quelque chose d'interdit.",
+      "paragraph2": "Pour obtenir la certification halal, les produits cosmétiques doivent exclure des ingrédients spécifiques, en particulier ceux dérivés d'animaux non halal, qui sont strictement interdits. De plus, la formulation doit éviter d'utiliser de l'alcool éthylique ou toute substance pouvant être nocive pour la santé.",
+      "paragraph3": "Les cosmétiques halal sont des produits fabriqués, produits et composés d'ingrédients permis par la loi islamique. Le terme « halal » se traduit par « permis » en arabe, s'étendant au-delà des lois alimentaires aux produits de soins personnels et de beauté. Ces cosmétiques sont exempts des composants interdits par la loi musulmane, tels que l'alcool, certains sous-produits animaux et les produits chimiques nocifs. Leur attrait va au-delà de la conformité religieuse, car ils s'alignent sur des valeurs telles que la pureté, la sécurité, les pratiques éthiques et la conscience écologique.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "pharmaceuticals": {
+    "pageTitle": "Produits Pharmaceutiques",
+    "content": {
+      "description": "Le processus de certification halal pour les produits pharmaceutiques garantit que tous les éléments liés au développement d'un médicament, y compris ses ingrédients, les pratiques de fabrication et la manutention, sont conformes à la loi islamique. Pour être éligibles à la certification halal, les produits pharmaceutiques ne doivent contenir aucune substance haram (interdite), telle que l'alcool et ses dérivés, ainsi que le porc et ses sous-produits. Cette certification implique une évaluation complète des ingrédients, des méthodes de production et de l'emballage pour garantir qu'ils répondent aux exigences halal.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "ingredients": {
+    "pageTitle": "Ingrédients",
+    "content": {
+      "description": "La certification halal vérifie que tous les ingrédients d'un produit sont conformes aux réglementations alimentaires islamiques. Pour être considéré comme halal, chaque ingrédient doit être permis, ce qui signifie qu'il ne doit pas contenir de substances interdites telles que l'alcool, le porc ou certains sous-produits animaux. Le processus de certification comprend un examen approfondi de chaque ingrédient, en se concentrant sur son origine, ses méthodes de production et ses pratiques de manipulation. De plus, l'installation où le produit est transformé est essentielle pour maintenir le statut halal.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "additivesAndAromas": {
+    "pageTitle": "Additifs & Aromas",
+    "content": {
+      "description": "La certification halal garantit que les additifs et arômes utilisés dans la production alimentaire respectent les réglementations diététiques islamiques. Ce processus comprend une évaluation approfondie de l'origine, des techniques de production et des pratiques de manipulation de tous les additifs. Il est impératif que ces additifs ne contiennent aucune substance haram (interdite), y compris l'alcool ou les dérivés du porc. De même, la présence d'arômes haram est significative ; tout produit contenant de tels arômes ne peut être classé comme halal. Maintenir la pureté et la conformité est crucial pour satisfaire les exigences des consommateurs musulmans.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "packagingMaterials": {
+    "pageTitle": "Matériaux d'Emballage",
+    "content": {
+      "description": "La certification halal est essentielle pour l'emballage afin de garantir que tous les éléments du produit, y compris ses matériaux extérieurs, sont conformes aux principes islamiques. Ce processus de certification vérifie que les matériaux utilisés, tels que les encres, adhésifs et revêtements, ne contiennent aucune substance haram (interdite), comme celles dérivées d'animaux ou d'alcool, qui pourraient compromettre le statut halal du produit. De plus, il garantit que le processus d'emballage est exempt de contamination par des articles non halal et respecte les normes éthiques. Une telle certification est vitale pour maintenir l'intégrité des produits halal de la production au consommateur, car elle garantit que chaque aspect, y compris l'emballage, adhère aux directives halal et offre une assurance aux consommateurs qui suivent les lois alimentaires islamiques.",
+      "buttonText": "CONTACTER POUR PLUS D'INFORMATIONS"
+    }
+  },
+  "ourClients": {
+    "section1": {
+      "heading": "Débloquez des opportunités de croissance et d'innovation",
+      "description": "Explorez l'industrie halal et découvrez des opportunités passionnantes ! Que ce soit la production alimentaire, la certification, les pratiques commerciales éthiques ou le commerce mondial, le halal ouvre des portes à l'innovation et à la croissance. Avec une demande croissante dans le monde entier, c'est le moment idéal pour s'impliquer et contribuer à un secteur florissant bâti sur la confiance et l'intégrité."
+    },
+    "section2": {
+      "heading": "Trouvez un restaurant KFC Halal près de chez vous !",
+      "paragraph1": "KFC au Royaume-Uni propose des options halal, mais tous leurs emplacements ne sont pas certifiés halal. Certains restaurants KFC dans certaines zones servent du poulet halal certifié par l'<a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Autorité des Aliments Halal</a>. Ces établissements suivent des directives strictes pour garantir que la nourriture répond aux exigences halal, y compris l'approvisionnement en viande auprès de fournisseurs halal certifiés par l'<a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"http://www.halalfoodauthority.com/\">Autorité des Aliments Halal UK</a> et la prévention de la contamination croisée avec des produits non halal.",
+      "paragraph2": "Pour trouver un emplacement KFC au Royaume-Uni qui propose un menu halal, consultez leur site web et recherchez le logo halal sous l'adresse du restaurant <a style=\"display: inline; font-weight: inherit; font-size: inherit\" href=\"https://www.kfc.co.uk/choose-restaurant\">cliquez ici</a>. Les restaurants KFC qui proposent des options halal auront également une signalisation indiquant qu'ils sont certifiés halal."
+    },
+    "pagination": {
+      "nextPost": "Article suivant"
+    }
   }
 }
