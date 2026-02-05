@@ -1070,5 +1070,49 @@
     "pagination": {
       "nextPost": "Next Post"
     }
+  },
+  "ukParliamentDebate": {
+    "pressReleaseAlt": "Press Release",
+    "hfaPressReleaseAlt": "HFA Press Release letter",
+    "mainHeading": "UK Parliament Debate on banning Non-Stun Slaughter on 9th May – HFA Perspective",
+    "description": "A recent Early Day Motion (EDM 1394) was tabled in the UK Parliament on June 4, 2025, calling for a review of the legislative framework around non-stun slaughter. The motion expresses concern over the continued allowance of non-stun animal slaughter, particularly in halal meat production, and highlights veterinary evidence suggesting that pre-stunning reduces animal suffering. It urges the government to consider restricting or banning the practice and to introduce mandatory labelling of meat products based on the method of slaughter. Here is HFA point of view over the proposed ban.",
+    "pagination": {
+      "previousPost": "Previous Post",
+      "nextPost": "Next Post"
+    }
+  },
+  "exportingToIndonesia": {
+    "pressReleaseAlt": "Press Release",
+    "mainHeading": "Exporting your products to Indonesia",
+    "content": {
+      "paragraph1": "Halal certification will be mandatory for nearly all food and beverage products starting in October 2024.",
+      "paragraph2": "The new halal certification requirements for exporting food items to Indonesia, effective from October 2024, represent a crucial shift in the regulatory landscape for UK businesses. While the new standards are more stringent, they are designed to protect consumer trust and ensure that halal principles are strictly followed.",
+      "paragraph3": "UK exporters must take proactive steps to comply with these requirements, including engaging with accredited certifying bodies, upgrading traceability systems, and ensuring that all aspects of their production process meet halal standards. By doing so, they can continue to access the lucrative Indonesian market while upholding the highest standards of quality and integrity."
+    },
+    "timeline": {
+      "heading": "Timeline and Execution Stages",
+      "description": "The Halal law is being rolled out in phases. Here are the current key dates to remember:",
+      "dates": [
+        {
+          "date": "17 October 2024:",
+          "description": "The deadline for food and beverage products to obtain Halal certification."
+        },
+        {
+          "date": "17 October 2026:",
+          "description": "The deadline for chemicals and cosmetics to comply with the Halal certification requirement."
+        }
+      ]
+    },
+    "exportRequirements": {
+      "heading": "To export your products to Indonesia",
+      "points": [
+        "B2B products do not require Halal package labelling, however, need a Halal certificate.",
+        "B2C products (products sold in supermarkets) require Halal labelling for Indonesia."
+      ]
+    },
+    "contactInfo": "For more information, please <Link style=\"display: inline; font-weight: inherit; font-size: inherit\" to=\"\"> contact </Link> us",
+    "pagination": {
+      "previousPost": "Previous Post"
+    }
   }
 }

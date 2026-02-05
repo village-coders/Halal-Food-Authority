@@ -1070,5 +1070,49 @@
     "pagination": {
       "nextPost": "Nächster Beitrag"
     }
+  },
+  "ukParliamentDebate": {
+    "pressReleaseAlt": "Pressemitteilung",
+    "hfaPressReleaseAlt": "HFA Pressemitteilung Brief",
+    "mainHeading": "Debatte im britischen Parlament über das Verbot der Betäubungslosen Schlachtung am 9. Mai – HFA-Perspektive",
+    "description": "Ein kürzlicher Antrag im Parlament (EDM 1394) wurde am 4. Juni 2025 im britischen Parlament eingebracht, der eine Überprüfung des gesetzlichen Rahmens für betäubungslose Schlachtung fordert. Der Antrag äußert Besorgnis über die fortgesetzte Zulassung der betäubungslosen Schlachtung von Tieren, insbesondere in der Halal-Fleischproduktion, und hebt tierärztliche Beweise hervor, die darauf hindeuten, dass Vorab-Betäubung das Leid der Tiere verringert. Er fordert die Regierung auf, die Einschränkung oder das Verbot dieser Praxis zu erwägen und eine obligatorische Kennzeichnung von Fleischprodukten basierend auf der Schlachtmethode einzuführen. Hier ist der Standpunkt der HFA zum vorgeschlagenen Verbot.",
+    "pagination": {
+      "previousPost": "Vorheriger Beitrag",
+      "nextPost": "Nächster Beitrag"
+    }
+  },
+  "exportingToIndonesia": {
+    "pressReleaseAlt": "Pressemitteilung",
+    "mainHeading": "Ihre Produkte nach Indonesien exportieren",
+    "content": {
+      "paragraph1": "Die Halal-Zertifizierung wird ab Oktober 2024 für fast alle Lebensmittel- und Getränkeprodukte obligatorisch.",
+      "paragraph2": "Die neuen Anforderungen an die Halal-Zertifizierung für den Export von Lebensmitteln nach Indonesien, die ab Oktober 2024 in Kraft treten, stellen einen entscheidenden Wandel im regulatorischen Umfeld für britische Unternehmen dar. Obwohl die neuen Standards strenger sind, sind sie darauf ausgelegt, das Verbrauchervertrauen zu schützen und sicherzustellen, dass die Halal-Prinzipien strikt eingehalten werden.",
+      "paragraph3": "Britische Exporteure müssen proaktive Schritte unternehmen, um diesen Anforderungen zu entsprechen, einschließlich der Zusammenarbeit mit akkreditierten Zertifizierungsstellen, der Modernisierung von Rückverfolgbarkeitssystemen und der Sicherstellung, dass alle Aspekte ihres Produktionsprozesses den Halal-Standards entsprechen. Auf diese Weise können sie weiterhin Zugang zum lukrativen indonesischen Markt haben und gleichzeitig die höchsten Standards an Qualität und Integrität wahren."
+    },
+    "timeline": {
+      "heading": "Zeitplan und Umsetzungsphasen",
+      "description": "Das Halal-Gesetz wird schrittweise eingeführt. Hier sind die aktuellen wichtigen Daten, die Sie sich merken sollten:",
+      "dates": [
+        {
+          "date": "17. Oktober 2024:",
+          "description": "Die Frist für Lebensmittel- und Getränkeprodukte, um die Halal-Zertifizierung zu erhalten."
+        },
+        {
+          "date": "17. Oktober 2026:",
+          "description": "Die Frist für Chemikalien und Kosmetika, um die Halal-Zertifizierungsanforderung zu erfüllen."
+        }
+      ]
+    },
+    "exportRequirements": {
+      "heading": "Um Ihre Produkte nach Indonesien zu exportieren",
+      "points": [
+        "B2B-Produkte benötigen keine Halal-Verpackungskennzeichnung, jedoch ein Halal-Zertifikat.",
+        "B2C-Produkte (in Supermärkten verkaufte Produkte) erfordern eine Halal-Kennzeichnung für Indonesien."
+      ]
+    },
+    "contactInfo": "Für weitere Informationen <Link style=\"display: inline; font-weight: inherit; font-size: inherit\" to=\"\"> kontaktieren </Link> Sie uns bitte",
+    "pagination": {
+      "previousPost": "Vorheriger Beitrag"
+    }
   }
 }

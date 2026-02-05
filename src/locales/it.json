@@ -1070,5 +1070,49 @@
     "pagination": {
       "nextPost": "Prossimo articolo"
     }
+  },
+  "ukParliamentDebate": {
+    "pressReleaseAlt": "Comunicato stampa",
+    "hfaPressReleaseAlt": "Lettera del comunicato stampa HFA",
+    "mainHeading": "Dibattito al Parlamento del Regno Unito sul divieto di macellazione senza stordimento il 9 maggio – Prospettiva HFA",
+    "description": "Una recente Mozione del Giorno (EDM 1394) è stata presentata al Parlamento del Regno Unito il 4 giugno 2025, chiedendo una revisione del quadro legislativo relativo alla macellazione senza stordimento. La mozione esprime preoccupazione per la continua autorizzazione della macellazione animale senza stordimento, in particolare nella produzione di carne halal, e mette in evidenza prove veterinarie che suggeriscono che lo stordimento preventivo riduce la sofferenza animale. Esorta il governo a considerare di limitare o vietare la pratica e di introdurre un'etichettatura obbligatoria dei prodotti a base di carne basata sul metodo di macellazione. Ecco il punto di vista dell'HFA sul divieto proposto.",
+    "pagination": {
+      "previousPost": "Articolo precedente",
+      "nextPost": "Prossimo articolo"
+    }
+  },
+  "exportingToIndonesia": {
+    "pressReleaseAlt": "Comunicato stampa",
+    "mainHeading": "Esportare i tuoi prodotti in Indonesia",
+    "content": {
+      "paragraph1": "La certificazione halal sarà obbligatoria per quasi tutti i prodotti alimentari e bevande a partire da ottobre 2024.",
+      "paragraph2": "I nuovi requisiti di certificazione halal per l'esportazione di prodotti alimentari in Indonesia, efficaci da ottobre 2024, rappresentano un cambiamento cruciale nel panorama normativo per le aziende britanniche. Sebbene i nuovi standard siano più rigorosi, sono progettati per proteggere la fiducia dei consumatori e garantire che i principi halal vengano seguiti rigorosamente.",
+      "paragraph3": "Gli esportatori britannici devono intraprendere azioni proattive per conformarsi a questi requisiti, incluso collaborare con organismi di certificazione accreditati, aggiornare i sistemi di tracciabilità e assicurarsi che tutti gli aspetti del loro processo produttivo soddisfino gli standard halal. In questo modo, possono continuare ad accedere al redditizio mercato indonesiano mantenendo i più alti standard di qualità e integrità."
+    },
+    "timeline": {
+      "heading": "Cronologia e fasi di esecuzione",
+      "description": "La legge halal viene attuata per fasi. Ecco le date chiave attuali da ricordare:",
+      "dates": [
+        {
+          "date": "17 ottobre 2024:",
+          "description": "La scadenza per i prodotti alimentari e bevande per ottenere la certificazione Halal."
+        },
+        {
+          "date": "17 ottobre 2026:",
+          "description": "La scadenza per prodotti chimici e cosmetici per conformarsi al requisito di certificazione Halal."
+        }
+      ]
+    },
+    "exportRequirements": {
+      "heading": "Per esportare i tuoi prodotti in Indonesia",
+      "points": [
+        "I prodotti B2B non richiedono etichettatura di imballaggio Halal, tuttavia necessitano di un certificato Halal.",
+        "I prodotti B2C (prodotti venduti nei supermercati) richiedono etichettatura Halal per l'Indonesia."
+      ]
+    },
+    "contactInfo": "Per ulteriori informazioni, si prega di <Link style=\"display: inline; font-weight: inherit; font-size: inherit\" to=\"\"> contattarci </Link>",
+    "pagination": {
+      "previousPost": "Articolo precedente"
+    }
   }
 }

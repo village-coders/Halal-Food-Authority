@@ -1068,5 +1068,49 @@
     "pagination": {
       "nextPost": "Article suivant"
     }
+  },
+  "ukParliamentDebate": {
+    "pressReleaseAlt": "Communiqué de presse",
+    "hfaPressReleaseAlt": "Lettre de communiqué de presse HFA",
+    "mainHeading": "Débat au Parlement britannique sur l'interdiction de l'abattage sans étourdissement le 9 mai – Perspective HFA",
+    "description": "Une récente motion parlementaire (EDM 1394) a été déposée au Parlement britannique le 4 juin 2025, appelant à un examen du cadre législatif entourant l'abattage sans étourdissement. La motion exprime des préoccupations concernant la continuation de l'autorisation de l'abattage animal sans étourdissement, en particulier dans la production de viande halal, et met en lumière des preuves vétérinaires suggérant que l'étourdissement préalable réduit la souffrance animale. Elle exhorte le gouvernement à envisager de restreindre ou d'interdire cette pratique et d'introduire un étiquetage obligatoire des produits carnés basé sur la méthode d'abattage. Voici le point de vue de la HFA sur l'interdiction proposée.",
+    "pagination": {
+      "previousPost": "Article précédent",
+      "nextPost": "Article suivant"
+    }
+  },
+  "exportingToIndonesia": {
+    "pressReleaseAlt": "Communiqué de presse",
+    "mainHeading": "Exporter vos produits vers l'Indonésie",
+    "content": {
+      "paragraph1": "La certification halal deviendra obligatoire pour presque tous les produits alimentaires et boissons à partir d'octobre 2024.",
+      "paragraph2": "Les nouvelles exigences de certification halal pour l'exportation de produits alimentaires vers l'Indonésie, applicables à partir d'octobre 2024, représentent un changement crucial dans le paysage réglementaire pour les entreprises britanniques. Bien que les nouvelles normes soient plus strictes, elles sont conçues pour protéger la confiance des consommateurs et garantir que les principes halal sont strictement suivis.",
+      "paragraph3": "Les exportateurs britanniques doivent prendre des mesures proactives pour se conformer à ces exigences, notamment en collaborant avec des organismes de certification accrédités, en modernisant leurs systèmes de traçabilité et en veillant à ce que tous les aspects de leur processus de production respectent les normes halal. Ce faisant, ils peuvent continuer à accéder au marché indonésien lucratif tout en respectant les normes les plus élevées de qualité et d'intégrité."
+    },
+    "timeline": {
+      "heading": "Calendrier et étapes d'exécution",
+      "description": "La loi halal est mise en œuvre par phases. Voici les dates clés actuelles à retenir :",
+      "dates": [
+        {
+          "date": "17 octobre 2024 :",
+          "description": "La date limite pour que les produits alimentaires et boissons obtiennent la certification Halal."
+        },
+        {
+          "date": "17 octobre 2026 :",
+          "description": "La date limite pour que les produits chimiques et cosmétiques se conforment à l'exigence de certification Halal."
+        }
+      ]
+    },
+    "exportRequirements": {
+      "heading": "Pour exporter vos produits vers l'Indonésie",
+      "points": [
+        "Les produits B2B ne nécessitent pas d'étiquetage d'emballage Halal, mais nécessitent un certificat Halal.",
+        "Les produits B2C (produits vendus dans les supermarchés) nécessitent un étiquetage Halal pour l'Indonésie."
+      ]
+    },
+    "contactInfo": "Pour plus d'informations, veuillez <Link style=\"display: inline; font-weight: inherit; font-size: inherit\" to=\"\"> nous contacter </Link>",
+    "pagination": {
+      "previousPost": "Article précédent"
+    }
   }
 }
