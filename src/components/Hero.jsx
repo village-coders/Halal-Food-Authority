@@ -15,7 +15,7 @@ export default function Hero() {
 
           <div className="hero-buttons">
             <a href='https://hfa-portals.com/' className="btn-white">{t("home.hero.apply")}</a>
-            <Link to={`/${currentLang}/`} className="btn-outline">{t("home.hero.findMore")}</Link>
+            <Link to={`/${currentLang}/find-more-halal-food-authourity`} className="btn-outline">{t("home.hero.findMore")}</Link>
           </div>
 
           <div className="stats">

@@ -29,6 +29,7 @@ import HFAEventPlanning2025 from './pages/HFAEventPlanning2025'
 import HFAWebinar2020 from "./pages/HFAWebinar2020";
 import HFAUleemahMeeting2019 from "./pages/HFAUleemahMeeting2019";
 import FindMoreHalalFoodAuthority from "./pages/FindMoreHalalFoodAuthority";
+import ScrollToTop from "./components/ScrollToTop";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* Redirect root to browser language or fallback */}
         <Route path="/" element={<Navigate to={`/${defaultLang}`} replace />} />

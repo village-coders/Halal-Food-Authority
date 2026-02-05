@@ -925,5 +925,91 @@
       "paragraph1": "On Wednesday the 23rd of January 2019 the Halal Food Authority's Sharia Board convened its quarterly meeting. The meeting focused on several issues including recent undertakings by Board members with regards to community awareness, discussions regarding Legal (sharia) issues, and future strategies.",
       "paragraph2": "A key point discussed at the meeting was the roles and responsibilities of the Board members with regards to halal audits. The presence of Sharia Board members as part of the HFA audit team has – and will further, enhance the quality and credibility of the service provided by the HFA to the food and beverage industry."
     }
+  },
+  "findMoreHalalFoodAuthority": {
+    "pageTitle": "Find More Halal Food Authority",
+    "productCategory": {
+      "heading": "What is your product category?",
+      "description": "Halal Food Authority is an industry-leading Halal Food Certification body. We specialise in Halal Certification of Food and Non-Food items including cosmetics, logistics, chemicals, additives & aromas, cleaning substances, packaging, pharmaceutical, ingredients, and much more.",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Food & Beverages",
+          "description": "The food and beverage industry is one of the fastest-growing sectors in the Halal market. If you're operating within this",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 2,
+          "title": "Cosmetics",
+          "description": "When evaluating whether cosmetics and personal care products meet halal standards, it is crucial that all ingredients",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 3,
+          "title": "Pharmaceuticals",
+          "description": "The process of halal certification for pharmaceuticals ensures that all elements related to a drug's development",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 4,
+          "title": "Ingredients",
+          "description": "Halal certification verifies that all ingredients in a product comply with Islamic dietary regulations. To qualify as",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 5,
+          "title": "Additives & Aromas",
+          "description": "Halal certification guarantees that the additives and flavors used in food production adhere to Islamic dietary",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 6,
+          "title": "Cleaning Substances",
+          "description": "The process of halal certification for cleaning agents confirms that these products conform to Islamic guidelines",
+          "linkText": "Find more...."
+        },
+        {
+          "id": 7,
+          "title": "Packaging Materials",
+          "description": "Halal certification is essential for packaging to ensure that all elements of the product, including its outer materials",
+          "linkText": "Find more...."
+        }
+      ]
+    },
+    "halalCertification": {
+      "heading": "Halal Certification Beyond Borders",
+      "description": "Halal Food Authority is an industry-leading Halal Food Certification body. We specialise in Halal Certification of Food and Non-Food items including cosmetics, logistics, chemicals, additives & aromas, cleaning substances, packaging, pharmaceutical, ingredients, and much more.",
+      "countries": [
+        {
+          "id": 1,
+          "name": "UK/EU"
+        },
+        {
+          "id": 2,
+          "name": "Saudi Arabia"
+        },
+        {
+          "id": 3,
+          "name": "UAE"
+        },
+        {
+          "id": 4,
+          "name": "Indonesia"
+        },
+        {
+          "id": 5,
+          "name": "Malaysia"
+        },
+        {
+          "id": 6,
+          "name": "Other World"
+        }
+      ]
+    },
+    "contactSection": {
+      "heading": "Let's Ensure Halal Integrity Together!",
+      "description": "Whether you're looking to produce halal products for the local market or plan to export globally, our expert team is ready to offer the best advice tailored to your unique needs and requirements. Get in touch with us, and we'll be delighted to assist you!",
+      "buttonText": "CONTACT NOW"
+    }
   }
 }

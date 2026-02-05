@@ -17,136 +17,93 @@ import OtherImg from '../assets/world-1.png'
 
 import { motion } from 'framer-motion'
 
-
-
-
-
 const FindMoreHalalFoodAuthority = () => {
     const { t } = useTranslation()
 
-      const fadeInUp = {
+    const categories = t('findMoreHalalFoodAuthority.productCategory.categories', { returnObjects: true })
+    const countries = t('findMoreHalalFoodAuthority.halalCertification.countries', { returnObjects: true })
+
+    const fadeInUp = {
         initial: { opacity: 0, y: 20 },
         whileInView: { opacity: 1, y: 0 },
         viewport: { once: true, margin: "-100px" },
         transition: { duration: 1, ease: "easeOut" }
     };
 
+    // Array of imported images for categories
+    const categoryImages = [iftar, skinCare, pills, ingredient, perfume, cleaning, packaging]
+
   return (
     <div className='cert-procedure '>
         <section className="cert-hero">
-            <h1>Find More Halal Food Authourity</h1>
+            <h1>{t('findMoreHalalFoodAuthority.pageTitle')}</h1>
         </section>
         <section className="container termination-sec find-more-halal">
             <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center"}}>
-                <h2 style={{textAlign: "center", marginBottom: "30px"}}>What is your product category?</h2>
-                <p>Halal Food Authority is an industry-leading Halal Food Certification body. We specialise in Halal Certification of Food and Non-Food items including cosmetics, logistics, chemicals, additives & aromas, cleaning substances, packaging, pharmaceutical, ingredients, and much more.</p>
+                <h2 style={{textAlign: "center", marginBottom: "30px"}}>
+                    {t('findMoreHalalFoodAuthority.productCategory.heading')}
+                </h2>
+                <p>{t('findMoreHalalFoodAuthority.productCategory.description')}</p>
             </div>
 
             <div className="grid-container">
-                <div className="grid-item">
-                    <img src={iftar} alt="food & beverages" />
-                    <h3>Food & Beverages</h3>
-                    <p>
-                        The food and beverage industry is one of the fastest-growing sectors in the Halal market. If you're operating within this
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={skinCare} alt="cosmetics" />
-                    <h3>Cosmetics</h3>
-                    <p>
-                        When evaluating whether cosmetics and personal care products meet halal standards, it is crucial that all ingredients
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={pills} alt="pharmaceuticals" />
-                    <h3>Pharmaceuticals</h3>
-                    <p>
-                        The process of halal certification for pharmaceuticals ensures that all elements related to a drug's development
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={ingredient} alt="ingredients" />
-                    <h3>Ingredients</h3>
-                    <p>
-                        Halal certification verifies that all ingredients in a product comply with Islamic dietary regulations. To qualify as
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={perfume} alt="additives & aromas" />
-                    <h3>Additives & Aromas</h3>
-                    <p>
-                        Halal certification guarantees that the additives and flavors used in food production adhere to Islamic dietary
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={cleaning} alt="cleaning substances" />
-                    <h3>Cleaning Substances</h3>
-                    <p>
-                        The process of halal certification for cleaning agents confirms that these products conform to Islamic guidelines
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                <div className="grid-item">
-                    <img src={packaging} alt="packaging materials" />
-                    <h3>Packaging Materials</h3>
-                    <p>
-                        Halal certification is essential for packaging to ensure that all elements of the product, including its outer materials
-                        <a href=""> Find more....</a>
-                    </p>
-                </div>
-                
+                {categories.map((category, index) => (
+                    <div className="grid-item" key={category.id || index}>
+                        <img 
+                            src={categoryImages[index]} 
+                            alt={category.title.toLowerCase()} 
+                        />
+                        <h3>{category.title}</h3>
+                        <p>
+                            {category.description}
+                            <a href=""> {category.linkText}</a>
+                        </p>
+                    </div>
+                ))}
             </div>
 
             <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center"}}>
-                <h2 style={{textAlign: "center", marginBottom: "30px"}}>Halal Certification Beyond Borders</h2>
-                <p>Halal Food Authority is an industry-leading Halal Food Certification body. We specialise in Halal Certification of Food and Non-Food items including cosmetics, logistics, chemicals, additives & aromas, cleaning substances, packaging, pharmaceutical, ingredients, and much more.</p>
+                <h2 style={{textAlign: "center", marginBottom: "30px"}}>
+                    {t('findMoreHalalFoodAuthority.halalCertification.heading')}
+                </h2>
+                <p>{t('findMoreHalalFoodAuthority.halalCertification.description')}</p>
             </div>
 
             <div className="country-grid-container">
-                <div className="country-grid-item">
-                    <img src={UkImg} alt="food & beverages" />
-                    <h3>UK/EU</h3>
-                </div>
-                <div className="country-grid-item">
-                    <img src={saudiImg} alt="food & beverages" />
-                    <h3>Saudi Arabia</h3>
-                </div>
-                <div className="country-grid-item">
-                    <img src={uaeImg} alt="food & beverages" />
-                    <h3>UAE</h3>
-                </div>
-                
+                {countries.slice(0, 3).map((country, index) => (
+                    <div className="country-grid-item" key={country.id || index}>
+                        <img src={
+                            index === 0 ? UkImg : 
+                            index === 1 ? saudiImg : 
+                            uaeImg
+                        } alt={country.name} />
+                        <h3>{country.name}</h3>
+                    </div>
+                ))}
             </div>
 
             <div className="country-grid-container">
-                <div className="country-grid-item">
-                    <img src={IndonesiaImg} alt="food & beverages" />
-                    <h3>Indonesia</h3>
-                </div>
-                <div className="country-grid-item">
-                    <img src={MalaysiaImg} alt="food & beverages" />
-                    <h3>Malaysia</h3>
-                </div>
-                <div className="country-grid-item">
-                    <img src={OtherImg} alt="food & beverages" />
-                    <h3>Other World</h3>
-                </div>
+                {countries.slice(3).map((country, index) => (
+                    <div className="country-grid-item" key={country.id || index}>
+                        <img src={
+                            index === 0 ? IndonesiaImg : 
+                            index === 1 ? MalaysiaImg : 
+                            OtherImg
+                        } alt={country.name} />
+                        <h3>{country.name}</h3>
+                    </div>
+                ))}
             </div>
-            
         </section>
+        
         <section className='about-appointment-sec'>
-
             <div className="about-app-overlay"></div>
-
             <div className="container about-appointment">
-                <motion.h2>Let’s Ensure Halal Integrity Together!</motion.h2>
-                <motion.p>Whether you’re looking to produce halal products for the local market or plan to export globally, our expert team is ready to offer the best advice tailored to your unique needs and requirements. Get in touch with us, and we’ll be delighted to assist you!</motion.p>
-                <motion.button {...fadeInUp}>CONTACT NOW</motion.button>
+                <motion.h2>{t('findMoreHalalFoodAuthority.contactSection.heading')}</motion.h2>
+                <motion.p>{t('findMoreHalalFoodAuthority.contactSection.description')}</motion.p>
+                <motion.button {...fadeInUp}>
+                    {t('findMoreHalalFoodAuthority.contactSection.buttonText')}
+                </motion.button>
             </div>
         </section>
     </div>

@@ -6,9 +6,14 @@ import StatsSection from '../components/StatsSection';
 import DepartmentalStructure from '../components/DepartmentalStructure';
 import TeamSection from '../components/TeamSection';
 import { motion } from 'framer-motion';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const AboutPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const navigate = useNavigate()
+  const { lng } = useParams();
+
+  const currentLang = lng ?? i18n.resolvedLanguage ?? "en";
 
     const fadeInUp = {
       initial: { opacity: 0, y: 20 },
@@ -56,7 +61,7 @@ const AboutPage = () => {
         <div className="container about-appointment">
           <motion.h2 {...fadeInUp}>{t('about.sections.appointment.title')}</motion.h2>
           <motion.p>{t('about.sections.appointment.content')}</motion.p>
-          <motion.button {...fadeInUp}>{t('about.sections.appointment.button')}</motion.button>
+          <motion.button {...fadeInUp} onClick={()=> navigate(`/${currentLang}/contact`)}>{t('about.sections.appointment.button')}</motion.button>
         </div>
       </section>
     </main>

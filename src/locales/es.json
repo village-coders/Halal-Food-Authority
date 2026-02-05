@@ -925,5 +925,91 @@
       "paragraph1": "El miércoles 23 de enero de 2019, el Consejo Sharia de la Autoridad de Alimentos Halal convocó su reunión trimestral. La reunión se centró en varios temas, incluidos los recientes emprendimientos de los miembros del Consejo con respecto a la conciencia comunitaria, discusiones sobre asuntos legales (sharia) y estrategias futuras.",
       "paragraph2": "Un punto clave discutido en la reunión fueron los roles y responsabilidades de los miembros del Consejo con respecto a las auditorías halal. La presencia de miembros del Consejo Sharia como parte del equipo de auditoría de HFA ha - y seguirá mejorando la calidad y credibilidad del servicio proporcionado por HFA a la industria de alimentos y bebidas."
     }
+  },
+  "findMoreHalalFoodAuthority": {
+    "pageTitle": "Descubra más sobre la Autoridad de Alimentos Halal",
+    "productCategory": {
+      "heading": "¿Cuál es su categoría de producto?",
+      "description": "La Autoridad de Alimentos Halal es un organismo líder en la industria de certificación de alimentos halal. Nos especializamos en la certificación halal de alimentos y artículos no alimentarios, incluidos cosméticos, logística, productos químicos, aditivos y aromas, sustancias de limpieza, empaque, productos farmacéuticos, ingredientes y mucho más.",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Alimentos y Bebidas",
+          "description": "La industria de alimentos y bebidas es uno de los sectores de más rápido crecimiento en el mercado halal. Si opera dentro de este sector",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 2,
+          "title": "Cosméticos",
+          "description": "Al evaluar si los cosméticos y productos de cuidado personal cumplen con los estándares halal, es crucial que todos los ingredientes",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 3,
+          "title": "Productos Farmacéuticos",
+          "description": "El proceso de certificación halal para productos farmacéuticos asegura que todos los elementos relacionados con el desarrollo de un medicamento",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 4,
+          "title": "Ingredientes",
+          "description": "La certificación halal verifica que todos los ingredientes de un producto cumplan con las regulaciones dietéticas islámicas. Para calificar como",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 5,
+          "title": "Aditivos y Aromas",
+          "description": "La certificación halal garantiza que los aditivos y sabores utilizados en la producción de alimentos se adhieran a los principios dietéticos islámicos",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 6,
+          "title": "Sustancias de Limpieza",
+          "description": "El proceso de certificación halal para agentes de limpieza confirma que estos productos se ajustan a las pautas islámicas",
+          "linkText": "Descubra más...."
+        },
+        {
+          "id": 7,
+          "title": "Materiales de Empaque",
+          "description": "La certificación halal es esencial para el empaque para garantizar que todos los elementos del producto, incluidos sus materiales externos",
+          "linkText": "Descubra más...."
+        }
+      ]
+    },
+    "halalCertification": {
+      "heading": "Certificación Halal más allá de las Fronteras",
+      "description": "La Autoridad de Alimentos Halal es un organismo líder en la industria de certificación de alimentos halal. Nos especializamos en la certificación halal de alimentos y artículos no alimentarios, incluidos cosméticos, logística, productos químicos, aditivos y aromas, sustancias de limpieza, empaque, productos farmacéuticos, ingredientes y mucho más.",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Reino Unido/UE"
+        },
+        {
+          "id": 2,
+          "name": "Arabia Saudita"
+        },
+        {
+          "id": 3,
+          "name": "Emiratos Árabes Unidos"
+        },
+        {
+          "id": 4,
+          "name": "Indonesia"
+        },
+        {
+          "id": 5,
+          "name": "Malasia"
+        },
+        {
+          "id": 6,
+          "name": "Otro Mundo"
+        }
+      ]
+    },
+    "contactSection": {
+      "heading": "¡Aseguremos juntos la Integridad Halal!",
+      "description": "Ya sea que esté buscando producir productos halal para el mercado local o planee exportar a nivel mundial, nuestro equipo de expertos está listo para ofrecerle el mejor asesoramiento adaptado a sus necesidades y requisitos únicos. ¡Póngase en contacto con nosotros y estaremos encantados de ayudarle!",
+      "buttonText": "CONTACTAR AHORA"
+    }
   }
 }

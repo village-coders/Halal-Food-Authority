@@ -925,5 +925,91 @@
       "paragraph1": "Am Mittwoch, den 23. Januar 2019, trat das Scharia-Gremium der Halal Food Authority zu seiner vierteljährlichen Sitzung zusammen. Die Sitzung konzentrierte sich auf mehrere Themen, darunter aktuelle Initiativen der Vorstandsmitglieder im Hinblick auf die Sensibilisierung der Gemeinschaft, Diskussionen über rechtliche (Scharia-) Fragen und zukünftige Strategien.",
       "paragraph2": "Ein wichtiger Punkt, der während der Sitzung diskutiert wurde, waren die Rollen und Verantwortlichkeiten der Vorstandsmitglieder in Bezug auf Halal-Audits. Die Anwesenheit von Mitgliedern des Scharia-Gremiums als Teil des HFA-Auditteams hat - und wird weiterhin - die Qualität und Glaubwürdigkeit des von der HFA für die Lebensmittel- und Getränkeindustrie erbrachten Dienstes verbessern."
     }
+  },
+  "findMoreHalalFoodAuthority": {
+    "pageTitle": "Erfahren Sie mehr über die Halal Food Authority",
+    "productCategory": {
+      "heading": "Was ist Ihre Produktkategorie?",
+      "description": "Die Halal Food Authority ist ein führender Zertifizierungsstelle für Halal-Lebensmittel in der Branche. Wir sind auf die Halal-Zertifizierung von Lebensmitteln und Nicht-Lebensmitteln spezialisiert, einschließlich Kosmetika, Logistik, Chemikalien, Zusatzstoffen & Aromen, Reinigungssubstanzen, Verpackungen, Pharmazeutika, Inhaltsstoffen und vielem mehr.",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Lebensmittel & Getränke",
+          "description": "Die Lebensmittel- und Getränkeindustrie ist einer der am schnellsten wachsenden Sektoren auf dem Halal-Markt. Wenn Sie in diesem Bereich tätig sind",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 2,
+          "title": "Kosmetika",
+          "description": "Bei der Bewertung, ob Kosmetika und Körperpflegeprodukte den Halal-Standards entsprechen, ist es entscheidend, dass alle Inhaltsstoffe",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 3,
+          "title": "Pharmazeutika",
+          "description": "Der Prozess der Halal-Zertifizierung für Pharmazeutika stellt sicher, dass alle Elemente im Zusammenhang mit der Entwicklung eines Medikaments",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 4,
+          "title": "Inhaltsstoffe",
+          "description": "Die Halal-Zertifizierung bestätigt, dass alle Inhaltsstoffe eines Produkts den islamischen Ernährungsvorschriften entsprechen. Um als",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 5,
+          "title": "Zusatzstoffe & Aromen",
+          "description": "Die Halal-Zertifizierung garantiert, dass die in der Lebensmittelproduktion verwendeten Zusatzstoffe und Aromen den islamischen Ernährungsgrundsätzen",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 6,
+          "title": "Reinigungssubstanzen",
+          "description": "Der Prozess der Halal-Zertifizierung für Reinigungsmittel bestätigt, dass diese Produkte den islamischen Richtlinien entsprechen",
+          "linkText": "Mehr erfahren...."
+        },
+        {
+          "id": 7,
+          "title": "Verpackungsmaterialien",
+          "description": "Die Halal-Zertifizierung ist für Verpackungen unerlässlich, um sicherzustellen, dass alle Elemente des Produkts, einschließlich seiner äußeren Materialien",
+          "linkText": "Mehr erfahren...."
+        }
+      ]
+    },
+    "halalCertification": {
+      "heading": "Halal-Zertifizierung über Grenzen hinaus",
+      "description": "Die Halal Food Authority ist ein führender Zertifizierungsstelle für Halal-Lebensmittel in der Branche. Wir sind auf die Halal-Zertifizierung von Lebensmitteln und Nicht-Lebensmitteln spezialisiert, einschließlich Kosmetika, Logistik, Chemikalien, Zusatzstoffen & Aromen, Reinigungssubstanzen, Verpackungen, Pharmazeutika, Inhaltsstoffen und vielem mehr.",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Großbritannien/EU"
+        },
+        {
+          "id": 2,
+          "name": "Saudi-Arabien"
+        },
+        {
+          "id": 3,
+          "name": "VAE"
+        },
+        {
+          "id": 4,
+          "name": "Indonesien"
+        },
+        {
+          "id": 5,
+          "name": "Malaysia"
+        },
+        {
+          "id": 6,
+          "name": "Andere Welt"
+        }
+      ]
+    },
+    "contactSection": {
+      "heading": "Lassen Sie uns gemeinsam die Halal-Integrität sicherstellen!",
+      "description": "Egal, ob Sie Halal-Produkte für den lokalen Markt produzieren oder weltweit exportieren möchten, unser Expertenteam ist bereit, Ihnen die besten Ratschläge zu geben, die auf Ihre einzigartigen Bedürfnisse und Anforderungen zugeschnitten sind. Nehmen Sie Kontakt mit uns auf, und wir helfen Ihnen gerne weiter!",
+      "buttonText": "JETZT KONTAKTIEREN"
+    }
   }
 }
