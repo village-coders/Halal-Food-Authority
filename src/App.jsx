@@ -50,7 +50,7 @@ import MuslimExpo from "./pages/MuslimLifestyleExpo";
 
 // Import SEO components
 import PageSeo from "./components/PageSeo";
-import NotFound from "./pages/Notfound";
+import NotFound from "./pages/NotFound";
 // import Breadcrumb from "./components/Breadcrumb";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
