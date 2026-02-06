@@ -50,6 +50,7 @@ import MuslimExpo from "./pages/MuslimLifestyleExpo";
 
 // Import SEO components
 import PageSeo from "./components/PageSeo";
+import NotFound from "./pages/Notfound";
 // import Breadcrumb from "./components/Breadcrumb";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
@@ -435,6 +436,18 @@ function MainContent() {
             <Events />
           </>
         } />
+
+        {/* NotFound page */}
+
+        <Route
+          path="*"
+          element={
+            <>
+              <PageSeo pageKey="notFound" />
+              <NotFound />
+            </>
+          }
+        />
       </Routes> 
       <Footer />
     </>

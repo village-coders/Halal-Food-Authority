@@ -17,7 +17,6 @@ const Home = () => {
   return (
     <div>
         <PageSeo pageKey="home" />
-        <Breadcrumb />
         <Hero />
         <About />
         <Services />
