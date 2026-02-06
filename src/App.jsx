@@ -50,7 +50,7 @@ import MuslimExpo from "./pages/MuslimLifestyleExpo";
 
 // Import SEO components
 import PageSeo from "./components/PageSeo";
-import Breadcrumb from "./components/Breadcrumb";
+// import Breadcrumb from "./components/Breadcrumb";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -106,7 +106,7 @@ function GlobalSeo() {
           "@type": "Organization",
           "name": "Halal Food Authority",
           "url": "https://halalfoodauthority.com",
-          "logo": "https://halalfoodauthority.com/logo.png",
+          "logo": "https://halalfoodauthority.com/favicon.png",
           "sameAs": [
             "https://facebook.com/halalfoodauthority",
             "https://twitter.com/halalauthority",
@@ -162,7 +162,7 @@ function MainContent() {
         <Route path="/about" element={
           <>
             <PageSeo pageKey="about" />
-            <Breadcrumb />
+            
             <AboutPage />
           </>
         } />
@@ -171,7 +171,7 @@ function MainContent() {
         <Route path="/certification/procedure" element={
           <>
             <PageSeo pageKey="certificationProcedure" />
-            <Breadcrumb />
+            
             <CertificationProcedure />
           </>
         } />
@@ -179,7 +179,7 @@ function MainContent() {
         <Route path="/certification/termination" element={
           <>
             <PageSeo pageKey="terminationProcedure" />
-            <Breadcrumb />
+            
             <TerminationProcedure />
           </>
         } />
@@ -188,7 +188,7 @@ function MainContent() {
         <Route path="/fee-policy" element={
           <>
             <PageSeo pageKey="feePolicy" />
-            <Breadcrumb />
+            
             <FeePolicy />
           </>
         } />
@@ -196,7 +196,7 @@ function MainContent() {
         <Route path="/complaints-committee" element={
           <>
             <PageSeo pageKey="complaintsCommittee" />
-            <Breadcrumb />
+            
             <ComplaintsCommittee />
           </>
         } />
@@ -204,7 +204,7 @@ function MainContent() {
         <Route path="/provisions-for-the-use-of-hfa-logo" element={
           <>
             <PageSeo pageKey="hfaLogoProvisions" />
-            <Breadcrumb />
+            
             <ProvisionForUseOfHfaLogo />
           </>
         } />
@@ -212,7 +212,7 @@ function MainContent() {
         <Route path="/hfa-impartiality-policy" element={
           <>
             <PageSeo pageKey="impartialityPolicy" />
-            <Breadcrumb />
+            
             <HfaImpartialityPolicy />
           </>
         } />
@@ -220,7 +220,7 @@ function MainContent() {
         <Route path="/hfa-quality-policy" element={
           <>
             <PageSeo pageKey="qualityPolicy" />
-            <Breadcrumb />
+            
             <HfaQualityPolicy />
           </>
         } />
@@ -228,7 +228,7 @@ function MainContent() {
         <Route path="/hfa-corporate-and-financial-governance" element={
           <>
             <PageSeo pageKey="corporateGovernance" />
-            <Breadcrumb />
+            
             <CoperateAndFinanceGovernment />
           </>
         } />
@@ -236,7 +236,7 @@ function MainContent() {
         <Route path="/hfa-complaints-appeals-procedure" element={
           <>
             <PageSeo pageKey="complaintsAppeals" />
-            <Breadcrumb />
+            
             <ComplaintsAndAppealsProcedure />
           </>
         } />
@@ -244,7 +244,7 @@ function MainContent() {
         <Route path="/halal-food-sampling-analysis-policy" element={
           <>
             <PageSeo pageKey="foodSampling" />
-            <Breadcrumb />
+            
             <FoodSamplingAndAnalysisPolicy />
           </>
         } />
@@ -253,7 +253,7 @@ function MainContent() {
         <Route path="/faqs" element={
           <>
             <PageSeo pageKey="faq" />
-            <Breadcrumb />
+            
             <FAQPage />
           </>
         } />
@@ -262,7 +262,7 @@ function MainContent() {
         <Route path="/contact" element={
           <>
             <PageSeo pageKey="contact" />
-            <Breadcrumb />
+            
             <Contact />
           </>
         } />
@@ -271,7 +271,7 @@ function MainContent() {
         <Route path="/events/hfa-planning-2025" element={
           <>
             <PageSeo pageKey="eventPlanning2025" />
-            <Breadcrumb />
+            
             <HFAEventPlanning2025 />
           </>
         } />
@@ -279,7 +279,7 @@ function MainContent() {
         <Route path="/events/hfa-webinar-2020" element={
           <>
             <PageSeo pageKey="webinar2020" />
-            <Breadcrumb />
+            
             <HFAWebinar2020 />
           </>
         } />
@@ -287,7 +287,7 @@ function MainContent() {
         <Route path="/events/ulemah-meeting-jan-2019/" element={
           <>
             <PageSeo pageKey="ulemahMeeting2019" />
-            <Breadcrumb />
+            
             <HFAUleemahMeeting2019 />
           </>
         } />
@@ -296,7 +296,7 @@ function MainContent() {
         <Route path="/events/hhic2019/" element={
           <>
             <PageSeo pageKey="hhic2019" />
-            <Breadcrumb />
+            
             <HHIC2019 />
           </>
         } />
@@ -304,7 +304,7 @@ function MainContent() {
         <Route path="/events/hhic2018/" element={
           <>
             <PageSeo pageKey="hhic2018" />
-            <Breadcrumb />
+            
             <HHIC2018 />
           </>
         } />
@@ -312,7 +312,7 @@ function MainContent() {
         <Route path="/events/hhic2017/" element={
           <>
             <PageSeo pageKey="hhic2017" />
-            <Breadcrumb />
+            
             <HHIC2017 />
           </>
         } />
@@ -320,7 +320,7 @@ function MainContent() {
         <Route path="/events/hhic2016/" element={
           <>
             <PageSeo pageKey="hhic2016" />
-            <Breadcrumb />
+            
             <HHIC2016 />
           </>
         } />
@@ -328,7 +328,7 @@ function MainContent() {
         <Route path="/events/hhic2015/" element={
           <>
             <PageSeo pageKey="hhic2015" />
-            <Breadcrumb />
+            
             <HHIC2015 />
           </>
         } />
@@ -337,7 +337,7 @@ function MainContent() {
         <Route path="/events/muslimlife2016/" element={
           <>
             <PageSeo pageKey="muslimExpo" />
-            <Breadcrumb />
+            
             <MuslimExpo />
           </>
         } />
@@ -346,7 +346,7 @@ function MainContent() {
         <Route path="/find-more-halal-food-authourity/" element={
           <>
             <PageSeo pageKey="findMore" />
-            <Breadcrumb />
+            
             <FindMoreHalalFoodAuthority />
           </>
         } />
@@ -355,7 +355,7 @@ function MainContent() {
         <Route path="/food-and-beverages/" element={
           <>
             <PageSeo pageKey="foodBeverages" />
-            <Breadcrumb />
+            
             <FoodAndBeverages />
           </>
         } />
@@ -363,7 +363,7 @@ function MainContent() {
         <Route path="/cosmetics/" element={
           <>
             <PageSeo pageKey="cosmetics" />
-            <Breadcrumb />
+            
             <Cosmetics />
           </>
         } />
@@ -371,7 +371,7 @@ function MainContent() {
         <Route path="/pharmaceuticals/" element={
           <>
             <PageSeo pageKey="pharmaceuticals" />
-            <Breadcrumb />
+            
             <Pharmaceuticals />
           </>
         } />
@@ -379,7 +379,7 @@ function MainContent() {
         <Route path="/ingredients/" element={
           <>
             <PageSeo pageKey="ingredients" />
-            <Breadcrumb />
+            
             <Ingredients />
           </>
         } />
@@ -387,7 +387,7 @@ function MainContent() {
         <Route path="/additives-aromas/" element={
           <>
             <PageSeo pageKey="additivesAromas" />
-            <Breadcrumb />
+            
             <AdditivesAndAromas />
           </>
         } />
@@ -395,7 +395,7 @@ function MainContent() {
         <Route path="/packaging-materials/" element={
           <>
             <PageSeo pageKey="packaging" />
-            <Breadcrumb />
+            
             <PackagingMaterials />
           </>
         } />
@@ -404,7 +404,7 @@ function MainContent() {
         <Route path="/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective/" element={
           <>
             <PageSeo pageKey="ukParliamentDebate" />
-            <Breadcrumb />
+            
             <UKParliamentDebateOnBanning />
           </>
         } />
@@ -413,7 +413,7 @@ function MainContent() {
         <Route path="/our-clients/" element={
           <>
             <PageSeo pageKey="ourClients" />
-            <Breadcrumb />
+            
             <OurClients />
           </>
         } />
@@ -422,7 +422,7 @@ function MainContent() {
         <Route path="/exporting-your-products-to-indonesia/" element={
           <>
             <PageSeo pageKey="exportIndonesia" />
-            <Breadcrumb />
+            
             <ExportingYourProductsToIndonesia />
           </>
         } />
@@ -431,7 +431,7 @@ function MainContent() {
         <Route path="/our-events/" element={
           <>
             <PageSeo pageKey="eventsList" />
-            <Breadcrumb />
+            
             <Events />
           </>
         } />
