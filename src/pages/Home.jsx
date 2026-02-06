@@ -12,7 +12,6 @@ import Reference from '../components/Reference'
 // import NavBar from '../components/NavBar'
 import { useTranslation } from 'react-i18next';
 import PageSeo from '../components/PageSeo';
-import Breadcrumb from '../components/Breadcrumb';
 
 const Home = () => {
   return (
