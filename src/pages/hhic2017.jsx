@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import hhic2017 from '../assets/hhic2017 (1).jpg'
+import hhic2017 from '../assets/HHIC2017 (1).jpg'
 
 const HHIC2017 = () => {
     const { t } = useTranslation()
