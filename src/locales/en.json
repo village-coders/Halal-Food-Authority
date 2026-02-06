@@ -1,4 +1,251 @@
 {
+  "seo": {
+    "siteTitle": "Halal Food Authority",
+    "siteDescription": "Official Halal Food Authority - Worldwide Halal Certification and Standards",
+    "defaultKeywords": "halal, certification, halal food, muslim, halal standards, HFA",
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About",
+      "certification": "Certification",
+      "procedure": "Procedure",
+      "termination": "Termination",
+      "fee-policy": "Fee Policy",
+      "complaints-committee": "Complaints Committee",
+      "provisions-for-the-use-of-hfa-logo": "HFA Logo Provisions",
+      "hfa-impartiality-policy": "Impartiality Policy",
+      "hfa-quality-policy": "Quality Policy",
+      "hfa-corporate-and-financial-governance": "Corporate Governance",
+      "hfa-complaints-appeals-procedure": "Complaints & Appeals",
+      "halal-food-sampling-analysis-policy": "Food Sampling",
+      "faqs": "FAQs",
+      "contact": "Contact",
+      "events": "Events",
+      "hfa-planning-2025": "HFA Planning 2025",
+      "hfa-webinar-2020": "Webinar 2020",
+      "ulemah-meeting-jan-2019": "Ulemah Meeting 2019",
+      "hhic2019": "HHIC 2019",
+      "hhic2018": "HHIC 2018",
+      "hhic2017": "HHIC 2017",
+      "hhic2016": "HHIC 2016",
+      "hhic2015": "HHIC 2015",
+      "muslimlife2016": "Muslim Expo 2016",
+      "find-more-halal-food-authourity": "Find More",
+      "food-and-beverages": "Food & Beverages",
+      "cosmetics": "Cosmetics",
+      "pharmaceuticals": "Pharmaceuticals",
+      "ingredients": "Ingredients",
+      "additives-aromas": "Additives & Aromas",
+      "packaging-materials": "Packaging Materials",
+      "uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective": "UK Parliament Debate",
+      "our-clients": "Our Clients",
+      "exporting-your-products-to-indonesia": "Export to Indonesia",
+      "our-events": "Events"
+    },
+    
+    "home": {
+      "title": "Home",
+      "description": "Halal Food Authority - Leading halal certification body ensuring global halal food standards",
+      "keywords": "halal certification, halal food authority, halal standards worldwide"
+    },
+    
+    "about": {
+      "title": "About Us",
+      "description": "Learn about Halal Food Authority's mission, vision, history and global halal certification leadership",
+      "keywords": "about halal authority, our mission, halal certification history, HFA about"
+    },
+    
+    "certificationProcedure": {
+      "title": "Halal Certification Procedure",
+      "description": "Step-by-step guide to obtaining Halal Food Authority certification for your products",
+      "keywords": "halal certification process, apply for halal certificate, certification steps"
+    },
+    
+    "terminationProcedure": {
+      "title": "Certification Termination Procedure",
+      "description": "Understanding the termination process for Halal Food Authority certification",
+      "keywords": "certification termination, halal certificate termination, stop certification"
+    },
+    
+    "feePolicy": {
+      "title": "HFA Fee Policy",
+      "description": "Complete fee structure and payment policy for Halal Food Authority certification services",
+      "keywords": "halal certification fees, HFA pricing, certification costs"
+    },
+    
+    "complaintsCommittee": {
+      "title": "Complaints Committee",
+      "description": "Halal Food Authority complaints committee process and procedures",
+      "keywords": "halal complaints, HFA grievance, certification complaints"
+    },
+    
+    "hfaLogoProvisions": {
+      "title": "Provisions for Use of HFA Logo",
+      "description": "Guidelines and provisions for using Halal Food Authority logo on certified products",
+      "keywords": "HFA logo usage, halal logo guidelines, certified logo use"
+    },
+    
+    "impartialityPolicy": {
+      "title": "HFA Impartiality Policy",
+      "description": "Halal Food Authority's commitment to impartiality in certification processes",
+      "keywords": "impartiality policy, unbiased certification, fair halal certification"
+    },
+    
+    "qualityPolicy": {
+      "title": "HFA Quality Policy",
+      "description": "Quality assurance and standards policy for Halal Food Authority certification",
+      "keywords": "quality policy, halal quality standards, certification quality"
+    },
+    
+    "corporateGovernance": {
+      "title": "HFA Corporate and Financial Governance",
+      "description": "Corporate governance and financial policies of Halal Food Authority",
+      "keywords": "corporate governance, financial policy, HFA management"
+    },
+    
+    "complaintsAppeals": {
+      "title": "Complaints and Appeals Procedure",
+      "description": "Official procedure for filing complaints and appeals with Halal Food Authority",
+      "keywords": "complaints procedure, appeals process, HFA grievances"
+    },
+    
+    "foodSampling": {
+      "title": "Halal Food Sampling and Analysis Policy",
+      "description": "Policy for sampling and analysis of food products for halal certification",
+      "keywords": "food sampling, halal analysis, product testing policy"
+    },
+    
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about Halal Food Authority and halal certification",
+      "keywords": "halal FAQ, certification questions, HFA frequently asked questions"
+    },
+    
+    "contact": {
+      "title": "Contact Us",
+      "description": "Contact Halal Food Authority for certification inquiries, support, and information",
+      "keywords": "contact HFA, halal certification inquiry, get in touch"
+    },
+    
+    "eventPlanning2025": {
+      "title": "HFA Event Planning 2025",
+      "description": "Upcoming events and planning schedule for Halal Food Authority in 2025",
+      "keywords": "HFA events 2025, halal events, upcoming conferences"
+    },
+    
+    "webinar2020": {
+      "title": "HFA Webinar 2020",
+      "description": "Recordings and information from Halal Food Authority's 2020 webinar series",
+      "keywords": "HFA webinar, online halal seminar, 2020 webinar recordings"
+    },
+    
+    "ulemahMeeting2019": {
+      "title": "Ulemah Meeting January 2019",
+      "description": "Highlights and outcomes from Halal Food Authority's Ulemah meeting in January 2019",
+      "keywords": "Ulemah meeting, halal scholars conference, January 2019 meeting"
+    },
+    
+    "hhic2019": {
+      "title": "HHIC 2019 - Halal Food International Conference",
+      "description": "Complete coverage of Halal Food International Conference 2019 organized by HFA",
+      "keywords": "HHIC 2019, halal international conference, global halal event"
+    },
+    
+    "hhic2018": {
+      "title": "HHIC 2018 - Halal Food International Conference",
+      "description": "Highlights from Halal Food International Conference 2018 by Halal Food Authority",
+      "keywords": "HHIC 2018, halal conference, international halal event"
+    },
+    
+    "hhic2017": {
+      "title": "HHIC 2017 - Halal Food International Conference",
+      "description": "Recap of Halal Food International Conference 2017 organized by HFA",
+      "keywords": "HHIC 2017, halal food conference, global halal summit"
+    },
+    
+    "hhic2016": {
+      "title": "HHIC 2016 - Halal Food International Conference",
+      "description": "Coverage of Halal Food International Conference 2016 by Halal Food Authority",
+      "keywords": "HHIC 2016, halal international conference, halal food summit"
+    },
+    
+    "hhic2015": {
+      "title": "HHIC 2015 - Halal Food International Conference",
+      "description": "First Halal Food International Conference 2015 organized by HFA",
+      "keywords": "HHIC 2015, inaugural halal conference, first HFA conference"
+    },
+    
+    "muslimExpo": {
+      "title": "Muslim Lifestyle Expo 2016",
+      "description": "Halal Food Authority participation in Muslim Lifestyle Expo 2016 at London Olympia",
+      "keywords": "Muslim Lifestyle Expo 2016, London halal event, HFA exhibition, MLE 2016"
+    },
+    
+    "findMore": {
+      "title": "Find More About Halal Food Authority",
+      "description": "Additional resources and information about Halal Food Authority services",
+      "keywords": "more about HFA, additional resources, halal authority information"
+    },
+    
+    "foodBeverages": {
+      "title": "Food and Beverages Halal Certification",
+      "description": "Halal certification services for food and beverage products by HFA",
+      "keywords": "halal food certification, beverage halal, food products certification"
+    },
+    
+    "cosmetics": {
+      "title": "Cosmetics Halal Certification",
+      "description": "Halal certification for cosmetic products by Halal Food Authority",
+      "keywords": "halal cosmetics, cosmetic certification, halal beauty products"
+    },
+    
+    "pharmaceuticals": {
+      "title": "Pharmaceuticals Halal Certification",
+      "description": "Halal certification services for pharmaceutical products by HFA",
+      "keywords": "halal pharmaceuticals, medicine certification, halal medical products"
+    },
+    
+    "ingredients": {
+      "title": "Ingredients Halal Certification",
+      "description": "Halal certification for food and product ingredients by Halal Food Authority",
+      "keywords": "halal ingredients, raw materials certification, ingredient halal"
+    },
+    
+    "additivesAromas": {
+      "title": "Additives and Aromas Halal Certification",
+      "description": "Halal certification for food additives and aromas by HFA",
+      "keywords": "halal additives, aroma certification, food additives halal"
+    },
+    
+    "packaging": {
+      "title": "Packaging Materials Halal Certification",
+      "description": "Halal certification for packaging materials by Halal Food Authority",
+      "keywords": "halal packaging, packaging certification, food packaging halal"
+    },
+    
+    "ukParliamentDebate": {
+      "title": "UK Parliament Debate on Non-Stun Slaughter",
+      "description": "HFA perspective on UK Parliament debate about banning non-stun slaughter on 9th May",
+      "keywords": "UK parliament debate, non-stun slaughter, halal slaughter debate"
+    },
+    
+    "ourClients": {
+      "title": "Our Clients",
+      "description": "List of companies and organizations certified by Halal Food Authority",
+      "keywords": "HFA clients, certified companies, halal certified businesses"
+    },
+    
+    "exportIndonesia": {
+      "title": "Exporting Your Products to Indonesia",
+      "description": "Guide to exporting halal certified products to Indonesia with HFA certification",
+      "keywords": "export to Indonesia, halal export, Indonesia market certification"
+    },
+    
+    "eventsList": {
+      "title": "Our Events",
+      "description": "Complete list of events, conferences and seminars organized by Halal Food Authority",
+      "keywords": "HFA events, halal conferences, upcoming seminars"
+    }
+  },
   "home" : {
     "nav": {
       "home": "Home",

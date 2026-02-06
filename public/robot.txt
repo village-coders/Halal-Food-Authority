@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Sitemaps for all languages
+Sitemap: https://halalfoodauthority.com/sitemap.xml
+Sitemap: https://halalfoodauthority.com/sitemap-en.xml
+Sitemap: https://halalfoodauthority.com/sitemap-fr.xml
+Sitemap: https://halalfoodauthority.com/sitemap-de.xml
+Sitemap: https://halalfoodauthority.com/sitemap-es.xml
+Sitemap: https://halalfoodauthority.com/sitemap-it.xml
+
+# Block search from crawling admin/private sections
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Crawl delay for slower servers
+# Crawl-delay: 2
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+User-agent: Yandex
+Allow: /
+Disallow: /admin/

@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet, HelmetProvider } from "react-helmet-async"; // Add this
 
 import Home from "./pages/Home";
 import "./App.css";
@@ -47,6 +48,10 @@ import HHIC2016 from "./pages/hhic2016";
 import HHIC2015 from "./pages/hhic2015";
 import MuslimExpo from "./pages/MuslimLifestyleExpo";
 
+// Import SEO components
+import PageSeo from "./components/PageSeo";
+import Breadcrumb from "./components/Breadcrumb";
+
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
 function App() {
@@ -56,8 +61,10 @@ function App() {
     : "en";
 
   return (
+    <HelmetProvider>
     <Router>
       <ScrollToTop />
+      <GlobalSeo /> {/* Add Global SEO */}
       <Routes>
         {/* Redirect root to browser language or fallback */}
         <Route path="/" element={<Navigate to={`/${defaultLang}`} replace />} />
@@ -69,14 +76,57 @@ function App() {
         <Route path="*" element={<Navigate to={`/${defaultLang}`} replace />} />
       </Routes>
     </Router>
+    </HelmetProvider>
+  );
+}
+
+// Global SEO Component
+function GlobalSeo() {
+  const { t } = useTranslation();
+  
+  return (
+    <Helmet>
+      {/* Global Meta Tags */}
+      <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+      <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+      
+      {/* Favicon */}
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+      
+      {/* Theme Color */}
+      <meta name="theme-color" content="#2A5C3D" />
+      
+      {/* Global Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Halal Food Authority",
+          "url": "https://halalfoodauthority.com",
+          "logo": "https://halalfoodauthority.com/logo.png",
+          "sameAs": [
+            "https://facebook.com/halalfoodauthority",
+            "https://twitter.com/halalauthority",
+            "https://linkedin.com/company/halal-food-authority"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44-XXX-XXX-XXXX",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "French", "German", "Spanish", "Italian"]
+          }
+        })}
+      </script>
+    </Helmet>
   );
 }
 
 function MainContent() {
   const { lng } = useParams();
   const { i18n } = useTranslation();
-
-
 
   // Sync i18n with URL language
   useEffect(() => {
@@ -87,7 +137,7 @@ function MainContent() {
     }
 
     if (i18n.language !== lng) {
-      i18n.changeLanguage(lng); // ✅ Must call this!
+      i18n.changeLanguage(lng);
     }
   }, [lng, i18n]);
 
@@ -100,44 +150,294 @@ function MainContent() {
     <>
       <NavBar /> 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/certification/procedure" element={<CertificationProcedure />} />
-        <Route path="/certification/termination" element={<TerminationProcedure />} />
-        <Route path="/fee-policy" element={<FeePolicy />} />
-        <Route path="/complaints-committee" element={<ComplaintsCommittee />} />
-        <Route path="/provisions-for-the-use-of-hfa-logo" element={<ProvisionForUseOfHfaLogo />} />
-        <Route path="/hfa-impartiality-policy" element={<HfaImpartialityPolicy />} />
-        <Route path="/hfa-quality-policy" element={<HfaQualityPolicy />} />
-        <Route path="/hfa-corporate-and-financial-governance" element={<CoperateAndFinanceGovernment />} />
-        <Route path="/hfa-complaints-appeals-procedure" element={<ComplaintsAndAppealsProcedure />} />
-        <Route path="/halal-food-sampling-analysis-policy" element={<FoodSamplingAndAnalysisPolicy />} />
-        <Route path="/faqs" element={<FAQPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/events/hfa-planning-2025" element={<HFAEventPlanning2025 />} />
-        <Route path="/events/hfa-webinar-2020" element={<HFAWebinar2020 />} />
-        <Route path="/events/ulemah-meeting-jan-2019/" element={<HFAUleemahMeeting2019 />} />
-        <Route path="/events/hhic2019/" element={<HHIC2019 />} />
-        <Route path="/events/hhic2018/" element={<HHIC2018 />} />
-        <Route path="/events/hhic2017/" element={<HHIC2017 />} />
-        <Route path="/events/hhic2016/" element={<HHIC2016 />} />
-        <Route path="/events/hhic2015/" element={<HHIC2015 />} />
-        <Route path="/events/muslimlife2016/" element={<MuslimExpo />} />
-        <Route path="/find-more-halal-food-authourity/" element={<FindMoreHalalFoodAuthority />} />
-        <Route path="/food-and-beverages/" element={<FoodAndBeverages />} />
-        <Route path="/cosmetics/" element={<Cosmetics />} />
-        <Route path="/pharmaceuticals/" element={<Pharmaceuticals />} />
-        <Route path="/ingredients/" element={<Ingredients />} />
-        <Route path="/additives-aromas/" element={<AdditivesAndAromas />} />
-        <Route path="/packaging-materials/" element={<PackagingMaterials />} />
-        <Route path="/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective/" element={<UKParliamentDebateOnBanning />} />
-        <Route path="/our-clients/" element={<OurClients />} />
-        <Route path="/exporting-your-products-to-indonesia/" element={<ExportingYourProductsToIndonesia />} />
-        <Route path="/our-events/" element={<Events />} />
+        {/* Home Page with SEO */}
+        <Route path="/" element={
+          <>
+            <PageSeo pageKey="home" />
+            <Home />
+          </>
+        } />
+        
+        {/* About Page */}
+        <Route path="/about" element={
+          <>
+            <PageSeo pageKey="about" />
+            <Breadcrumb />
+            <AboutPage />
+          </>
+        } />
+        
+        {/* Certification Pages */}
+        <Route path="/certification/procedure" element={
+          <>
+            <PageSeo pageKey="certificationProcedure" />
+            <Breadcrumb />
+            <CertificationProcedure />
+          </>
+        } />
+        
+        <Route path="/certification/termination" element={
+          <>
+            <PageSeo pageKey="terminationProcedure" />
+            <Breadcrumb />
+            <TerminationProcedure />
+          </>
+        } />
+        
+        {/* Policies */}
+        <Route path="/fee-policy" element={
+          <>
+            <PageSeo pageKey="feePolicy" />
+            <Breadcrumb />
+            <FeePolicy />
+          </>
+        } />
+        
+        <Route path="/complaints-committee" element={
+          <>
+            <PageSeo pageKey="complaintsCommittee" />
+            <Breadcrumb />
+            <ComplaintsCommittee />
+          </>
+        } />
+        
+        <Route path="/provisions-for-the-use-of-hfa-logo" element={
+          <>
+            <PageSeo pageKey="hfaLogoProvisions" />
+            <Breadcrumb />
+            <ProvisionForUseOfHfaLogo />
+          </>
+        } />
+        
+        <Route path="/hfa-impartiality-policy" element={
+          <>
+            <PageSeo pageKey="impartialityPolicy" />
+            <Breadcrumb />
+            <HfaImpartialityPolicy />
+          </>
+        } />
+        
+        <Route path="/hfa-quality-policy" element={
+          <>
+            <PageSeo pageKey="qualityPolicy" />
+            <Breadcrumb />
+            <HfaQualityPolicy />
+          </>
+        } />
+        
+        <Route path="/hfa-corporate-and-financial-governance" element={
+          <>
+            <PageSeo pageKey="corporateGovernance" />
+            <Breadcrumb />
+            <CoperateAndFinanceGovernment />
+          </>
+        } />
+        
+        <Route path="/hfa-complaints-appeals-procedure" element={
+          <>
+            <PageSeo pageKey="complaintsAppeals" />
+            <Breadcrumb />
+            <ComplaintsAndAppealsProcedure />
+          </>
+        } />
+        
+        <Route path="/halal-food-sampling-analysis-policy" element={
+          <>
+            <PageSeo pageKey="foodSampling" />
+            <Breadcrumb />
+            <FoodSamplingAndAnalysisPolicy />
+          </>
+        } />
+        
+        {/* FAQ */}
+        <Route path="/faqs" element={
+          <>
+            <PageSeo pageKey="faq" />
+            <Breadcrumb />
+            <FAQPage />
+          </>
+        } />
+        
+        {/* Contact */}
+        <Route path="/contact" element={
+          <>
+            <PageSeo pageKey="contact" />
+            <Breadcrumb />
+            <Contact />
+          </>
+        } />
+        
+        {/* Events */}
+        <Route path="/events/hfa-planning-2025" element={
+          <>
+            <PageSeo pageKey="eventPlanning2025" />
+            <Breadcrumb />
+            <HFAEventPlanning2025 />
+          </>
+        } />
+        
+        <Route path="/events/hfa-webinar-2020" element={
+          <>
+            <PageSeo pageKey="webinar2020" />
+            <Breadcrumb />
+            <HFAWebinar2020 />
+          </>
+        } />
+        
+        <Route path="/events/ulemah-meeting-jan-2019/" element={
+          <>
+            <PageSeo pageKey="ulemahMeeting2019" />
+            <Breadcrumb />
+            <HFAUleemahMeeting2019 />
+          </>
+        } />
+        
+        {/* HHIC Events */}
+        <Route path="/events/hhic2019/" element={
+          <>
+            <PageSeo pageKey="hhic2019" />
+            <Breadcrumb />
+            <HHIC2019 />
+          </>
+        } />
+        
+        <Route path="/events/hhic2018/" element={
+          <>
+            <PageSeo pageKey="hhic2018" />
+            <Breadcrumb />
+            <HHIC2018 />
+          </>
+        } />
+        
+        <Route path="/events/hhic2017/" element={
+          <>
+            <PageSeo pageKey="hhic2017" />
+            <Breadcrumb />
+            <HHIC2017 />
+          </>
+        } />
+        
+        <Route path="/events/hhic2016/" element={
+          <>
+            <PageSeo pageKey="hhic2016" />
+            <Breadcrumb />
+            <HHIC2016 />
+          </>
+        } />
+        
+        <Route path="/events/hhic2015/" element={
+          <>
+            <PageSeo pageKey="hhic2015" />
+            <Breadcrumb />
+            <HHIC2015 />
+          </>
+        } />
+        
+        {/* Muslim Expo */}
+        <Route path="/events/muslimlife2016/" element={
+          <>
+            <PageSeo pageKey="muslimExpo" />
+            <Breadcrumb />
+            <MuslimExpo />
+          </>
+        } />
+        
+        {/* Find More */}
+        <Route path="/find-more-halal-food-authourity/" element={
+          <>
+            <PageSeo pageKey="findMore" />
+            <Breadcrumb />
+            <FindMoreHalalFoodAuthority />
+          </>
+        } />
+        
+        {/* Products Categories */}
+        <Route path="/food-and-beverages/" element={
+          <>
+            <PageSeo pageKey="foodBeverages" />
+            <Breadcrumb />
+            <FoodAndBeverages />
+          </>
+        } />
+        
+        <Route path="/cosmetics/" element={
+          <>
+            <PageSeo pageKey="cosmetics" />
+            <Breadcrumb />
+            <Cosmetics />
+          </>
+        } />
+        
+        <Route path="/pharmaceuticals/" element={
+          <>
+            <PageSeo pageKey="pharmaceuticals" />
+            <Breadcrumb />
+            <Pharmaceuticals />
+          </>
+        } />
+        
+        <Route path="/ingredients/" element={
+          <>
+            <PageSeo pageKey="ingredients" />
+            <Breadcrumb />
+            <Ingredients />
+          </>
+        } />
+        
+        <Route path="/additives-aromas/" element={
+          <>
+            <PageSeo pageKey="additivesAromas" />
+            <Breadcrumb />
+            <AdditivesAndAromas />
+          </>
+        } />
+        
+        <Route path="/packaging-materials/" element={
+          <>
+            <PageSeo pageKey="packaging" />
+            <Breadcrumb />
+            <PackagingMaterials />
+          </>
+        } />
+        
+        {/* UK Parliament */}
+        <Route path="/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective/" element={
+          <>
+            <PageSeo pageKey="ukParliamentDebate" />
+            <Breadcrumb />
+            <UKParliamentDebateOnBanning />
+          </>
+        } />
+        
+        {/* Our Clients */}
+        <Route path="/our-clients/" element={
+          <>
+            <PageSeo pageKey="ourClients" />
+            <Breadcrumb />
+            <OurClients />
+          </>
+        } />
+        
+        {/* Exporting */}
+        <Route path="/exporting-your-products-to-indonesia/" element={
+          <>
+            <PageSeo pageKey="exportIndonesia" />
+            <Breadcrumb />
+            <ExportingYourProductsToIndonesia />
+          </>
+        } />
+        
+        {/* Events List */}
+        <Route path="/our-events/" element={
+          <>
+            <PageSeo pageKey="eventsList" />
+            <Breadcrumb />
+            <Events />
+          </>
+        } />
       </Routes> 
       <Footer />
     </>
-
   );
 }
 

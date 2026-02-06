@@ -10,10 +10,15 @@ import LogoSlider from '../components/LogoSlider'
 import RecentNews from '../components/RecentNews'
 import Reference from '../components/Reference'
 // import NavBar from '../components/NavBar'
+import { useTranslation } from 'react-i18next';
+import PageSeo from '../components/PageSeo';
+import Breadcrumb from '../components/Breadcrumb';
 
 const Home = () => {
   return (
     <div>
+        <PageSeo pageKey="home" />
+        <Breadcrumb />
         <Hero />
         <About />
         <Services />
