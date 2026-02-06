@@ -88,8 +88,8 @@ export default function NavBar() {
             </div>
           </div>
 
-          <div className={`dropdown ${activeDropdown === "events" ? "active" : ""} ${isParentActive('privacy-policy') || isParentActive('terms') ? "active-parent" : ""}`}>
-            <button className="nav-link" type="button" onClick={() => toggleDropdown("events")}>
+          <div className={`dropdown ${activeDropdown === "events" ? "active" : ""}  ${isParentActive('privacy-policy') || isParentActive('terms') ? "active-parent" : ""}`}>
+            <button className="nav-link" type="button" onClick={() => {setIsOpen(!isOpen); toggleDropdown("events"); navigate(`/${currentLang}/our-events`)}}>
               {t("home.nav.events")} <span className="caret">▼</span>
             </button>
             <div className="dropdown-menu">

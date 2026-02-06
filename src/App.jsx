@@ -39,6 +39,13 @@ import PackagingMaterials from "./pages/PackagingMaterials";
 import UKParliamentDebateOnBanning from "./pages/UKParliamentDebateOnBanning";
 import OurClients from "./pages/OurClients";
 import ExportingYourProductsToIndonesia from "./pages/ExportingYourProductsToIndonesia";
+import Events from "./pages/Events";
+import HHIC2019 from "./pages/hhic2019";
+import HHIC2018 from "./pages/hhic2018";
+import HHIC2017 from "./pages/hhic2017";
+import HHIC2016 from "./pages/hhic2016";
+import HHIC2015 from "./pages/hhic2015";
+import MuslimExpo from "./pages/MuslimLifestyleExpo";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
@@ -110,6 +117,12 @@ function MainContent() {
         <Route path="/events/hfa-planning-2025" element={<HFAEventPlanning2025 />} />
         <Route path="/events/hfa-webinar-2020" element={<HFAWebinar2020 />} />
         <Route path="/events/ulemah-meeting-jan-2019/" element={<HFAUleemahMeeting2019 />} />
+        <Route path="/events/hhic2019/" element={<HHIC2019 />} />
+        <Route path="/events/hhic2018/" element={<HHIC2018 />} />
+        <Route path="/events/hhic2017/" element={<HHIC2017 />} />
+        <Route path="/events/hhic2016/" element={<HHIC2016 />} />
+        <Route path="/events/hhic2015/" element={<HHIC2015 />} />
+        <Route path="/events/muslimlife2016/" element={<MuslimExpo />} />
         <Route path="/find-more-halal-food-authourity/" element={<FindMoreHalalFoodAuthority />} />
         <Route path="/food-and-beverages/" element={<FoodAndBeverages />} />
         <Route path="/cosmetics/" element={<Cosmetics />} />
@@ -120,6 +133,7 @@ function MainContent() {
         <Route path="/uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective/" element={<UKParliamentDebateOnBanning />} />
         <Route path="/our-clients/" element={<OurClients />} />
         <Route path="/exporting-your-products-to-indonesia/" element={<ExportingYourProductsToIndonesia />} />
+        <Route path="/our-events/" element={<Events />} />
       </Routes> 
       <Footer />
     </>

@@ -1112,5 +1112,344 @@
     "pagination": {
       "previousPost": "Article précédent"
     }
+  },
+  "events": {
+    "pageTitle": "Nos Événements",
+    "eventsList": [
+      {
+        "id": 1,
+        "title": "WEBINAR HFA - Mises à jour de l'Industrie Novembre 2020",
+        "alt": "WEBINAR HFA - Mises à jour de l'Industrie Novembre 2020",
+        "link": "hfa-webinar-2020"
+      },
+      {
+        "id": 2,
+        "title": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2019",
+        "alt": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2019",
+        "link": "hhic2019"
+      },
+      {
+        "id": 3,
+        "title": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2018",
+        "alt": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2018",
+        "link": "hhic2018"
+      },
+      {
+        "id": 4,
+        "title": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2017",
+        "alt": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2017",
+        "link": "hhic2017"
+      },
+      {
+        "id": 5,
+        "title": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2016",
+        "alt": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2016",
+        "link": "hhic2016"
+      },
+      {
+        "id": 6,
+        "title": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2015",
+        "alt": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2015",
+        "link": "hhic2015"
+      },
+      {
+        "id": 7,
+        "title": "Exposition du Mode de Vie Musulman Octobre 2016",
+        "alt": "Exposition du Mode de Vie Musulman Octobre 2016",
+        "link": "muslimlife2016"
+      }
+    ]
+  },
+  "hhic2019": {
+    "pageTitle": "Événement HFA 2019",
+    "mainHeading": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2019",
+    "pressReleaseHeading": "Communiqué de presse <br /> La HFA a célébré son 25e anniversaire en organisant la 5e Conférence de l'Industrie Halal <br /> à Londres",
+    "content": {
+      "paragraph1": "La HFA a célébré son 25e anniversaire en organisant une autre 5e Conférence Annuelle de l'Industrie Halal HFA (HHIC) 2019 de haut profil et bien soutenue, qui s'est tenue au Hilton Kensington Londres hier (28 juin 2019). Des experts de l'industrie halal, des fabricants leaders, des régulateurs, des producteurs halal, des clients, des chercheurs, des éducateurs, des certificateurs internationaux, des agents d'exécution, des érudits islamiques, des conférenciers et des délégués du Royaume-Uni, d'Europe, du Moyen-Orient et d'Extrême-Orient ont assisté à l'événement. Les représentants se sont réunis pour assister à la conférence qui a été un succès marqué. Il y a également eu une réception et un dîner sans alcool organisés pour les délégués et les conférenciers avant la journée de la conférence (mercredi 26 juin 2019).",
+      "paragraph2": "Le fiduciaire de la HFA, M. Ahmed Latif, a accueilli l'audience avec beaucoup de remerciements dans son discours d'ouverture et a souhaité à tous les participants une journée fructueuse.",
+      "paragraph3": "Amir Masoom, le PDG intérimaire de la HFA, a exprimé sa sincère appréciation à toutes les parties prenantes de la HFA, aux clients et spécialement au personnel de la HFA qui a contribué à rendre ce parcours réussi. Il a également remercié tous les sponsors de cet événement pour leurs contributions qui ont rendu cet événement possible et réussi.",
+      "paragraph4": "Le Dr Abdul Matin Khan, président de la HFA, a mentionné dans son mot de bienvenue : \"C'est une occasion spéciale car elle représente notre 25e anniversaire d'existence dans l'industrie alimentaire halal. Cela a été une expérience merveilleuse au cours des vingt-cinq dernières années et la HFA a progressé à pas de géant pendant cette période.\"",
+      "paragraph5": "Les conférenciers distingués de cette remarquable conférence incluent le Professeur Dr Winai Dahlan, Directeur Fondateur du Centre Scientifique Halal, Université Chulalongkorn Thaïlande, Dr Sulaiman Liu, Co-Fondateur & PDG de Halal Chain, Émirats Arabes Unis, Philip Hambling, Chef de l'Alimentation et de l'Agriculture du National Farmers Union, Dr Haseeb Shabbir, Chef du Marketing & Stratégie Commerciale, Université de Hull, Helen Scott, Chef des Ventes de Symington's Food Service, Saqib Mohammed, Directeur des Opérations de RAQAM Consultancy, Émirats Arabes Unis, Erik Arokszallasi PDG de TE-Food International, Allemagne, Benedicte Renaville, Directrice Scientifique de Progenus S.A, Belgique, Dr Claire White, Gestionnaire Vétérinaire Spécialiste de l'École des Sciences Vétérinaires, Université de Bristol, Awal Fuseini, Gestionnaire du Secteur Halal d'AHDB, Razan Alsous, fondatrice de Yorkshire Dama Cheese Ltd et Salahudeen Kara, Gestionnaire Technique de la HFA. Ils ont mis en lumière les problèmes actuels, les défis, les forces et les faiblesses du secteur halal.",
+      "paragraph6": "Les sujets couverts pendant la journée comprenaient ; Branding, Marketing & Utilisation de l'Influence des Médias Sociaux, Technologie de la Chaîne de Blocs – Un Développement Révolutionnaire dans l'Industrie Alimentaire, Méthodes de Test – Précision & Authenticité, Abattage Halal – Bien-être & Implications du Brexit sous forme de discussions en panel. La conférence s'est terminée par des discussions opportunes et réfléchies ; des présentations informatives, des sessions de questions-réponses et de nombreuses opportunités de réseautage.",
+      "paragraph7": "La HFA a récompensé son personnel, ses érudits, ses clients, ses conférenciers et ses présidents de session pour leur engagement envers l'excellence et leur appréciation pour leur contribution.",
+      "paragraph8": "La conférence a été animée par Tanveer Parkar de la HFA et finalement conclue par le fiduciaire de la HFA, M. Ehsan Choudhry.",
+      "paragraph9": "La HFA remercie tous les supporters, sponsors de l'événement et délégués qui se sont réunis pour faire de la HHIC un succès, encore une fois. – Fin –",
+      "paragraph10": "Note aux rédacteurs : <br />L'Autorité des Aliments Halal (HFA) est une organisation indépendante, volontaire, à but non lucratif fonctionnant comme une aile commerciale d'une œuvre de bienfaisance enregistrée. L'objectif de la HFA est d'assurer la communauté musulmane que les aliments certifiés halal sont véritablement conformes aux normes HFA, à la jurisprudence islamique et aux réglementations de l'UE applicables. Simultanément, la HFA promeut la sensibilisation aux principes halal pour la production halal au sein de l'industrie alimentaire, des consommateurs et divers forums nationaux et internationaux."
+    }
+  },
+  "hhic2018": {
+    "pageTitle": "Événement HFA 2018",
+    "mainHeading": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2018",
+    "presentationsHeading": "Présentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Changement Disruptif : Opportunités et Défis de l'expansion du marché halal",
+        "presenter": "Par Victoria Boldison, Fondatrice & PDG, Bolst Global",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_def376f047df4198952ff96cd4d745f4.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 2,
+        "title": "Changement Disruptif : Opportunités et Défis de l'expansion du marché halal",
+        "presenter": "Par Ronnie Faizal Tan, Directeur, Global Halal Hub Pte Ltd, Singapour",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_27aa94311a024b80a81261d2508f96e0.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 3,
+        "title": "Perception Vs Branding, moyens efficaces de représenter votre marque halal dans les pays à minorité musulmane",
+        "presenter": "Par Dr Aliakbar Jafri, Lecteur en Marketing, Université de Strathclyde, Royaume-Uni",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_c44cbc37e2114b97a64605c91d0d4d96.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 4,
+        "title": "Perception Vs Branding, moyens efficaces de représenter votre marque halal dans les pays à minorité musulmane",
+        "presenter": "Par Saeeda Ahmed, Directrice Fondatrice, Education Partnerships UK, Directrice de Pays, Aladdin Street & Directrice de Patron d'Export Exchange",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_099a6ed075904f0e8bdcc66bf15d6b5f.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 5,
+        "title": "Commerce de détail halal, ses effets sur les choix des consommateurs et son impact sur l'échelle des économies",
+        "presenter": "Par Chris Gale, Responsable de la Stratégie et de la Politique de Mission Sociale, Ben & Jerry's Europe",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_deaf23dbdbc54cbfa9e761fa6e6a5ec8.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 6,
+        "title": "Commerce de détail halal, ses effets sur les choix des consommateurs et son impact sur l'échelle des économies",
+        "presenter": "Par Dr Imran Kausar, Directeur Général, KKR Halal Ltd, Royaume-Uni",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_799dbc0bc9df4a20a04516f7936ea0ae.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 7,
+        "title": "Commerce de détail halal, ses effets sur les choix des consommateurs et son impact sur l'échelle des économies",
+        "presenter": "Par Dr Gama Khan, Directeur, 1 Stop Halal",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_14905fb53eb244eba8dd36b502e8a01d.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 8,
+        "title": "Réglementations, certifications, accréditations et reconnaissances halal",
+        "presenter": "Par S.E. Amina Ahmed Mohammed, Directrice Générale du Centre d'Accréditation International des Émirats (EIAC)",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_92cdf00ac33b4578ae73938c51a4df7d.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 9,
+        "title": "Réglementations, certifications, accréditations et reconnaissances halal",
+        "presenter": "Par Yasin Zülfikaroğlu, Spécialiste Expérimenté au Secrétariat Général SMIIC, Turquie",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_529b899becba4034a9df8996465286a7.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 10,
+        "title": "Réglementations, certifications, accréditations et reconnaissances halal",
+        "presenter": "Par Dr Barbara Ruiz-Bejarano Davis, Directrice des Relations Internationales, Instituto Halal, Espagne",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_203881f0dc0f4b63bdce3ef28e67ce2e.pdf",
+        "linkText": "Voir"
+      }
+    ]
+  },
+  "hhic2017": {
+    "pageTitle": "Événement HFA 2017",
+    "mainHeading": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2017",
+    "video": {
+      "title": "Faits saillants HFA 2017",
+      "url": "https://www.youtube.com/embed/2bBJI8yLN2g"
+    },
+    "presentationsHeading": "Présentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Défis et problèmes dans la certification halal en Malaisie",
+        "presenter": "PAR DATO' DR SIRAJUDDIN SUHAIMEE, DIRECTEUR DE LA DIVISION HALAL HUB, MALAISIE",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/HFA-Challenges-and-issue-in-Malaysia-Halal-Cert.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 2,
+        "title": "Industrie alimentaire halal en République Islamique d'Iran",
+        "presenter": "PAR DR PEYMAN FALSAFI, DIRECTEUR GÉNÉRAL ET CHEF DE L'ALIMENTATION HALAL ET DE LA SUPERVISION RELIGIEUSE, RÉPUBLIQUE D'IRAN",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Landons-Halal-Conference-Iran-.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 3,
+        "title": "Cadre réglementaire halal en Indonésie",
+        "presenter": "PAR VITTO RAFAEL TAHAR, CONSEILLER MINISTÉRIEL DE L'AMBASSADE DE LA RÉPUBLIQUE D'INDONÉSIE, LONDRES",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Halal-Regulatory-Framework-in-Indonesia-rev090517.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 4,
+        "title": "Évaluation de la vulnérabilité aux fraudes alimentaires",
+        "presenter": "PAR IRINA ABD RAHMAN, DIRECTRICE ASSOCIÉE, RAS & SERVICES D'APPROVISIONNEMENT ET D'INTÉGRITÉ ALIMENTAIRES, PWC MALAISIE",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Food-fraud-Vulnerability-Assessment.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 5,
+        "title": "Perception, réaction et comportement des consommateurs vis-à-vis des produits halal : Perspectives de l'industrie et stratégie sous-jacente",
+        "presenter": "PAR NORBERT KAHMANN, RESPONSABLE HALAL STRATÉGIQUE, AFFAIRES RÉGLEMENTAIRES MONDIALES, SYMRISE",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Consumer-Perception-Reaction-and-Behaviour-on-Halal-Products-Industry-Insight-and-Underlying-Strategy.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 6,
+        "title": "Fraude alimentaire halal, étiquetage et fausse représentation par Shamsul Islam, Agent de sécurité alimentaire, arrondissement de Brent, Londres",
+        "presenter": "PAR SHAMSUL ISLAM, AGENT DE SÉCURITÉ ALIMENTAIRE, ARRONDISSEMENT DE BRENT, LONDRES",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Halal-Food-Fraud-Labelling-and-Misrepresentation.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 7,
+        "title": "Masterclass avancée pour les transformateurs de viande",
+        "presenter": "PAR MIKE RICHARDSON, AHDB",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Advanced-Masterclass-for-Meat-processors.pdf",
+        "linkText": "Voir"
+      }
+    ]
+  },
+  "hhic2016": {
+    "pageTitle": "Événement HFA 2016",
+    "mainHeading": "Conférence de l'Industrie Halal HFA (HHIC) Mai 2016",
+    "video": {
+      "title": "Faits saillants HFA 2016",
+      "url": "https://www.youtube.com/embed/YKF8X7QI1KQ"
+    },
+    "presentationsHeading": "Présentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Politiques et Procédures HFA – Une mise à jour",
+        "presenter": "PAR SAQIB MOHAMMED, DIRECTEUR GÉNÉRAL AUTORITÉ DES ALIMENTS HALAL",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Saqibs-presentation-HFA-industry-conference-2016V6-MR-SAQIB-MOHAMME....pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 2,
+        "title": "Le secteur halal et sa position dans l'industrie de la viande au Royaume-Uni",
+        "presenter": "PAR NORMAN BAGLEY - CHEF DE LA POLITIQUE– AIMS",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/20160514-NJB-HFA-presentation-MR-NORMAN-BAGLEY.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 3,
+        "title": "Aperçu du transport, de la logistique et de la chaîne d'approvisionnement halal",
+        "presenter": "",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Halal-Logistics-and-Supply-Chain-2nd-HFA-Halal-Conference-26-May-2016....pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 4,
+        "title": "Moteur Vérifié Halal (HVE)",
+        "presenter": "PAR KHAIRIL ISMAHAFIZ",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFA-UK-Halal-Conference-26052016-KHAIRIL-ISMAHAFIZ.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 5,
+        "title": "Un branding révolutionnaire à l'ère des médias sociaux",
+        "presenter": "PAR DR. JONATHAN A.J. WILSON",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFA_Game-Changing-Branding_May2016_Wilson-DR-JONATHAN-WILSON.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 6,
+        "title": "Bœuf et agneau anglais - Un avantage concurrentiel en matière de bien-être, de qualité et d'opportunités d'exportation émergentes",
+        "presenter": "PAR PHIL HADLEY AHDB",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFAconfnovideo-DR-PHIL-HADLEY.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 7,
+        "title": "Analyse stratégique de la mondialisation halal et des modèles de croissance du marché",
+        "presenter": "PAR ABDALHAMID EVANS STRATÈGE SENIOR, IMARAT CONSULTANTS FONDATEUR, HALALFOCUS.COM",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Imarat-HFA-presentation-2016-MR-ABDALHAMID-EVANS.pdf",
+        "linkText": "Voir"
+      },
+      {
+        "id": 8,
+        "title": "Défis pratiques pour garantir les exigences halal dans l'industrie aérienne",
+        "presenter": "PAR LORAINE HUGHES CHEF TECHNIQUE",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Practical-Challenges-Halal-in-the-Airline-Industry-v02-LH-2016-05-25-....pdf",
+        "linkText": "Voir"
+      }
+    ]
+  },
+  "hhic2015": {
+    "pageTitle": "Événement HFA 2015",
+    "mainHeading": "Conférence de l'Industrie Halal HFA (HHIC) Juin 2015",
+    "subHeading": "DÉVELOPPEMENTS RÉCENTS ET POTENTIELS DANS L'INDUSTRIE HALAL",
+    "content": {
+      "paragraph1": "Un bref rapport sur le séminaire HFA tenu le 30 avril 2015 Nous, à l'Autorité des Aliments Halal (HFA), avons organisé notre premier événement axé sur l'industrie jeudi dernier (30 avril 2015) ; tenu dans la suite impériale du Royal Nawaab Londres. Notre séminaire sur les 'Développements récents et potentiels dans l'industrie halal' a attiré plus de 140 professionnels du secteur – des représentants de grandes entreprises telles qu'Unilever, Kelloggs et KFC, de petites entreprises indépendantes et de nombreux médias désireux de couvrir l'événement. Animé par le très demandé Rahim Jung, l'événement a été ouvert par notre Président, le Dr Ghayasuddin Siddiqui et suivi par notre PDG Saqib Mohammed. Nous avions méticuleusement préparé un programme d'orateurs dont nous étions sûrs qu'il maintiendrait l'intérêt et la concentration de nos délégués tout au long de la journée et nous sommes confiants d'avoir réussi.",
+      "paragraph2": "Le premier à prendre la parole pour présenter sa conférence sur 'L'étourdissement de la volaille par la tête uniquement d'un point de vue halal' était Steve Wotton de l'Université de Bristol. Steve est un ami de longue date de la HFA et ses intérêts incluent l'étude électrophysique des questions de bien-être animal, en particulier pendant l'étourdissement et l'abattage. Il a présenté une présentation concise, quelque peu scientifique, particulièrement intéressante. L'incorporation de vidéo a aidé à mettre en lumière les sujets qu'il soulevait et à rendre le sujet concret pour le public. Après Steve, la responsable de la Recherche et de l'Éducation du groupe de défense du bien-être animal Compassion In World Farming – le Dr Angela Wright – a pris la parole. Sa conférence était centrée sur les compromis en matière de bien-être animal tout au long de la chaîne d'approvisionnement – indépendamment de la méthode d'abattage. C'était un sujet très important et essentiel à aborder dans un séminaire sur le halal au Royaume-Uni – en particulier avec l'hystérie halal récente et pertinente qui apparaît sporadiquement dans les médias. Après Angela, Rizvan Khalid – directeur senior d'Euro Quality Lambs (le plus grand abattoir de moutons détenu par des musulmans en Europe) – a pris la parole pour discuter de l'amélioration des méthodes d'abattage sans étourdissement.",
+      "paragraph3": "Les conférences mentionnées ci-dessus ont été suivies d'une discussion en panel présidée par le Dr Phil Hadley, responsable du développement de la chaîne d'approvisionnement chez EBLEX. Après une discussion très engageante avec une excellente participation du public, tous les orateurs ont reçu des prix pour les remercier de leur présence et de leurs discussions stimulantes. La deuxième session de la journée s'est davantage concentrée sur les questions de certification halal par opposition au bien-être animal. Dans le panel, nous avions Amina Ahmad, directrice du Centre d'accréditation de Dubaï – discutant du rôle des organismes d'accréditation dans l'infrastructure de qualité halal, le Dr Mian Riaz du Centre de R&D en protéines alimentaires de l'Université du Texas – discutant des additifs alimentaires douteux comme un défi dans la transformation des aliments halal, le Dr Munir Chaudhry du Islamic Food and Nutrition Council of America (IFANCA) parlant des marchés halal émergents et enfin, mais non des moindres, le Dr Linda Amirat de Leatherhead Food Research présentant sur les lois alimentaires du CCG. Toutes les présentations étaient bien présentées et finement préparées, elles ont suscité d'excellents sujets de conversation parmi notre public et les délégués ont pu interroger nos orateurs ; plusieurs cherchaient des conseils sur la conformité halal d'une variété d'additifs qu'ils envisageaient d'ajouter à de nouveaux produits et sur leur adéquation à des fins d'exportation vers le Moyen-Orient. Une excellente occasion de demander conseil à des experts du domaine.",
+      "paragraph4": "La session de questions-réponses pour ce segment a été présidée par Abdalhamid Evans d'Imarat Consultants – qui a fait un travail fantastique. Après les deux segments de présentation, un délicieux repas de trois plats a été servi par Royal Nawaab, un festin pakistanais traditionnel si nous le disons nous-mêmes ! Les éloges pour la nourriture ont été nombreux – nous avons été remerciés de ne pas avoir proposé le buffet froid habituel synonyme de nombreux séminaires et conférences au Royaume-Uni ! Nous sommes heureux que tout le monde se soit senti convenablement nourri et rafraîchi après le déjeuner. Après une demi-journée remplie de discussions stimulantes et avec tout le monde rassasié de délicieuse cuisine pakistanaise, Birmingham Trading Standards a donné une courte conférence sur la fraude alimentaire halal, puis notre cérémonie de remise des prix a commencé. Nous à la HFA sommes reconnaissants à tous nos clients, mais nous avons jugé nécessaire de récompenser nos clients les plus anciens pour leur conformité halal continue. Randall Parker Foods, Raj Foods, Unilever UK Limited et Aarhaus Karl Ishamns UK Limited ont tous reçu des prix de reconnaissance pour être des clients de la HFA depuis 10+ ans, et nos prix 15+ ans ont été décernés à Kelloggs et Kitchen Range Foods. Nous prenons notre relation client et notre intégrité très au sérieux et avons jugé impératif de récompenser nos clients avec quelque chose de notre part pour reconnaître leur bon travail continu.",
+      "paragraph5": "Halal Focus et le Meat Trades Journal ont également reçu des prix de reconnaissance pour leur couverture exceptionnelle des questions halal dans les médias grand public – quelque chose d'intégral à notre époque – ainsi que deux membres de notre personnel, Akbar Hussain et Justyna Gorna, pour leur travail exceptionnel pour notre organisation et leur engagement indéfectible. Nous avons demandé à KFC, Kelloggs et Muntons de prononcer quelques mots avant la fin de la journée, détaillant leur relation avec la HFA, pourquoi ils ont opté pour la certification HFA plutôt que de s'aligner sur d'autres certificateurs, ce que le halal signifie pour eux, etc., et toutes ces interventions ont été prononcées avec assurance – le discours de Kelloggs était particulièrement amusant et léger, c'était la première présentation du représentant et nous pensons qu'il a fait un travail formidable ! Dans l'ensemble, cela s'est avéré être un événement fantastique et nous sommes fiers qu'il se soit déroulé sans accroc. Nous nous réjouissons d'organiser davantage d'événements de ce type à l'avenir et remercions tous ceux qui ont participé et ont contribué à son succès."
+    },
+    "presentationsHeading": "Présentations du séminaire :",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Étourdissement de la volaille par la tête uniquement d'un point de vue halal",
+        "presenter": "par M. Steve Wotton"
+      },
+      {
+        "id": 2,
+        "title": "Bien-être des animaux d'élevage",
+        "presenter": "par Dr. Angela J. Wright"
+      },
+      {
+        "id": 3,
+        "title": "Additifs alimentaires douteux",
+        "presenter": "par Dr. Mian N. Riaz"
+      },
+      {
+        "id": 4,
+        "title": "Moteur Vérifié Halal (HVE)",
+        "presenter": "PAR KHAIRIL ISMAHAFIZ"
+      },
+      {
+        "id": 5,
+        "title": "Un branding révolutionnaire à l'ère des médias sociaux",
+        "presenter": "PAR DR. JONATHAN A.J. WILSON"
+      },
+      {
+        "id": 6,
+        "title": "Cours de formation sur la conformité halal",
+        "presenter": "par Dr. Peter R. Sheard"
+      },
+      {
+        "id": 7,
+        "title": "Enquêtes sur la fraude halal",
+        "presenter": "par Birmingham Trading Standards"
+      },
+      {
+        "id": 8,
+        "title": "Amélioration de l'abattage sans étourdissement",
+        "presenter": "par M. Rizvan Khalid"
+      },
+      {
+        "id": 9,
+        "title": "Loi alimentaire du CCG",
+        "presenter": "par Dr. Linda Amirat"
+      },
+      {
+        "id": 10,
+        "title": "Rôle des organismes d'accréditation dans l'infrastructure de qualité halal",
+        "presenter": "par Mme. Amina Ahmed Mohammed"
+      }
+    ]
+  },
+  "muslimExpo": {
+    "heroTitle": "Événement HFA 2016",
+    "mainTitle": "Salon du Mode de Vie Musulman, 2016",
+    "imageAlt": "Événement du Salon du Mode de Vie Musulman",
+    "description": "Pendant le week-end, Olympia à Londres était l'endroit à ne pas manquer pour les familles avec la tenue du deuxième Salon du Mode de Vie Musulman (MLE). L'événement a été un immense succès et l'Autorité Halal (HFA) a fait partie de cette expérience passionnante. Installés au stand D34 situé près de la scène principale, HFA était plus visible pour le public désireux d'en savoir plus. C'était notre vocation, notre raison d'être ! Voici quelques moments forts de l'événement."
   }
 }

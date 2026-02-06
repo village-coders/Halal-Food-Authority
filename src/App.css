@@ -2290,8 +2290,85 @@ footer {
   border-radius: 10px;
 }
 
+/* Events */
+
+.our-events{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)
+  ), url('/hhic2018.jpg') !important ;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  height: 80vh;
+  width: 100% !important;
+  position: relative;
+  padding: 40px 0px;
+  margin-bottom: 40px;
+}
+
+.our-events-sec{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.our-events-sec .grid-item{
+  background: white;
+  padding: 26px 30px;
+  border-radius: 20px;
+  width: 100%;
+  text-decoration: inherit;
+  color: inherit;
+  height: 100%;
+}
+
+.our-events-sec .grid-item h2{
+  font-size: 1.35rem;
+}
+
+.our-events-sec .grid-item .img-container{
+  width: 100%;
+  /* height: auto; */
+  height: 230px;
+  transition: scale 0.3s ease-in-out;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.our-events-sec .grid-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.our-events-sec .grid-item img:hover{
+  scale: .85;
+  opacity: 1rem;
+}
+.our-events-sec .grid-item h2{
+  font-weight: 650;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+.our-events-sec .grid-item p{
+  font-size: 1rem;
+  display: inline;
+}
+
+
+
 @media screen and (max-width: 1000px) {
   .find-more-halal .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px 0px;
+  }
+  .our-events-sec{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 30px 0px;
@@ -2323,6 +2400,16 @@ footer {
   .find-more-halal .country-grid-container img{
       height: auto;
       width: 100%;
+  }
+
+  .find-more-halal img{
+    width: 100% !important;
+  }
+
+  .our-events-sec{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 30px 0px;
   }
 
 }

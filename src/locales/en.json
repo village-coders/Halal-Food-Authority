@@ -1114,5 +1114,344 @@
     "pagination": {
       "previousPost": "Previous Post"
     }
+  },
+  "events": {
+    "pageTitle": "Our Events",
+    "eventsList": [
+      {
+        "id": 1,
+        "title": "HFA WEBINAR-Industry Updates November 2020",
+        "alt": "HFA WEBINAR-Industry Updates November 2020",
+        "link": "hfa-webinar-2020"
+      },
+      {
+        "id": 2,
+        "title": "HFA Halal Industry Conference (HHIC) June 2019",
+        "alt": "HFA Halal Industry Conference (HHIC) June 2019",
+        "link": "hhic2019"
+      },
+      {
+        "id": 3,
+        "title": "HFA Halal Industry Conference (HHIC) May 2018",
+        "alt": "HFA Halal Industry Conference (HHIC) May 2018",
+        "link": "hhic2018"
+      },
+      {
+        "id": 4,
+        "title": "HFA Halal Industry Conference (HHIC) May 2017",
+        "alt": "HFA Halal Industry Conference (HHIC) May 2017",
+        "link": "hhic2017"
+      },
+      {
+        "id": 5,
+        "title": "HFA Halal Industry Conference (HHIC) May 2016",
+        "alt": "HFA Halal Industry Conference (HHIC) May 2016",
+        "link": "hhic2016"
+      },
+      {
+        "id": 6,
+        "title": "HFA Halal Industry Conference (HHIC) June 2015",
+        "alt": "HFA Halal Industry Conference (HHIC) June 2015",
+        "link": "hhic2015"
+      },
+      {
+        "id": 7,
+        "title": "Muslim Lifestyle Expo October 2016",
+        "alt": "Muslim Lifestyle Expo October 2016",
+        "link": "muslimlife2016"
+      }
+    ]
+  },
+  "hhic2019": {
+    "pageTitle": "HFA Event 2019",
+    "mainHeading": "HFA Halal Industry Conference (HHIC) June 2019",
+    "pressReleaseHeading": "Press Release <br /> HFA celebrated its 25-year anniversary by holding 5th Halal Industry <br /> Conference in London",
+    "content": {
+      "paragraph1": "HFA celebrated its 25-year anniversary by holding another high profile and well supported 5th Annual HFA Halal Industry Conference (HHIC) 2019, which was held at Hilton Kensington London yesterday (28th June 2019). Halal industry experts, leading mainstream manufacturers, regulators, halal producers, customers, researchers, educators, international certifiers, enforcement officers, Islamic Scholars, speakers and delegates from UK, Europe, the Middle-East and Far-East were in attendance. Representatives came together to attend the conference which was a marked success. There was also a mocktail reception and dinner, organized for delegates and speakers, before the conference day (Wednesday 26th June 2019).",
+      "paragraph2": "HFA Trustee, Mr Ahmed Latif received the audience with much thanks in his opening remarks and wished all the attendees a fruitful day.",
+      "paragraph3": "Amir Masoom, the Interim CEO of HFA expressed sincere appreciation to all HFA stakeholders, clients and specially the HFA staff who helped to make this journey successful. He also thanked all sponsors of this event for their contributions to make this event possible and successful.",
+      "paragraph4": "Dr Abdul Matin Khan, the Chairman of HFA has mentioned in his welcoming note, \"This is a special occasion because it represents our 25th anniversary of our existence in the Halal food industry. It has been a wonderful experience over the past twenty-five years and HFA has progressed by leaps and bounds during this period.\"",
+      "paragraph5": "The distinguished speakers of this remarkable conference include Professor Dr Winai Dahlan, Founder Director of Halal Science Centre, Chulalongkorn University Thailand, Dr Sulaiman Liu, Co-Founder & CEO of Halal Chain, UAE, Philip Hambling, Head of Food and Farming of National Farmers Union, Dr Haseeb Shabbir, Head of Marketing & Business Strategy, University of Hull, Helen Scott, Head of Sales of Symington's Food Service, Saqib Mohammed, Operations Director of RAQAM Consultancy, UAE, Erik Arokszallasi CEO of TE-Food International, Germany, Benedicte Renaville, Scientific Director of Progenus S.A, Belgium, Dr Claire White, Specialist Veterinary Manager of School of Veterinary Science, University of Bristol, Awal Fuseini, Halal Sector Manager of AHDB, Razan Alsous, founder of Yorkshire Dama Cheese Ltd and Salahudeen Kara, Technical Manager of HFA. They highlighted current issues, challenges, strengths & weaknesses of the Halal sector.",
+      "paragraph6": "Topics covered during the Day included; Branding, Marketing & Using Social Media Influence, Block Chain Technology – A Groundbreaking Development in Food Industry, Testing Methods – Accuracy & Authenticity, Halal Slaughter – Welfare & Brexit Implications as panel discussions. The Conference ended with timely and thoughtful discussions; informative presentations, QA sessions and plentiful networking opportunities.",
+      "paragraph7": "The HFA awarded its staff, scholars, clients, speakers and session chairs for their commitment to excellence and appreciation for their contribution.",
+      "paragraph8": "The conference was hosted by HFA's Tanveer Parkar and finally concluded by HFA's Trustee Mr Ehsan Choudhry.",
+      "paragraph9": "HFA thank all supporters, event sponsors and delegates who came together to make the HHIC a success, again. – Ends –",
+      "paragraph10": "Note to Editors: <br />Halal Food Authority (HFA) is an independent, voluntary, not-for-profit organisation operating as a commercial wing of a registered charity. The objective of HFA is to assure the Muslim community that the food certified as halal is genuinely in compliance with HFA Standards, Islamic Jurisprudence and applicable EU regulations. Concurrently, HFA promotes awareness of halal principles for halal production within the food industry, consumers and various national and international forums."
+    }
+  },
+  "hhic2018": {
+    "pageTitle": "HFA Event 2018",
+    "mainHeading": "HFA Halal Industry Conference (HHIC) May 2018",
+    "presentationsHeading": "Presentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Disruptive Change: Opportunities and Challenges of Halal market expansion",
+        "presenter": "By Victoria Boldison, Founder & CEO, Bolst Global",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_def376f047df4198952ff96cd4d745f4.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 2,
+        "title": "Disruptive Change: Opportunities and Challenges of Halal market expansion",
+        "presenter": "By Ronnie Faizal Tan, Director, Global Halal Hub Pte Ltd, Singapore",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_27aa94311a024b80a81261d2508f96e0.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 3,
+        "title": "Perception Vs Branding, effective ways to represent your halal brand in Muslim minority countries",
+        "presenter": "By Dr Aliakbar Jafri, Reader in Marketing, University of Strathclyde, UK",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_c44cbc37e2114b97a64605c91d0d4d96.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 4,
+        "title": "Perception Vs Branding, effective ways to represent your halal brand in Muslim minority countries",
+        "presenter": "By Saeeda Ahmed, Founding Director, Education Partnerships UK, Country Director, Aladdin Street & Director of Patron of Export Exchange",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_099a6ed075904f0e8bdcc66bf15d6b5f.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 5,
+        "title": "Halal Retailing, its effects on consumers' choices and its impact on scale of economies",
+        "presenter": "By Chris Gale, Social Mission Strategy and Policy Manager, Ben & Jerry's Europe",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_deaf23dbdbc54cbfa9e761fa6e6a5ec8.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 6,
+        "title": "Halal Retailing, its effects on consumers' choices and its impact on scale of economies",
+        "presenter": "By Dr Imran Kausar, Managing Director, KKR Halal Ltd, UK",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_799dbc0bc9df4a20a04516f7936ea0ae.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 7,
+        "title": "Halal Retailing, its effects on consumers' choices and its impact on scale of economies",
+        "presenter": "By Dr Gama Khan, Director, 1 Stop Halal",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_14905fb53eb244eba8dd36b502e8a01d.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 8,
+        "title": "Halal regulations, certifications, accreditations and recognitions",
+        "presenter": "By H.E. Amina Ahmed Mohammed, Chief Executive Officer of Emirates International Accreditation Center (EIAC)",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_92cdf00ac33b4578ae73938c51a4df7d.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 9,
+        "title": "Halal regulations, certifications, accreditations and recognitions",
+        "presenter": "By Yasin Zülfikaroğlu, Experienced Specialist in SMIIC General Secretariat, Turkey",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_529b899becba4034a9df8996465286a7.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 10,
+        "title": "Halal regulations, certifications, accreditations and recognitions",
+        "presenter": "By Dr Barbara Ruiz-Bejarano Davis, Director of International Relations, Instituto Halal, Spain",
+        "link": "https://67908e97-473e-40a4-a88c-3ba3a2e29db5.filesusr.com/ugd/8021f8_203881f0dc0f4b63bdce3ef28e67ce2e.pdf",
+        "linkText": "View"
+      }
+    ]
+  },
+  "hhic2017": {
+    "pageTitle": "HFA Event 2017",
+    "mainHeading": "HFA Halal Industry Conference (HHIC) May 2017",
+    "video": {
+      "title": "Highlights HFA 2017",
+      "url": "https://www.youtube.com/embed/2bBJI8yLN2g"
+    },
+    "presentationsHeading": "Presentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Challenges and Issues in the Malaysia Halal Certification",
+        "presenter": "BY DATO' DR SIRAJUDDIN SUHAIMEE, DIRECTOR OF HALAL HUB DIVISION, MALAYSIA",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/HFA-Challenges-and-issue-in-Malaysia-Halal-Cert.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 2,
+        "title": "Halal Food Industry in The Islamic Republic of Iran",
+        "presenter": "BY DR PEYMAN FALSAFI, DIRECTOR GENERAL & HEAD OF HALAL FOOD AND RELIGIOUS SUPERVISION, REPUBLIC OF IRAN",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Landons-Halal-Conference-Iran-.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 3,
+        "title": "Halal Regulatory Framework in Indonesia",
+        "presenter": "BY VITTO RAFAEL TAHAR, MINISTER COUNSELLOR OF THE EMBASSY OF THE REPUBLIC OF INDONESIA, LONDON",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Halal-Regulatory-Framework-in-Indonesia-rev090517.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 4,
+        "title": "Food Fraud Vulnerability Assessment",
+        "presenter": "BY IRINA ABD RAHMAN, ASSOCIATE DIRECTOR, RAS & FOOD SUPPLY AND INTEGRITY SERVICES, PWC MALAYSIA",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Food-fraud-Vulnerability-Assessment.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 5,
+        "title": "Consumer Perception, Reaction and Behaviour on Halal Products: Industry Insight and Underlying Strategy",
+        "presenter": "BY NORBERT KAHMANN, STRATEGIC HALAL OFFICER, GLOBAL REGULATORY AFFAIRS, SYMRISE",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Consumer-Perception-Reaction-and-Behaviour-on-Halal-Products-Industry-Insight-and-Underlying-Strategy.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 6,
+        "title": "Halal Food Fraud, Labelling and Misrepresentation by Shamsul Islam, Food Safety Officer, London Borough of Brent",
+        "presenter": "BY SHAMSUL ISLAM, FOOD SAFETY OFFICER, LONDON BOROUGH OF BRENT",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Halal-Food-Fraud-Labelling-and-Misrepresentation.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 7,
+        "title": "Advanced Masterclass for Meat processors",
+        "presenter": "BY MIKE RICHARDSON, AHDB",
+        "link": "http://halalfoodauthority.com/wp-content/uploads/2017/06/Advanced-Masterclass-for-Meat-processors.pdf",
+        "linkText": "View"
+      }
+    ]
+  },
+  "hhic2016": {
+    "pageTitle": "HFA Event 2016",
+    "mainHeading": "HFA Halal Industry Conference (HHIC) May 2016",
+    "video": {
+      "title": "Highlights HFA 2016",
+      "url": "https://www.youtube.com/embed/YKF8X7QI1KQ"
+    },
+    "presentationsHeading": "Presentations",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "HFA Policies and Procedures – An update",
+        "presenter": "BY SAQIB MOHAMMED, CHIEF EXECUTIVE HALAL FOOD AUTHORITY",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Saqibs-presentation-HFA-industry-conference-2016V6-MR-SAQIB-MOHAMME....pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 2,
+        "title": "The Halal sector and it's position in the UK Meat Industry",
+        "presenter": "BY NORMAN BAGLEY- HEAD OF POLICY– AIMS",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/20160514-NJB-HFA-presentation-MR-NORMAN-BAGLEY.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 3,
+        "title": "An Overview of Halal Transportation, Logistics and Supply Chain",
+        "presenter": "",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Halal-Logistics-and-Supply-Chain-2nd-HFA-Halal-Conference-26-May-2016....pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 4,
+        "title": "Halal Verified Engine (HVE)",
+        "presenter": "BY KHAIRIL ISMAHAFIZ",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFA-UK-Halal-Conference-26052016-KHAIRIL-ISMAHAFIZ.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 5,
+        "title": "Game Changing Branding in a Social Media Age",
+        "presenter": "BY DR. JONATHAN A.J. WILSON",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFA_Game-Changing-Branding_May2016_Wilson-DR-JONATHAN-WILSON.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 6,
+        "title": "English beef and Lamb- A competitive edge on welfare, quality and emerging export opportunities",
+        "presenter": "BY PHIL HADLEY AHDB",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/HFAconfnovideo-DR-PHIL-HADLEY.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 7,
+        "title": "Strategic Analysis of Halal globalisation and market growth patterns",
+        "presenter": "BY ABDALHAMID EVANS SENIOR STRATEGIST, IMARAT CONSULTANTS FOUNDER, HALALFOCUS.COM",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Imarat-HFA-presentation-2016-MR-ABDALHAMID-EVANS.pdf",
+        "linkText": "View"
+      },
+      {
+        "id": 8,
+        "title": "Practical Challenges in Ensuring Halal Requirements in the Airline Industry",
+        "presenter": "BY LORAINE HUGHES HEAD OF TECHNICAL",
+        "link": "http://icreshfa.halalfoodauthority.com/wp-content/uploads/2016/11/Practical-Challenges-Halal-in-the-Airline-Industry-v02-LH-2016-05-25-....pdf",
+        "linkText": "View"
+      }
+    ]
+  },
+  "hhic2015": {
+    "pageTitle": "HFA Event 2015",
+    "mainHeading": "HFA Halal Industry Conference (HHIC) June 2015",
+    "subHeading": "RECENT AND POTENTIAL DEVELOPMENTS IN THE HALAL INDUSTRY",
+    "content": {
+      "paragraph1": "A short report on the HFA Seminar held on 30th April 2015 We at the Halal Food Authority (HFA) hosted our first industry focused event last Thursday (30th April 2015); held in the Imperial Suite at Royal Nawaab London. Our seminar on 'Recent and Potential Developments in the Halal Industry' attracted over 140 industry personnel – from representatives from major corporations such as Unilever, Kelloggs and KFC, smaller independent businesses and a host of media keen to cover the event. Hosted by the much sought after Rahim Jung, the event was opened by our Chairman, Dr Ghayasuddin Siddiqui and followed on by our CEO Saqib Mohammed. We had meticulously put together a programme of speakers that we were sure would keep our delegates interested and focused throughout the day and we are confident that we succeeded.",
+      "paragraph2": "First to take the stand to deliver his talk on 'Head-only stunning of poultry from a halal perspective' was Steve Wotton from the University of Bristol. Steve is a longstanding friend of the HFA and his interests include the electrophysical study of animal welfare issues particularly during stunning and slaughter. He delivered a concise, somewhat scientific presentation that was particularly interesting. The incorporation of video helped to highlight the topics he was raising and bring home the subject matter to the audience. Following Steve was the head of Research and Education at animal welfare group Compassion In World Farming – Dr Angela Wright. Her talk was centred on animal welfare compromises throughout the supply chain – irrespective of slaughter method. This was a very important topic and something important to cover in a seminar on halal in the UK – especially with the recent and pertinent halal hysteria that sporadically appears in the media. After Angela, Rizvan Khalid – senior director of Euro Quality Lambs (the largest Muslim-owned lamb abattoir in Europe) took to the podium to discuss improving slaughter methods without stunning.",
+      "paragraph3": "The aforementioned talks were followed by a panel discussion chaired by Dr Phil Hadley, the Head of Supply Chain Development at EBLEX and following a very engaging discussion with an excellent amount of audience participation, speakers were all given awards to thank them for their attendance and thought-provoking discussions. The second session of the day focused more on halal certification issues as opposed to animal welfare. On the panel we had Amina Ahmad, Director at the Dubai Accreditation Centre – discussing the role of accreditation bodies in halal quality infrastructure, Dr Mian Riaz from the Food Protein R&D Centre at Texas University – discussing doubtful food additives being a challenge in halal food processing, Dr Munir Chaudhry of the Islamic Food and Nutrition Council of America (IFANCA) talking about emerging halal markets and last, but by no means least, Dr Linda Amirat of Leatherhead Food Research presenting on GCC Food Laws. All presentations were well presented and finely put together, they brought up excellent topics of conversation amongst our audience and delegates were able to question our speakers; several were after advice and halal suitability of a variety of additives that they were thinking of adding to new products and whether these would be suitable for export purposes to the Middle East. A great opportunity to seek advice from experts in the field.",
+      "paragraph4": "The Q&A session for this segment was chaired by Abdalhamid Evans of Imarat Consultants – who did a fantastic job. Following both presentation segments, a delicious three course meal was served up by Royal Nawaab, a traditional Pakistani feast if we do say so ourselves! Praise for the food was given by many – we were given thanks that we had not put on the usual cold-food buffet that is synonymous with many seminars and conferences in the UK! We are glad that everyone felt suitably fed and watered following lunch. After a half day filled with thought-provoking discussion and with everyone full of delightful Pakistani cuisine, Birmingham Trading Standards delivered a short talk on Halal food fraud and then our award ceremony began. We at the HFA are thankful to all of our clients but we felt it necessary to award our most longstanding clients for their continued halal compliance. Randall Parker Foods, Raj Foods, Unilever UK Limited and Aarhaus Karl Ishamns UK Limited all received awards of recognition for being clients of the HFA for 10+ years and our 15+ years awards were awarded to Kelloggs and Kitchen Range Foods. We take our client relationship and integrity very seriously and felt it imperative to award our clients something from our side to recognise their continued good work.",
+      "paragraph5": "Also given awards for recognition were Halal Focus and the Meat Trades Journal for their exceptional coverage of halal issues in the wider media – something that is integral in this day and age – as well as two of our staff members, Akbar Hussain and Justyna Gorna for their exceptional work for our organisation and unwavering commitment. We asked KFC, Kelloggs and Muntons to deliver a few words before the close of the day, detailing their relationship with HFA, why they opted for HFA certification as opposed to aligning themselves with other certifiers, what halal means to them etc. and these were all delivered with poise – the Kelloggs speech was particularly amusing and lighthearted, it was the representatives first time ever presenting and we think he did a wonderful job! All in all, it proved to be a fantastic event and we are proud that it went off without a hitch. We look forward to organising more events like these in the future and thank all of those that attended and made it into the success that it was."
+    },
+    "presentationsHeading": "Presentations from the seminar:",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Head-Only stunning of Poultry from a Halal prespective",
+        "presenter": "by Mr Steve Wotton"
+      },
+      {
+        "id": 2,
+        "title": "Farmed- Animal Welfare",
+        "presenter": "by Dr.Angela J. Wright"
+      },
+      {
+        "id": 3,
+        "title": "Doubtful Food Additives",
+        "presenter": "by Dr. Mian N. Riaz"
+      },
+      {
+        "id": 4,
+        "title": "Halal Verified Engine (HVE)",
+        "presenter": "BY KHAIRIL ISMAHAFIZ"
+      },
+      {
+        "id": 5,
+        "title": "Game Changing Branding in a Social Media Age",
+        "presenter": "BY DR. JONATHAN A.J. WILSON"
+      },
+      {
+        "id": 6,
+        "title": "Halal Compliance Training Courses",
+        "presenter": "by Dr. Peter R. Sheard"
+      },
+      {
+        "id": 7,
+        "title": "Halal Fraud Investigations",
+        "presenter": "by Birmingham Trading Standards"
+      },
+      {
+        "id": 8,
+        "title": "Improving Slaughter Without Stunning",
+        "presenter": "by Mr. Rizvan Khalid"
+      },
+      {
+        "id": 9,
+        "title": "GCC Food Law",
+        "presenter": "by Dr. Linda Amirat"
+      },
+      {
+        "id": 10,
+        "title": "Role of Accreditation Bodies in Halal Quality Infrastructue",
+        "presenter": "by Ms. Amina Ahmed Mohammed"
+      }
+    ]
+  },
+  "muslimExpo": {
+    "heroTitle": "HFA Event 2016",
+    "mainTitle": "Muslim Lifestyle Expo, 2016",
+    "imageAlt": "Muslim Lifestyle Expo event",
+    "description": "Over the weekend Olympia, London was the place to be for families as it held the second Muslim Lifestyle Expo (MLE). The event was a huge success and Halal Food Authority (HFA) was part of this exciting experience. Stationed at stand D34 situated around the main performance stage meant HFA were more visible to public who were keen to know more. This was our calling, our purpose! Here are some of the highlights from the event."
   }
 }
