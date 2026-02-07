@@ -1686,6 +1686,21 @@ footer {
   .cta-section .cta-content p {
     font-size: 1rem;
   }
+  .about-appointment-sec h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Merriweather", serif; 
+  }
+
+  .about-appointment-sec p{
+    font-size: 1.2rem;
+    max-width: 800px;
+    /* font-weight: 700; */
+    margin-bottom: 50px;
+    color: #fff;
+  }
 }
 
 
