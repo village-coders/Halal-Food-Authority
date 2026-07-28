@@ -1,4 +1,217 @@
 {
+  "seo": {
+    "siteTitle": "Halal Food Authority",
+    "siteDescription": "Organisme officiel de certification Halal - Normes et certification Halal mondiales",
+    "defaultKeywords": "halal, certification, nourriture halal, musulman, normes halal, HFA",
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "À propos",
+      "certification": "Certification",
+      "procedure": "Procédure",
+      "termination": "Résiliation",
+      "fee-policy": "Politique Tarifaire",
+      "complaints-committee": "Comité des Réclamations",
+      "provisions-for-the-use-of-hfa-logo": "Utilisation du Logo HFA",
+      "hfa-impartiality-policy": "Politique d'Impartialité",
+      "hfa-quality-policy": "Politique Qualité",
+      "hfa-corporate-and-financial-governance": "Gouvernance d'Entreprise",
+      "hfa-complaints-appeals-procedure": "Réclamations & Appels",
+      "halal-food-sampling-analysis-policy": "Échantillonnage des Aliments",
+      "faqs": "FAQ",
+      "contact": "Contact",
+      "events": "Événements",
+      "hfa-planning-2025": "Planification HFA 2025",
+      "hfa-webinar-2020": "Webinaire 2020",
+      "ulemah-meeting-jan-2019": "Réunion des Oulémas 2019",
+      "hhic2019": "HHIC 2019",
+      "hhic2018": "HHIC 2018",
+      "hhic2017": "HHIC 2017",
+      "hhic2016": "HHIC 2016",
+      "hhic2015": "HHIC 2015",
+      "muslimlife2016": "Muslim Expo 2016",
+      "find-more-halal-food-authourity": "En savoir plus",
+      "food-and-beverages": "Aliments & Boissons",
+      "cosmetics": "Cosmétiques",
+      "pharmaceuticals": "Produits Pharmaceutiques",
+      "ingredients": "Ingrédients",
+      "additives-aromas": "Additifs & Arômes",
+      "packaging-materials": "Matériaux d'Emballage",
+      "uk-parliament-debate-on-banning-non-stun-slaughter-on-9th-may-hfa-perspective": "Débat au Parlement Britannique",
+      "our-clients": "Nos Clients",
+      "exporting-your-products-to-indonesia": "Exporter vers l'Indonésie",
+      "our-events": "Événements"
+    },
+    "home": {
+      "title": "Accueil",
+      "description": "Halal Food Authority - Premier organisme de certification Halal garantissant les normes mondiales",
+      "keywords": "certification halal, halal food authority, normes halal mondiales"
+    },
+    "about": {
+      "title": "À propos de nous",
+      "description": "Découvrez la mission, la vision, l'histoire et le leadership mondial de Halal Food Authority",
+      "keywords": "à propos de HFA, mission halal, histoire de la certification, HFA à propos"
+    },
+    "certificationProcedure": {
+      "title": "Procédure de certification Halal",
+      "description": "Guide étape par étape pour obtenir la certification Halal Food Authority pour vos produits",
+      "keywords": "processus de certification halal, demander un certificat halal, étapes de certification"
+    },
+    "terminationProcedure": {
+      "title": "Procédure de résiliation de la certification",
+      "description": "Comprendre le processus de résiliation et de suspension de la certification Halal Food Authority",
+      "keywords": "résiliation de certification, fin de certificat halal, suspension de certification"
+    },
+    "feePolicy": {
+      "title": "Politique tarifaire de la HFA",
+      "description": "Structure tarifaire complète et politique de paiement pour les services de certification HFA",
+      "keywords": "tarifs certification halal, prix HFA, coûts de certification"
+    },
+    "complaintsCommittee": {
+      "title": "Comité des réclamations",
+      "description": "Processus et procédures du comité de réclamations de la Halal Food Authority",
+      "keywords": "réclamations halal, plaintes HFA, litige de certification"
+    },
+    "hfaLogoProvisions": {
+      "title": "Dispositions pour l'utilisation du logo HFA",
+      "description": "Directives pour l'utilisation du logo de la Halal Food Authority sur les produits certifiés",
+      "keywords": "utilisation logo HFA, directives logo halal, utilisation logo certifié"
+    },
+    "impartialityPolicy": {
+      "title": "Politique d'impartialité de la HFA",
+      "description": "Engagement de la Halal Food Authority à l'impartialité dans les processus de certification",
+      "keywords": "politique d'impartialité, certification impartiale, certification halal équitable"
+    },
+    "qualityPolicy": {
+      "title": "Politique qualité de la HFA",
+      "description": "Assurance qualité et politique de normes pour la certification de la Halal Food Authority",
+      "keywords": "politique qualité, normes qualité halal, qualité de certification"
+    },
+    "corporateGovernance": {
+      "title": "Gouvernance d'entreprise et financière de la HFA",
+      "description": "Gouvernance d'entreprise et politiques financières de la Halal Food Authority",
+      "keywords": "gouvernance d'entreprise, politique financière, gestion HFA"
+    },
+    "complaintsAppeals": {
+      "title": "Procédure de réclamations et d'appels",
+      "description": "Procédure officielle pour déposer des réclamations et des appels auprès de la HFA",
+      "keywords": "procédure de réclamation, processus d'appel, plaintes HFA"
+    },
+    "foodSampling": {
+      "title": "Politique d'échantillonnage et d'analyse des aliments",
+      "description": "Politique d'échantillonnage et d'analyse des produits alimentaires pour la certification halal",
+      "keywords": "échantillonnage alimentaire, analyse halal, politique de test de produit"
+    },
+    "faq": {
+      "title": "Foire aux questions",
+      "description": "Trouvez des réponses aux questions courantes sur la Halal Food Authority et la certification halal",
+      "keywords": "FAQ halal, questions de certification, foire aux questions HFA"
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Contactez Halal Food Authority pour toute demande de certification, support ou information",
+      "keywords": "contact HFA, demande de certification halal, nous contacter"
+    },
+    "eventPlanning2025": {
+      "title": "Planification d'événements HFA 2025",
+      "description": "Événements à venir et calendrier de planification de la Halal Food Authority pour 2025",
+      "keywords": "événements HFA 2025, événements halal, conférences à venir"
+    },
+    "webinar2020": {
+      "title": "Webinaire HFA 2020",
+      "description": "Enregistrements et informations de la série de webinaires 2020 de la Halal Food Authority",
+      "keywords": "webinaire HFA, séminaire halal en ligne, enregistrements webinaire 2020"
+    },
+    "ulemahMeeting2019": {
+      "title": "Réunion des Oulémas - Janvier 2019",
+      "description": "Points forts et résultats de la réunion des Oulémas de la HFA en janvier 2019",
+      "keywords": "réunion des oulémas, conférence des savants halal, réunion de janvier 2019"
+    },
+    "hhic2019": {
+      "title": "HHIC 2019 - Conférence Internationale sur l'Alimentation Halal",
+      "description": "Couverture complète de la Conférence internationale sur l'alimentation halal 2019 organisée par la HFA",
+      "keywords": "HHIC 2019, conférence internationale halal, événement halal mondial"
+    },
+    "hhic2018": {
+      "title": "HHIC 2018 - Conférence Internationale sur l'Alimentation Halal",
+      "description": "Points forts de la Conférence internationale sur l'alimentation halal 2018",
+      "keywords": "HHIC 2018, conférence halal, événement international halal"
+    },
+    "hhic2017": {
+      "title": "HHIC 2017 - Conférence Internationale sur l'Alimentation Halal",
+      "description": "Récapitulatif de la Conférence internationale sur l'alimentation halal 2017",
+      "keywords": "HHIC 2017, conférence sur l'alimentation halal, sommet halal mondial"
+    },
+    "hhic2016": {
+      "title": "HHIC 2016 - Conférence Internationale sur l'Alimentation Halal",
+      "description": "Couverture de la Conférence internationale sur l'alimentation halal 2016",
+      "keywords": "HHIC 2016, conférence internationale halal, sommet de la nourriture halal"
+    },
+    "hhic2015": {
+      "title": "HHIC 2015 - Conférence Internationale sur l'Alimentation Halal",
+      "description": "Première conférence internationale sur l'alimentation halal 2015 organisée par la HFA",
+      "keywords": "HHIC 2015, conférence halal inaugurale, première conférence HFA"
+    },
+    "muslimExpo": {
+      "title": "Muslim Lifestyle Expo 2016",
+      "description": "Participation de la Halal Food Authority au Muslim Lifestyle Expo 2016 à Londres Olympia",
+      "keywords": "Muslim Lifestyle Expo 2016, événement halal de Londres, exposition HFA, MLE 2016"
+    },
+    "findMore": {
+      "title": "En savoir plus sur la Halal Food Authority",
+      "description": "Ressources et informations supplémentaires sur les services de la HFA",
+      "keywords": "plus sur la HFA, ressources supplémentaires, informations halal"
+    },
+    "foodBeverages": {
+      "title": "Certification Halal pour les Aliments et Boissons",
+      "description": "Services de certification halal pour les produits alimentaires et les boissons par la HFA",
+      "keywords": "certification alimentaire halal, boissons halal, certification produits alimentaires"
+    },
+    "cosmetics": {
+      "title": "Certification Halal pour les Cosmétiques",
+      "description": "Certification halal pour les produits cosmétiques par la Halal Food Authority",
+      "keywords": "cosmétiques halal, certification cosmétique, produits de beauté halal"
+    },
+    "pharmaceuticals": {
+      "title": "Certification Halal pour les Produits Pharmaceutiques",
+      "description": "Services de certification halal pour les produits pharmaceutiques par la HFA",
+      "keywords": "produits pharmaceutiques halal, certification médicaments, produits médicaux halal"
+    },
+    "ingredients": {
+      "title": "Certification Halal pour les Ingrédients",
+      "description": "Certification halal pour les ingrédients alimentaires et de produits par la HFA",
+      "keywords": "ingrédients halal, certification matières premières, ingrédient halal"
+    },
+    "additivesAromas": {
+      "title": "Certification Halal pour les Additifs et Arômes",
+      "description": "Certification halal pour les additifs alimentaires et les arômes par la HFA",
+      "keywords": "additifs halal, certification arômes, additifs alimentaires halal"
+    },
+    "packaging": {
+      "title": "Certification Halal pour les Matériaux d'Emballage",
+      "description": "Certification halal pour les matériaux d'emballage par la Halal Food Authority",
+      "keywords": "emballage halal, certification emballage, emballage alimentaire halal"
+    },
+    "ukParliamentDebate": {
+      "title": "Débat au Parlement Britannique sur l'Abattage sans Étourdissement",
+      "description": "Perspective de la HFA sur le débat au Parlement britannique concernant l'interdiction de l'abattage sans étourdissement",
+      "keywords": "débat parlement britannique, abattage sans étourdissement, débat abattage halal"
+    },
+    "ourClients": {
+      "title": "Nos Clients",
+      "description": "Liste des entreprises et organisations certifiées par la Halal Food Authority",
+      "keywords": "clients HFA, entreprises certifiées, entreprises certifiées halal"
+    },
+    "exportIndonesia": {
+      "title": "Exporter vos produits vers l'Indonésie",
+      "description": "Guide pour l'exportation de produits certifiés halal vers l'Indonésie avec la certification HFA",
+      "keywords": "exportation Indonésie, export halal, certification marché indonésien"
+    },
+    "eventsList": {
+      "title": "Nos Événements",
+      "description": "Liste complète des événements, conférences et séminaires organisés par la HFA",
+      "keywords": "événements HFA, conférences halal, séminaires à venir"
+    }
+  },
   "home": {
     "nav": {
       "home": "Accueil",
@@ -243,18 +456,66 @@
       "title": "Notre Structure Départementale",
       "subtitle": "Découvrez l'Équipe de HFA",
       "items": [
-        { "title": "Assurance Qualité", "desc": "Examen de la Demande Initiale", "type": "primary" },
-        { "title": "Comité Charia", "desc": "Examen et Approbation de la Certification", "type": "primary" },
-        { "title": "Audit", "desc": "Gestion des Audits sur Site", "type": "primary" },
-        { "title": "Technologie Alimentaire", "desc": "Approbation des Ingrédients/Produits", "type": "primary" },
-        { "title": "Formation", "desc": "Conduire la Formation Halal", "type": "secondary" },
-        { "title": "Supervision", "desc": "Supervisions sur Site", "type": "secondary" },
-        { "title": "Administration", "desc": "Opérations de Bureau", "type": "secondary" },
-        { "title": "Finance", "desc": "Gestion Financière de l'entreprise et des clients", "type": "secondary" },
-        { "title": "Informatique", "desc": "Gère les opérations informatiques de HFA", "type": "tertiary" },
-        { "title": "Service Client", "desc": "Excellence de la Satisfaction Client", "type": "tertiary" },
-        { "title": "Conseil d'Administration", "desc": "Gouvernance et Surveillance", "type": "tertiary" },
-        { "title": "Comité d'Impartialité", "desc": "Garantit l'équité et les décisions impartiales", "type": "tertiary" }
+        {
+          "title": "Assurance Qualité",
+          "desc": "Examen de la Demande Initiale",
+          "type": "primary"
+        },
+        {
+          "title": "Comité Charia",
+          "desc": "Examen et Approbation de la Certification",
+          "type": "primary"
+        },
+        {
+          "title": "Audit",
+          "desc": "Gestion des Audits sur Site",
+          "type": "primary"
+        },
+        {
+          "title": "Technologie Alimentaire",
+          "desc": "Approbation des Ingrédients/Produits",
+          "type": "primary"
+        },
+        {
+          "title": "Formation",
+          "desc": "Conduire la Formation Halal",
+          "type": "secondary"
+        },
+        {
+          "title": "Supervision",
+          "desc": "Supervisions sur Site",
+          "type": "secondary"
+        },
+        {
+          "title": "Administration",
+          "desc": "Opérations de Bureau",
+          "type": "secondary"
+        },
+        {
+          "title": "Finance",
+          "desc": "Gestion Financière de l'entreprise et des clients",
+          "type": "secondary"
+        },
+        {
+          "title": "Informatique",
+          "desc": "Gère les opérations informatiques de HFA",
+          "type": "tertiary"
+        },
+        {
+          "title": "Service Client",
+          "desc": "Excellence de la Satisfaction Client",
+          "type": "tertiary"
+        },
+        {
+          "title": "Conseil d'Administration",
+          "desc": "Gouvernance et Surveillance",
+          "type": "tertiary"
+        },
+        {
+          "title": "Comité d'Impartialité",
+          "desc": "Garantit l'équité et les décisions impartiales",
+          "type": "tertiary"
+        }
       ]
     },
     "team": {

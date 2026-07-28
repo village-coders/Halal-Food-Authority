@@ -1705,9 +1705,15 @@ footer {
 
 
 /* Base Styles */
+
+/* ==========================================
+   MODERN PREMIUM FLOWCHART & STEPPER DESIGN
+   ========================================== */
+
+/* Base Styles */
 .flowchart-section {
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #fafbfc;
   font-family: 'Inter', sans-serif;
 }
 
@@ -1719,41 +1725,67 @@ footer {
   align-items: center;
 }
 
-/* Descendant selector for all step boxes */
+/* Step boxes */
 .flow-container .node {
-  width: 320px;
-  padding: 12px 15px;
-  border: 1px solid #333;
-  margin-bottom: 30px;
+  width: 340px;
+  padding: 16px 20px;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 35px;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #334155;
   background: #fff;
   position: relative;
-  border-radius: 4px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
 }
 
-/* Creating Arrows via descendant pseudo-elements */
+.flow-container .node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(112, 157, 66, 0.12);
+  border-color: var(--primary-color);
+}
+
+/* Arrows via descendant pseudo-elements */
 .flow-container .node:not(:last-child)::after {
   content: "↓";
   position: absolute;
-  bottom: -28px;
+  bottom: -32px;
   left: 50%;
   transform: translateX(-50%);
-  color: #3498db;
-  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 /* Special Box States */
-.flow-container .start { border-radius: 25px; }
-.flow-container .success { border: 2px solid #27ae60; background: #f1fcf4; font-weight: bold; }
-.flow-container .error { border-color: #e74c3c; color: #e74c3c; }
-.flow-container .wide { width: 450px; }
+.flow-container .start { 
+  border-radius: 30px; 
+  border-color: var(--primary-color); 
+  background: rgba(112, 157, 66, 0.03);
+}
+.flow-container .success { 
+  border: 2.5px solid #10b981; 
+  background: linear-gradient(135deg, #ffffff, #f0fdf4); 
+  color: #065f46;
+  font-weight: bold; 
+}
+.flow-container .error { 
+  border-color: #ef4444; 
+  color: #991b1b; 
+  background: linear-gradient(135deg, #ffffff, #fef2f2);
+}
+.flow-container .wide { 
+  width: 460px; 
+}
 
-/* Branching Logic via descendant layout */
+/* Branching Logic */
 .flow-container .branch-row {
   display: flex;
   gap: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   width: 100%;
   justify-content: center;
 }
@@ -1761,16 +1793,21 @@ footer {
 .flow-container .logic-path {
   display: flex;
   align-items: center;
-  border-left: 2px solid #3498db;
-  padding-left: 20px;
+  border-left: 3px dashed var(--secondary-color);
+  padding-left: 24px;
 }
 
 .flow-container .logic-gate {
-  border: 1px solid #999;
-  padding: 5px 10px;
-  font-size: 0.75rem;
-  background: #eee;
+  border: 1px solid #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #475569;
+  background: #f8fafc;
   margin-right: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.02);
 }
 
 .flow-container .sub-logic .path-item {
@@ -1779,27 +1816,37 @@ footer {
   gap: 15px;
 }
 
-.flow-container .sub-logic .label { font-size: 0.7rem; color: #666; font-style: italic; }
+.flow-container .sub-logic .label { 
+  font-size: 0.75rem; 
+  color: #64748b; 
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic; 
+}
 
 /* Cycle box styling */
 .flow-container .cycle-container {
-  border: 1px dashed #3498db;
-  padding: 25px;
-  margin: 20px 0;
-  border-radius: 10px;
-  background: #fafafa;
+  border: 2.5px dashed var(--primary-color);
+  padding: 35px 25px;
+  margin: 30px 0;
+  border-radius: 20px;
+  background: rgba(112, 157, 66, 0.02);
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 .flow-container .notice-box {
-  max-width: 450px;
-  border: 1px solid #000;
-  padding: 15px;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  background: #fff;
+  max-width: 480px;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #991b1b;
+  background: #fffbeb;
+  box-shadow: 0 4px 10px rgba(239, 68, 68, 0.05);
 }
 
 /* RESPONSIVE DESIGN */
@@ -1811,8 +1858,9 @@ footer {
   
   .flow-container .logic-path {
     border-left: none;
-    border-top: 2px solid #3498db;
-    padding-top: 20px;
+    border-top: 3px dashed var(--secondary-color);
+    padding-top: 24px;
+    padding-left: 0;
     flex-direction: column;
   }
 
@@ -1822,12 +1870,11 @@ footer {
   }
 }
 
-
-/* Container and Font */
+/* ================== FLOWCHART 2 ================== */
 .procedure-wrapper {
-  padding: 50px 20px;
-  font-family: Arial, sans-serif;
-  background-color: #fff;
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #fafbfc;
 }
 
 .procedure-wrapper .procedure-flow {
@@ -1839,116 +1886,219 @@ footer {
   position: relative;
 }
 
-/* Base Node Styling via Descendant Selector */
-.procedure-wrapper .node {
-  width: 280px;
-  padding: 12px;
-  margin-bottom: 35px;
-  border: 1.5px solid #000;
-  text-align: center;
-  font-size: 0.85rem;
-  font-weight: 500;
-  position: relative;
-  background: #fff;
+.procedure-wrapper .step-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.line-long{
-  background: black;
+/* Base Node Styling */
+.procedure-wrapper .node {
+  width: 320px;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  border: 2px solid #e2e8f0;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #334155;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.procedure-wrapper .node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(112, 157, 66, 0.12);
+  border-color: var(--primary-color);
+}
+
+.procedure-wrapper .line-long {
+  background: linear-gradient(to bottom, var(--primary-color) 0%, rgba(115, 182, 44, 0.3) 100%);
   width: 4px;
-  height: 400px;
+  height: 480px;
   position: absolute;
-  bottom: 100px;
+  bottom: 120px;
   right: 56px;
+  z-index: 1;
+  border-radius: 2px;
 }
 
 /* Shape Variations */
-.procedure-wrapper .oval { border-radius: 50px; }
-.procedure-wrapper .rect { border-radius: 4px; }
-.procedure-wrapper .diamond {
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  width: 320px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 60px !important;
-  background: rgba(189, 189, 255, 0.678);
+.procedure-wrapper .oval { 
+  border-radius: 50px; 
 }
-/* .procedure-wrapper .diamond::after{
-  content: '↓';
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1.5rem;
-  color: #333;
-
-} */
+.procedure-wrapper .rect { 
+  border-radius: 12px; 
+}
 .procedure-wrapper .diamond {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   width: 320px;
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
-  background: rgba(189, 189, 255, 0.678);
+  padding: 0 50px !important;
+  background: linear-gradient(135deg, #ffffff, #fffbeb);
+  border: 2px solid #f59e0b;
+  color: #b45309;
+}
+.procedure-wrapper .diamond:hover {
+  border-color: #d97706;
+}
+
+.procedure-wrapper .danger {
+  border-color: #ef4444;
+  color: #991b1b;
+  background: linear-gradient(135deg, #ffffff, #fef2f2);
+}
+
+.procedure-wrapper .danger.long {
+  width: 340px;
+}
+
+.procedure-wrapper .success {
+  border-color: #10b981;
+  color: #065f46;
+  background: linear-gradient(135deg, #ffffff, #f0fdf4);
+}
+
+.procedure-wrapper .secondary {
+  border-color: #64748b;
+  color: #334155;
+  background: #f8fafc;
 }
 
 /* Branching Layout */
 .procedure-wrapper .branch-container {
   display: flex;
   width: 100%;
-  justify-content: right;
-  margin-left: 10.2rem;
-  gap: 60px;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.procedure-wrapper .main-path {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .procedure-wrapper .side-path {
   display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
+  left: calc(50% + 180px);
+  top: 50%;
+  transform: translateY(-50%);
+  gap: 15px;
 }
 
 .procedure-wrapper .side-path .connector {
   font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+/* Vertical side-path: stacks rows top-to-bottom */
+.procedure-wrapper .side-path-vertical {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  top: 0;
+  transform: none;
+}
+
+/* Horizontal row inside vertical side-path: NO label + node side by side */
+.procedure-wrapper .side-path-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+/* Arrow below the row (between Re-Audit and Refund nodes) */
+.procedure-wrapper .side-path-row::after {
+  content: '↓';
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
+  color: var(--primary-color);
   font-weight: bold;
-  padding-right: 15px;
+}
+
+/* Suppress the node's own arrow inside the row — the row provides it */
+.procedure-wrapper .side-path-row .node::after {
+  content: none;
+}
+
+/* No arrow after the last stand-alone node in side-path-vertical */
+.procedure-wrapper .side-path-vertical > .node:last-child::after {
+  content: none;
 }
 
 /* Vertical Arrows via descendant pseudo-elements */
 .procedure-wrapper .node::after {
   content: '↓';
   position: absolute;
-  bottom: -30px;
+  bottom: -36px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.5rem;
-  color: #333;
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
-/* Remove arrow from the terminal oval */
+/* Remove arrow from terminal/secondary nodes and regular horizontal side-path nodes */
 .procedure-wrapper .success::after,
-.procedure-wrapper .secondary::after {
+.procedure-wrapper .secondary::after,
+.procedure-wrapper .terminal-container .node::after {
+  content: none;
+}
+
+/* Horizontal side-path: suppress arrows (nodes sit side-by-side) */
+.procedure-wrapper .side-path:not(.side-path-vertical) .node::after {
+  content: none;
+}
+
+/* Vertical side-path: show arrow between nodes but not after the last one */
+.procedure-wrapper .side-path-vertical .node:last-child::after {
   content: none;
 }
 
 /* Refund Logic */
 .procedure-wrapper .terminal-container {
-  align-self: flex-end;
-  margin-top: 40px;
+  align-self: center;
+  margin-top: 20px;
 }
 
 /* RESPONSIVE ADJUSTMENTS */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .procedure-wrapper .line-long {
+    display: none;
+  }
+  
   .procedure-wrapper .branch-container {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-left: 0px;
+    gap: 20px;
   }
 
   .procedure-wrapper .side-path {
+    position: static;
+    transform: none;
     flex-direction: column;
     margin-bottom: 30px;
   }
@@ -1957,21 +2107,12 @@ footer {
     content: '↓';
     display: block;
     margin-top: 5px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 }
-
-.termination-sec {
-  padding: 60px 40px;
-}
-
-.termination-sec h2{
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #1a1a1a;
-  font-family: "Merriweather", serif; 
-}
-.termination-sec a{
+.termination-sec a {
   font-size: 1.2rem;
   font-weight: 750;
   margin-bottom: 20px;
