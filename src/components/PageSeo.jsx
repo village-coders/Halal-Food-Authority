@@ -39,6 +39,7 @@ const PageSeo = ({ pageKey, image, article = false, structuredData }) => {
       <meta property="og:description" content={pageDescription} />
       <meta property="og:url" content={pageUrl} />
       <meta property="og:type" content={article ? 'article' : 'website'} />
+      <meta property="og:site_name" content={siteTitle} />
       <meta property="og:locale" content={currentLang} />
       
       {image && <meta property="og:image" content={image} />}
@@ -59,10 +60,10 @@ const PageSeo = ({ pageKey, image, article = false, structuredData }) => {
           key={lang}
           rel="alternate"
           hrefLang={lang}
-          href={`${siteUrl}/${lang === 'en' ? '' : lang + '/'}${pathWithoutLang}`}
+          href={`${siteUrl}${lang === 'en' ? '' : `/${lang}`}${pathWithoutLang || '/'}`}
         />
       ))}
-      <link rel="alternate" hrefLang="x-default" href={`${siteUrl}${pathWithoutLang}`} />
+      <link rel="alternate" hrefLang="x-default" href={`${siteUrl}${pathWithoutLang || '/'}`} />
       
       {/* Robots */}
       <meta name="robots" content="index, follow" />

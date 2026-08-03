@@ -118,9 +118,9 @@ function GlobalSeo() {
   
   return (
     <Helmet>
-      {/* Global Meta Tags */}
-      <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
-      <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+      {/* Add your Google Search Console verification code here when ready */}
+      {/* <meta name="google-site-verification" content="YOUR_CODE" /> */}
+      {/* <meta name="msvalidate.01" content="YOUR_BING_CODE" /> */}
       
       {/* Favicon */}
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -146,7 +146,7 @@ function GlobalSeo() {
           ],
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+44-XXX-XXX-XXXX",
+            "email": "info@halalfoodauthority.com",
             "contactType": "customer service",
             "availableLanguage": ["English", "French", "German", "Spanish", "Italian"]
           }
@@ -163,8 +163,8 @@ function MainContent() {
   // Sync i18n with URL language
   useEffect(() => {
     if (!lng || !SUPPORTED_LANGUAGES.includes(lng)) {
-      // Invalid language in URL → navigate to default
-      window.location.replace("/en");
+      // Invalid language in URL → redirect to user's detected language
+      window.location.replace(`/${detectLanguage()}`);
       return;
     }
 
