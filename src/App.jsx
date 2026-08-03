@@ -163,8 +163,12 @@ function MainContent() {
   // Sync i18n with URL language
   useEffect(() => {
     if (!lng || !SUPPORTED_LANGUAGES.includes(lng)) {
-      // Invalid language in URL → redirect to user's detected language
-      window.location.replace(`/${detectLanguage()}`);
+      // Invalid or missing language prefix in URL → preserve full path and redirect to user's detected language
+      const targetLang = detectLanguage();
+      const currentPath = window.location.pathname;
+      const currentSearch = window.location.search;
+      const targetPath = `/${targetLang}${currentPath === '/' ? '' : currentPath}${currentSearch}`;
+      window.location.replace(targetPath);
       return;
     }
 
