@@ -83,7 +83,6 @@ function App() {
 
 // Global SEO Component
 function GlobalSeo() {
-  const { t } = useTranslation();
   
   return (
     <Helmet>

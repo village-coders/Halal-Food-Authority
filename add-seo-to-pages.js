@@ -1,6 +1,4 @@
 // This script helps you quickly add SEO to all your pages
-import fs  from 'fs';
-import path from 'path';
 
 // List all your page components
 const pages = [

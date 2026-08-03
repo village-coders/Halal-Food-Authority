@@ -49,7 +49,7 @@ async function generateSitemap() {
   console.log('🚀 Generating multilingual sitemap...');
   
   // Create public directory if it doesn't exist
-  const publicDir = join(__dirname, '../public');
+  const publicDir = join(__dirname, 'public');
   if (!existsSync(publicDir)) {
     console.log(`📁 Creating public directory: ${publicDir}`);
     mkdirSync(publicDir, { recursive: true });
