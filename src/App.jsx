@@ -4,6 +4,7 @@ import {
   Route,
   Navigate,
   useParams,
+  useLocation,
 } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -73,12 +74,29 @@ function App() {
         {/* All routes prefixed with language */}
         <Route path="/:lng/*" element={<MainContent />} />
 
-        {/* Catch-all fallback */}
-        <Route path="*" element={<Navigate to={`/${defaultLang}`} replace />} />
+        {/* Catch-all: preserve path and prepend language, e.g. /contact/ → /en/contact/ */}
+        <Route path="*" element={<SmartRedirect defaultLang={defaultLang} />} />
       </Routes>
     </Router>
     </HelmetProvider>
   );
+}
+
+// Redirects language-less URLs to the correct language-prefixed path.
+// e.g. /contact/ → /en/contact/  |  /fr/about → /fr/about (already valid, handled by /:lng/*)
+function SmartRedirect({ defaultLang }) {
+  const location = useLocation();
+  const pathname = location.pathname;
+
+  // If the first segment is already a supported language, let /:lng/* handle it
+  const firstSegment = pathname.split('/')[1];
+  if (SUPPORTED_LANGUAGES.includes(firstSegment)) {
+    return <Navigate to={pathname + location.search} replace />;
+  }
+
+  // Otherwise prepend the default language, preserving the full path
+  const destination = `/${defaultLang}${pathname === '/' ? '' : pathname}${location.search}`;
+  return <Navigate to={destination} replace />;
 }
 
 // Global SEO Component
