@@ -56,11 +56,22 @@ import NotFound from "./pages/NotFound";
 
 const SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it"];
 
+
+/**
+ * Walks the browser's ordered language preference list (navigator.languages)
+ * and returns the first one that the site supports, defaulting to 'en'.
+ */
+function detectLanguage() {
+  const preferred = navigator.languages ?? [navigator.language ?? 'en'];
+  for (const lang of preferred) {
+    const code = lang.split('-')[0].toLowerCase();
+    if (SUPPORTED_LANGUAGES.includes(code)) return code;
+  }
+  return 'en';
+}
+
 function App() {
-  const browserLang = navigator.language.split("-")[0];
-  const defaultLang = SUPPORTED_LANGUAGES.includes(browserLang)
-    ? browserLang
-    : "en";
+  const detectedLang = detectLanguage();
 
   return (
     <HelmetProvider>
@@ -68,14 +79,14 @@ function App() {
       <ScrollToTop />
       <GlobalSeo /> {/* Add Global SEO */}
       <Routes>
-        {/* Redirect root to browser language or fallback */}
-        <Route path="/" element={<Navigate to={`/${defaultLang}`} replace />} />
+        {/* Redirect root to browser language */}
+        <Route path="/" element={<Navigate to={`/${detectedLang}`} replace />} />
 
         {/* All routes prefixed with language */}
         <Route path="/:lng/*" element={<MainContent />} />
 
-        {/* Catch-all: preserve path and prepend language, e.g. /contact/ → /en/contact/ */}
-        <Route path="*" element={<SmartRedirect defaultLang={defaultLang} />} />
+        {/* Catch-all: preserve path and prepend detected language, e.g. /contact/ → /fr/contact/ */}
+        <Route path="*" element={<SmartRedirect />} />
       </Routes>
     </Router>
     </HelmetProvider>
@@ -83,19 +94,22 @@ function App() {
 }
 
 // Redirects language-less URLs to the correct language-prefixed path.
-// e.g. /contact/ → /en/contact/  |  /fr/about → /fr/about (already valid, handled by /:lng/*)
-function SmartRedirect({ defaultLang }) {
+// Detects the user's preferred language automatically.
+// e.g. /contact/  (French browser) → /fr/contact/
+// e.g. /about     (German browser)  → /de/about
+function SmartRedirect() {
   const location = useLocation();
   const pathname = location.pathname;
 
-  // If the first segment is already a supported language, let /:lng/* handle it
+  // If the first segment is already a supported language, it belongs to /:lng/*
   const firstSegment = pathname.split('/')[1];
   if (SUPPORTED_LANGUAGES.includes(firstSegment)) {
     return <Navigate to={pathname + location.search} replace />;
   }
 
-  // Otherwise prepend the default language, preserving the full path
-  const destination = `/${defaultLang}${pathname === '/' ? '' : pathname}${location.search}`;
+  // Auto-detect and prepend the user's preferred language
+  const lang = detectLanguage();
+  const destination = `/${lang}${pathname === '/' ? '' : pathname}${location.search}`;
   return <Navigate to={destination} replace />;
 }
 
